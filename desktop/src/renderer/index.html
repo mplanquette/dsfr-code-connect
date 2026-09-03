@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr" data-fr-scheme="system">
+<head>
+  <meta charset="utf-8" />
+  <title>DSFR Code Connect</title>
+  <link rel="stylesheet" href="dsfr/dsfr.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <p class="fr-h6 app-header__title">
+      DSFR Code Connect
+      <span class="fr-badge fr-badge--sm fr-badge--yellow-tournesol app-header__badge">Bêta</span>
+    </p>
+  </header>
+
+  <main class="fr-container app-main">
+    <div class="fr-stepper" id="stepper">
+      <h2 class="fr-stepper__title">
+        <span id="stepper-title">Sélection des stacks</span>
+        <span class="fr-stepper__state" id="stepper-state">Étape 1 sur 5</span>
+      </h2>
+      <div class="fr-stepper__steps" id="stepper-steps" data-fr-current-step="1" data-fr-steps="5"></div>
+      <p class="fr-stepper__details" id="stepper-details"></p>
+    </div>
+
+    <!-- Étape 1 : sélection des stacks -->
+    <section class="screen" id="screen-1">
+      <fieldset class="fr-fieldset">
+        <legend class="fr-fieldset__legend fr-text--regular">
+          Quelles stacks souhaitez-vous traiter ?
+        </legend>
+        <div id="stacks-list"></div>
+      </fieldset>
+      <p class="fr-hint-text">Toutes cochées par défaut. Décochez celles dont vous n'avez pas besoin.</p>
+    </section>
+
+    <!-- Étape 2 : connexion Figma -->
+    <section class="screen" id="screen-2" hidden>
+      <div class="fr-input-group">
+        <label class="fr-label" for="figma-url">
+          URL de votre fichier Figma DSFR
+          <span class="fr-hint-text" id="filekey-hint"></span>
+        </label>
+        <input class="fr-input" type="text" id="figma-url" placeholder="https://www.figma.com/design/XXXXXXXX/..." />
+      </div>
+
+      <div class="token-block">
+        <div class="fr-input-group">
+          <label class="fr-label" for="token-read">Token Figma : lecture (nécessaire pour l'analyse)</label>
+          <input class="fr-input" type="password" id="token-read" placeholder="figd_..." />
+        </div>
+        <div class="token-actions">
+          <button type="button" class="fr-btn fr-btn--secondary fr-btn--sm" id="test-token-read">Tester la connexion</button>
+          <a href="#" id="link-token-read" class="fr-link fr-text--sm">Où trouver ce token ?</a>
+        </div>
+        <p class="status" id="status-token-read"></p>
+      </div>
+
+      <div class="token-block">
+        <div class="fr-checkbox-group fr-checkbox-group--sm">
+          <input type="checkbox" id="same-token" />
+          <label class="fr-label" for="same-token">Utiliser le même token pour la publication</label>
+        </div>
+        <div class="fr-input-group">
+          <label class="fr-label" for="token-publish">Token Figma : publication (nécessaire pour publier)</label>
+          <input class="fr-input" type="password" id="token-publish" placeholder="figd_..." />
+        </div>
+        <a href="#" id="link-token-publish" class="fr-link fr-text--sm">Où trouver ce token ?</a>
+      </div>
+    </section>
+
+    <!-- Étape 3 : analyse -->
+    <section class="screen" id="screen-3" hidden>
+      <button type="button" class="fr-btn" id="btn-analyze">Analyser</button>
+      <div id="analyze-result" class="report" hidden>
+        <div class="fr-alert fr-alert--success fr-alert--sm">
+          <p><strong id="count-matched">0</strong> correspondances trouvées</p>
+        </div>
+        <div class="fr-alert fr-alert--warning fr-alert--sm">
+          <p><strong id="count-ambiguous">0</strong> ambiguës (plusieurs candidats, à résoudre à la
+          main dans les fichiers <code>*.figma.ts</code> si besoin)</p>
+        </div>
+        <div class="fr-alert fr-alert--error fr-alert--sm">
+          <p><strong id="count-missing">0</strong> manquantes (aucun candidat trouvé)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Étape 4 : application -->
+    <section class="screen" id="screen-4" hidden>
+      <div class="fr-alert fr-alert--info fr-alert--sm">
+        <p>
+          Ceci va modifier les fichiers <code>*.figma.ts</code> des stacks sélectionnées sur votre
+          disque, pour les correspondances trouvées à l'étape précédente. Rien n'est encore publié
+          sur Figma.
+        </p>
+      </div>
+      <button type="button" class="fr-btn" id="btn-apply">Appliquer</button>
+      <p class="status" id="status-apply"></p>
+    </section>
+
+    <!-- Étape 5 : publication -->
+    <section class="screen" id="screen-5" hidden>
+      <button type="button" class="fr-btn" id="btn-parse">Parser (validation locale)</button>
+      <p class="status" id="status-parse"></p>
+      <button type="button" class="fr-btn" id="btn-publish" disabled>Publier vers Figma</button>
+      <p class="status" id="status-publish"></p>
+    </section>
+
+    <nav class="nav-buttons">
+      <button type="button" class="fr-btn fr-btn--secondary" id="btn-back">Retour</button>
+      <button type="button" class="fr-btn" id="btn-next">Suivant</button>
+    </nav>
+
+    <section class="fr-accordion log-panel">
+      <h3 class="fr-accordion__title">
+        <button type="button" class="fr-accordion__btn" aria-expanded="false" aria-controls="log-collapse">
+          Journal détaillé
+        </button>
+      </h3>
+      <div class="fr-collapse" id="log-collapse">
+        <pre id="log-output"></pre>
+      </div>
+    </section>
+  </main>
+
+  <!-- Boîte de confirmation générique -->
+  <dialog id="confirm-dialog" class="confirm-dialog">
+    <p id="confirm-message"></p>
+    <div class="dialog-buttons">
+      <button type="button" class="fr-btn fr-btn--secondary" id="confirm-cancel">Annuler</button>
+      <button type="button" class="fr-btn" id="confirm-ok">Continuer</button>
+    </div>
+  </dialog>
+
+  <script src="dsfr/dsfr.module.min.js" type="module"></script>
+  <script src="renderer.js"></script>
+</body>
+</html>

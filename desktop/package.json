@@ -1,0 +1,54 @@
+{
+  "name": "dsfr-code-connect-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application desktop (Windows/Mac) pour connecter et publier le catalogue DSFR Code Connect sans terminal",
+  "main": "src/main/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npm run prepare-resources && electron .",
+    "prepare-resources": "node scripts/prepare-resources.js",
+    "dist:mac": "npm run prepare-resources && electron-builder --mac",
+    "dist:win": "npm run prepare-resources && electron-builder --win",
+    "dist": "npm run prepare-resources && electron-builder --mac --win"
+  },
+  "devDependencies": {
+    "electron": "^32.0.0",
+    "electron-builder": "^25.0.0",
+    "global-agent": "^3.0.0"
+  },
+  "dependencies": {
+    "@figma/code-connect": "^1.4.2"
+  },
+  "build": {
+    "appId": "fr.dsfr.code-connect-desktop",
+    "productName": "DSFR Code Connect",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "src/**/*"
+    ],
+    "extraResources": [
+      { "from": "../angular", "to": "stacks/angular", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
+      { "from": "../html", "to": "stacks/html", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
+      { "from": "../react", "to": "stacks/react", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
+      { "from": "../vue", "to": "stacks/vue", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
+      { "from": "resources/manifest.json", "to": "manifest.json" },
+      { "from": "resources/rebind-to-your-file.mjs", "to": "rebind-to-your-file.mjs" }
+    ],
+    "mac": {
+      "target": ["dmg"],
+      "category": "public.app-category.developer-tools"
+    },
+    "win": {
+      "target": ["nsis"]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "compression": "maximum",
+    "electronLanguages": ["fr", "en"]
+  }
+}

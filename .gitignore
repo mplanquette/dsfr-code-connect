@@ -1,0 +1,21 @@
+# Dépendances
+**/node_modules/
+
+# Secrets : le token Figma ne doit JAMAIS être versionné
+**/.env/
+**/*token*
+.env
+*.env
+
+# Logs / divers
+*.log
+.DS_Store
+
+# Rapport généré par le script de rebranchement
+rebind-report.json
+
+# App desktop : artefacts de build (régénérés par prepare-resources.js / electron-builder)
+desktop/resources/manifest.json
+desktop/resources/rebind-to-your-file.mjs
+desktop/src/renderer/dsfr/
+desktop/release/

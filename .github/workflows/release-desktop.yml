@@ -1,0 +1,39 @@
+name: Release desktop app
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        include:
+          - os: macos-latest
+            script: dist:mac
+          - os: windows-latest
+            script: dist:win
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install stacks dependencies
+        run: bash scripts/install.sh --all
+
+      - name: Parse (sanity check)
+        run: bash scripts/parse.sh --all
+
+      - name: Install desktop app dependencies
+        working-directory: desktop
+        run: npm install
+
+      - name: Build and publish release
+        working-directory: desktop
+        run: npm run ${{ matrix.script }} -- --publish always
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,86 @@
+/* Mise en page de l'app par-dessus le DSFR (dsfr.min.css) : pas de nouvelle palette de couleurs
+   ni de nouveaux styles de bouton/champ/alerte : tout ça vient du Design System lui-même. */
+
+.app-header {
+  background: var(--background-action-high-blue-france);
+  padding: 1rem 1.5rem;
+}
+
+.app-header__title {
+  color: var(--text-inverted-blue-france);
+  margin: 0;
+}
+
+.app-header__badge {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.app-main {
+  max-width: 640px;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.screen { margin-top: 1.5rem; }
+
+.token-block {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-default-grey);
+}
+
+.token-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.status {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.status.ok { color: var(--text-default-success); }
+.status.error { color: var(--text-default-error); }
+
+.report .fr-alert { margin-bottom: 0.75rem; }
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-default-grey);
+}
+
+.log-panel {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+}
+
+.log-panel pre {
+  background: var(--background-alt-grey);
+  padding: 0.75rem;
+  border-radius: 4px;
+  max-height: 240px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.confirm-dialog {
+  border: none;
+  border-radius: 4px;
+  padding: 1.5rem;
+  max-width: 420px;
+}
+
+.confirm-dialog::backdrop { background: rgba(0, 0, 18, 0.64); }
+
+.dialog-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}

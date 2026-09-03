@@ -1,0 +1,924 @@
+{
+  "sourceFileKey": "oTfPRLw3QjAoW3dDIS4MuN",
+  "sourceFileName": "DSFR v1.15.0 - Composants",
+  "generatedAt": "2026-09-03",
+  "generatedVia": "MCP Figma list_file_components_for_code_connect (equivalent: GET /v1/files/:key REST endpoint)",
+  "count": 183,
+  "components": [
+    {
+      "nodeId": "128:27",
+      "name": "Accordéon - Desktop",
+      "page": "Accordéon"
+    },
+    {
+      "nodeId": "128:600",
+      "name": "Accordéon - Groupe",
+      "page": "Accordéon"
+    },
+    {
+      "nodeId": "128:110",
+      "name": "Accordéon - Mobile",
+      "page": "Accordéon"
+    },
+    {
+      "nodeId": "10366:72136",
+      "name": "Ajout de fichier",
+      "page": "Ajout de fichier"
+    },
+    {
+      "nodeId": "1935:224",
+      "name": "Alerte",
+      "page": "Alerte"
+    },
+    {
+      "nodeId": "19121:510842",
+      "name": "Thème clair / Avertissement/ MD",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510864",
+      "name": "Thème clair / Avertissement/ SM",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510846",
+      "name": "Thème clair / Erreur/ MD",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510868",
+      "name": "Thème clair / Erreur/ SM",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510838",
+      "name": "Thème clair / Information/ MD",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510860",
+      "name": "Thème clair / Information/ SM",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510856",
+      "name": "Thème clair / Nouveau / SM",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510834",
+      "name": "Thème clair / Nouveau/ MD",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510854",
+      "name": "Thème clair / Personnalisable /SM",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510832",
+      "name": "Thème clair / Personnalisable/ MD",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510850",
+      "name": "Thème clair / Succès/ MD",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "19121:510872",
+      "name": "Thème clair / Succès/ SM",
+      "page": "Badge"
+    },
+    {
+      "nodeId": "11706:73752",
+      "name": "Bandeaux d'informations importantes",
+      "page": "Bandeaux d'informations importantes"
+    },
+    {
+      "nodeId": "92:1978",
+      "name": "Barre de recherche",
+      "page": "Barre de recherche"
+    },
+    {
+      "nodeId": "16461:202690",
+      "name": "Thème clair / Primaire / LG",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "120:4762",
+      "name": "Thème clair / Primaire / MD",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "16461:202688",
+      "name": "Thème clair / Primaire / SM",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "16476:239295",
+      "name": "Thème clair / Secondaire / LG",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "16476:239293",
+      "name": "Thème clair / Secondaire / MD",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "16478:193853",
+      "name": "Thème clair / Secondaire / SM",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "16483:192402",
+      "name": "Thème clair / Tertiaire / LG",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "11119:73323",
+      "name": "Thème clair / Tertiaire / MD",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "16483:192400",
+      "name": "Thème clair / Tertiaire / SM",
+      "page": "Bouton"
+    },
+    {
+      "nodeId": "11985:75836",
+      "name": "Bouton FranceConnect",
+      "page": "Bouton FranceConnect"
+    },
+    {
+      "nodeId": "34014:794",
+      "name": "Bouton ProConnect",
+      "page": "Bouton ProConnect"
+    },
+    {
+      "nodeId": "14835:206001",
+      "name": "Thème clair  / Bouton radio - Section",
+      "page": "Bouton radio"
+    },
+    {
+      "nodeId": "314:25444",
+      "name": "Thème clair / Bouton radio - Groupe",
+      "page": "Bouton radio"
+    },
+    {
+      "nodeId": "311:24508",
+      "name": "Thème clair / Bouton radio - Item",
+      "page": "Bouton radio"
+    },
+    {
+      "nodeId": "517:44003",
+      "name": "Thème clair / Bouton radio riche",
+      "page": "Bouton radio riche"
+    },
+    {
+      "nodeId": "14738:205727",
+      "name": "Thème clair / Bouton radio riche - Groupe",
+      "page": "Bouton radio riche"
+    },
+    {
+      "nodeId": "14835:216167",
+      "name": "Thème clair / Bouton radio riche - Section",
+      "page": "Bouton radio riche"
+    },
+    {
+      "nodeId": "21809:202123",
+      "name": "Thème clair / Horizontale / LG / Avec média",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202178",
+      "name": "Thème clair / Horizontale / LG / Sans média",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202192",
+      "name": "Thème clair / Horizontale / MD / Avec média",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202247",
+      "name": "Thème clair / Horizontale / MD / Sans média",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202261",
+      "name": "Thème clair / Horizontale / SM / Avec média",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202316",
+      "name": "Thème clair / Horizontale / SM / Sans média",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202030",
+      "name": "Thème clair / Verticale / LG",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202061",
+      "name": "Thème clair / Verticale / MD",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "21809:202092",
+      "name": "Thème clair / Verticale / SM",
+      "page": "Carte"
+    },
+    {
+      "nodeId": "338:984",
+      "name": "Thème clair / Case à cocher - Groupe",
+      "page": "Case à cocher"
+    },
+    {
+      "nodeId": "14795:206250",
+      "name": "Thème clair / Case à cocher - Item",
+      "page": "Case à cocher"
+    },
+    {
+      "nodeId": "14837:211503",
+      "name": "Thème clair / Case à cocher - Section",
+      "page": "Case à cocher"
+    },
+    {
+      "nodeId": "14819:199148",
+      "name": "Thème clair / Champ de saisie",
+      "page": "Champ de saisie"
+    },
+    {
+      "nodeId": "14820:199166",
+      "name": "Thème clair / Champ de saisie - Groupe",
+      "page": "Champ de saisie"
+    },
+    {
+      "nodeId": "14823:199333",
+      "name": "Thème clair / Champ de saisie - Section",
+      "page": "Champ de saisie"
+    },
+    {
+      "nodeId": "14819:199027",
+      "name": "Thème clair / Éléments - Champ de saisie",
+      "page": "Champ de saisie"
+    },
+    {
+      "nodeId": "3539:147529",
+      "name": "Citation",
+      "page": "Citation"
+    },
+    {
+      "nodeId": "84:72",
+      "name": "Contenu médias",
+      "page": "Contenu médias"
+    },
+    {
+      "nodeId": "25102:225135",
+      "name": "Thème clair / Desktop / Contrôle segmenté",
+      "page": "Contrôle segmenté"
+    },
+    {
+      "nodeId": "25126:368426",
+      "name": "Thème clair / Mobile / Contrôle segmenté",
+      "page": "Contrôle segmenté"
+    },
+    {
+      "nodeId": "24757:5456",
+      "name": "Thème clair / Mobile / Contrôle segmenté cas max",
+      "page": "Contrôle segmenté"
+    },
+    {
+      "nodeId": "24571:368480",
+      "name": "Thème clair / Curseur cranté",
+      "page": "Curseur"
+    },
+    {
+      "nodeId": "24474:242232",
+      "name": "Thème clair / Curseur double",
+      "page": "Curseur"
+    },
+    {
+      "nodeId": "24571:368579",
+      "name": "Thème clair / Curseur simple",
+      "page": "Curseur"
+    },
+    {
+      "nodeId": "148:52",
+      "name": "Thème clair / Desktop / En-tête",
+      "page": "En-tête"
+    },
+    {
+      "nodeId": "153:159413",
+      "name": "Thème clair / Mobile / En-tête",
+      "page": "En-tête"
+    },
+    {
+      "nodeId": "139:115",
+      "name": "Fil d'Ariane - Complet",
+      "page": "Fil d'Ariane"
+    },
+    {
+      "nodeId": "139:77",
+      "name": "Fil d'Ariane - Item",
+      "page": "Fil d'Ariane"
+    },
+    {
+      "nodeId": "630:158",
+      "name": "Bandeau de consentement",
+      "page": "Gestionnaire de consentement"
+    },
+    {
+      "nodeId": "679:1138",
+      "name": "Modale de consentement - Complète",
+      "page": "Gestionnaire de consentement"
+    },
+    {
+      "nodeId": "644:54579",
+      "name": "Modale de consentement - Item",
+      "page": "Gestionnaire de consentement"
+    },
+    {
+      "nodeId": "703:55173",
+      "name": "Service indisponible",
+      "page": "Gestionnaire de consentement"
+    },
+    {
+      "nodeId": "571:49112",
+      "name": "Groupe de boutons - Hiérarchisé",
+      "page": "Groupe de boutons"
+    },
+    {
+      "nodeId": "571:49989",
+      "name": "Groupe de boutons - Non hiérarchisé",
+      "page": "Groupe de boutons"
+    },
+    {
+      "nodeId": "12356:77678",
+      "name": "Indicateur d'étapes",
+      "page": "Indicateur d'étapes"
+    },
+    {
+      "nodeId": "12355:77053",
+      "name": "Étape",
+      "page": "Indicateur d'étapes"
+    },
+    {
+      "nodeId": "20430:359535",
+      "name": "Thème clair / Déclenchement au click",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "20430:359572",
+      "name": "Thème clair / Déclenchement au survol",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "20430:359945",
+      "name": "Thème clair / ⚙️ Bulle / Vers le bas / Alignée au centre",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "20430:359964",
+      "name": "Thème clair / ⚙️ Bulle / Vers le bas / Alignée à droite",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "20430:359983",
+      "name": "Thème clair / ⚙️ Bulle / Vers le bas / Alignée à gauche",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "20430:359683",
+      "name": "Thème clair / ⚙️ Bulle / Vers le haut / Alignée au centre",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "20430:360021",
+      "name": "Thème clair / ⚙️ Bulle / Vers le haut / Alignée à droite",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "20430:360002",
+      "name": "Thème clair / ⚙️ Bulle / Vers le haut / Alignée à gauche",
+      "page": "Infobulle"
+    },
+    {
+      "nodeId": "536:47172",
+      "name": "Thème clair / Groupe",
+      "page": "Interrupteur"
+    },
+    {
+      "nodeId": "536:45814",
+      "name": "Thème clair / Item",
+      "page": "Interrupteur"
+    },
+    {
+      "nodeId": "3539:186707",
+      "name": "Thème clair / Desktop",
+      "page": "Lettre d'information et réseaux sociaux"
+    },
+    {
+      "nodeId": "23649:3349",
+      "name": "Thème clair / Element / Formulaire desktop",
+      "page": "Lettre d'information et réseaux sociaux"
+    },
+    {
+      "nodeId": "23652:29190",
+      "name": "Thème clair / Element / Formulaire mobile",
+      "page": "Lettre d'information et réseaux sociaux"
+    },
+    {
+      "nodeId": "23636:10146",
+      "name": "Thème clair / Mobile",
+      "page": "Lettre d'information et réseaux sociaux"
+    },
+    {
+      "nodeId": "120:4789",
+      "name": "Lien",
+      "page": "Lien"
+    },
+    {
+      "nodeId": "509:157",
+      "name": "Liens d'évitement",
+      "page": "Lien d'évitement"
+    },
+    {
+      "nodeId": "284:15646",
+      "name": "Thème clair / Liste déroulante",
+      "page": "Liste déroulante"
+    },
+    {
+      "nodeId": "452:38131",
+      "name": "Desktop/Dépliant niveau 1 - Item",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "452:47377",
+      "name": "Desktop/Dépliant niveau 2 - Item",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "452:37286",
+      "name": "Desktop/Lien direct - Item",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "452:39098",
+      "name": "Desktop/Menu latéral - Complet",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "1166:888",
+      "name": "Mobile/Dépliant niveau 1 - Item",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "1166:1652",
+      "name": "Mobile/Dépliant niveau 2 - Item",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "1165:58748",
+      "name": "Mobile/Lien direct - Item",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "452:39179",
+      "name": "Mobile/Menu latéral - Complet - Fermé",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "1166:4280",
+      "name": "Mobile/Menu latéral - Complet - Ouvert",
+      "page": "Menu latéral"
+    },
+    {
+      "nodeId": "338:7145",
+      "name": "Mise en avant",
+      "page": "Mise en avant"
+    },
+    {
+      "nodeId": "338:5363",
+      "name": "Mise en exergue",
+      "page": "Mise en exergue"
+    },
+    {
+      "nodeId": "447:7149",
+      "name": "Modale - Desktop",
+      "page": "Modale"
+    },
+    {
+      "nodeId": "447:7150",
+      "name": "Modale - Mobile",
+      "page": "Modale"
+    },
+    {
+      "nodeId": "447:7151",
+      "name": "Modale - Surcouche",
+      "page": "Modale"
+    },
+    {
+      "nodeId": "16255:202687",
+      "name": "Thème clair",
+      "page": "Mot de passe"
+    },
+    {
+      "nodeId": "220:18621",
+      "name": "Desktop/Barre de navigation - Complète",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "220:15981",
+      "name": "Desktop/Barre de navigation - Dépliant",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "220:15930",
+      "name": "Desktop/Barre de navigation - Lien seul",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "220:18976",
+      "name": "Desktop/Menu déroulant - Complet",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "220:18731",
+      "name": "Desktop/Menu déroulant - Item",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "220:23176",
+      "name": "Desktop/Mégamenu - Complet",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "220:19335",
+      "name": "Desktop/Mégamenu - Item",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "251:16994",
+      "name": "Mobile/Item de niveau 2",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "264:1263",
+      "name": "Mobile/Items de niveau 1 - Accès rapide",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "251:16916",
+      "name": "Mobile/Items de niveau 1 - Dépliant",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "251:17391",
+      "name": "Mobile/Items de niveau 1 - Lien direct",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "264:2355",
+      "name": "Mobile/Navigation - Complète",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "251:17076",
+      "name": "Mobile/Navigation - Liste de liens",
+      "page": "Navigation principale"
+    },
+    {
+      "nodeId": "505:90",
+      "name": "Onglet - Complet",
+      "page": "Onglet"
+    },
+    {
+      "nodeId": "502:340",
+      "name": "Onglet - Groupe",
+      "page": "Onglet"
+    },
+    {
+      "nodeId": "502:145",
+      "name": "Onglet - Item",
+      "page": "Onglet"
+    },
+    {
+      "nodeId": "577:482",
+      "name": "Pagination - Complète",
+      "page": "Pagination"
+    },
+    {
+      "nodeId": "577:177",
+      "name": "Pagination - Incrément",
+      "page": "Pagination"
+    },
+    {
+      "nodeId": "577:349",
+      "name": "Pagination - Numéro",
+      "page": "Pagination"
+    },
+    {
+      "nodeId": "583:50596",
+      "name": "Paramètre d'affichage",
+      "page": "Paramètre d'affichage"
+    },
+    {
+      "nodeId": "3539:191215",
+      "name": "Partage",
+      "page": "Partage"
+    },
+    {
+      "nodeId": "166:771",
+      "name": "Thème clair / Desktop / Pied de page",
+      "page": "Pied de page"
+    },
+    {
+      "nodeId": "177:11734",
+      "name": "Thème clair / Mobile/ Pied de page",
+      "page": "Pied de page"
+    },
+    {
+      "nodeId": "16302:202695",
+      "name": "Thème clair",
+      "page": "Retour en haut de page"
+    },
+    {
+      "nodeId": "583:49481",
+      "name": "Sommaire - Complet",
+      "page": "Sommaire"
+    },
+    {
+      "nodeId": "583:49320",
+      "name": "Sommaire - Items",
+      "page": "Sommaire"
+    },
+    {
+      "nodeId": "13489:190689",
+      "name": "Sélecteur de langue - Desktop",
+      "page": "Sélecteur de langue"
+    },
+    {
+      "nodeId": "13489:191872",
+      "name": "Sélecteur de langue - Mobile",
+      "page": "Sélecteur de langue"
+    },
+    {
+      "nodeId": "29382:9225",
+      "name": "Thème clair / Barre outils bas",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:9206",
+      "name": "Thème clair / Barre outils haut",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:8593",
+      "name": "Thème clair / Cellule donnée / LG",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:8643",
+      "name": "Thème clair / Cellule donnée / MD",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:8693",
+      "name": "Thème clair / Cellule donnée / SM",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:8919",
+      "name": "Thème clair / Cellule en-tête / Colonne / LG",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:8749",
+      "name": "Thème clair / Cellule en-tête / Colonne / MD",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:8834",
+      "name": "Thème clair / Cellule en-tête / Colonne / SM",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:9134",
+      "name": "Thème clair / Cellule en-tête / Ligne / LG",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:9069",
+      "name": "Thème clair / Cellule en-tête / Ligne / MD",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29382:9004",
+      "name": "Thème clair / Cellule en-tête / Ligne / SM",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29931:242575",
+      "name": "Thème clair / Cellule zéro / LG",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29931:242509",
+      "name": "Thème clair / Cellule zéro / MD",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "29927:241671",
+      "name": "Thème clair / Cellule zéro / SM",
+      "page": "Tableau"
+    },
+    {
+      "nodeId": "19121:482688",
+      "name": "Thème clair / Cliquable / Défaut / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482709",
+      "name": "Thème clair / Cliquable / Défaut / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19386:359002",
+      "name": "Thème clair / Cliquable / Personnalisable / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19386:359246",
+      "name": "Thème clair / Cliquable / Personnalisable / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482634",
+      "name": "Thème clair / Groupe / Cliquable / Défaut / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482643",
+      "name": "Thème clair / Groupe / Cliquable / Défaut / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19386:359118",
+      "name": "Thème clair / Groupe / Cliquable / Personnalisable / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19386:359217",
+      "name": "Thème clair / Groupe / Cliquable / Personnalisable / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482616",
+      "name": "Thème clair / Groupe / Non-cliquable / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482625",
+      "name": "Thème clair / Groupe / Non-cliquable / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482670",
+      "name": "Thème clair / Groupe / Supprimable / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482679",
+      "name": "Thème clair / Groupe / Supprimable / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482652",
+      "name": "Thème clair / Groupe / Sélectionné / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482661",
+      "name": "Thème clair / Groupe / Sélectionné / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482890",
+      "name": "Thème clair / Non-cliquable / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482894",
+      "name": "Thème clair / Non-cliquable / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482832",
+      "name": "Thème clair / Supprimable / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482861",
+      "name": "Thème clair / Supprimable / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482726",
+      "name": "Thème clair / Sélectionné / MD",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "19121:482783",
+      "name": "Thème clair / Sélectionné / SM",
+      "page": "Tag"
+    },
+    {
+      "nodeId": "14268:197280",
+      "name": "Transcription",
+      "page": "Transcription"
+    },
+    {
+      "nodeId": "14470:198380",
+      "name": "Transcription Modale - Desktop",
+      "page": "Transcription"
+    },
+    {
+      "nodeId": "14470:198401",
+      "name": "Transcription Modale - Mobile",
+      "page": "Transcription"
+    },
+    {
+      "nodeId": "19187:356872",
+      "name": "Thème clair / Desktop",
+      "page": "Tuile"
+    },
+    {
+      "nodeId": "19547:360323",
+      "name": "Thème clair / Mobile",
+      "page": "Tuile"
+    },
+    {
+      "nodeId": "20953:506493",
+      "name": "Carte / Thème clair / Desktop / MD / Avec média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506467",
+      "name": "Carte / Thème clair / Desktop / MD / Sans média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506511",
+      "name": "Carte / Thème clair / Desktop / SM / Avec média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506480",
+      "name": "Carte / Thème clair / Desktop / SM / Sans média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506642",
+      "name": "Carte / Thème clair / Mobile / MD / Avec média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506635",
+      "name": "Carte / Thème clair / Mobile / MD / Sans média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506625",
+      "name": "Carte / Thème clair / Mobile / SM / Avec média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506618",
+      "name": "Carte / Thème clair / Mobile / SM / Sans média",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506422",
+      "name": "Lien / Lien de téléchargement",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506343",
+      "name": "Lien / Lien de téléchargement - Groupe",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506852",
+      "name": "Tuile / Thème clair / Desktop",
+      "page": "Téléchargement de fichier"
+    },
+    {
+      "nodeId": "20953:506949",
+      "name": "Tuile / Thème clair / Mobile",
+      "page": "Téléchargement de fichier"
+    }
+  ]
+}
