@@ -113,37 +113,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482890', {
-  props: iconProps,
-  example: ({ label, iconAttrs }) => html`<Tag as="p"${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482894', {
-  props: iconProps,
-  example: ({ label, iconAttrs }) => html`<Tag as="p" small${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
 // ─── Cliquable ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482688', {
-  props: clickableProps,
-  example: ({ label, iconAttrs, disabled }) =>
-    html`const linkProps = { href: '#'${disabled} };
-
-<Tag as="a" linkProps={linkProps}${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482709', {
-  props: clickableProps,
-  example: ({ label, iconAttrs, disabled }) =>
-    html`const linkProps = { href: '#'${disabled} };
-
-<Tag as="a" small linkProps={linkProps}${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
 figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482688', {
   props: clickableProps,
   example: ({ label, iconAttrs, disabled }) =>
@@ -181,24 +151,6 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359002', {
-  props: clickableProps,
-  example: ({ label, iconAttrs, disabled }) =>
-    html`const linkProps = { href: '#'${disabled} };
-
-<Tag as="a" className="fr-tag--green-emeraude" linkProps={linkProps}${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359246', {
-  props: clickableProps,
-  example: ({ label, iconAttrs, disabled }) =>
-    html`const linkProps = { href: '#'${disabled} };
-
-<Tag as="a" small className="fr-tag--green-emeraude" linkProps={linkProps}${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
 // ─── Sélectionnable ─────────────────────────────────────────────────────────
 figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482726', {
   props: selectableProps,
@@ -218,43 +170,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482726', {
-  props: selectableProps,
-  example: ({ label, iconAttrs, selected, disabled }) =>
-    html`const nativeButtonProps = ${disabled};
-
-<Tag as="button"${selected} nativeButtonProps={nativeButtonProps}${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482783', {
-  props: selectableProps,
-  example: ({ label, iconAttrs, selected, disabled }) =>
-    html`const nativeButtonProps = ${disabled};
-
-<Tag as="button" small${selected} nativeButtonProps={nativeButtonProps}${iconAttrs}>${label}</Tag>`,
-  imports,
-});
-
 // ─── Supprimable ────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482832', {
-  props: deletableProps,
-  example: ({ label, dismissible, disabled }) =>
-    html`const nativeButtonProps = ${disabled};
-
-<Tag as="button"${dismissible} nativeButtonProps={nativeButtonProps}>${label}</Tag>`,
-  imports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482861', {
-  props: deletableProps,
-  example: ({ label, dismissible, disabled }) =>
-    html`const nativeButtonProps = ${disabled};
-
-<Tag as="button" small${dismissible} nativeButtonProps={nativeButtonProps}>${label}</Tag>`,
-  imports,
-});
-
 figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482832', {
   props: deletableProps,
   example: ({ label, dismissible, disabled }) =>
@@ -350,96 +266,6 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   props: dismissGroupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag', as: 'button', dismissible: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
-
-<TagsGroup tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482679', {
-  props: dismissGroupProps,
-  example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
-    html`const tags = [{ children: 'Libellé tag', as: 'button', dismissible: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
-
-<TagsGroup smallTags tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482616', {
-  props: {},
-  example: () =>
-    html`const tags = [{ children: 'Libellé tag' }];
-
-<TagsGroup tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482625', {
-  props: groupProps,
-  example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
-    html`const tags = [{ children: 'Libellé tag' }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
-
-<TagsGroup smallTags tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482634', {
-  props: {},
-  example: () =>
-    html`const tags = [{ children: 'Libellé tag', linkProps: { href: '#' } }];
-
-<TagsGroup tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482643', {
-  props: clickableGroupProps,
-  example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
-    html`const tags = [{ children: 'Libellé tag', linkProps: { href: '#' } }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
-
-<TagsGroup smallTags tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359118', {
-  props: {},
-  example: () =>
-    html`const tags = [{ children: 'Libellé tag', className: 'fr-tag--green-emeraude', linkProps: { href: '#' } }];
-
-<TagsGroup tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359217', {
-  props: {},
-  example: () =>
-    html`const tags = [{ children: 'Libellé tag', className: 'fr-tag--green-emeraude', linkProps: { href: '#' } }];
-
-<TagsGroup smallTags tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482652', {
-  props: {},
-  example: () =>
-    html`const tags = [{ children: 'Libellé tag', as: 'button', pressed: true }];
-
-<TagsGroup tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482661', {
-  props: selectedGroupProps,
-  example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
-    html`const tags = [{ children: 'Libellé tag', as: 'button', pressed: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
-
-<TagsGroup smallTags tags={tags} />`,
-  imports: groupImports,
-});
-
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482670', {
-  props: {},
-  example: () =>
-    html`const tags = [{ children: 'Libellé tag', as: 'button', dismissible: true }];
 
 <TagsGroup tags={tags} />`,
   imports: groupImports,
