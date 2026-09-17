@@ -35,7 +35,8 @@
       { "from": "../react", "to": "stacks/react", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
       { "from": "../vue", "to": "stacks/vue", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
       { "from": "resources/manifest.json", "to": "manifest.json" },
-      { "from": "resources/rebind-to-your-file.mjs", "to": "rebind-to-your-file.mjs" }
+      { "from": "resources/rebind-to-your-file.mjs", "to": "rebind-to-your-file.mjs" },
+      { "from": "resources/stacks.json", "to": "stacks.json" }
     ],
     "mac": {
       "target": ["dmg"],
