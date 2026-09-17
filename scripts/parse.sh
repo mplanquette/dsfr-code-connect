@@ -7,13 +7,14 @@ cd "$(dirname "$0")/.."
 source scripts/lib-select-stacks.sh
 select_stacks "$@"
 
+log_dir="$(mktemp -d)"
 failed=()
 for stack in "${SELECTED_STACKS[@]}"; do
   echo "── parse ($stack) ────────────────────────────────────────────"
-  if (cd "$stack" && npx figma connect parse) > /tmp/parse-"$stack".log 2>&1; then
+  if (cd "$stack" && npx figma connect parse) > "$log_dir/parse-$stack.log" 2>&1; then
     echo "✅ $stack"
   else
-    echo "❌ $stack (voir /tmp/parse-$stack.log)"
+    echo "❌ $stack (voir $log_dir/parse-$stack.log)"
     failed+=("$stack")
   fi
 done
