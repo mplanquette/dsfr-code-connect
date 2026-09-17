@@ -1,6 +1,6 @@
 {
   "name": "dsfr-code-connect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Figma Code Connect pour le DSFR (Angular, HTML, React, Vue)",
   "license": "etalab-2.0",
