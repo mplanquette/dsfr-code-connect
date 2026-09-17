@@ -22,7 +22,7 @@ Quatre frameworks sont exposés par composant, via quatre projets indépendants 
 
 Pas à l'aise avec un terminal ? Une application desktop (Windows/Mac) propose le même parcours
 (choix des stacks, connexion Figma, rebranchement, publication) via une interface graphique, sans
-Node.js à installer. Voir la page [Releases](../../releases) une fois publiée, ou
+Node.js à installer. Voir la page [Releases](../../releases), ou
 [`desktop/README.md`](./desktop/README.md) pour la construire soi-même. Les sections suivantes
 décrivent l'usage en ligne de commande, pour les utilisateurs à l'aise avec un terminal.
 
