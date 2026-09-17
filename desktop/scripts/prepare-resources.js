@@ -29,10 +29,15 @@ copyFileSync(join(REPO_ROOT, 'scripts', 'stacks.json'), join(RESOURCES_DIR, 'sta
 function fetchDsfrAssets() {
   const tmpDir = join(os.tmpdir(), `dsfr-pack-${Date.now()}`);
   mkdirSync(tmpDir, { recursive: true });
-  // `npm` est un script .cmd sous Windows : execFileSync (sans shell) ne le trouve pas sans
-  // l'extension explicite, contrairement à `spawn`/`exec` classiques qui la résolvent seuls.
-  const npmBin = process.platform === 'win32' ? 'npm.cmd' : 'npm';
-  execFileSync(npmBin, ['pack', `@gouvfr/dsfr@${DSFR_VERSION}`, '--pack-destination', tmpDir], { stdio: 'inherit' });
+  // `npm` est un script .cmd sous Windows : l'invoquer directement avec execFileSync lève
+  // ENOENT (nom introuvable sans l'extension) puis EINVAL (un .cmd ne s'exécute pas comme un
+  // binaire natif) — `shell: true` est la solution documentée par Node pour spawn un .cmd
+  // Windows ; sans risque de casse ici, les arguments ne contiennent aucun caractère spécial
+  // au shell.
+  execFileSync('npm', ['pack', `@gouvfr/dsfr@${DSFR_VERSION}`, '--pack-destination', tmpDir], {
+    stdio: 'inherit',
+    shell: process.platform === 'win32',
+  });
   const tarball = readdirSync(tmpDir).find((f) => f.endsWith('.tgz'));
   execFileSync('tar', ['xzf', tarball], { cwd: tmpDir });
   const distDir = join(tmpDir, 'package', 'dist');
