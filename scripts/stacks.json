@@ -1,0 +1,6 @@
+[
+  { "id": "angular", "label": "Angular", "description": "@edugouvfr/ngx-dsfr" },
+  { "id": "html", "label": "HTML", "description": "DSFR vanilla (classes fr-*)" },
+  { "id": "react", "label": "React", "description": "@codegouvfr/react-dsfr" },
+  { "id": "vue", "label": "Vue", "description": "@gouvminint/vue-dsfr" }
+]

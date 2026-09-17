@@ -14,23 +14,22 @@ if [ -z "${FIGMA_ACCESS_TOKEN:-}" ]; then
   exit 1
 fi
 
+# Label lu depuis scripts/stacks.json (source de vérité partagée avec desktop/src/main/stacks.js) :
+# évite de dupliquer ce mapping stack->label en dur dans ce script.
 label_for() {
-  case "$1" in
-    angular) echo "Angular" ;;
-    html) echo "HTML" ;;
-    react) echo "React" ;;
-    vue) echo "Vue" ;;
-  esac
+  node -e "console.log(require('./scripts/stacks.json').find(s => s.id === process.argv[1]).label)" "$1"
 }
 
+log_dir="$(mktemp -d)"
 failed=()
 for stack in "${SELECTED_STACKS[@]}"; do
   label="$(label_for "$stack")"
   echo "── publish ($stack, label \"$label\") ───────────────────────"
-  if (cd "$stack" && FIGMA_ACCESS_TOKEN="$FIGMA_ACCESS_TOKEN" npx figma connect publish --label "$label"); then
+  if (cd "$stack" && FIGMA_ACCESS_TOKEN="$FIGMA_ACCESS_TOKEN" npx figma connect publish --label "$label") \
+      > "$log_dir/publish-$stack.log" 2>&1; then
     echo "✅ $stack"
   else
-    echo "❌ $stack"
+    echo "❌ $stack (voir $log_dir/publish-$stack.log)"
     failed+=("$stack")
   fi
 done
