@@ -1,6 +1,6 @@
 {
   "name": "dsfr-code-connect-desktop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Application desktop (Windows/Mac) pour connecter et publier le catalogue DSFR Code Connect sans terminal",
   "main": "src/main/index.js",
