@@ -67,6 +67,9 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Section ─────────────────────────────────────────────────────────────────
+// Propriétés Figma nommées « Tire de section » (coquille, cf. radio.figma.ts) et
+// « Disable » (nom resté en anglais) : conservées telles quelles, vérifiées via
+// get_design_context sur ce node (node-id=14823-199333).
 figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14823-199333', {
   props: {
     legend: figma.string('Tire de section'),
