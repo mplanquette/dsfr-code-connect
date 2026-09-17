@@ -17,5 +17,6 @@ rebind-report.json
 # App desktop : artefacts de build (régénérés par prepare-resources.js / electron-builder)
 desktop/resources/manifest.json
 desktop/resources/rebind-to-your-file.mjs
+desktop/resources/stacks.json
 desktop/src/renderer/dsfr/
 desktop/release/

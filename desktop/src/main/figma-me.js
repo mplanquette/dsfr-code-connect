@@ -3,8 +3,15 @@
 // respecter nativement HTTP_PROXY/HTTPS_PROXY dans un réseau d'entreprise.
 const { spawnSync } = require('node:child_process');
 
+/**
+ * Vérifie qu'un token Figma est valide en scope lecture (GET /v1/me). Retourne
+ * `{ ok: true, handle, email }` ou `{ ok: false, error }`, jamais de rejet.
+ */
 function testFigmaToken(token) {
-  const result = spawnSync('curl', ['-sS', '-H', `X-Figma-Token: ${token}`, 'https://api.figma.com/v1/me'], {
+  // Le token passe par la config `curl` lue sur stdin (`-K -`), jamais en argv (cf. commentaire
+  // équivalent dans scripts/rebind-to-your-file.mjs : évite l'exposition via `ps`).
+  const result = spawnSync('curl', ['-sS', '-K', '-', 'https://api.figma.com/v1/me'], {
+    input: `header = "X-Figma-Token: ${token}"\n`,
     encoding: 'utf8',
     timeout: 15_000,
   });

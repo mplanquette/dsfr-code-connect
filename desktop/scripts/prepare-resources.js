@@ -24,6 +24,7 @@ const DSFR_DEST = join(__dirname, '..', 'src', 'renderer', 'dsfr');
 mkdirSync(RESOURCES_DIR, { recursive: true });
 copyFileSync(join(REPO_ROOT, 'scripts', 'manifest.json'), join(RESOURCES_DIR, 'manifest.json'));
 copyFileSync(join(REPO_ROOT, 'scripts', 'rebind-to-your-file.mjs'), join(RESOURCES_DIR, 'rebind-to-your-file.mjs'));
+copyFileSync(join(REPO_ROOT, 'scripts', 'stacks.json'), join(RESOURCES_DIR, 'stacks.json'));
 
 function fetchDsfrAssets() {
   const tmpDir = join(os.tmpdir(), `dsfr-pack-${Date.now()}`);
@@ -44,5 +45,5 @@ function fetchDsfrAssets() {
 
 fetchDsfrAssets();
 
-console.log('Assets copiés dans desktop/resources/ (manifest.json, rebind-to-your-file.mjs)');
+console.log('Assets copiés dans desktop/resources/ (manifest.json, rebind-to-your-file.mjs, stacks.json)');
 console.log('et desktop/src/renderer/dsfr/ (dsfr.min.css, dsfr.module.min.js, fonts/).');

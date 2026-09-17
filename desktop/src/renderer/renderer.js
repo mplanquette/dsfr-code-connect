@@ -75,6 +75,11 @@
     $('btn-back').disabled = step === 1;
     $('btn-next').textContent = step === 5 ? 'Terminé' : 'Suivant';
     $('btn-next').disabled = step === 5;
+
+    // Déplace le focus sur le titre de l'étape : sans ça, un changement d'écran
+    // au clavier ou au lecteur d'écran passe inaperçu (le focus reste sur le
+    // bouton Suivant/Retour de l'écran précédent).
+    document.querySelector('.fr-stepper__title').focus();
   }
 
   $('btn-next').addEventListener('click', () => {

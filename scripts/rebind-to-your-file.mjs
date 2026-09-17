@@ -44,6 +44,10 @@ function parseArgs(argv) {
   return args;
 }
 
+/**
+ * Normalise un nom de page Figma pour l'appariement entre fichiers : retire le suffixe
+ * `🔗` (marqueur visuel « Code Connect existe ») et un préfixe emoji/symbole éventuel.
+ */
 export function normalizePage(page) {
   return page
     .replace(/\s*🔗\s*$/u, '')
@@ -51,6 +55,10 @@ export function normalizePage(page) {
     .trim();
 }
 
+/**
+ * Normalise un nom de calque Figma pour l'appariement entre fichiers : harmonise
+ * l'espacement et fusionne les variantes « Thème clair »/« Thème sombre ».
+ */
 export function normalizeName(name) {
   return name
     .replace(/\s*\/\s*/g, ' / ') // harmonise l'espacement autour des "/"
@@ -59,6 +67,11 @@ export function normalizeName(name) {
     .trim();
 }
 
+/**
+ * Clé d'appariement unique (page + nom de calque normalisés) utilisée pour retrouver un
+ * composant d'un fichier Figma à l'autre, indépendamment du node-id (qui change à chaque
+ * republication du fichier).
+ */
 export function matchKey(page, name) {
   return `${normalizePage(page)} ${normalizeName(name)}`;
 }
@@ -73,7 +86,11 @@ function escapeRegExp(s) {
 // secteur public). Aucune dépendance npm ajoutée : `curl` est présent nativement sur macOS/Linux
 // (et sur Windows via Git Bash/WSL).
 function fetchJson(url, token) {
-  const result = spawnSync('curl', ['-sS', '-H', `X-Figma-Token: ${token}`, url], {
+  // Le token passe par la config `curl` lue sur stdin (`-K -`), jamais en argv : un argument de
+  // ligne de commande reste visible via `ps` par les autres processus de l'utilisateur pendant
+  // toute la durée de l'appel, contrairement à stdin.
+  const result = spawnSync('curl', ['-sS', '-K', '-', url], {
+    input: `header = "X-Figma-Token: ${token}"\n`,
     encoding: 'utf8',
     maxBuffer: 200 * 1024 * 1024,
     timeout: 30_000,
@@ -185,6 +202,10 @@ export function applyRebind({ manifest, matched, targetFileKey, frameworkDirs = 
   return filesChanged;
 }
 
+/**
+ * Charge le manifeste des composants connectés (généré lors de la dernière session de
+ * connexion), source de vérité pour l'appariement lors d'une migration de fichier Figma.
+ */
 export function loadManifest(manifestPath = join(REPO_ROOT, 'scripts', 'manifest.json')) {
   return JSON.parse(readFileSync(manifestPath, 'utf8'));
 }
