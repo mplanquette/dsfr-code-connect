@@ -46,6 +46,11 @@ function loadManifest() {
   return JSON.parse(readFileSync(p, 'utf8'));
 }
 
+/**
+ * Analyse un fichier Figma cible et l'apparie au manifeste des composants déjà connectés
+ * (étape 3 de l'UI : « Analyser »). Retourne les correspondances trouvées, ambiguës et
+ * manquantes, sans modifier aucun fichier.
+ */
 async function analyze({ fileKey, token }) {
   const { fetchComponents, matchManifest } = await getRebindModule();
   const manifest = loadManifest();
@@ -55,6 +60,10 @@ async function analyze({ fileKey, token }) {
   return { ...result, manifest, targetFileKey: fileKey, isSelfTest, targetComponentCount: targetComponents.length };
 }
 
+/**
+ * Applique les correspondances trouvées par `analyze` : réécrit les node-ids dans les
+ * fichiers `*.figma.ts` des stacks concernées (étape 4 de l'UI : « Appliquer »).
+ */
 async function apply({ manifest, matched, targetFileKey, frameworkDirs }) {
   const { applyRebind } = await getRebindModule();
   return applyRebind({ manifest, matched, targetFileKey, frameworkDirs, repoRoot: repoRoot() });
