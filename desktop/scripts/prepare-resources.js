@@ -29,7 +29,10 @@ copyFileSync(join(REPO_ROOT, 'scripts', 'stacks.json'), join(RESOURCES_DIR, 'sta
 function fetchDsfrAssets() {
   const tmpDir = join(os.tmpdir(), `dsfr-pack-${Date.now()}`);
   mkdirSync(tmpDir, { recursive: true });
-  execFileSync('npm', ['pack', `@gouvfr/dsfr@${DSFR_VERSION}`, '--pack-destination', tmpDir], { stdio: 'inherit' });
+  // `npm` est un script .cmd sous Windows : execFileSync (sans shell) ne le trouve pas sans
+  // l'extension explicite, contrairement à `spawn`/`exec` classiques qui la résolvent seuls.
+  const npmBin = process.platform === 'win32' ? 'npm.cmd' : 'npm';
+  execFileSync(npmBin, ['pack', `@gouvfr/dsfr@${DSFR_VERSION}`, '--pack-destination', tmpDir], { stdio: 'inherit' });
   const tarball = readdirSync(tmpDir).find((f) => f.endsWith('.tgz'));
   execFileSync('tar', ['xzf', tarball], { cwd: tmpDir });
   const distDir = join(tmpDir, 'package', 'dist');
