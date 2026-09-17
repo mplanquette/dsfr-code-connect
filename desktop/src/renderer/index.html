@@ -8,15 +8,15 @@
 </head>
 <body>
   <header class="app-header">
-    <p class="fr-h6 app-header__title">
+    <h1 class="fr-h6 app-header__title">
       DSFR Code Connect
       <span class="fr-badge fr-badge--sm fr-badge--yellow-tournesol app-header__badge">Bêta</span>
-    </p>
+    </h1>
   </header>
 
   <main class="fr-container app-main">
     <div class="fr-stepper" id="stepper">
-      <h2 class="fr-stepper__title">
+      <h2 class="fr-stepper__title" tabindex="-1" aria-live="polite" aria-atomic="true">
         <span id="stepper-title">Sélection des stacks</span>
         <span class="fr-stepper__state" id="stepper-state">Étape 1 sur 5</span>
       </h2>
@@ -48,13 +48,13 @@
       <div class="token-block">
         <div class="fr-input-group">
           <label class="fr-label" for="token-read">Token Figma : lecture (nécessaire pour l'analyse)</label>
-          <input class="fr-input" type="password" id="token-read" placeholder="figd_..." />
+          <input class="fr-input" type="password" id="token-read" placeholder="figd_..." autocomplete="off" />
         </div>
         <div class="token-actions">
           <button type="button" class="fr-btn fr-btn--secondary fr-btn--sm" id="test-token-read">Tester la connexion</button>
           <a href="#" id="link-token-read" class="fr-link fr-text--sm">Où trouver ce token ?</a>
         </div>
-        <p class="status" id="status-token-read"></p>
+        <p class="status" id="status-token-read" role="status" aria-live="polite"></p>
       </div>
 
       <div class="token-block">
@@ -64,7 +64,7 @@
         </div>
         <div class="fr-input-group">
           <label class="fr-label" for="token-publish">Token Figma : publication (nécessaire pour publier)</label>
-          <input class="fr-input" type="password" id="token-publish" placeholder="figd_..." />
+          <input class="fr-input" type="password" id="token-publish" placeholder="figd_..." autocomplete="off" />
         </div>
         <a href="#" id="link-token-publish" class="fr-link fr-text--sm">Où trouver ce token ?</a>
       </div>
@@ -73,7 +73,7 @@
     <!-- Étape 3 : analyse -->
     <section class="screen" id="screen-3" hidden>
       <button type="button" class="fr-btn" id="btn-analyze">Analyser</button>
-      <div id="analyze-result" class="report" hidden>
+      <div id="analyze-result" class="report" hidden aria-live="polite" aria-atomic="true">
         <div class="fr-alert fr-alert--success fr-alert--sm">
           <p><strong id="count-matched">0</strong> correspondances trouvées</p>
         </div>
@@ -97,15 +97,15 @@
         </p>
       </div>
       <button type="button" class="fr-btn" id="btn-apply">Appliquer</button>
-      <p class="status" id="status-apply"></p>
+      <p class="status" id="status-apply" role="status" aria-live="polite"></p>
     </section>
 
     <!-- Étape 5 : publication -->
     <section class="screen" id="screen-5" hidden>
       <button type="button" class="fr-btn" id="btn-parse">Parser (validation locale)</button>
-      <p class="status" id="status-parse"></p>
+      <p class="status" id="status-parse" role="status" aria-live="polite"></p>
       <button type="button" class="fr-btn" id="btn-publish" disabled>Publier vers Figma</button>
-      <p class="status" id="status-publish"></p>
+      <p class="status" id="status-publish" role="status" aria-live="polite"></p>
     </section>
 
     <nav class="nav-buttons">
@@ -126,7 +126,7 @@
   </main>
 
   <!-- Boîte de confirmation générique -->
-  <dialog id="confirm-dialog" class="confirm-dialog">
+  <dialog id="confirm-dialog" class="confirm-dialog" aria-describedby="confirm-message">
     <p id="confirm-message"></p>
     <div class="dialog-buttons">
       <button type="button" class="fr-btn fr-btn--secondary" id="confirm-cancel">Annuler</button>
