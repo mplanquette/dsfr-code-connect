@@ -5,6 +5,10 @@
   "description": "Application desktop (Windows/Mac) pour connecter et publier le catalogue DSFR Code Connect sans terminal",
   "main": "src/main/index.js",
   "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mplanquette/dsfr-code-connect.git"
+  },
   "scripts": {
     "start": "npm run prepare-resources && electron .",
     "prepare-resources": "node scripts/prepare-resources.js",
