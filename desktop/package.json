@@ -22,7 +22,7 @@
     "global-agent": "^3.0.0"
   },
   "dependencies": {
-    "@figma/code-connect": "^1.4.2"
+    "@figma/code-connect": "^1.5.3"
   },
   "build": {
     "appId": "fr.dsfr.code-connect-desktop",

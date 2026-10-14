@@ -1,16 +1,10 @@
 {
-  "name": "vue",
+  "name": "dsfr-code-connect-vue",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "private": true,
+  "description": "Code Connect DSFR pour la stack Vue (@gouvminint/vue-dsfr)",
+  "license": "etalab-2.0",
   "devDependencies": {
-    "@figma/code-connect": "^1.4.2"
+    "@figma/code-connect": "^1.5.3"
   }
 }

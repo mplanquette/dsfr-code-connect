@@ -145,9 +145,9 @@ segments du nom pour que la correspondance reste possible malgré la restructura
 
 ## Checklist d'avancement
 
-**203 nodes publiés** sur Angular + HTML + React, **183 sur Vue** (écart expliqué dans la note Vue
-ci-dessous), soit dans tous les cas les 49 familles du catalogue (dont Bouton ProConnect et Tableau).
-Catalogue complet hors atomes internes 🚫/⚙️ (cf. note Tableau ci-dessous).
+**183 nodes publiés** sur chacune des 4 stacks (Angular, HTML, React, Vue), soit les 49 familles du
+catalogue (dont Bouton ProConnect et Tableau). Catalogue complet hors atomes internes 🚫/⚙️
+(cf. note Tableau ci-dessous).
 
 Légende : ✅ publié (Angular + HTML + React + Vue) · 🚧 en cours · ⬜ à faire
 
@@ -184,12 +184,9 @@ Légende : ✅ publié (Angular + HTML + React + Vue) · 🚧 en cours · ⬜ à
 
 ### Vue (`vue/`, label `Vue`)
 
-Cible `@gouvminint/vue-dsfr` (repo source `github.com/dnum-mi/vue-dsfr`). Total de nodes légèrement
-inférieur à Angular/HTML/React : `tag.figma.ts` compte 20 nodes uniques (les autres frameworks ont
-chacun deux `figma.connect` pour certains nodes, hérités d'une fusion de variantes lors d'une
-précédente migration de version, cf. section "Rebranchement sur un autre fichier Figma"
-ci-dessus) : `vue/tag.figma.ts` n'en garde qu'un par
-node, aucune perte de couverture réelle.
+Cible `@gouvminint/vue-dsfr` (repo source `github.com/dnum-mi/vue-dsfr`). Parité exacte de nodes avec
+les trois autres stacks : 183 node-ids uniques, dont 20 pour `tag.figma.ts`, identiques sur toutes les
+stacks (vérifié par comparaison croisée des node-ids).
 
 **Syntaxe cible plus simple que React** : les templates Vue sont du HTML étendu réel
 (`:prop="expression"`, `@event="..."`), donc une prop tableau/objet s'écrit directement
@@ -214,7 +211,7 @@ de modale ni de `finalities[]`, plus limité que côté Angular) ; `DsfrNavigati
 
 ### React (`react/`, label `React`)
 
-Cible `@codegouvfr/react-dsfr` (parité exacte de nodes avec Angular/HTML). L'`example` traduit la
+Cible `@codegouvfr/react-dsfr` (parité exacte de nodes avec Angular/HTML/Vue). L'`example` traduit la
 syntaxe vers du JSX texte, vérifié à chaque fois contre le vrai code source du composant
 (`github.com/codegouvfr/react-dsfr/blob/main/src/...`).
 
