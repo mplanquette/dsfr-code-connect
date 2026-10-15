@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // (respecté / en erreur) n'est pas dérivable du design → `onError` laissé à undefined
 // (affichage informatif), à câbler sur la logique de validation réelle.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16255-202687', {
+figma.connect('<FIGMA_MOT_DE_PASSE__>', {
   props: {
     autocomplete: figma.enum('Nouveau mot de passe', {
       True: ' autocomplete="new-password"',

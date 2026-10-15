@@ -7,51 +7,51 @@ import figma, { html } from '@figma/code-connect/html';
 // pour les 6 variantes de bulle.
 
 // ─── Déclenchement au clic ───────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359535', {
+figma.connect('<FIGMA_INFOBULLE__DECLENCHEMENT_AU_CLICK>', {
   example: () =>
     html`<button type="button" class="fr-btn--tooltip fr-btn" aria-describedby="tooltip">Information contextuelle</button>
 <span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">Message de l'infobulle</span>`,
 });
 
 // ─── Déclenchement au survol ─────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359572', {
+figma.connect('<FIGMA_INFOBULLE__DECLENCHEMENT_AU_SURVOL>', {
   example: () =>
     html`<a href="/page" id="tooltip-trigger" aria-describedby="tooltip">Libellé du lien</a>
 <span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">Message de l'infobulle</span>`,
 });
 
 // ─── Bulles ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359683', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_AU_CENTRE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) =>
     html`<span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">${message}</span>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359945', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_AU_CENTRE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) =>
     html`<span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">${message}</span>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359964', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_DROITE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) =>
     html`<span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">${message}</span>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359983', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_GAUCHE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) =>
     html`<span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">${message}</span>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-360002', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_GAUCHE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) =>
     html`<span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">${message}</span>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-360021', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_DROITE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) =>
     html`<span class="fr-tooltip fr-placement" id="tooltip" role="tooltip" aria-hidden="true">${message}</span>`,

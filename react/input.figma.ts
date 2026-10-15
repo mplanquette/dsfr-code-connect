@@ -13,7 +13,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Input } from '@codegouvfr/react-dsfr/Input'"];
 
 // ─── Éléments - Champ de saisie (Item complet) ───────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14819-199027', {
+figma.connect('<FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE>', {
   props: {
     textarea: figma.boolean('Texte Area', { true: ' textArea nativeTextAreaProps={{ rows: 4 }}', false: '' }),
     icon: figma.boolean('Icône', { true: ' iconId="fr-icon-search-line"', false: '' }),
@@ -33,7 +33,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14820-199166', {
+figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE>', {
   props: {
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
     stateClass: figma.enum('État', {
@@ -59,7 +59,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // Propriétés Figma nommées « Tire de section » (coquille, cf. radio.figma.ts) et
 // « Disable » (nom resté en anglais) : conservées telles quelles, vérifiées via
 // get_design_context sur ce node (node-id=14823-199333).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14823-199333', {
+figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION>', {
   props: {
     legend: figma.string('Tire de section'),
     disabled: figma.boolean('Disable', { true: ' disabled', false: '' }),
@@ -75,7 +75,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Champ de saisie (simple) ────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14819-199148', {
+figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE>', {
   props: {
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
     severity: figma.enum('État', {

@@ -14,7 +14,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrSideMenu from '@gouvminint/vue-dsfr/DsfrSideMenu.vue'"];
 
 // ─── Desktop / Menu latéral - Complet ────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=452-39098', {
+figma.connect('<FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET>', {
   props: {
     position: figma.enum('Position', { Gauche: '', Droite: ' class="fr-sidemenu--right"' }),
     title: figma.enum('Titre', { True: ' heading-title="Titre du menu"', False: '' }),
@@ -40,7 +40,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / Lien direct - Item ────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=452-37286', {
+figma.connect('<FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM>', {
   props: {
     active: figma.enum('État', { Défaut: '', Survol: '', Courant: `, active: true` }),
   },
@@ -52,7 +52,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / Dépliant niveau 1 - Item ──────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=452-38131', {
+figma.connect('<FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM>', {
   props: {
     active: figma.enum('État', { Défaut: '', Courant: `, active: true` }),
   },
@@ -70,7 +70,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / Dépliant niveau 2 - Item ──────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=452-47377', {
+figma.connect('<FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM>', {
   props: {
     active: figma.enum('État', { Défaut: '', Courant: `, active: true` }),
   },
@@ -93,7 +93,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / Menu latéral - Complet - Fermé ─────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=452-39179', {
+figma.connect('<FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_FERME>', {
   example: () =>
     html`<DsfrSideMenu id="sidemenu" heading-title="Titre du menu" :menu-items="[
     { text: 'Première entrée', to: '/premiere' },
@@ -103,7 +103,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / Menu latéral - Complet - Ouvert ────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=1166-4280', {
+figma.connect('<FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT>', {
   props: {
     title: figma.enum('Titre', { True: ' heading-title="Titre du menu"', False: '' }),
     items: figma.enum('Éléments', {
@@ -126,7 +126,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / Lien direct - Item ─────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=1165-58748', {
+figma.connect('<FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM>', {
   props: {
     active: figma.enum('Courant', { False: '', True: `, active: true` }),
   },
@@ -138,7 +138,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / Dépliant niveau 1 - Item ───────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=1166-888', {
+figma.connect('<FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM>', {
   props: {
     active: figma.enum('Courant', { False: '', True: `, active: true` }),
   },
@@ -156,7 +156,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / Dépliant niveau 2 - Item ───────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=1166-1652', {
+figma.connect('<FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM>', {
   props: {
     active: figma.enum('Courant', { False: '', True: `, active: true` }),
   },

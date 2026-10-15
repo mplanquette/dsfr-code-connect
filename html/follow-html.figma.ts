@@ -10,7 +10,7 @@ const socialLinks = `<li><a class="fr-btn--facebook fr-btn" href="https://www.fa
       <li><a class="fr-btn--linkedin fr-btn" href="https://www.linkedin.com" title="linkedin - nouvelle fenêtre">LinkedIn</a></li>`;
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-186707', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP>', {
   props: {
     description: figma.boolean('Description', {
       true: `\n        <p class="fr-text--sm">Texte de description.</p>`,
@@ -59,7 +59,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23636-10146', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE>', {
   props: {
     content: figma.enum('Newsletter', {
       Aucun: `<div class="fr-follow__social">
@@ -104,7 +104,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Formulaire (élément desktop) ─────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23649-3349', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP>', {
   props: {
     stateClass: figma.enum('Etat', {
       Default: '', Valide: ' fr-input-group--valid', Erreur: ' fr-input-group--error',
@@ -123,7 +123,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Formulaire (élément mobile) ──────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23652-29190', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE>', {
   props: {
     stateClass: figma.enum('Etat', {
       Default: '', Valide: ' fr-input-group--valid', Erreur: ' fr-input-group--error',

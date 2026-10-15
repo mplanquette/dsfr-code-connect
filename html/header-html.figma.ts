@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // est un état transitoire d'interaction → non connecté. Thème sombre = CSS seul.
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=148-52', {
+figma.connect('<FIGMA_EN_TETE__DESKTOP_EN_TETE>', {
   props: {
     service: figma.boolean('Nom du site', {
       true: `\n        <div class="fr-header__service">
@@ -53,7 +53,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=153-159413', {
+figma.connect('<FIGMA_EN_TETE__MOBILE_EN_TETE>', {
   props: {
     service: figma.boolean('Nom du site', {
       true: `\n        <div class="fr-header__service">

@@ -24,11 +24,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install stacks dependencies
-        run: bash scripts/install.sh --all
+      - name: Install Code Connect CLI
+        run: npm ci
 
       - name: Parse (sanity check)
-        run: bash scripts/parse.sh --all
+        run: bash scripts/connect.sh parse --all
 
       - name: Install desktop app dependencies
         working-directory: desktop

@@ -24,7 +24,7 @@ const props = {
   }),
 };
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=1935-224', {
+figma.connect('<FIGMA_ALERTE__ALERTE>', {
   props,
   example: ({ typeClass, sizeClass, titleSection, closeBtn }) => html`<div role="alert" class="fr-alert ${typeClass}${sizeClass}">${titleSection}
   <p>Description de l'alerte</p>${closeBtn}

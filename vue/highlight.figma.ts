@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // `DsfrHighlight` n'a que deux booléens `small`/`large` (pas de `textSize` à 3 valeurs) : MD =
 // aucun des deux (ni small ni large).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=338-5363', {
+figma.connect('<FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE>', {
   props: {
     size: figma.enum('Taille', { SM: ' small', MD: '', LG: ' large' }),
   },

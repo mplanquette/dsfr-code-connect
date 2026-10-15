@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // L'icône concrète n'est pas dérivable du design : placeholder fr-icon-checkbox-line.
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=502-145', {
+figma.connect('<FIGMA_ONGLET__ONGLET_ITEM>', {
   props: {
     iconClass: figma.boolean('Icône', {
       true: ' fr-icon-checkbox-line fr-tabs__tab--icon-left',
@@ -21,7 +21,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=502-340', {
+figma.connect('<FIGMA_ONGLET__ONGLET_GROUPE>', {
   props: {
     iconClass: figma.boolean('Icône', {
       true: ' fr-icon-checkbox-line fr-tabs__tab--icon-left',
@@ -43,7 +43,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=505-90', {
+figma.connect('<FIGMA_ONGLET__ONGLET_COMPLET>', {
   example: () =>
     html`<div class="fr-tabs">
   <ul class="fr-tabs__list" role="tablist" aria-label="Libellé du groupe d'onglets">

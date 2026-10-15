@@ -9,7 +9,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { DsfrTranscriptionComponent } from '@edugouvfr/ngx-dsfr'"];
 
 // ─── Transcription ───────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14268-197280', {
+figma.connect('<FIGMA_TRANSCRIPTION__TRANSCRIPTION>', {
   props: {
     heading: figma.string('Titre'),
   },
@@ -19,14 +19,14 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Modale - Desktop ────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14470-198380', {
+figma.connect('<FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_DESKTOP>', {
   example: () =>
     html`<dsfr-transcription heading="Transcription" content="Texte de la transcription."></dsfr-transcription>`,
   imports,
 });
 
 // ─── Modale - Mobile ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14470-198401', {
+figma.connect('<FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_MOBILE>', {
   example: () =>
     html`<dsfr-transcription heading="Transcription" content="Texte de la transcription."></dsfr-transcription>`,
   imports,

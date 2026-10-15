@@ -12,7 +12,7 @@ const imports = ["import { Summary } from '@codegouvfr/react-dsfr/Summary'"];
 
 // ─── Items ───────────────────────────────────────────────────────────────────
 // « Imbriqué » indique une entrée de second niveau, portée par `subLinks`.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-49320', {
+figma.connect('<FIGMA_SOMMAIRE__SOMMAIRE_ITEMS>', {
   props: {
     nested: figma.boolean('Imbriqué', {
       true: `, subLinks: [{ text: 'Sous-titre', linkProps: { href: '#sous-titre' } }]`,
@@ -29,7 +29,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-49481', {
+figma.connect('<FIGMA_SOMMAIRE__SOMMAIRE_COMPLET>', {
   example: () =>
     html`const links = [
   { text: 'Première section', linkProps: { href: '#premiere-section' } },

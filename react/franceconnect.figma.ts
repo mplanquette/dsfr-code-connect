@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // `FranceConnectButtonProps` → ignoré, le bouton reste actif dans tous les exemples.
 // `url` est obligatoire (ou `onClick`) : placeholder `/login` à adapter par le dev.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11985-75836', {
+figma.connect('<FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT>', {
   props: {
     plus: figma.boolean('Plus', { true: ' plus', false: '' }),
   },

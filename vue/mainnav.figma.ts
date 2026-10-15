@@ -40,7 +40,7 @@ const imports = [
 ];
 
 // ─── Desktop / Barre de navigation - Lien seul ───────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=220-15930', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL>', {
   props: {
     active: figma.enum('Courant', { True: 'true', False: 'false' }),
   },
@@ -54,7 +54,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / Barre de navigation - Dépliant ────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=220-15981', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT>', {
   props: {
     expandedId: figma.enum('Ouvert', { True: "'menu-dropdown'", False: "''" }),
     active: figma.enum('Courant', { True: 'true', False: 'false' }),
@@ -77,7 +77,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / Barre de navigation - Complète ────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=220-18621', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE>', {
   props: {
     items: figma.enum('Items', {
       '2-4': `[
@@ -105,7 +105,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // ─── Desktop / Menu déroulant - Item ──────────────────────────────────────────
 // « Rubrique » (vs « Lien direct ») n'a pas de rendu distinct côté vue-dsfr : les deux
 // se déclarent comme un simple lien dans le panneau du menu.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=220-18731', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM>', {
   props: {
     active: figma.enum('État', { Défaut: 'false', Survol: 'false', Courant: 'true' }),
   },
@@ -125,7 +125,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // ─── Desktop / Menu déroulant - Complet ───────────────────────────────────────
 // « Rubrique » (titre de section dans le panneau) n'a pas d'équivalent dans `links`
 // (simple tableau de liens, sans regroupement par titre) → non bindé.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=220-18976', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_COMPLET>', {
   example: () =>
     html`<DsfrNavigation label="Menu principal">
     <DsfrNavigationItem>
@@ -148,7 +148,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // « Catégorie » (vs « Lien ») correspond à un lien à l'intérieur d'une catégorie de
 // mégamenu. « État » non bindé : `DsfrNavigationMegaMenuCategory` ne propage pas de prop
 // `active` sur ses liens (limitation de vue-dsfr, cf. note de tête de fichier).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=220-19335', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM>', {
   example: () =>
     html`<DsfrNavigation label="Menu principal">
     <DsfrNavigationItem>
@@ -167,7 +167,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // « Rubrique : Sans » n'est pas reproductible (le `title` du mégamenu est toujours
 // affiché dans le panneau, cf. note de tête de fichier) : approximé par « Titre » (même
 // rendu, `description` vide).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=220-23176', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET>', {
   props: {
     menus: figma.enum('Catégories', {
       True: `[
@@ -202,7 +202,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // « Titre rubrique » non bindé : `DsfrNavigationMenu` (dépliant simple) n'a pas de titre
 // de panneau (contrairement au mégamenu, où ce titre n'est de toute façon pas
 // optionnel) → aucune configuration de vue-dsfr ne modélise ce bouton tri-état.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=251-16916', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT>', {
   props: {
     expandedId: figma.enum('Ouvert', { True: "'menu-dropdown'", False: "''" }),
     active: figma.enum('État', { Défaut: 'false', Courant: 'true' }),
@@ -226,7 +226,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // est une variante de mise en page (absence de séparateur) → non bindée. Ce fragment
 // utilise le dépliant simple (pas le mégamenu) : c'est le seul des deux qui expose
 // `active` sur son item via `DsfrNavigationMenuItem` (cf. note de tête de fichier).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=251-16994', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2>', {
   props: {
     active: figma.enum('État', { Défaut: 'false', Courant: 'true' }),
   },
@@ -248,7 +248,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // catégorie (`<h5>`) est obligatoire dans `DsfrNavigationMegaMenuCategory`, le cas
 // « Catégorie : non » est approximé par une catégorie dont le titre reprend le libellé du
 // premier lien (pas de rendu réellement « à plat » disponible côté vue-dsfr).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=251-17076', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS>', {
   props: {
     menus: figma.boolean('Catégorie', {
       true: `[{ title: 'Catégorie', links: [
@@ -273,7 +273,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / Items de niveau 1 - Lien direct ────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=251-17391', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT>', {
   props: {
     active: figma.enum('État', { Défaut: 'false', Courant: 'true' }),
   },
@@ -290,7 +290,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // Les accès rapides (connexion, langue…) ne font pas partie de `DsfrNavigation` : ils se
 // déclarent sur `DsfrHeader` via `quick-links`, dupliqués automatiquement dans le menu
 // mobile.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=264-1263', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE>', {
   example: () =>
     html`<DsfrHeader
     :quick-links="[{ label: 'Se connecter', icon: 'fr-icon-lock-line', to: '/connexion' }]"
@@ -303,7 +303,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / Navigation - Complète ──────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=264-2355', {
+figma.connect('<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE>', {
   props: {
     quickLinks: figma.boolean('Accès rapides', {
       true: ` :quick-links="[{ label: 'Se connecter', icon: 'fr-icon-lock-line', to: '/connexion' }]"`,

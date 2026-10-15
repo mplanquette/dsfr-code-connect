@@ -11,7 +11,7 @@ import figma, { html } from '@figma/code-connect/html';
 // pas dérivable du design : rendu en fr-message--info, à basculer en --valid / --error
 // selon la validation réelle une fois câblé sur une vraie logique de contrôle.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16255-202687', {
+figma.connect('<FIGMA_MOT_DE_PASSE__>', {
   props: {
     autocomplete: figma.enum('Nouveau mot de passe', {
       True: 'new-password',

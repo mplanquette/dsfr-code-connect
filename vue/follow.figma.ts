@@ -12,7 +12,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrFollow from '@gouvminint/vue-dsfr/DsfrFollow.vue'"];
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-186707', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP>', {
   props: {
     newsletterData: figma.enum('Newsletter', {
       Formulaire: ` :newsletter-data="{ title: 'S\\'abonner à notre lettre d\\'information', description: 'Texte de description.' }"`,
@@ -32,7 +32,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23636-10146', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE>', {
   props: {
     newsletterData: figma.enum('Newsletter', {
       Aucun: '',
@@ -54,7 +54,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // ─── Formulaire (élément desktop) ─────────────────────────────────────────────
 // Champ email interne au formulaire newsletter de DsfrNewsLetter, non exposé comme
 // composant séparé : approximé avec le champ générique DsfrInputGroup (valid/error).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23649-3349', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP>', {
   props: {
     messages: figma.enum('Etat', {
       Default: '',
@@ -68,7 +68,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Formulaire (élément mobile) ──────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23652-29190', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE>', {
   props: {
     messages: figma.enum('Etat', {
       Default: '',

@@ -22,7 +22,7 @@ const props = {
 };
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506852', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP>', {
   props,
   example: ({ small, picto, disabled }) =>
     html`<DsfrTile
@@ -35,7 +35,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506949', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE>', {
   props,
   example: ({ small, picto, disabled }) =>
     html`<DsfrTile

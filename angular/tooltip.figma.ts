@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 
 // ─── Déclenchement au clic ───────────────────────────────────────────────────
 // Bouton dédié portant l'infobulle.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359535', {
+figma.connect('<FIGMA_INFOBULLE__DECLENCHEMENT_AU_CLICK>', {
   example: () =>
     html`<dsfr-tooltip-button tooltip="Message de l'infobulle"></dsfr-tooltip-button>`,
   imports: ["import { DsfrTooltipButtonComponent } from '@edugouvfr/ngx-dsfr'"],
@@ -16,44 +16,44 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 
 // ─── Déclenchement au survol ─────────────────────────────────────────────────
 // Directive appliquée à l'élément déclencheur.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359572', {
+figma.connect('<FIGMA_INFOBULLE__DECLENCHEMENT_AU_SURVOL>', {
   example: () => html`<a href="/page" tooltip="Message de l'infobulle">Libellé du lien</a>`,
   imports: ["import { DsfrTooltipDirective } from '@edugouvfr/ngx-dsfr'"],
 });
 
 // ─── Bulles ──────────────────────────────────────────────────────────────────
 // Les 6 sets de bulle ne correspondent qu'à la position calculée : même code.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359683', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_AU_CENTRE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<dsfr-tooltip-button tooltip="${message}"></dsfr-tooltip-button>`,
   imports: ["import { DsfrTooltipButtonComponent } from '@edugouvfr/ngx-dsfr'"],
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359945', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_AU_CENTRE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<dsfr-tooltip-button tooltip="${message}"></dsfr-tooltip-button>`,
   imports: ["import { DsfrTooltipButtonComponent } from '@edugouvfr/ngx-dsfr'"],
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359964', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_DROITE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<dsfr-tooltip-button tooltip="${message}"></dsfr-tooltip-button>`,
   imports: ["import { DsfrTooltipButtonComponent } from '@edugouvfr/ngx-dsfr'"],
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359983', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_GAUCHE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<dsfr-tooltip-button tooltip="${message}"></dsfr-tooltip-button>`,
   imports: ["import { DsfrTooltipButtonComponent } from '@edugouvfr/ngx-dsfr'"],
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-360002', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_GAUCHE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<dsfr-tooltip-button tooltip="${message}"></dsfr-tooltip-button>`,
   imports: ["import { DsfrTooltipButtonComponent } from '@edugouvfr/ngx-dsfr'"],
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-360021', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_DROITE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<dsfr-tooltip-button tooltip="${message}"></dsfr-tooltip-button>`,
   imports: ["import { DsfrTooltipButtonComponent } from '@edugouvfr/ngx-dsfr'"],

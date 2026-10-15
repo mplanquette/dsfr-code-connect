@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // (ex. plusieurs `<li>`) si un détail multi-lignes est nécessaire. `imageUrl` remplace
 // `imagePath`/`imageAlt`, l'alt vide (RGAA 1.2) est géré nativement par le composant.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-147529', {
+figma.connect('<FIGMA_CITATION__CITATION>', {
   props: {
     image: figma.enum('Illustration', {
       True: ` imageUrl="assets/img/illustration.jpg"`,

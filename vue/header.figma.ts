@@ -12,7 +12,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrHeader from '@gouvminint/vue-dsfr/DsfrHeader.vue'"];
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=148-52', {
+figma.connect('<FIGMA_EN_TETE__DESKTOP_EN_TETE>', {
   props: {
     serviceTitle: figma.boolean('Nom du site', { true: '\n    service-title="Nom du site / de l\'organisme"', false: '' }),
     serviceDescription: figma.boolean('Description', { true: '\n    service-description="Baseline / accroche du site"', false: '' }),
@@ -33,7 +33,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=153-159413', {
+figma.connect('<FIGMA_EN_TETE__MOBILE_EN_TETE>', {
   props: {
     serviceTitle: figma.boolean('Nom du site', { true: '\n    service-title="Nom du site / de l\'organisme"', false: '' }),
     serviceDescription: figma.boolean('Description', { true: '\n    service-description="Baseline / accroche du site"', false: '' }),

@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Aucun composant react-dsfr dédié (pas de `BackToTop.tsx` dans le repo codegouvfr/react-dsfr) :
 // on reprend le markup DSFR brut déjà utilisé côté html/, traduit en JSX (class → className).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16302-202695', {
+figma.connect('<FIGMA_RETOUR_EN_HAUT_DE_PAGE__>', {
   example: () =>
     html`<a className="fr-link fr-icon-arrow-up-fill fr-link--icon-left" href="#top">Haut de page</a>`,
 });

@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // « Taille média » exprime la largeur en colonnes de la grille : 6 → SM, 8 → MD,
 // 10 colonnes 100% → LG.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=84-72', {
+figma.connect('<FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS>', {
   props: {
     size: figma.enum('Taille média', {
       '6 collones': ' contentSize="SM"',

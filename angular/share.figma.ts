@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // L'interpolation ne peut pas être collée au nom du tag (`<dsfr-share${...}`) : le parser
 // a besoin d'un attribut statique avant elle.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-191215', {
+figma.connect('<FIGMA_PARTAGE__PARTAGE>', {
   props: {
     consent: figma.enum('Désactivé', {
       True: ' [hasCookiePermissions]="false"',

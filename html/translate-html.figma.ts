@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // identique, seul aria-expanded change au runtime. Le rendu Mobile est responsive.
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=13489-190689', {
+figma.connect('<FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP>', {
   props: {
     lang: figma.string('Langue'),
     outlineClass: figma.enum('Encadré', {
@@ -31,7 +31,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=13489-191872', {
+figma.connect('<FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_MOBILE>', {
   props: {
     lang: figma.string('Langue'),
   },

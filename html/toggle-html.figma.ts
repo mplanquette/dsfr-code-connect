@@ -7,7 +7,7 @@ import figma, { html } from '@figma/code-connect/html';
 // raisons d'accessibilité : binding conservé pour refléter le design existant.
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=536-45814', {
+figma.connect('<FIGMA_INTERRUPTEUR__ITEM>', {
   props: {
     label: figma.string('Libellé'),
     positionClass: figma.enum('Alignement', { Gauche: ' fr-toggle--label-left', Droite: '' }),
@@ -32,7 +32,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=536-47172', {
+figma.connect('<FIGMA_INTERRUPTEUR__GROUPE>', {
   props: {
     positionClass: figma.enum('Alignement', { Gauche: ' fr-toggle--label-left', Droite: '' }),
     stateClass: figma.enum('État', {

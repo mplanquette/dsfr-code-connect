@@ -7,7 +7,7 @@ import figma, { html } from '@figma/code-connect/html';
 // fragment `html/display-html.figma.ts` (le composant est un simple fieldset de radios,
 // piloté par le script `theme.js` du cœur DSFR, sans état Vue à modéliser ici).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-50596', {
+figma.connect('<FIGMA_PARAMETRE_D_AFFICHAGE__PARAMETRE_D_AFFICHAGE>', {
   example: () =>
     html`<dialog id="theme-modal" class="fr-modal" role="dialog" aria-labelledby="theme-modal-title">
   <div class="fr-container fr-container--fluid fr-container-md">

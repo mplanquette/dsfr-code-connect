@@ -10,7 +10,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrSummary from '@gouvminint/vue-dsfr/DsfrSummary.vue'"];
 
 // ─── Items ───────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-49320', {
+figma.connect('<FIGMA_SOMMAIRE__SOMMAIRE_ITEMS>', {
   example: () =>
     html`<DsfrSummary title="Sommaire" :anchors="[
     { name: 'Titre de section', link: '#titre-de-section' }
@@ -19,7 +19,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-49481', {
+figma.connect('<FIGMA_SOMMAIRE__SOMMAIRE_COMPLET>', {
   example: () =>
     html`<DsfrSummary title="Sommaire" :anchors="[
     { name: 'Première section', link: '#premiere-section' },

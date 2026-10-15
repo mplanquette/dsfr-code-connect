@@ -23,7 +23,7 @@ const props = {
 };
 const imports = ["import { DsfrAlertComponent } from '@edugouvfr/ngx-dsfr'"];
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=1935-224', {
+figma.connect('<FIGMA_ALERTE__ALERTE>', {
   props,
   example: ({ severity, alertSize, closeable }) => html`<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="${severity}" alertSize="${alertSize}"${closeable}></dsfr-alert>`,
   imports,

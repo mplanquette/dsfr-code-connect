@@ -12,7 +12,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Tabs } from '@codegouvfr/react-dsfr/Tabs'"];
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=502-145', {
+figma.connect('<FIGMA_ONGLET__ONGLET_ITEM>', {
   props: {
     icon: figma.boolean('Icône', { true: ", iconId: 'fr-icon-checkbox-line'", false: '' }),
     selected: figma.enum('État', { Défaut: 'false', Courant: 'true', Survol: 'false' }),
@@ -27,7 +27,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=502-340', {
+figma.connect('<FIGMA_ONGLET__ONGLET_GROUPE>', {
   props: {
     icon: figma.boolean('Icône', { true: ", iconId: 'fr-icon-checkbox-line'", false: '' }),
   },
@@ -43,7 +43,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=505-90', {
+figma.connect('<FIGMA_ONGLET__ONGLET_COMPLET>', {
   example: () =>
     html`const tabs = [
   { label: 'Premier onglet', content: 'Contenu du premier onglet', isDefault: true },

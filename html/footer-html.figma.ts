@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // non connectés. Thème sombre = CSS seul.
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=166-771', {
+figma.connect('<FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE>', {
   props: {
     reboundLinks: figma.boolean('Liens', {
       true: `\n    <div class="fr-footer__top">
@@ -70,7 +70,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=177-11734', {
+figma.connect('<FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE>', {
   props: {
     reboundLinks: figma.boolean('Liens', {
       true: `\n    <div class="fr-footer__top">

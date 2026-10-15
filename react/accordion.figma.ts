@@ -32,21 +32,21 @@ const mobileProps = {
 const accordionImports = ["import { Accordion } from '@codegouvfr/react-dsfr/Accordion'"];
 
 // ─── Accordéon - Desktop ──────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-27', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_DESKTOP>', {
   props: desktopProps,
   example: ({ expanded }) => html`<Accordion label="Intitulé accordéon"${expanded}>Contenu de l'accordéon</Accordion>`,
   imports: accordionImports,
 });
 
 // ─── Accordéon - Mobile ───────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-110', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_MOBILE>', {
   props: mobileProps,
   example: ({ expanded }) => html`<Accordion label="Intitulé accordéon"${expanded}>Contenu de l'accordéon</Accordion>`,
   imports: accordionImports,
 });
 
 // ─── Accordéon - Groupe ───────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-600', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_GROUPE>', {
   example: () => html`
 <div className="fr-accordions-group">
   <Accordion label="Intitulé 1">Contenu de l'accordéon 1</Accordion>

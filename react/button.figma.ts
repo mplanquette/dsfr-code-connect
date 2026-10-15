@@ -26,63 +26,63 @@ const props = {
 const imports = ["import { Button } from '@codegouvfr/react-dsfr/Button'"];
 
 // ─── Primaire MD ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=120-4762', {
+figma.connect('<FIGMA_BOUTON__PRIMAIRE_MD>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button type="button"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Primaire SM ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16461-202688', {
+figma.connect('<FIGMA_BOUTON__PRIMAIRE_SM>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button size="small"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Primaire LG ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16461-202690', {
+figma.connect('<FIGMA_BOUTON__PRIMAIRE_LG>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button size="large"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Secondaire MD ─────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16476-239293', {
+figma.connect('<FIGMA_BOUTON__SECONDAIRE_MD>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button priority="secondary"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Secondaire SM ─────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16478-193853', {
+figma.connect('<FIGMA_BOUTON__SECONDAIRE_SM>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button priority="secondary" size="small"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Secondaire LG ─────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16476-239295', {
+figma.connect('<FIGMA_BOUTON__SECONDAIRE_LG>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button priority="secondary" size="large"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Tertiaire MD ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11119-73323', {
+figma.connect('<FIGMA_BOUTON__TERTIAIRE_MD>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button priority="tertiary"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Tertiaire SM ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16483-192400', {
+figma.connect('<FIGMA_BOUTON__TERTIAIRE_SM>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button priority="tertiary" size="small"${iconAttrs}${disabled}>${label}</Button>`,
   imports,
 });
 
 // ─── Tertiaire LG ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16483-192402', {
+figma.connect('<FIGMA_BOUTON__TERTIAIRE_LG>', {
   props,
   example: ({ label, iconAttrs, disabled }) => html`<Button priority="tertiary" size="large"${iconAttrs}${disabled}>${label}</Button>`,
   imports,

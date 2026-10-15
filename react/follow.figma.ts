@@ -20,7 +20,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Follow } from '@codegouvfr/react-dsfr/Follow'"];
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-186707', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP>', {
   props: {
     newsletter: figma.enum('Newsletter', {
       Formulaire: `const newsletter = {
@@ -60,7 +60,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23636-10146', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE>', {
   props: {
     newsletter: figma.enum('Newsletter', {
       Aucun: '',
@@ -102,7 +102,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // ─── Formulaire (élément desktop) ─────────────────────────────────────────────
 // Champ email du formulaire newsletter : react-dsfr n'a pas de composant email
 // dédié (contrairement à `dsfr-form-email`), on utilise <Input> générique.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23649-3349', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP>', {
   props: {
     state: figma.enum('Etat', {
       Default: '',
@@ -118,7 +118,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Formulaire (élément mobile) ──────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23652-29190', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE>', {
   props: {
     state: figma.enum('Etat', {
       Default: '',

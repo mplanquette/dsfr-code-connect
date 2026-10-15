@@ -7,7 +7,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Variante « image » : composant dédié `DsfrPicture` (vue-dsfr a un composant dédié,
 // contrairement à React qui reprend le markup brut).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=84-72', {
+figma.connect('<FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS>', {
   props: {
     size: figma.enum('Taille média', {
       '6 collones': ' size="small"',

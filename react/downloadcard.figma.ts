@@ -17,7 +17,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Card } from '@codegouvfr/react-dsfr/Card'"];
 
 // ─── Desktop / MD / Sans média ───────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506467', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_MD_SANS_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card
@@ -29,7 +29,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / SM / Sans média ───────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506480', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_SM_SANS_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card
@@ -42,7 +42,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / MD / Avec média ───────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506493', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_MD_AVEC_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card
@@ -56,7 +56,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Desktop / SM / Avec média ───────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506511', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_SM_AVEC_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card
@@ -71,7 +71,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / SM / Sans média ────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506618', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_SM_SANS_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card
@@ -84,7 +84,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / SM / Avec média ────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506625', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_SM_AVEC_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card
@@ -99,7 +99,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / MD / Sans média ────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506635', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_MD_SANS_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card
@@ -111,7 +111,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile / MD / Avec média ────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506642', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_MD_AVEC_MEDIA>', {
   props: { disabled: figma.boolean('Désactivé', { true: '\n  nativeDivProps={{ "aria-disabled": true }}', false: '' }) },
   example: ({ disabled }) =>
     html`<Card

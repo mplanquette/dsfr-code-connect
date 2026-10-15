@@ -12,7 +12,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { DsfrCardComponent } from '@edugouvfr/ngx-dsfr'"];
 
 // ─── Verticale / LG ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202030', {
+figma.connect('<FIGMA_CARTE__VERTICALE_LG>', {
   props: {
     media: figma.boolean('Voir Média', {
       true: `\n  imagePath="assets/img/card.jpg"\n  imageAlt=""`,
@@ -30,7 +30,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Verticale / MD ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202061', {
+figma.connect('<FIGMA_CARTE__VERTICALE_MD>', {
   props: {
     media: figma.boolean('Voir Média', {
       true: `\n  imagePath="assets/img/card.jpg"\n  imageAlt=""`,
@@ -47,7 +47,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Verticale / SM ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202092', {
+figma.connect('<FIGMA_CARTE__VERTICALE_SM>', {
   props: {
     media: figma.boolean('Voir Média', {
       true: `\n  imagePath="assets/img/card.jpg"\n  imageAlt=""`,
@@ -65,7 +65,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Horizontale / LG / Avec média ───────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202123', {
+figma.connect('<FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA>', {
   props: {
     proportion: figma.enum('Proportions', {
       '33-66': ' horizontalProportion="1tier/2tier"',
@@ -87,7 +87,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Horizontale / LG / Sans média ───────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202178', {
+figma.connect('<FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA>', {
   props: {
     disabled: figma.boolean('Désactivé', { true: '\n  [disabled]="true"', false: '' }),
   },
@@ -102,7 +102,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Horizontale / MD / Avec média ───────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202192', {
+figma.connect('<FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA>', {
   props: {
     proportion: figma.enum('Proportions', {
       '33-66': ' horizontalProportion="1tier/2tier"',
@@ -123,7 +123,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Horizontale / MD / Sans média ───────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202247', {
+figma.connect('<FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA>', {
   props: {
     disabled: figma.boolean('Désactivé', { true: '\n  [disabled]="true"', false: '' }),
   },
@@ -137,7 +137,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Horizontale / SM / Avec média ───────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202261', {
+figma.connect('<FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA>', {
   props: {
     proportion: figma.enum('Proportions', {
       '33-66': ' horizontalProportion="1tier/2tier"',
@@ -159,7 +159,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Horizontale / SM / Sans média ───────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=21809-202316', {
+figma.connect('<FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA>', {
   props: {
     disabled: figma.boolean('Désactivé', { true: '\n  [disabled]="true"', false: '' }),
   },

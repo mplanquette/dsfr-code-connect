@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // interprète toute valeur d'attribut contenant plusieurs objets comme une liste
 // d'attributs HTML et lève une erreur « Duplicate attribute name » (label répété).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=509-157', {
+figma.connect('<FIGMA_LIEN_D_EVITEMENT__LIENS_D_EVITEMENT>', {
   example: () =>
     html`const links = [
   { label: 'Contenu', anchor: '#contenu' },

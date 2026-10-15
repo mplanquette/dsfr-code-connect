@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Thème sombre = CSS seul. Focus = pseudo-état → ignoré.
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=311-24508', {
+figma.connect('<FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM>', {
   props: {
     sizeClass: figma.enum('Taille', { SM: ' fr-radio-group--sm', MD: '' }),
     checked: figma.boolean('Coché', { true: ' checked', false: '' }),
@@ -29,7 +29,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=314-25444', {
+figma.connect('<FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE>', {
   props: {
     inlineClass: figma.enum('Orientation', { Horizontal: ' fr-fieldset--inline', Vertical: '' }),
     stateClass: figma.enum('État', {
@@ -65,7 +65,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 
 // ─── Section ─────────────────────────────────────────────────────────────────
 // La propriété Figma est nommée « Tire de section » (coquille côté design, conservée telle quelle).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14835-206001', {
+figma.connect('<FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION>', {
   props: {
     legend: figma.string('Tire de section'),
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),

@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Survol, Cliqué et Focus = pseudo-états → seul « Désactivé » modifie le markup.
 // L'icône concrète n'est pas dérivable du design : placeholder fr-icon-arrow-right-line.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=120-4789', {
+figma.connect('<FIGMA_LIEN__LIEN>', {
   props: {
     sizeClass: figma.enum('Taille', { SM: ' fr-link--sm', MD: '', LG: ' fr-link--lg' }),
     iconClass: figma.enum('Icône', {

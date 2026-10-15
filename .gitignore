@@ -5,6 +5,7 @@
 **/.env/
 **/*token*
 .env
+!.env.example
 *.env
 
 # Logs / divers

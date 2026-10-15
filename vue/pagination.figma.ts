@@ -11,7 +11,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrPagination from '@gouvminint/vue-dsfr/DsfrPagination.vue'"];
 
 // ─── Incrément (précédent / suivant) ─────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-177', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_INCREMENT>', {
   props: {
     // Sur la première page (index 0), « Précédente » et « Extrêmes » sont désactivés.
     current: figma.enum('Sens', { Précédente: '0', Suivante: '0' }),
@@ -33,7 +33,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Numéro ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-349', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_NUMERO>', {
   props: {
     current: figma.enum('État', { Défaut: '0', Courant: '2', Survol: '0' }),
   },
@@ -54,7 +54,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complète ────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-482', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_COMPLETE>', {
   example: () =>
     html`<DsfrPagination :pages="[
     { label: '1', title: 'Page 1' },

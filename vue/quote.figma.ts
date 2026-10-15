@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // `details` ensemble plutôt que sur `details` seul.
 // L'image d'illustration est décorative : `DsfrQuote` ne pose pas d'`alt` (géré nativement, vide).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-147529', {
+figma.connect('<FIGMA_CITATION__CITATION>', {
   props: {
     image: figma.enum('Illustration', {
       True: ' quote-image="assets/img/illustration.jpg"',

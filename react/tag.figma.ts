@@ -101,20 +101,20 @@ const dismissGroupProps = {
 };
 
 // ─── Non-cliquable ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482890', {
+figma.connect('<FIGMA_TAG__NON_CLIQUABLE_MD>', {
   props: iconProps,
   example: ({ label, iconAttrs }) => html`<Tag as="p"${iconAttrs}>${label}</Tag>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482894', {
+figma.connect('<FIGMA_TAG__NON_CLIQUABLE_SM>', {
   props: iconProps,
   example: ({ label, iconAttrs }) => html`<Tag as="p" small${iconAttrs}>${label}</Tag>`,
   imports,
 });
 
 // ─── Cliquable ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482688', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_DEFAUT_MD>', {
   props: clickableProps,
   example: ({ label, iconAttrs, disabled }) =>
     html`const linkProps = { href: '#'${disabled} };
@@ -123,7 +123,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482709', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_DEFAUT_SM>', {
   props: clickableProps,
   example: ({ label, iconAttrs, disabled }) =>
     html`const linkProps = { href: '#'${disabled} };
@@ -133,7 +133,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Cliquable personnalisable ──────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359002', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_PERSONNALISABLE_MD>', {
   props: clickableProps,
   example: ({ label, iconAttrs, disabled }) =>
     html`const linkProps = { href: '#'${disabled} };
@@ -142,7 +142,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359246', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_PERSONNALISABLE_SM>', {
   props: clickableProps,
   example: ({ label, iconAttrs, disabled }) =>
     html`const linkProps = { href: '#'${disabled} };
@@ -152,7 +152,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Sélectionnable ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482726', {
+figma.connect('<FIGMA_TAG__SELECTIONNE_MD>', {
   props: selectableProps,
   example: ({ label, iconAttrs, selected, disabled }) =>
     html`const nativeButtonProps = ${disabled};
@@ -161,7 +161,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482783', {
+figma.connect('<FIGMA_TAG__SELECTIONNE_SM>', {
   props: selectableProps,
   example: ({ label, iconAttrs, selected, disabled }) =>
     html`const nativeButtonProps = ${disabled};
@@ -171,7 +171,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Supprimable ────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482832', {
+figma.connect('<FIGMA_TAG__SUPPRIMABLE_MD>', {
   props: deletableProps,
   example: ({ label, dismissible, disabled }) =>
     html`const nativeButtonProps = ${disabled};
@@ -180,7 +180,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482861', {
+figma.connect('<FIGMA_TAG__SUPPRIMABLE_SM>', {
   props: deletableProps,
   example: ({ label, dismissible, disabled }) =>
     html`const nativeButtonProps = ${disabled};
@@ -190,7 +190,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupes ────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482616', {
+figma.connect('<FIGMA_TAG__GROUPE_NON_CLIQUABLE_MD>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag' }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
@@ -199,7 +199,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482625', {
+figma.connect('<FIGMA_TAG__GROUPE_NON_CLIQUABLE_SM>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag' }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
@@ -208,7 +208,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482634', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_DEFAUT_MD>', {
   props: clickableGroupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag', linkProps: { href: '#' } }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
@@ -217,7 +217,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482643', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_DEFAUT_SM>', {
   props: clickableGroupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag', linkProps: { href: '#' } }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
@@ -226,7 +226,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359118', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_PERSONNALISABLE_MD>', {
   props: {},
   example: () =>
     html`const tags = [{ children: 'Libellé tag', className: 'fr-tag--green-emeraude', linkProps: { href: '#' } }];
@@ -235,7 +235,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359217', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_PERSONNALISABLE_SM>', {
   props: {},
   example: () =>
     html`const tags = [{ children: 'Libellé tag', className: 'fr-tag--green-emeraude', linkProps: { href: '#' } }];
@@ -244,7 +244,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482652', {
+figma.connect('<FIGMA_TAG__GROUPE_SELECTIONNE_MD>', {
   props: selectedGroupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag', as: 'button', pressed: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
@@ -253,7 +253,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482661', {
+figma.connect('<FIGMA_TAG__GROUPE_SELECTIONNE_SM>', {
   props: selectedGroupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag', as: 'button', pressed: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
@@ -262,7 +262,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482670', {
+figma.connect('<FIGMA_TAG__GROUPE_SUPPRIMABLE_MD>', {
   props: dismissGroupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag', as: 'button', dismissible: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];
@@ -271,7 +271,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   imports: groupImports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482679', {
+figma.connect('<FIGMA_TAG__GROUPE_SUPPRIMABLE_SM>', {
   props: dismissGroupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) =>
     html`const tags = [{ children: 'Libellé tag', as: 'button', dismissible: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}];

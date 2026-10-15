@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // internes → non connectés. Thème = CSS seul (variante interne). Focus, Survol,
 // Cliqué, Désactivé = pseudo-états/non représentés dans le markup → ignorés.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11985-75836', {
+figma.connect('<FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT>', {
   props: {
     connectClass: figma.boolean('Plus', { true: ' fr-connect--plus', false: '' }),
     linkHref: figma.boolean('Plus', {

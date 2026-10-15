@@ -92,9 +92,9 @@ ipcMain.handle('rebind:analyze', async (_event, { fileKey, token }) => {
   }
 });
 
-ipcMain.handle('rebind:apply', async (_event, { manifest, matched, targetFileKey, stackIds }) => {
+ipcMain.handle('rebind:apply', async (_event, { manifest, matched, targetFileKey }) => {
   try {
-    const filesChanged = await rebindBridge.apply({ manifest, matched, targetFileKey, frameworkDirs: stackIds });
+    const filesChanged = await rebindBridge.apply({ manifest, matched, targetFileKey });
     return { ok: true, filesChanged };
   } catch (err) {
     return { ok: false, error: err.message };

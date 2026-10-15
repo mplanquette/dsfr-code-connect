@@ -12,7 +12,7 @@ import figma, { html } from '@figma/code-connect/html';
 // `iconDisplayed={false}` n'est valable que pour info/alert/warning, non vérifiable dans ce
 // snippet texte, à corriger par le dev si besoin.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11706-73752', {
+figma.connect('<FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES>', {
   props: {
     title: figma.string('Titre'),
     description: figma.string('Description'),

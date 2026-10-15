@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // data-fr-current-step, exploités par le CSS DSFR.
 
 // ─── Indicateur d'étapes ─────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=12356-77678', {
+figma.connect('<FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES>', {
   props: {
     total: figma.enum('Étapes', {
       '2': '2', '3': '3', '4': '4', '5': '5', '6': '6', '7': '7', '8': '8',
@@ -25,7 +25,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Étape ───────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=12355-77053', {
+figma.connect('<FIGMA_INDICATEUR_D_ETAPES__ETAPE>', {
   props: {
     current: figma.enum('État', { Courant: '2', Défaut: '1' }),
   },

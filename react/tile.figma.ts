@@ -18,7 +18,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Tile } from '@codegouvfr/react-dsfr/Tile'"];
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19187-356872', {
+figma.connect('<FIGMA_TUILE__DESKTOP>', {
   props: {
     horizontal: figma.enum('Orientation', { Horizontale: '\n  orientation="horizontal"', Verticale: '' }),
     small: figma.enum('Taille', { SM: '\n  small', MD: '' }),
@@ -38,7 +38,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19547-360323', {
+figma.connect('<FIGMA_TUILE__MOBILE>', {
   props: {
     horizontal: figma.enum('Orientation', { Horizontale: '\n  orientation="horizontal"', Verticale: '' }),
     small: figma.enum('Taille', { SM: '\n  small', MD: '' }),

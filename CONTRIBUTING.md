@@ -4,17 +4,54 @@ Repo de fichiers Code Connect pour afficher des snippets Angular + HTML + React 
 Lire d'abord le [README](./README.md). Ce document explique comment ajouter ou modifier un
 composant du **catalogue DSFR** (49 familles connectées à ce jour, cf. checklist plus bas).
 
-Le fileKey exact du fichier Figma ciblé par défaut se trouve dans les fichiers `*.figma.ts` (voir
-le README pour l'adapter à votre propre fichier).
+Toutes les URLs Figma vivent dans [`figma.config.json`](./figma.config.json), partagé par les quatre
+stacks : les fichiers de code référencent un composant par sa clé (`<FIGMA_BOUTON__PRIMAIRE_MD>`),
+résolue via `documentUrlSubstitutions`. Pour connecter un nouveau node, ajouter d'abord sa clé
+dans ce fichier (convention : `<FIGMA_<PAGE>__<CALQUE>>`, sans accent ni « Thème clair »).
 
-## Pattern de référence : `button`
+## Format cible : templates Code Connect
 
-Voir `angular/button.figma.ts`, `html/button-html.figma.ts`, `react/button.figma.ts` et `vue/button.figma.ts`. Règles invariantes :
+Le repo migre vers l'[API de templates](https://developers.figma.com/docs/code-connect/templates-migration-guide/)
+recommandée par Figma. Les familles déjà migrées servent de référence :
+
+| Exemple | Ce qu'il illustre |
+|---------|-------------------|
+| `html/button.figma.batch.ts` + `.json` | Un seul template pour les 9 sets du bouton, données par set dans le `.json` (`figma.batch`) |
+| `html/modal.figma.batch.ts` | Instances imbriquées : chaque bouton d'action est rendu par **son** template (`executeTemplate`), titre et texte lus dans les calques (`findText`) |
+| `html/input-field.figma.ts` | Atomes internes lus plutôt que figés : libellé, description et message viennent des instances `⚙️ …` imbriquées |
+| `angular/input-field.figma.ts` + `angular/helpers/` | Logique partagée entre templates via un import relatif (le CLI l'embarque au parse) |
+
+Règles :
+
+- En tête de fichier : `// url=<CLÉ>` (template simple) ; pour un template partagé, un
+  `<nom>.figma.batch.json` liste `{ "url": "<CLÉ>", …données }` et pointe `templateFile`.
+- `import figma from 'figma'` puis `figma.selectedInstance` : `getString`, `getBoolean`,
+  `getEnum` (lister **toutes** les valeurs de la variante, sinon `undefined`), `getInstanceSwap`.
+  Les variantes `True`/`False` se lisent avec `getEnum('Désactivé', { True: …, False: … })`.
+- **Enfants** : `findInstance` / `findText` / `findConnectedInstances`. Toujours tester
+  `type === 'INSTANCE'` (ou `'TEXT'`) avant usage : une recherche infructueuse renvoie un objet
+  d'erreur, pas `null`. Un enfant code-connecté se rend avec `executeTemplate().example`, jamais
+  en dur.
+- **Atomes internes `⚙️ …`** : on ne les publie pas comme composants autonomes, mais on **lit**
+  leurs propriétés depuis le composant parent (libellé, message…). Une brique réellement utilisable
+  seule (ex. « Éléments - Champ de saisie ») a son propre template, rendu par le parent.
+- Interpoler les résultats de template avec `figma.code\`…\``, jamais par concaténation (`+`,
+  `.join()` produisent `[object Object]`). Les chaînes simples (attributs) peuvent se concaténer.
+- `metadata: { nestable: true }` pour un composant destiné à être rendu dans un parent.
+- Le label (`Angular`, `HTML`, …) n'est pas dans le fichier : `scripts/connect.sh` le passe au
+  publish ; le langage de coloration en est déduit.
+- `npm run typecheck` vérifie les templates (types `figma` fournis par `@figma/code-connect`).
+
+## Format historique (en cours de migration)
+
+Les autres familles utilisent encore `figma.connect(<CLÉ>, { props, example })` avec le parser
+HTML. Les deux formats coexistent dans un même dossier ; une famille migrée supprime son ancien
+fichier. Règles de l'ancien format, à respecter tant qu'un fichier n'est pas migré :
 
 - Parser `@figma/code-connect/html` : `import figma, { html } from '@figma/code-connect/html'`.
 - **Un `figma.connect(URL, {...})` par component set** Figma. La variante et la taille sont des sets
   distincts (URLs différentes) → elles ne sont PAS des props. button = 9 sets (Primaire/Secondaire/Tertiaire × SM/MD/LG).
-- **URL en string littérale complète** dans le `figma.connect` (jamais de template literal ni de variable).
+- **Clé d'URL en string littérale** dans le `figma.connect` (jamais de template literal ni de variable).
 - **Props dynamiques** via la clé `props` + helpers, avec les **noms FR exacts** des propriétés Figma :
   - `figma.string('Libellé')`
   - `figma.boolean('Désactivé', { true: ' disabled', false: '' })`
@@ -32,10 +69,8 @@ Voir `angular/button.figma.ts`, `html/button-html.figma.ts`, `react/button.figma
   placer un attribut statique avant l'interpolation.
 - **Pas d'esperluette non échappée dans un attribut** (`href="...?a=1&b=2"` casse le parse) :
   passer par une propriété du composant ou échapper en `&amp;`.
-- **Ne pas connecter les atomes internes Figma** (sets nommés `🚫 …`, `_🚫Éléments - Base`, ou
-  `⚙️ …`) : ce sont des briques de construction du design (poignées, pistes, labels, légendes…),
-  jamais utilisées telles quelles par un dev. Le Curseur et le Champ de saisie en comptent
-  beaucoup : ne connecter que les sets de haut niveau réellement utilisables.
+- Les atomes internes (`🚫 …`, `⚙️ …`) ne sont pas lisibles dans ce format : le texte qu'ils
+  portent est figé dans le snippet. C'est la principale raison de la migration.
 - **Sous-éléments sans composant dédié** (item de fil d'Ariane, numéro de pagination, entrée de
   menu latéral…) : côté Angular, montrer le composant parent configuré pour produire cet élément ;
   côté HTML, donner le fragment (`<li>…`) exact. Un même snippet Angular peut donc servir
@@ -62,10 +97,11 @@ Voir `angular/button.figma.ts`, `html/button-html.figma.ts`, `react/button.figma
    (`node_modules/@edugouvfr/ngx-dsfr/lib/components/<composant>/`) ou sa documentation
    ([npmjs.com/package/@edugouvfr/ngx-dsfr](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr)) ;
    classes `fr-*` pour le HTML.
-3. **Écriture** : `angular/<composant>.figma.ts` + `html/<composant>-html.figma.ts` + `react/<composant>.figma.ts` + `vue/<composant>.figma.ts`.
-4. **Parse** : `npx figma connect parse` dans chaque dossier (zéro erreur).
+3. **Écriture** : clé(s) dans `figma.config.json`, puis un template par stack
+   (`angular/`, `html/`, `react/`, `vue/`), au format cible ci-dessus.
+4. **Vérification** : `npm run typecheck` puis `npm run parse -- --all` (zéro erreur).
 5. **Validation humaine du mapping** avant publish.
-6. **Publish** : `--label "Angular"` puis `--label "HTML"` puis `--label "React"` puis `--label "Vue"` (cf. README).
+6. **Publish** : `npm run publish -- --all` (le label de chaque stack est passé par le script).
 7. **Vérif Dev Mode** (2 onglets + maj live).
 8. **Renommer la page Figma** en ajoutant le suffixe ` 🔗` : c'est le signal visuel, dans l'arbre des
    pages, qu'un Code Connect existe pour cette famille de composants.
@@ -75,7 +111,7 @@ Voir `angular/button.figma.ts`, `html/button-html.figma.ts`, `react/button.figma
 
 | Composant DSFR (FR) | ngx-dsfr (sélecteur)         | Props bindées (Figma → code)                                   |
 |---------------------|------------------------------|-----------------------------------------------------------------|
-| Bouton              | `<dsfr-button>`              | Libellé→label · Désactivé→disabled · Icône→icon/iconPosition    |
+| Bouton              | `<dsfr-button>`              | Libellé→label · Désactivé→disabled · Icône→icon/iconPosition · Bordure (tertiaire)→tertiary-no-outline |
 | Accordéon           | `<dsfr-accordion>`           | État→expanded (Ouvert=true) · Thème/Support ignorés (CSS seuls) |
 | Accordéon Groupe    | `<dsfr-accordions-group>`    | Pas de binding (snippet statique 3 accordéons)                  |
 | Alerte              | `<dsfr-alert>`               | État→severity · Taille→alertSize · Fermeture→closeable · Thème/Support ignorés |
@@ -96,7 +132,7 @@ Voir `angular/button.figma.ts`, `html/button-html.figma.ts`, `react/button.figma
 | Sommaire            | `<dsfr-summary>`             | Imbriqué→subEntries |
 | Sélecteur de langue | `<dsfr-translate>`           | Langue→currentLangCode · Encadré→outline |
 | Menu latéral        | `<dsfr-sidemenu>`            | Position→position · Titre→menu.title · Éléments→items/subItems · Courant→active |
-| Champ de saisie     | `<dsfr-form-input>`          | Texte Area→textarea/rows · Icône→icon · Désactivé · État→messageSeverity |
+| Champ de saisie     | `<dsfr-form-input>`          | Atome Libellé→label/hint · Atome Message→message · Texte Area→textarea/rows · Icône→icon · Désactivé · État→messageSeverity |
 | Curseur             | `<dsfr-range>`                | État→disabled/messageSeverity · cranté→step |
 | Barre de recherche  | `<dsfr-search-bar>`          | Taille LG→large |
 | Ajout de fichier    | `<dsfr-form-upload>`         | État→disabled/error |
@@ -120,7 +156,7 @@ Voir `angular/button.figma.ts`, `html/button-html.figma.ts`, `react/button.figma
 | Contenu médias      | `<dsfr-content>`             | Taille média 6/8/10 colonnes→contentSize SM/MD/LG |
 | Partage             | `<dsfr-share>` / `<dsfr-share-link>` | Désactivé→hasCookiePermissions |
 | Infobulle           | `<dsfr-tooltip-button>` / directive `tooltip` | Message→tooltip · Direction/Alignement calculés par fr-placement |
-| Modale              | `<dsfr-modal>`               | Taille→modalSize · Icône titre→icon · Boutons 1/2/Sans→actions |
+| Modale              | `<dsfr-modal>`               | Taille→modalSize · Icône titre→icon · Titre/Texte (calques)→titleModal/contenu · Libellés des boutons imbriqués→actions |
 | Transcription       | `<dsfr-transcription>`       | Titre→heading · Ouvert non bindable (collapse JS) |
 | Tableau             | `<dsfr-datatable>` (DsfrColumn.formatFunction) | Fragments HTML bruts par type de cellule/en-tête/barre d'outils (pas de sous-composant dédié) |
 
@@ -131,8 +167,9 @@ Rappels d'API utiles :
 ## Rebranchement sur un autre fichier Figma
 
 Figma réattribue un nouveau node-id à chaque composant à chaque republication de fichier, même pour
-un composant strictement inchangé : impossible de se contenter de changer le fileKey, chaque
-`figma.connect(URL, …)` doit être repointée. C'est vrai aussi bien pour une nouvelle version du même
+un composant strictement inchangé : impossible de se contenter de changer le fileKey, chaque URL de
+`figma.config.json` doit être repointée (les fichiers de code, qui n'utilisent que des clés, ne
+bougent pas). C'est vrai aussi bien pour une nouvelle version du même
 fichier (montée de version DSFR) que pour un fichier entièrement différent (copie d'une autre équipe).
 
 Le script `scripts/rebind-to-your-file.mjs` gère les deux cas (voir le README, section

@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // « Désactivé » traduit l'absence de consentement aux cookies tiers : les liens
 // réseaux sociaux sont désactivés, le lien mail et la copie restent actifs.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-191215', {
+figma.connect('<FIGMA_PARTAGE__PARTAGE>', {
   props: {
     disabled: figma.enum('Désactivé', { True: ' aria-disabled="true"', False: '' }),
     cookiesText: figma.enum('Désactivé', {

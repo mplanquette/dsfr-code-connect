@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // La description et le bouton éventuel se projettent en contenu (ng-content).
 // L'icône concrète n'est pas dérivable du design : placeholder fr-icon-information-line.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=338-7145', {
+figma.connect('<FIGMA_MISE_EN_AVANT__MISE_EN_AVANT>', {
   props: {
     icon: figma.enum('Icône', { True: ' icon="fr-icon-information-line"', False: '' }),
     button: figma.enum('Bouton', {

@@ -64,126 +64,126 @@ const customGroupProps = {
 };
 
 // ─── Non-cliquable ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482890', {
+figma.connect('<FIGMA_TAG__NON_CLIQUABLE_MD>', {
   props: iconProps,
   example: ({ label, iconAttr }) => html`<dsfr-tag label="${label}"${iconAttr}></dsfr-tag>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482894', {
+figma.connect('<FIGMA_TAG__NON_CLIQUABLE_SM>', {
   props: iconProps,
   example: ({ label, iconAttr }) => html`<dsfr-tag label="${label}" [small]="true"${iconAttr}></dsfr-tag>`,
   imports,
 });
 
 // ─── Cliquable ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482688', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_DEFAUT_MD>', {
   props: clickableProps,
   example: ({ label, iconAttr, disabled }) => html`<dsfr-tag label="${label}" mode="clickable" link="#"${iconAttr}${disabled}></dsfr-tag>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482709', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_DEFAUT_SM>', {
   props: clickableProps,
   example: ({ label, iconAttr, disabled }) => html`<dsfr-tag label="${label}" mode="clickable" link="#" [small]="true"${iconAttr}${disabled}></dsfr-tag>`,
   imports,
 });
 
 // ─── Cliquable personnalisable ──────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359002', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_PERSONNALISABLE_MD>', {
   props: clickableProps,
   example: ({ label, iconAttr, disabled }) => html`<dsfr-tag label="${label}" mode="clickable" link="#" customClass="fr-tag--green-emeraude"${iconAttr}${disabled}></dsfr-tag>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359246', {
+figma.connect('<FIGMA_TAG__CLIQUABLE_PERSONNALISABLE_SM>', {
   props: clickableProps,
   example: ({ label, iconAttr, disabled }) => html`<dsfr-tag label="${label}" mode="clickable" link="#" customClass="fr-tag--green-emeraude" [small]="true"${iconAttr}${disabled}></dsfr-tag>`,
   imports,
 });
 
 // ─── Sélectionnable ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482726', {
+figma.connect('<FIGMA_TAG__SELECTIONNE_MD>', {
   props: selectableProps,
   example: ({ label, iconAttr, selected, disabled }) => html`<dsfr-tag label="${label}" mode="selectable"${iconAttr}${selected}${disabled}></dsfr-tag>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482783', {
+figma.connect('<FIGMA_TAG__SELECTIONNE_SM>', {
   props: selectableProps,
   example: ({ label, iconAttr, selected, disabled }) => html`<dsfr-tag label="${label}" mode="selectable" [small]="true"${iconAttr}${selected}${disabled}></dsfr-tag>`,
   imports,
 });
 
 // ─── Supprimable ────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482832', {
+figma.connect('<FIGMA_TAG__SUPPRIMABLE_MD>', {
   props: deletableProps,
   example: ({ label, mode, disabled }) => html`<dsfr-tag label="${label}"${mode}${disabled}></dsfr-tag>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482861', {
+figma.connect('<FIGMA_TAG__SUPPRIMABLE_SM>', {
   props: deletableProps,
   example: ({ label, mode, disabled }) => html`<dsfr-tag label="${label}" [small]="true"${mode}${disabled}></dsfr-tag>`,
   imports,
 });
 
 // ─── Groupes ────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482616', {
+figma.connect('<FIGMA_TAG__GROUPE_NON_CLIQUABLE_MD>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group [tags]="[{ label: 'Libellé tag' }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482625', {
+figma.connect('<FIGMA_TAG__GROUPE_NON_CLIQUABLE_SM>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group [tags]="[{ label: 'Libellé tag', small: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482634', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_DEFAUT_MD>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group mode="clickable" [tags]="[{ label: 'Libellé tag', link: '#' }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482643', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_DEFAUT_SM>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group mode="clickable" [tags]="[{ label: 'Libellé tag', link: '#', small: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359118', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_PERSONNALISABLE_MD>', {
   props: {},
   example: () => html`<dsfr-tags-group mode="clickable" [tags]="[{ label: 'Libellé tag', link: '#', customClass: 'fr-tag--green-emeraude' }]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19386-359217', {
+figma.connect('<FIGMA_TAG__GROUPE_CLIQUABLE_PERSONNALISABLE_SM>', {
   props: {},
   example: () => html`<dsfr-tags-group mode="clickable" [tags]="[{ label: 'Libellé tag', link: '#', customClass: 'fr-tag--green-emeraude', small: true }]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482652', {
+figma.connect('<FIGMA_TAG__GROUPE_SELECTIONNE_MD>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group mode="selectable" [tags]="[{ label: 'Libellé tag', selected: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482661', {
+figma.connect('<FIGMA_TAG__GROUPE_SELECTIONNE_SM>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group mode="selectable" [tags]="[{ label: 'Libellé tag', selected: true, small: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482670', {
+figma.connect('<FIGMA_TAG__GROUPE_SUPPRIMABLE_MD>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group mode="deletable" [tags]="[{ label: 'Libellé tag' }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-482679', {
+figma.connect('<FIGMA_TAG__GROUPE_SUPPRIMABLE_SM>', {
   props: groupProps,
   example: ({ tag2, tag3, tag4, tag5, tag6, tag7, tag8 }) => html`<dsfr-tags-group mode="deletable" [tags]="[{ label: 'Libellé tag', small: true }${tag2}${tag3}${tag4}${tag5}${tag6}${tag7}${tag8}]"></dsfr-tags-group>`,
   imports,

@@ -10,7 +10,7 @@ const imports = [
 
 // ─── Item ────────────────────────────────────────────────────────────────────
 // Un onglet seul se déclare avec <dsfr-tab> dans un <dsfr-tabs>.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=502-145', {
+figma.connect('<FIGMA_ONGLET__ONGLET_ITEM>', {
   props: {
     icon: figma.boolean('Icône', { true: ' icon="fr-icon-checkbox-line"', false: '' }),
     selected: figma.enum('État', { Défaut: '1', Courant: '0', Survol: '1' }),
@@ -23,7 +23,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=502-340', {
+figma.connect('<FIGMA_ONGLET__ONGLET_GROUPE>', {
   props: {
     icon: figma.boolean('Icône', { true: ' icon="fr-icon-checkbox-line"', false: '' }),
   },
@@ -37,7 +37,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=505-90', {
+figma.connect('<FIGMA_ONGLET__ONGLET_COMPLET>', {
   example: () =>
     html`<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets">
   <dsfr-tab tabId="tab-1" label="Premier onglet">Contenu du premier onglet</dsfr-tab>

@@ -13,7 +13,7 @@ import figma, { html } from '@figma/code-connect/html';
 // contenant plusieurs objets comme une liste d'attributs HTML et lève une erreur
 // « Duplicate attribute name » (severity/message se répètent entre les 3 objets).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=16255-202687', {
+figma.connect('<FIGMA_MOT_DE_PASSE__>', {
   props: {
     autocomplete: figma.enum('Nouveau mot de passe', {
       True: `{ autoComplete: 'new-password' }`,

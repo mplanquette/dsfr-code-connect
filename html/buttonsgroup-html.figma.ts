@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // (variante interne) → non bindé.
 
 // ─── Non hiérarchisé ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=571-49989', {
+figma.connect('<FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE>', {
   props: {
     inlineClass: figma.enum('Orientation', { Horizontal: ' fr-btns-group--inline', Vertical: '' }),
     sizeClass: figma.enum('Taille', { SM: ' fr-btns-group--sm', MD: '', LG: ' fr-btns-group--lg' }),
@@ -17,7 +17,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Hiérarchisé ─────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=571-49112', {
+figma.connect('<FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE>', {
   props: {
     inlineClass: figma.enum('Orientation', { Horizontal: ' fr-btns-group--inline', Vertical: '' }),
     sizeClass: figma.enum('Taille', { SM: ' fr-btns-group--sm', MD: '', LG: ' fr-btns-group--lg' }),
