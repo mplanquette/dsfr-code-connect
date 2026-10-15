@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Thème sombre = CSS seul. Focus, Survol, Cliqué = pseudo-états → ignorés.
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=25102-225135', {
+figma.connect('<FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE>', {
   props: {
     legendClass: figma.enum('Légende', { Horizontale: ' fr-segmented__legend--inline', 'Au dessus': '' }),
   },
@@ -31,7 +31,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=25126-368426', {
+figma.connect('<FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE>', {
   props: {
     legendClass: figma.enum('Légende', { Horizontale: ' fr-segmented__legend--inline', 'Au dessus': '' }),
   },
@@ -56,7 +56,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Cas max (Mobile) ────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=24757-5456', {
+figma.connect('<FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE_CAS_MAX>', {
   example: () =>
     html`<fieldset class="fr-segmented">
   <legend class="fr-segmented__legend">Légende du contrôle</legend>

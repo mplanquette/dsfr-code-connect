@@ -14,19 +14,18 @@
 //
 // Sans --apply : dry-run, écrit rebind-report.json et affiche un résumé, ne modifie aucun fichier.
 // Avec --apply : réécrit, uniquement pour les correspondances non ambiguës, le fileKey et les
-// node-id dans tous les *.figma.ts des dossiers frameworks (angular/, html/, react/, vue/).
+// node-id du figma.config.json racine (documentUrlSubstitutions), seul endroit où vivent les URLs.
 //
 // Les fonctions ci-dessous (fetchComponents, matchManifest, applyRebind) sont exportées pour être
 // réutilisées telles quelles par l'app desktop (desktop/src/main/rebind-bridge.ts) : un seul fichier
 // source de vérité pour la logique de rebranchement, partagé entre le CLI et l'UI.
 
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
 
 const REPO_ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
-const DEFAULT_FRAMEWORK_DIRS = ['angular', 'html', 'react', 'vue'];
 
 function parseArgs(argv) {
   const args = { apply: false };
@@ -164,42 +163,24 @@ export function matchManifest(manifest, targetComponents) {
   };
 }
 
-// Réécrit, pour les entrées `matched` uniquement, le fileKey et les node-id dans tous les *.figma.ts
-// des dossiers frameworks sélectionnés. Retourne le nombre de fichiers effectivement modifiés.
-export function applyRebind({ manifest, matched, targetFileKey, frameworkDirs = DEFAULT_FRAMEWORK_DIRS, repoRoot = REPO_ROOT }) {
-  let filesChanged = 0;
-  for (const dir of frameworkDirs) {
-    const dirPath = join(repoRoot, dir);
-    let files;
-    try {
-      files = readdirSync(dirPath).filter((f) => f.endsWith('.figma.ts'));
-    } catch {
-      continue;
-    }
-    for (const file of files) {
-      const filePath = join(dirPath, file);
-      let content = readFileSync(filePath, 'utf8');
-      const original = content;
+// Réécrit, pour les entrées `matched` uniquement, le fileKey et les node-id du figma.config.json
+// racine. Retourne le nombre de fichiers effectivement modifiés (0 ou 1).
+export function applyRebind({ manifest, matched, targetFileKey, repoRoot = REPO_ROOT }) {
+  const filePath = join(repoRoot, 'figma.config.json');
+  const original = readFileSync(filePath, 'utf8');
+  let content = original.split(manifest.sourceFileKey).join(targetFileKey);
 
-      if (content.includes(manifest.sourceFileKey)) {
-        content = content.split(manifest.sourceFileKey).join(targetFileKey);
-      }
-
-      for (const m of matched) {
-        const oldDash = m.nodeId.replace(':', '-');
-        const newDash = m.targetNodeId.replace(':', '-');
-        if (oldDash === newDash) continue;
-        const re = new RegExp(`node-id=${escapeRegExp(oldDash)}(?=[^0-9-]|$)`, 'g');
-        content = content.replace(re, `node-id=${newDash}`);
-      }
-
-      if (content !== original) {
-        writeFileSync(filePath, content);
-        filesChanged++;
-      }
-    }
+  for (const m of matched) {
+    const oldDash = m.nodeId.replace(':', '-');
+    const newDash = m.targetNodeId.replace(':', '-');
+    if (oldDash === newDash) continue;
+    const re = new RegExp(`node-id=${escapeRegExp(oldDash)}(?=[^0-9-]|$)`, 'g');
+    content = content.replace(re, `node-id=${newDash}`);
   }
-  return filesChanged;
+
+  if (content === original) return 0;
+  writeFileSync(filePath, content);
+  return 1;
 }
 
 /**
@@ -210,15 +191,23 @@ export function loadManifest(manifestPath = join(REPO_ROOT, 'scripts', 'manifest
   return JSON.parse(readFileSync(manifestPath, 'utf8'));
 }
 
+// Lit FIGMA_ACCESS_TOKEN dans le .env racine, même emplacement que pour scripts/connect.sh.
+function tokenFromDotEnv() {
+  const envPath = join(REPO_ROOT, '.env');
+  if (!existsSync(envPath)) return undefined;
+  const line = readFileSync(envPath, 'utf8').split(/\r?\n/).find((l) => l.startsWith('FIGMA_ACCESS_TOKEN='));
+  return line?.slice('FIGMA_ACCESS_TOKEN='.length).trim() || undefined;
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   if (!args.fileKey) {
     console.error('Usage : node scripts/rebind-to-your-file.mjs --file-key <VOTRE_FILE_KEY> [--token <PAT>] [--apply]');
     process.exit(1);
   }
-  const token = args.token ?? process.env.FIGMA_ACCESS_TOKEN;
+  const token = args.token ?? process.env.FIGMA_ACCESS_TOKEN ?? tokenFromDotEnv();
   if (!token) {
-    console.error('Token Figma manquant : passez --token <PAT> ou définissez FIGMA_ACCESS_TOKEN.');
+    console.error('Token Figma manquant : passez --token <PAT>, définissez FIGMA_ACCESS_TOKEN ou renseignez .env.');
     process.exit(1);
   }
 

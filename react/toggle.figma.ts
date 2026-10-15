@@ -19,7 +19,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { ToggleSwitch } from '@codegouvfr/react-dsfr/ToggleSwitch'"];
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=536-45814', {
+figma.connect('<FIGMA_INTERRUPTEUR__ITEM>', {
   props: {
     label: figma.string('Libellé'),
     hint: figma.boolean('Voir Texte d\'aide', { true: ' helperText="Texte d\'aide"', false: '' }),
@@ -34,7 +34,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=536-47172', {
+figma.connect('<FIGMA_INTERRUPTEUR__GROUPE>', {
   props: {
     position: figma.enum('Alignement', { Gauche: ' labelPosition="left"', Droite: '' }),
   },

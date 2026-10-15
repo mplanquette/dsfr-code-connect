@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // « Niveau d'alerte », qui porte seul la valeur de `type` → non bindé.
 // « Voir le lien » n'est pas bindable : le lien se projette en contenu ([link]).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11706-73752', {
+figma.connect('<FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES>', {
   props: {
     heading: figma.string('Titre'),
     description: figma.string('Description'),

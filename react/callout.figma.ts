@@ -15,7 +15,7 @@ const props = {
 };
 const imports = ["import { CallOut } from '@codegouvfr/react-dsfr/CallOut'"];
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=338-7145', {
+figma.connect('<FIGMA_MISE_EN_AVANT__MISE_EN_AVANT>', {
   props,
   example: ({ icon, button }) =>
     html`<CallOut title="Titre de la mise en avant"${icon}${button}>

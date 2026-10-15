@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // devient `format="PDF"` + `size="506 Ko"`).
 
 // ─── Lien de téléchargement (seul) ───────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506422', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT>', {
   example: () =>
     html`<DsfrFileDownload
     title="Nom du fichier"
@@ -21,7 +21,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Lien de téléchargement - Groupe ──────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506343', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE>', {
   props: {
     title: figma.boolean('Titre', { true: 'Titre du groupe', false: '' }),
   },

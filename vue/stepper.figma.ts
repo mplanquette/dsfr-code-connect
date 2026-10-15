@@ -10,7 +10,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrStepper from '@gouvminint/vue-dsfr/DsfrStepper.vue'"];
 
 // ─── Indicateur d'étapes ─────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=12356-77678', {
+figma.connect('<FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES>', {
   props: {
     steps: figma.enum('Étapes', {
       '2': `['Titre de l\\'étape 1', 'Titre de l\\'étape 2']`,
@@ -28,7 +28,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 
 // ─── Étape ───────────────────────────────────────────────────────────────────
 // Une étape n'a pas de composant dédié : elle se pilote par `current-step`.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=12355-77053', {
+figma.connect('<FIGMA_INDICATEUR_D_ETAPES__ETAPE>', {
   props: {
     current: figma.enum('État', { Courant: '2', Défaut: '1' }),
   },

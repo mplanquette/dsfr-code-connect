@@ -24,7 +24,7 @@ const actionsProp = figma.enum('Boutons', {
 });
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=447-7149', {
+figma.connect('<FIGMA_MODALE__MODALE_DESKTOP>', {
   props: {
     size: figma.enum('Taille', { SM: ' size="sm"', MD: '', LG: ' size="lg"' }),
     icon: figma.boolean('Icône titre', { true: ' icon="fr-icon-warning-line"', false: '' }),
@@ -42,7 +42,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=447-7150', {
+figma.connect('<FIGMA_MODALE__MODALE_MOBILE>', {
   props: {
     icon: figma.boolean('Icône titre', { true: ' icon="fr-icon-warning-line"', false: '' }),
     actions: actionsProp,
@@ -59,7 +59,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Surcouche ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=447-7151', {
+figma.connect('<FIGMA_MODALE__MODALE_SURCOUCHE>', {
   example: () =>
     html`<DsfrModal
   modal-id="modal"

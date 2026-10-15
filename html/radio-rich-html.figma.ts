@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // de pictogramme à remplacer par l'asset réel.
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=517-44003', {
+figma.connect('<FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE>', {
   props: {
     checked: figma.boolean('Coché', { true: ' checked', false: '' }),
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
@@ -35,7 +35,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14738-205727', {
+figma.connect('<FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE>', {
   props: {
     stateClass: figma.enum('État', {
       Default: '',
@@ -67,7 +67,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Section ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14835-216167', {
+figma.connect('<FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION>', {
   props: {
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
   },

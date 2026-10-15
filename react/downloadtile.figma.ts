@@ -10,7 +10,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Tile } from '@codegouvfr/react-dsfr/Tile'"];
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506852', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP>', {
   props: {
     small: figma.enum('Taille', { SM: '\n  small', MD: '' }),
     picto: figma.boolean('Voir Picto', {
@@ -29,7 +29,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20953-506949', {
+figma.connect('<FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE>', {
   props: {
     small: figma.enum('Taille', { SM: '\n  small', MD: '' }),
     picto: figma.boolean('Voir Picto', {

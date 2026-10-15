@@ -12,50 +12,50 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Tooltip } from '@codegouvfr/react-dsfr/Tooltip'"];
 
 // ─── Déclenchement au clic ───────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359535', {
+figma.connect('<FIGMA_INFOBULLE__DECLENCHEMENT_AU_CLICK>', {
   example: () => html`<Tooltip kind="click" title="Message de l'infobulle" />`,
   imports,
 });
 
 // ─── Déclenchement au survol ─────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359572', {
+figma.connect('<FIGMA_INFOBULLE__DECLENCHEMENT_AU_SURVOL>', {
   example: () => html`<Tooltip title="Message de l'infobulle">Libellé du lien</Tooltip>`,
   imports,
 });
 
 // ─── Bulles ──────────────────────────────────────────────────────────────────
 // Les 6 sets de bulle ne correspondent qu'à la position calculée : même code.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359683', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_AU_CENTRE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<Tooltip title="${message}" />`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359945', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_AU_CENTRE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<Tooltip title="${message}" />`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359964', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_DROITE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<Tooltip title="${message}" />`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-359983', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_GAUCHE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<Tooltip title="${message}" />`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-360002', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_GAUCHE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<Tooltip title="${message}" />`,
   imports,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=20430-360021', {
+figma.connect('<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_DROITE>', {
   props: { message: figma.string('Message') },
   example: ({ message }) => html`<Tooltip title="${message}" />`,
   imports,

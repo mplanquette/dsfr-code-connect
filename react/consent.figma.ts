@@ -13,7 +13,7 @@ import figma, { html } from '@figma/code-connect/html';
 // par `Placeholder` (`consentManagement/Placeholder.tsx`), sans équivalent ngx-dsfr.
 
 // ─── Bandeau de consentement ──────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=630-158', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__BANDEAU_DE_CONSENTEMENT>', {
   example: () =>
     html`const { ConsentBannerAndConsentManagement } = createConsentManagement({
   finalityDescription: {
@@ -29,7 +29,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 
 // ─── Modale de consentement - Complète ────────────────────────────────────────
 // La modale est intégrée à `ConsentBannerAndConsentManagement`, elle ne se pose pas seule.
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=679-1138', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_COMPLETE>', {
   example: () =>
     html`const { ConsentBannerAndConsentManagement } = createConsentManagement({
   finalityDescription: {
@@ -46,7 +46,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // ─── Modale de consentement - Item ────────────────────────────────────────────
 // Un item de finalité n'a pas de composant dédié : il se déclare comme entrée de
 // `finalityDescription` (clé + `title`/`description`/`subFinalities`).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=644-54579', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM>', {
   props: {
     finality: figma.enum('Type', {
       Simple: `mesureAudience: { title: "Mesure d'audience" }`,
@@ -77,7 +77,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // ─── Service indisponible ─────────────────────────────────────────────────────
 // `onGranted` reçoit `assumeConsent`, retourné par le hook `useConsent` généré par
 // `createConsentManagement` (cf. sets ci-dessus).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=703-55173', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__SERVICE_INDISPONIBLE>', {
   example: () =>
     html`<Placeholder
   title="Contenu bloqué"

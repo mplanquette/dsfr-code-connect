@@ -1,0 +1,13 @@
+{
+  "templateFile": "./modal.figma.batch.ts",
+  "components": [
+    {
+      "url": "<FIGMA_MODALE__MODALE_DESKTOP>",
+      "layout": "desktop"
+    },
+    {
+      "url": "<FIGMA_MODALE__MODALE_MOBILE>",
+      "layout": "mobile"
+    }
+  ]
+}

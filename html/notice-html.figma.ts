@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // « Type » est redondant avec « Niveau d'alerte », qui porte seul la classe modificatrice.
 // « Voir le lien » n'est pas bindé : le lien s'ajoute dans le fr-notice__body.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11706-73752', {
+figma.connect('<FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES>', {
   props: {
     heading: figma.string('Titre'),
     description: figma.string('Description'),

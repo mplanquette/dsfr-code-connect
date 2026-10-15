@@ -9,7 +9,7 @@ import figma, { html } from '@figma/code-connect/html';
 // définis côté application hôte, comme pour `share.figma.ts` (Angular) : évite les esperluettes
 // non échappées dans un attribut littéral.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-191215', {
+figma.connect('<FIGMA_PARTAGE__PARTAGE>', {
   props: {
     networks: figma.enum('Désactivé', {
       True: ' :networks="[]"',

@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // conformément au DSFR : ils restent focusables (RGAA 7.3).
 
 // ─── Incrément (précédent / suivant) ─────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-177', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_INCREMENT>', {
   props: {
     directionClass: figma.enum('Sens', {
       Précédente: ' fr-pagination__link--prev',
@@ -27,7 +27,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Numéro ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-349', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_NUMERO>', {
   props: {
     current: figma.enum('État', {
       Défaut: ' href="#"',
@@ -42,7 +42,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complète ────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-482', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_COMPLETE>', {
   example: () =>
     html`<nav role="navigation" class="fr-pagination" aria-label="Pagination des résultats">
   <ul class="fr-pagination__list">

@@ -3,7 +3,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Ajout de fichier DSFR : 1 set, même mapping que angular/upload.figma.ts et
 // html/upload-html.figma.ts. Thème = CSS seul.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=10366-72136', {
+figma.connect('<FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER>', {
   props: {
     disabled: figma.enum('État', { Défaut: '', Erreur: '', Désactivé: ' disabled' }),
     error: figma.enum('État', {

@@ -6,61 +6,61 @@ import figma, { html } from '@figma/code-connect/html';
 // Badge Personnalisable → classe couleur fr-badge--blue-cumulus à remplacer par le token voulu.
 
 // ─── Information MD ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510838', {
+figma.connect('<FIGMA_BADGE__INFORMATION_MD>', {
   example: () => html`<p class="fr-badge fr-badge--info">Information</p>`,
 });
 
 // ─── Succès MD ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510850', {
+figma.connect('<FIGMA_BADGE__SUCCES_MD>', {
   example: () => html`<p class="fr-badge fr-badge--success">Succès</p>`,
 });
 
 // ─── Avertissement MD ────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510842', {
+figma.connect('<FIGMA_BADGE__AVERTISSEMENT_MD>', {
   example: () => html`<p class="fr-badge fr-badge--warning">Avertissement</p>`,
 });
 
 // ─── Erreur MD ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510846', {
+figma.connect('<FIGMA_BADGE__ERREUR_MD>', {
   example: () => html`<p class="fr-badge fr-badge--error">Erreur</p>`,
 });
 
 // ─── Nouveau MD ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510834', {
+figma.connect('<FIGMA_BADGE__NOUVEAU_MD>', {
   example: () => html`<p class="fr-badge fr-badge--new">Nouveau</p>`,
 });
 
 // ─── Personnalisable MD ──────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510832', {
+figma.connect('<FIGMA_BADGE__PERSONNALISABLE_MD>', {
   example: () => html`<p class="fr-badge fr-badge--blue-cumulus">Personnalisable</p>`,
 });
 
 // ─── Information SM ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510860', {
+figma.connect('<FIGMA_BADGE__INFORMATION_SM>', {
   example: () => html`<p class="fr-badge fr-badge--sm fr-badge--info">Information</p>`,
 });
 
 // ─── Succès SM ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510872', {
+figma.connect('<FIGMA_BADGE__SUCCES_SM>', {
   example: () => html`<p class="fr-badge fr-badge--sm fr-badge--success">Succès</p>`,
 });
 
 // ─── Avertissement SM ────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510864', {
+figma.connect('<FIGMA_BADGE__AVERTISSEMENT_SM>', {
   example: () => html`<p class="fr-badge fr-badge--sm fr-badge--warning">Avertissement</p>`,
 });
 
 // ─── Erreur SM ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510868', {
+figma.connect('<FIGMA_BADGE__ERREUR_SM>', {
   example: () => html`<p class="fr-badge fr-badge--sm fr-badge--error">Erreur</p>`,
 });
 
 // ─── Nouveau SM ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510856', {
+figma.connect('<FIGMA_BADGE__NOUVEAU_SM>', {
   example: () => html`<p class="fr-badge fr-badge--sm fr-badge--new">Nouveau</p>`,
 });
 
 // ─── Personnalisable SM ──────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510854', {
+figma.connect('<FIGMA_BADGE__PERSONNALISABLE_SM>', {
   example: () => html`<p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">Personnalisable</p>`,
 });

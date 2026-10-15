@@ -12,7 +12,7 @@ const imports = [
 ];
 
 // ─── Non hiérarchisé ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=571-49989', {
+figma.connect('<FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE>', {
   props: {
     inline: figma.enum('Orientation', { Horizontal: ' inline-layout-when="always"', Vertical: '' }),
     size: figma.enum('Taille', { SM: ' size="sm"', MD: '', LG: ' size="lg"' }),
@@ -26,7 +26,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Hiérarchisé ─────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=571-49112', {
+figma.connect('<FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE>', {
   props: {
     inline: figma.enum('Orientation', { Horizontal: ' inline-layout-when="always"', Vertical: '' }),
     size: figma.enum('Taille', { SM: ' size="sm"', MD: '', LG: ' size="lg"' }),

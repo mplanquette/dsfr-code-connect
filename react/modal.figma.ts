@@ -16,7 +16,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { createModal } from '@codegouvfr/react-dsfr/Modal'"];
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=447-7149', {
+figma.connect('<FIGMA_MODALE__MODALE_DESKTOP>', {
   props: {
     size: figma.enum('Taille', { SM: ' size="small"', MD: '', LG: ' size="large"' }),
     icon: figma.boolean('Icône titre', { true: ' iconId="fr-icon-warning-line"', false: '' }),
@@ -37,7 +37,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=447-7150', {
+figma.connect('<FIGMA_MODALE__MODALE_MOBILE>', {
   props: {
     icon: figma.boolean('Icône titre', { true: ' iconId="fr-icon-warning-line"', false: '' }),
     buttons: figma.enum('Boutons', {
@@ -58,7 +58,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Surcouche ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=447-7151', {
+figma.connect('<FIGMA_MODALE__MODALE_SURCOUCHE>', {
   example: () =>
     html`const buttons = { children: 'Confirmer' };
 

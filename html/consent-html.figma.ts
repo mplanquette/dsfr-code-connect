@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // posé manuellement à l'emplacement d'un service tiers bloqué en attente de consentement.
 
 // ─── Bandeau de consentement ──────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=630-158', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__BANDEAU_DE_CONSENTEMENT>', {
   example: () =>
     html`<div class="fr-consent-banner">
   <h2 class="fr-h6">À propos des cookies sur ce site</h2>
@@ -25,7 +25,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Modale de consentement - Complète ────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=679-1138', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_COMPLETE>', {
   example: () =>
     html`<dialog id="consent-modal" class="fr-modal" role="dialog" aria-labelledby="consent-modal-title">
   <div class="fr-container fr-container--fluid fr-container-md">
@@ -84,7 +84,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Modale de consentement - Item ────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=644-54579', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM>', {
   props: {
     description: figma.enum('Type', {
       Simple: '',
@@ -152,7 +152,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Service indisponible ─────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=703-55173', {
+figma.connect('<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__SERVICE_INDISPONIBLE>', {
   example: () =>
     html`<div class="fr-consent-service">
   <p>Ce contenu est hébergé par <strong>nom-du-service</strong>.</p>

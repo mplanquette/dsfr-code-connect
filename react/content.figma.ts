@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // (aucune classe), 10 → --lg. Image décorative puisque la légende décrit déjà le contenu :
 // alt vide (RGAA 1.2).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=84-72', {
+figma.connect('<FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS>', {
   props: {
     sizeClass: figma.enum('Taille média', {
       '6 collones': ' fr-content-media--sm',

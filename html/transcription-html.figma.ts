@@ -7,7 +7,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Les deux sets « Modale » sont la vue agrandie interne au composant : même snippet.
 
 // ─── Transcription ───────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14268-197280', {
+figma.connect('<FIGMA_TRANSCRIPTION__TRANSCRIPTION>', {
   props: {
     heading: figma.string('Titre'),
     expandedClass: figma.enum('Ouvert', { True: ' fr-collapse--expanded', False: '' }),
@@ -40,7 +40,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Modale - Desktop ────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14470-198380', {
+figma.connect('<FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_DESKTOP>', {
   example: () =>
     html`<div id="transcription-modal" class="fr-modal" role="dialog" aria-labelledby="transcription-title">
   <div class="fr-container--fluid">
@@ -58,7 +58,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Modale - Mobile ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14470-198401', {
+figma.connect('<FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_MOBILE>', {
   example: () =>
     html`<div id="transcription-modal" class="fr-modal" role="dialog" aria-labelledby="transcription-title">
   <div class="fr-container--fluid">

@@ -11,7 +11,7 @@ const imports = ["import { Breadcrumb } from '@codegouvfr/react-dsfr/Breadcrumb'
 // Le tableau de segments est déclaré avant le JSX : le parser Code Connect (HTML générique)
 // interprète toute valeur d'attribut multiligne contenant plusieurs objets comme une liste
 // d'attributs HTML et lève une erreur « Duplicate attribute name » (label/href répétés).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=139-115', {
+figma.connect('<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET>', {
   example: () =>
     html`const segments = [
   { label: 'Rubrique', linkProps: { href: '/rubrique' } },
@@ -24,7 +24,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 
 // ─── Item ────────────────────────────────────────────────────────────────────
 // « Type Parent » = un segment ; « Type En cours » = currentPageLabel seul (dernier item, sans lien).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=139-77', {
+figma.connect('<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM>', {
   props: {
     segment: figma.enum('Type', {
       Parent: `{ label: 'Rubrique', linkProps: { href: '/rubrique' } }`,

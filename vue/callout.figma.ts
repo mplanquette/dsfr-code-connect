@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Contrairement à ngx-dsfr (bouton projeté en contenu), DsfrCallout reçoit le bouton via
 // une prop objet `button` (DsfrButtonProps) plutôt qu'un `<DsfrButton>` imbriqué.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=338-7145', {
+figma.connect('<FIGMA_MISE_EN_AVANT__MISE_EN_AVANT>', {
   props: {
     icon: figma.enum('Icône', { True: ' icon="fr-icon-information-line"', False: '' }),
     button: figma.enum('Bouton', {

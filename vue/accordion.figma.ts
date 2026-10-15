@@ -34,7 +34,7 @@ const mobileProps = {
 };
 
 // ─── Accordéon - Desktop ───────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-27', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_DESKTOP>', {
   props: desktopProps,
   example: ({ expanded }) => html`<DsfrAccordionsGroup id="group"${expanded}>
   <DsfrAccordion title="Intitulé accordéon">
@@ -45,7 +45,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Accordéon - Mobile ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-110', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_MOBILE>', {
   props: mobileProps,
   example: ({ expanded }) => html`<DsfrAccordionsGroup id="group"${expanded}>
   <DsfrAccordion title="Intitulé accordéon">
@@ -56,7 +56,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Accordéon - Groupe ─────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-600', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_GROUPE>', {
   example: () => html`<DsfrAccordionsGroup v-model="selectedAccordion">
   <DsfrAccordion title="Intitulé 1">
     Contenu de l'accordéon 1

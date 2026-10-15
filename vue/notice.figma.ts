@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // « Voir icône » n'a pas de prop dédiée sur DsfrNotice : la classe `fr-notice--no-icon` se
 // passe par le fallthrough de `class` (racine à nœud unique), comme le fait Vue nativement.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11706-73752', {
+figma.connect('<FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES>', {
   props: {
     heading: figma.string('Titre'),
     description: figma.string('Description'),

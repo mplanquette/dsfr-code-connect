@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // internes Figma → non connectés. Thème et Support = CSS seul.
 // L'image d'illustration est décorative : son alt doit rester vide (RGAA 1.2).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-147529', {
+figma.connect('<FIGMA_CITATION__CITATION>', {
   props: {
     columnClass: figma.enum('Illustration', { True: ' fr-quote--column', False: '' }),
     image: figma.enum('Illustration', {

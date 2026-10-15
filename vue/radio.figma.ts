@@ -11,7 +11,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrRadioButtonSet from '@gouvminint/vue-dsfr/DsfrRadioButtonSet.vue'"];
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=311-24508', {
+figma.connect('<FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM>', {
   props: {
     small: figma.enum('Taille', { SM: ' small', MD: '' }),
     checked: figma.boolean('Coché', { true: ' model-value="option-1"', false: '' }),
@@ -32,7 +32,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=314-25444', {
+figma.connect('<FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE>', {
   props: {
     inline: figma.enum('Orientation', { Horizontal: ' inline', Vertical: '' }),
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
@@ -57,7 +57,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 
 // ─── Section ─────────────────────────────────────────────────────────────────
 // La propriété Figma est nommée « Tire de section » (coquille côté design, conservée telle quelle).
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14835-206001', {
+figma.connect('<FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION>', {
   props: {
     legend: figma.string('Tire de section'),
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),

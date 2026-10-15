@@ -2,11 +2,11 @@
 
 Fichiers [Code Connect](https://www.figma.com/code-connect-docs/) qui affichent, dans **Figma Dev Mode**,
 des snippets de code réels et **dynamiques** pour les composants du DSFR (Design System de l'État
-français). Configuré par défaut sur un fichier Figma précis (le fileKey exact se trouve dans les
-fichiers `*.figma.ts`), mais prévu pour être **rebranché sur votre propre fichier Figma DSFR**
+français). Configuré par défaut sur un fichier Figma précis (toutes les URLs sont centralisées dans
+[`figma.config.json`](./figma.config.json)), mais prévu pour être **rebranché sur votre propre fichier Figma DSFR**
 (cf. section [Adapter à votre fichier Figma](#adapter-à-votre-propre-fichier-figma-dsfr)).
 
-Quatre frameworks sont exposés par composant, via quatre projets indépendants :
+Quatre frameworks sont exposés par composant, un dossier par framework :
 
 | Dossier    | Label Dev Mode | Cible                                                |
 |------------|----------------|-------------------------------------------------------|
@@ -17,6 +17,10 @@ Quatre frameworks sont exposés par composant, via quatre projets indépendants 
 
 > Les portages DSFR ne sont pas la propriété de ce repo : il ne contient **que des snippets
 > d'exemple**, publiés vers Figma. Aucun code source de portage n'y est versionné.
+
+Les quatre dossiers partagent un seul `figma.config.json` à la racine : les fichiers `*.figma.ts`
+référencent les composants par une clé lisible (`<FIGMA_BOUTON__PRIMAIRE_MD>`), résolue en URL via
+`documentUrlSubstitutions`. Changer de fichier Figma ne touche donc que ce fichier.
 
 ## App desktop (sans terminal)
 
@@ -30,36 +34,39 @@ décrivent l'usage en ligne de commande, pour les utilisateurs à l'aise avec un
 > Windows afficheront un avertissement au premier lancement (procédure de contournement documentée
 > dans `desktop/README.md`).
 
+> **Gouvernance** : l'app rend la publication accessible sans terminal, mais les snippets publiés
+> restent du code lu par des développeurs. Faites relire toute modification des `*.figma.ts` par
+> une personne technique avant publication.
+
 ## Prérequis (usage en ligne de commande)
 
 - Node.js ≥ 18 et `npx`, ainsi que `curl` (utilisé par le script de rebranchement pour respecter les
   proxys d'entreprise).
-- Un **token Figma personnel** avec accès Dev Mode + écriture Code Connect. Placez-le dans
-  `angular/.env/token code connect.txt` au format dotenv (`FIGMA_...=figd_...`), ou exportez-le
-  directement dans `FIGMA_ACCESS_TOKEN`. Ce fichier/cette variable ne doit **jamais** être versionné
-  (cf. `.gitignore`).
+- Un **token Figma personnel** avec accès Dev Mode + écriture Code Connect. Copiez
+  [`.env.example`](./.env.example) en `.env` à la racine et renseignez `FIGMA_ACCESS_TOKEN`, ou
+  exportez directement cette variable. Le fichier `.env` est ignoré par git et ne doit **jamais**
+  être versionné.
 - Plan Figma Organization/Enterprise avec sièges Dev (requis par Code Connect).
 
 ## Démarrage rapide
 
 ```bash
-# Installe les dépendances des stacks choisies (prompt interactif si aucun argument)
-npm run install-stacks -- angular html react vue   # ou juste `npm run install-stacks` pour choisir en interactif
+# Installe le CLI Code Connect (une seule dépendance, commune aux quatre stacks)
+npm install
 
 # Validation locale (sans réseau)
 npm run parse -- angular html react vue
 
-# Publication (le label est géré par le script, pas dans les fichiers)
-export FIGMA_ACCESS_TOKEN="$(cut -d= -f2- 'angular/.env/token code connect.txt' | tr -d '[:space:]')"
+# Publication (le label de chaque stack est géré par le script, pas dans les fichiers)
 npm run publish -- angular html react vue
 
-# Retirer un label obsolète sur les mêmes nodes (à la main, par framework)
-cd <framework> && npx figma connect unpublish --label "<label>"
+# Retrait des snippets publiés
+npm run unpublish -- angular html react vue
 ```
 
-Chaque script (`scripts/install.sh`, `scripts/parse.sh`, `scripts/publish.sh`) accepte une liste de
-stacks en argument (`angular`, `html`, `react`, `vue`, ou `--all`) ; sans argument, il propose une
-sélection interactive.
+`parse`, `publish` et `unpublish` passent tous par `scripts/connect.sh` et acceptent une liste de
+stacks en argument (`angular`, `html`, `react`, `vue`, ou `--all`) ; sans argument, ils proposent
+une sélection interactive. Le token est lu dans `.env` à la racine.
 
 > Publiez en **direct**, sans proxy d'entreprise qui pourrait intercepter la requête. Une erreur
 > `403 Invalid token` est un problème d'authentification, pas de réseau.
@@ -80,7 +87,8 @@ duplication/republication de fichier, même pour un composant identique.
 
 Le script `scripts/rebind-to-your-file.mjs` automatise le rebranchement : il compare l'inventaire de
 votre fichier (récupéré via l'API Figma) au [manifeste de référence](./scripts/manifest.json)
-(page + nom de composant → node-id actuel), et réécrit les URLs `figma.connect` en conséquence.
+(page + nom de composant → node-id actuel), et réécrit les URLs de `figma.config.json` en
+conséquence (aucun fichier `*.figma.ts` n'est modifié).
 
 **Prérequis** :
 - Votre fichier doit être structurellement proche de celui utilisé par ce repo (mêmes noms de page
@@ -110,7 +118,7 @@ npm run parse
 npm run publish
 ```
 
-Le token Figma passe soit en variable d'environnement `FIGMA_ACCESS_TOKEN`, soit via `--token`.
+Le token Figma passe soit par `.env` / la variable d'environnement `FIGMA_ACCESS_TOKEN`, soit via `--token`.
 
 ## Conventions et méthode
 

@@ -10,7 +10,7 @@ import figma, { html } from '@figma/code-connect/html';
 // bindé, le lien reste présent (comportement par défaut le plus courant).
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19187-356872', {
+figma.connect('<FIGMA_TUILE__DESKTOP>', {
   props: {
     horizontalClass: figma.enum('Orientation', { Horizontale: ' fr-tile--horizontal', Verticale: '' }),
     sizeClass: figma.enum('Taille', { SM: ' fr-tile--sm', MD: '' }),
@@ -42,7 +42,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19547-360323', {
+figma.connect('<FIGMA_TUILE__MOBILE>', {
   props: {
     horizontalClass: figma.enum('Orientation', { Horizontale: ' fr-tile--horizontal', Verticale: '' }),
     sizeClass: figma.enum('Taille', { SM: ' fr-tile--sm', MD: '' }),

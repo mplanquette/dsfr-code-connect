@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // l'attribut `disabled`. DsfrSelect utilise `success-message`/`error-message` (pas de
 // `messageSeverity` unique côté vue-dsfr).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=284-15646', {
+figma.connect('<FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE>', {
   props: {
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
     severity: figma.enum('État', {

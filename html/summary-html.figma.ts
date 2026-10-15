@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Survol = pseudo-état → ignoré.
 
 // ─── Items ───────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-49320', {
+figma.connect('<FIGMA_SOMMAIRE__SOMMAIRE_ITEMS>', {
   props: {
     nested: figma.boolean('Imbriqué', {
       true: `\n  <ol>\n    <li><a class="fr-summary__link" href="#sous-titre">Sous-titre</a></li>\n  </ol>`,
@@ -18,7 +18,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-49481', {
+figma.connect('<FIGMA_SOMMAIRE__SOMMAIRE_COMPLET>', {
   example: () =>
     html`<nav class="fr-summary" role="navigation" aria-labelledby="fr-summary-title">
   <h2 class="fr-summary__title" id="fr-summary-title">Sommaire</h2>

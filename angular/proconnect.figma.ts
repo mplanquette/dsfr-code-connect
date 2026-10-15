@@ -8,7 +8,7 @@ import figma, { html } from '@figma/code-connect/html';
 // `dsfr-franceconnect` qu'il remplace progressivement. À remplacer par un composant
 // Angular si/quand ngx-dsfr en publie un.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=34014-794', {
+figma.connect('<FIGMA_BOUTON_PROCONNECT__BOUTON_PROCONNECT>', {
   example: () =>
     html`<div class="fr-connect-group">
   <button type="button" class="fr-connect fr-connect--proconnect">

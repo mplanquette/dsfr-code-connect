@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // est identique, seul aria-expanded change au runtime.
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=139-115', {
+figma.connect('<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET>', {
   example: () =>
     html`<nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
   <button type="button" class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb">Voir le fil d'Ariane</button>
@@ -20,7 +20,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=139-77', {
+figma.connect('<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM>', {
   props: {
     item: figma.enum('Type', {
       Parent: `<a class="fr-breadcrumb__link" href="/rubrique">Rubrique</a>`,

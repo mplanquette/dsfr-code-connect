@@ -1,8 +1,7 @@
 // Orchestration de `@figma/code-connect` (parse/publish) sans dépendre de npx : le CLI du package,
-// installé une fois comme dépendance de l'app desktop, est spawné en subprocess avec le `cwd`
-// positionné sur le dossier de la stack ciblée (angular/, html/, react/, vue/) : reproduit
-// exactement ce que fait `npx figma connect parse|publish` en CLI aujourd'hui (scripts/parse.sh,
-// scripts/publish.sh), sans nécessiter Node/npm installés côté utilisateur final : le CLI parse
+// installé une fois comme dépendance de l'app desktop, est spawné en subprocess depuis la racine
+// du catalogue avec `--dir <stack> --config figma.config.json` : reproduit exactement ce que fait
+// scripts/connect.sh, sans nécessiter Node/npm installés côté utilisateur final : le CLI parse
 // statiquement les fichiers *.figma.ts, il n'a besoin d'aucun node_modules local à la stack
 // (vérifié : `figma connect parse` fonctionne dans un dossier sans node_modules).
 const { app } = require('electron');
@@ -15,9 +14,10 @@ function cliPath() {
   return join(__dirname, '..', '..', 'node_modules', '@figma', 'code-connect', 'dist', 'cli.js');
 }
 
-function stackDir(stackId) {
-  if (!app.isPackaged) return join(__dirname, '..', '..', '..', stackId);
-  return join(process.resourcesPath, 'stacks', stackId);
+// Racine du catalogue : contient le figma.config.json partagé et un dossier par stack.
+function catalogRoot() {
+  if (!app.isPackaged) return join(__dirname, '..', '..', '..');
+  return join(process.resourcesPath, 'stacks');
 }
 
 /** Label de publication Figma Dev Mode associé à une stack (ex. 'angular' -> 'Angular'). */
@@ -25,12 +25,12 @@ function labelFor(stackId) {
   return STACKS.find((s) => s.id === stackId)?.label ?? stackId;
 }
 
-// Lance `node <cli.js> connect <args...>` dans le dossier de la stack, en streamant stdout/stderr
+// Lance `node <cli.js> connect <args...>` sur le dossier de la stack, en streamant stdout/stderr
 // ligne par ligne via `onOutput` (pour l'affichage dans le log repliable de l'UI).
 function runConnect(stackId, args, { onOutput, env = {} } = {}) {
   return new Promise((resolve) => {
     const cli = cliPath();
-    const cwd = stackDir(stackId);
+    const cwd = catalogRoot();
     if (!existsSync(cli)) {
       resolve({
         stackId,
@@ -41,17 +41,19 @@ function runConnect(stackId, args, { onOutput, env = {} } = {}) {
       });
       return;
     }
-    if (!existsSync(cwd)) {
+    if (!existsSync(join(cwd, stackId))) {
       resolve({
         stackId,
         code: -1,
         ok: false,
         stdout: '',
-        stderr: `Dossier de la stack « ${stackId} » introuvable (${cwd}).`,
+        stderr: `Dossier de la stack « ${stackId} » introuvable (${join(cwd, stackId)}).`,
       });
       return;
     }
-    const child = spawn(process.execPath, [cli, 'connect', ...args], {
+    const [command, ...rest] = args;
+    const fullArgs = [cli, 'connect', command, '--dir', stackId, '--config', 'figma.config.json', ...rest];
+    const child = spawn(process.execPath, fullArgs, {
       cwd,
       env: { ...process.env, ELECTRON_RUN_AS_NODE: '1', ...env },
     });

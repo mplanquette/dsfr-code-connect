@@ -18,7 +18,7 @@ const props = {
 };
 const imports = ["import { Alert } from '@codegouvfr/react-dsfr/Alert'"];
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=1935-224', {
+figma.connect('<FIGMA_ALERTE__ALERTE>', {
   props,
   example: ({ severity, small, closable }) =>
     html`<Alert severity="${severity}" title="Titre du message" description="Description de l'alerte"${small}${closable} />`,

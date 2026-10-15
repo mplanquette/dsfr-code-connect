@@ -16,7 +16,7 @@ const socialLinks = `<dsfr-follow-link name="facebook" link="https://www.faceboo
     <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>`;
 
 // ─── Desktop ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=3539-186707', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP>', {
   props: {
     description: figma.boolean('Description', { true: ' description="Texte de description."', false: '' }),
     type: figma.enum('Newsletter', {
@@ -35,7 +35,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Mobile ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23636-10146', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE>', {
   props: {
     description: figma.boolean('Description', { true: ' description="Texte de description."', false: '' }),
     type: figma.enum('Newsletter', {
@@ -55,7 +55,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 
 // ─── Formulaire (élément desktop) ─────────────────────────────────────────────
 // Champ email du formulaire newsletter, atteint via le type « newsletter-mail ».
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23649-3349', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP>', {
   props: {
     severity: figma.enum('Etat', {
       Default: '', Valide: ' messageSeverity="valid" message="Texte de validation"',
@@ -68,7 +68,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Formulaire (élément mobile) ──────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=23652-29190', {
+figma.connect('<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE>', {
   props: {
     severity: figma.enum('Etat', {
       Default: '', Valide: ' messageSeverity="valid" message="Texte de validation"',

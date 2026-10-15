@@ -198,7 +198,7 @@
     }
     const n = state.analyzeResult.summary.matched;
     const ok = await confirm(
-      `Ceci va modifier des fichiers *.figma.ts pour ${n} correspondance(s), dans les stacks sélectionnées. Rien n'est encore publié sur Figma. Continuer ?`,
+      `Ceci va modifier figma.config.json pour ${n} correspondance(s), valables pour toutes les stacks. Rien n'est encore publié sur Figma. Continuer ?`,
     );
     if (!ok) return;
 
@@ -209,7 +209,6 @@
       manifest: state.analyzeResult.manifest,
       matched: state.analyzeResult.matched,
       targetFileKey: state.fileKey,
-      stackIds: [...state.selectedStacks],
     });
     if (result.ok) {
       state.applied = true;

@@ -9,7 +9,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { Pagination } from '@codegouvfr/react-dsfr/Pagination'"];
 
 // ─── Incrément (précédent / suivant) ─────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-177', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_INCREMENT>', {
   props: {
     current: figma.enum('Sens', { Précédente: '1', Suivante: '1' }),
   },
@@ -19,7 +19,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Numéro ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-349', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_NUMERO>', {
   props: {
     current: figma.enum('État', { Défaut: '1', Courant: '3', Survol: '1' }),
   },
@@ -29,7 +29,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Complète ────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=577-482', {
+figma.connect('<FIGMA_PAGINATION__PAGINATION_COMPLETE>', {
   example: () =>
     html`<Pagination count={10} defaultPage={1} getPageLinkProps={(pageNumber) => ({ href: '/page/' + pageNumber })} />`,
   imports,

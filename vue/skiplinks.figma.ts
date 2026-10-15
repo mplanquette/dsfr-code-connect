@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Le composant n'est visible qu'à la prise de focus clavier (RGAA 12.7).
 // DsfrSkipLinks attend `links: { id, text }[]` (pas `anchor`/`label` comme côté ngx-dsfr).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=509-157', {
+figma.connect('<FIGMA_LIEN_D_EVITEMENT__LIENS_D_EVITEMENT>', {
   example: () =>
     html`<DsfrSkipLinks
     :links="[

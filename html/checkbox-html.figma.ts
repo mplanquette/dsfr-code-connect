@@ -7,7 +7,7 @@ import figma, { html } from '@figma/code-connect/html';
 // une propriété JS pure sur l'élément, à positionner en script (`el.indeterminate = true`).
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14795-206250', {
+figma.connect('<FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM>', {
   props: {
     sizeClass: figma.enum('Taille', { SM: ' fr-checkbox-group--sm', MD: '' }),
     stateClass: figma.enum('Validation', {
@@ -37,7 +37,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=338-984', {
+figma.connect('<FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE>', {
   props: {
     inlineClass: figma.enum('Orientation', { Horizontal: ' fr-fieldset--inline', Vertical: '' }),
     stateClass: figma.enum('État', {
@@ -66,7 +66,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Section ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14837-211503', {
+figma.connect('<FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION>', {
   props: {
     legend: figma.string('Titre de section'),
     disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),

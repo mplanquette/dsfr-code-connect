@@ -9,7 +9,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrBreadcrumb from '@gouvminint/vue-dsfr/DsfrBreadcrumb.vue'"];
 
 // ─── Complet ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=139-115', {
+figma.connect('<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET>', {
   example: () =>
     html`<DsfrBreadcrumb :links="[
     { text: 'Accueil', to: '/' },
@@ -23,7 +23,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 // ─── Item ────────────────────────────────────────────────────────────────────
 // Un item de fil d'Ariane n'a pas de composant dédié : il se déclare dans `links`.
 // « Type En cours » = dernier item, sans lien (rendu sans `to`, aria-current="page").
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=139-77', {
+figma.connect('<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM>', {
   props: {
     item: figma.enum('Type', {
       Parent: `{ text: 'Rubrique', to: '/rubrique' }`,

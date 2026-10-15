@@ -12,7 +12,7 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import { DsfrFormCheckboxComponent } from '@edugouvfr/ngx-dsfr'"];
 
 // ─── Item ────────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14795-206250', {
+figma.connect('<FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM>', {
   props: {
     small: figma.enum('Taille', { SM: ' [small]="true"', MD: '' }),
     checked: figma.boolean('Coché', { true: ' [value]="true"', false: '' }),
@@ -30,7 +30,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Groupe ──────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=338-984', {
+figma.connect('<FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE>', {
   props: {
     inline: figma.enum('Orientation', { Horizontal: ' [inline]="true"', Vertical: '' }),
     disabled: figma.boolean('Désactivé', { true: ' [disabled]="true"', false: '' }),
@@ -52,7 +52,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Section ─────────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=14837-211503', {
+figma.connect('<FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION>', {
   props: {
     legend: figma.string('Titre de section'),
     disabled: figma.boolean('Désactivé', { true: ' [disabled]="true"', false: '' }),

@@ -34,10 +34,11 @@
       "src/**/*"
     ],
     "extraResources": [
-      { "from": "../angular", "to": "stacks/angular", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
-      { "from": "../html", "to": "stacks/html", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
-      { "from": "../react", "to": "stacks/react", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
-      { "from": "../vue", "to": "stacks/vue", "filter": ["**/*.figma.ts", "figma.config.json", "package.json"] },
+      { "from": "../angular", "to": "stacks/angular", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
+      { "from": "../html", "to": "stacks/html", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
+      { "from": "../react", "to": "stacks/react", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
+      { "from": "../vue", "to": "stacks/vue", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
+      { "from": "../figma.config.json", "to": "stacks/figma.config.json" },
       { "from": "resources/manifest.json", "to": "manifest.json" },
       { "from": "resources/rebind-to-your-file.mjs", "to": "rebind-to-your-file.mjs" },
       { "from": "resources/stacks.json", "to": "stacks.json" }

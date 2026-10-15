@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // Coquille de design conservée telle quelle : « Défault » et « désactivé ».
 
 // ─── Curseur simple ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=24571-368579', {
+figma.connect('<FIGMA_CURSEUR__CURSEUR_SIMPLE>', {
   props: {
     stateClass: figma.enum('État', {
       Défault: '', désactivé: ' fr-range-group--disabled',
@@ -34,7 +34,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Curseur double ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=24474-242232', {
+figma.connect('<FIGMA_CURSEUR__CURSEUR_DOUBLE>', {
   props: {
     stateClass: figma.enum('État', {
       Défault: '', désactivé: ' fr-range-group--disabled',
@@ -62,7 +62,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Curseur cranté ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=24571-368480', {
+figma.connect('<FIGMA_CURSEUR__CURSEUR_CRANTE>', {
   props: {
     stateClass: figma.enum('État', {
       Défault: '', désactivé: ' fr-range-group--disabled',

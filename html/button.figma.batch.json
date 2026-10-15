@@ -1,0 +1,50 @@
+{
+  "templateFile": "./button.figma.batch.ts",
+  "components": [
+    {
+      "url": "<FIGMA_BOUTON__PRIMAIRE_SM>",
+      "variant": "primary",
+      "size": "SM"
+    },
+    {
+      "url": "<FIGMA_BOUTON__PRIMAIRE_MD>",
+      "variant": "primary",
+      "size": "MD"
+    },
+    {
+      "url": "<FIGMA_BOUTON__PRIMAIRE_LG>",
+      "variant": "primary",
+      "size": "LG"
+    },
+    {
+      "url": "<FIGMA_BOUTON__SECONDAIRE_SM>",
+      "variant": "secondary",
+      "size": "SM"
+    },
+    {
+      "url": "<FIGMA_BOUTON__SECONDAIRE_MD>",
+      "variant": "secondary",
+      "size": "MD"
+    },
+    {
+      "url": "<FIGMA_BOUTON__SECONDAIRE_LG>",
+      "variant": "secondary",
+      "size": "LG"
+    },
+    {
+      "url": "<FIGMA_BOUTON__TERTIAIRE_SM>",
+      "variant": "tertiary",
+      "size": "SM"
+    },
+    {
+      "url": "<FIGMA_BOUTON__TERTIAIRE_MD>",
+      "variant": "tertiary",
+      "size": "MD"
+    },
+    {
+      "url": "<FIGMA_BOUTON__TERTIAIRE_LG>",
+      "variant": "tertiary",
+      "size": "LG"
+    }
+  ]
+}

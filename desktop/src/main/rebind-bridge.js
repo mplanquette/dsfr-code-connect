@@ -6,7 +6,7 @@ const { join } = require('node:path');
 const { existsSync, readFileSync } = require('node:fs');
 
 // En dev, le repo entier est présent à côté de desktop/. En build packagé, seuls les fichiers
-// *.figma.ts + figma.config.json de chaque stack sont embarqués (cf. extraResources dans
+// *.figma.ts de chaque stack et le figma.config.json racine sont embarqués (cf. extraResources dans
 // package.json), et le manifeste est copié dans resources/manifest.json.
 function repoRoot() {
   const devRoot = join(__dirname, '..', '..', '..');
@@ -61,12 +61,12 @@ async function analyze({ fileKey, token }) {
 }
 
 /**
- * Applique les correspondances trouvées par `analyze` : réécrit les node-ids dans les
- * fichiers `*.figma.ts` des stacks concernées (étape 4 de l'UI : « Appliquer »).
+ * Applique les correspondances trouvées par `analyze` : réécrit les node-ids dans le
+ * figma.config.json racine, partagé par toutes les stacks (étape 4 de l'UI : « Appliquer »).
  */
-async function apply({ manifest, matched, targetFileKey, frameworkDirs }) {
+async function apply({ manifest, matched, targetFileKey }) {
   const { applyRebind } = await getRebindModule();
-  return applyRebind({ manifest, matched, targetFileKey, frameworkDirs, repoRoot: repoRoot() });
+  return applyRebind({ manifest, matched, targetFileKey, repoRoot: repoRoot() });
 }
 
 module.exports = { analyze, apply, repoRoot, loadManifest };

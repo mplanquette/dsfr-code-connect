@@ -5,7 +5,7 @@ import figma, { html } from '@figma/code-connect/html';
 // correspond au markup DSFR exact attendu dans un `<table class="fr-table">`.
 
 // ─── Cellules données ───────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-8593', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_DONNEE_LG>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Texte par défaut',
@@ -20,7 +20,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   example: ({ contenu, infoBulle }) => html`<table><tbody><tr><td>${contenu}${infoBulle}</td></tr></tbody></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-8643', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_DONNEE_MD>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Texte par défaut',
@@ -35,7 +35,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   example: ({ contenu, infoBulle }) => html`<table><tbody><tr><td>${contenu}${infoBulle}</td></tr></tbody></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-8693', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_DONNEE_SM>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Texte par défaut',
@@ -51,7 +51,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Cellules en-tête de colonne ────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-8749', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_EN_TETE_COLONNE_MD>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Titre par défaut',
@@ -65,7 +65,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   example: ({ contenu, actionsColonne, selectionnable }) => html`<table><thead><tr>${selectionnable}<th scope="col">${contenu}${actionsColonne}</th></tr></thead></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-8834', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_EN_TETE_COLONNE_SM>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Titre par défaut',
@@ -79,7 +79,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   example: ({ contenu, actionsColonne, selectionnable }) => html`<table><thead><tr>${selectionnable}<th scope="col">${contenu}${actionsColonne}</th></tr></thead></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-8919', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_EN_TETE_COLONNE_LG>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Titre par défaut',
@@ -94,7 +94,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Cellules en-tête de ligne ──────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-9004', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_EN_TETE_LIGNE_SM>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Titre par défaut',
@@ -107,7 +107,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   example: ({ contenu, selectionnable }) => html`<table><tbody><tr>${selectionnable}<th scope="row">${contenu}</th></tr></tbody></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-9069', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_EN_TETE_LIGNE_MD>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Titre par défaut',
@@ -120,7 +120,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
   example: ({ contenu, selectionnable }) => html`<table><tbody><tr>${selectionnable}<th scope="row">${contenu}</th></tr></tbody></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-9134', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_EN_TETE_LIGNE_LG>', {
   props: {
     contenu: figma.enum('Contenu', {
       '1 donnée': 'Titre par défaut',
@@ -134,7 +134,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Barre d'outils haute ───────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-9206', {
+figma.connect('<FIGMA_TABLEAU__BARRE_OUTILS_HAUT>', {
   props: {
     actionDeGroupe: figma.boolean('Action de groupe', {
       true: '<div class="fr-btns-group fr-btns-group--inline"><button class="fr-btn fr-btn--secondary">Action groupée</button><button class="fr-btn fr-btn--secondary">Action groupée</button></div>',
@@ -149,7 +149,7 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Barre d'outils basse ───────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29382-9225', {
+figma.connect('<FIGMA_TABLEAU__BARRE_OUTILS_BAS>', {
   props: {
     nbLignesParPage: figma.boolean('Nb ligne par page ', {
       true: '<div class="fr-select-group"><label class="fr-label" for="rows-per-page">Nombre lignes</label><select class="fr-select" id="rows-per-page"><option>10</option></select></div>',
@@ -168,17 +168,17 @@ figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.
 });
 
 // ─── Cellule zéro (coin haut-gauche) ────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29927-241671', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_ZERO_SM>', {
   props: {},
   example: () => html`<table><thead><tr><th scope="col"></th></tr></thead></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29931-242509', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_ZERO_MD>', {
   props: {},
   example: () => html`<table><thead><tr><th scope="col"></th></tr></thead></table>`,
 });
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=29931-242575', {
+figma.connect('<FIGMA_TABLEAU__CELLULE_ZERO_LG>', {
   props: {},
   example: () => html`<table><thead><tr><th scope="col"></th></tr></thead></table>`,
 });

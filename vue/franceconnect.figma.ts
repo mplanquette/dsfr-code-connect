@@ -7,7 +7,7 @@ import figma, { html } from '@figma/code-connect/html';
 // « Plus » → prop `secure` : bascule aussi le lien « Qu'est-ce que FranceConnect(+) ? »
 // (géré nativement par le composant, pas de simplification nécessaire ici).
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=11985-75836', {
+figma.connect('<FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT>', {
   props: {
     secure: figma.boolean('Plus', { true: ' secure', false: '' }),
   },

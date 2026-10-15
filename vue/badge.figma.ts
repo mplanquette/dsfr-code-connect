@@ -11,73 +11,73 @@ import figma, { html } from '@figma/code-connect/html';
 const imports = ["import DsfrBadge from '@gouvminint/vue-dsfr/DsfrBadge.vue'"];
 
 // ─── Information MD ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510838', {
+figma.connect('<FIGMA_BADGE__INFORMATION_MD>', {
   example: () => html`<DsfrBadge label="Information" type="info" />`,
   imports,
 });
 
 // ─── Succès MD ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510850', {
+figma.connect('<FIGMA_BADGE__SUCCES_MD>', {
   example: () => html`<DsfrBadge label="Succès" type="success" />`,
   imports,
 });
 
 // ─── Avertissement MD ────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510842', {
+figma.connect('<FIGMA_BADGE__AVERTISSEMENT_MD>', {
   example: () => html`<DsfrBadge label="Avertissement" type="warning" />`,
   imports,
 });
 
 // ─── Erreur MD ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510846', {
+figma.connect('<FIGMA_BADGE__ERREUR_MD>', {
   example: () => html`<DsfrBadge label="Erreur" type="error" />`,
   imports,
 });
 
 // ─── Nouveau MD ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510834', {
+figma.connect('<FIGMA_BADGE__NOUVEAU_MD>', {
   example: () => html`<DsfrBadge label="Nouveau" type="new" />`,
   imports,
 });
 
 // ─── Personnalisable MD ──────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510832', {
+figma.connect('<FIGMA_BADGE__PERSONNALISABLE_MD>', {
   example: () => html`<DsfrBadge label="Personnalisable" class="fr-badge--blue-cumulus" />`,
   imports,
 });
 
 // ─── Information SM ──────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510860', {
+figma.connect('<FIGMA_BADGE__INFORMATION_SM>', {
   example: () => html`<DsfrBadge label="Information" type="info" small />`,
   imports,
 });
 
 // ─── Succès SM ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510872', {
+figma.connect('<FIGMA_BADGE__SUCCES_SM>', {
   example: () => html`<DsfrBadge label="Succès" type="success" small />`,
   imports,
 });
 
 // ─── Avertissement SM ────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510864', {
+figma.connect('<FIGMA_BADGE__AVERTISSEMENT_SM>', {
   example: () => html`<DsfrBadge label="Avertissement" type="warning" small />`,
   imports,
 });
 
 // ─── Erreur SM ───────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510868', {
+figma.connect('<FIGMA_BADGE__ERREUR_SM>', {
   example: () => html`<DsfrBadge label="Erreur" type="error" small />`,
   imports,
 });
 
 // ─── Nouveau SM ──────────────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510856', {
+figma.connect('<FIGMA_BADGE__NOUVEAU_SM>', {
   example: () => html`<DsfrBadge label="Nouveau" type="new" small />`,
   imports,
 });
 
 // ─── Personnalisable SM ──────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=19121-510854', {
+figma.connect('<FIGMA_BADGE__PERSONNALISABLE_SM>', {
   example: () => html`<DsfrBadge label="Personnalisable" class="fr-badge--blue-cumulus" small />`,
   imports,
 });

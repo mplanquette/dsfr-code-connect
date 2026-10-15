@@ -27,21 +27,21 @@ const accordionImports = ["import { DsfrAccordionComponent } from '@edugouvfr/ng
 const groupImports = ["import { DsfrAccordionComponent, DsfrAccordionsGroupComponent } from '@edugouvfr/ngx-dsfr'"];
 
 // ─── Accordéon - Desktop ──────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-27', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_DESKTOP>', {
   props: desktopProps,
   example: ({ expanded }) => html`<dsfr-accordion heading="Intitulé accordéon" content="Contenu de l'accordéon"${expanded}></dsfr-accordion>`,
   imports: accordionImports,
 });
 
 // ─── Accordéon - Mobile ───────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-110', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_MOBILE>', {
   props: mobileProps,
   example: ({ expanded }) => html`<dsfr-accordion heading="Intitulé accordéon" content="Contenu de l'accordéon"${expanded}></dsfr-accordion>`,
   imports: accordionImports,
 });
 
 // ─── Accordéon - Groupe ───────────────────────────────────────────────────────
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=128-600', {
+figma.connect('<FIGMA_ACCORDEON__ACCORDEON_GROUPE>', {
   example: () => html`
 <dsfr-accordions-group>
   <dsfr-accordion heading="Intitulé 1" content="Contenu de l'accordéon 1"></dsfr-accordion>

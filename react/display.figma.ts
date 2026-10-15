@@ -6,7 +6,7 @@ import figma, { html } from '@figma/code-connect/html';
 // automatiquement par <Header> sauf `disableDisplay`), la modale s'ouvre via le
 // bouton `headerFooterDisplayItem` posé dans `quickAccessItems`/`bottomItems`.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=583-50596', {
+figma.connect('<FIGMA_PARAMETRE_D_AFFICHAGE__PARAMETRE_D_AFFICHAGE>', {
   example: () => html`<Display />`,
   imports: ["import { Display } from '@codegouvfr/react-dsfr/Display'"],
 });

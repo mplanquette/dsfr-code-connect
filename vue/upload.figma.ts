@@ -4,7 +4,7 @@ import figma, { html } from '@figma/code-connect/html';
 // DsfrFileUpload : `error` porte le message d'erreur (pas de `messageSeverity` unique),
 // `validMessage` existe côté type mais n'a pas d'équivalent Figma testé ici.
 
-figma.connect('https://www.figma.com/design/oTfPRLw3QjAoW3dDIS4MuN/DSFR---v1.15.0---Composants?node-id=10366-72136', {
+figma.connect('<FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER>', {
   props: {
     disabled: figma.enum('État', { Défaut: '', Erreur: '', Désactivé: ' disabled' }),
     error: figma.enum('État', {
