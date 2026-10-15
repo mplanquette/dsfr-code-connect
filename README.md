@@ -126,7 +126,7 @@ et checklist d'avancement du catalogue.
   - **Angular** : [`@edugouvfr/ngx-dsfr`](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr), maintenu par Rémi Patriarche (Académie de Grenoble).
   - **React** : [`@codegouvfr/react-dsfr`](https://github.com/codegouvfr/react-dsfr), développé par Joseph Garrone (CodeGouvFr, mission logiciel libre de la DINUM).
   - **Vue** : [`vue-dsfr`](https://github.com/dnum-mi/vue-dsfr), maintenu par Stanislas Ormières, Cherif Diallo et Pierre-Louis Egaud (Ministère de l'Intérieur).
-- Ce catalogue a été constitué avec l'aide de Claude (Anthropic) et Codex (OpenAI).
+- Ce catalogue a été constitué avec l'aide de Claude (Anthropic) et Codex (OpenAI). Il est en court de relecture et de réécriture grâce à Albert API (et des contributions des retours développeurs).
 
 ## Licence
 
