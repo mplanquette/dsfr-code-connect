@@ -19,26 +19,6 @@ import figma, { html } from '@figma/code-connect/html';
 
 const imports = ["import DsfrInputGroup from '@gouvminint/vue-dsfr/DsfrInputGroup.vue'"];
 
-// ─── Éléments - Champ de saisie (Item complet) ───────────────────────────────
-figma.connect('<FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE>', {
-  props: {
-    textarea: figma.boolean('Texte Area', { true: ' is-textarea :rows="4"', false: '' }),
-    icon: figma.boolean('Icône', { true: ' is-with-wrapper wrapper-class="fr-icon-search-line"', false: '' }),
-    disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
-    severity: figma.enum('État', {
-      Défaut: '', Rempli: '',
-      Erreur: ` error-message="Texte d'erreur"`,
-      Valide: ` valid-message="Texte de validation"`,
-    }),
-  },
-  example: ({ textarea, icon, disabled, severity }) =>
-    html`<DsfrInputGroup
-  label="Libellé du champ"
-  name="input"${textarea}${icon}${disabled}${severity}
-/>`,
-  imports,
-});
-
 // ─── Groupe ──────────────────────────────────────────────────────────────────
 figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE>', {
   props: {
@@ -78,19 +58,4 @@ figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION>', {
     "import DsfrInput from '@gouvminint/vue-dsfr/DsfrInput.vue'",
     "import DsfrFieldset from '@gouvminint/vue-dsfr/DsfrFieldset.vue'",
   ],
-});
-
-// ─── Champ de saisie (simple) ────────────────────────────────────────────────
-figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE>', {
-  props: {
-    disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
-    severity: figma.enum('État', {
-      Défaut: '', Rempli: '',
-      Erreur: ` error-message="Texte d'erreur"`,
-      Valide: ` valid-message="Texte de validation"`,
-    }),
-  },
-  example: ({ disabled, severity }) =>
-    html`<DsfrInputGroup label="Libellé du champ" name="input"${disabled}${severity} />`,
-  imports,
 });

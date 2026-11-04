@@ -9,6 +9,10 @@
     "publish": "bash scripts/connect.sh publish",
     "unpublish": "bash scripts/connect.sh unpublish",
     "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test --test-reporter=spec tests/render.test.mjs",
+    "test:update": "UPDATE_SNAPSHOTS=1 node --test --test-reporter=spec tests/render.test.mjs",
+    "contract": "node scripts/check-figma-contract.mjs",
+    "icons": "node scripts/generate-icons.mjs",
     "rebind": "node scripts/rebind-to-your-file.mjs"
   },
   "devDependencies": {

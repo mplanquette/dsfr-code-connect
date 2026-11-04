@@ -6,21 +6,24 @@ français). Configuré par défaut sur un fichier Figma précis (toutes les URLs
 [`figma.config.json`](./figma.config.json)), mais prévu pour être **rebranché sur votre propre fichier Figma DSFR**
 (cf. section [Adapter à votre fichier Figma](#adapter-à-votre-propre-fichier-figma-dsfr)).
 
-Quatre frameworks sont exposés par composant, un dossier par framework :
+Quatre frameworks sont exposés par composant, chacun sous son label Dev Mode :
 
-| Dossier    | Label Dev Mode | Cible                                                |
-|------------|----------------|-------------------------------------------------------|
-| `angular/` | `Angular`      | `@edugouvfr/ngx-dsfr` (`<dsfr-button>`, …)            |
-| `html/`    | `HTML`         | DSFR vanilla (classes `fr-*`)                         |
-| `react/`   | `React`        | `@codegouvfr/react-dsfr` (`<Button>`, …)              |
-| `vue/`     | `Vue`          | `@gouvminint/vue-dsfr` (`<DsfrButton>`, …)            |
+| Stack     | Label Dev Mode | Cible                                                |
+|-----------|----------------|-------------------------------------------------------|
+| `angular` | `Angular`      | `@edugouvfr/ngx-dsfr` (`<dsfr-button>`, …)            |
+| `html`    | `HTML`         | DSFR vanilla (classes `fr-*`)                         |
+| `react`   | `React`        | `@codegouvfr/react-dsfr` (`<Button>`, …)              |
+| `vue`     | `Vue`          | `@gouvminint/vue-dsfr` (`<DsfrButton>`, …)            |
 
 > Les portages DSFR ne sont pas la propriété de ce repo : il ne contient **que des snippets
 > d'exemple**, publiés vers Figma. Aucun code source de portage n'y est versionné.
 
-Les quatre dossiers partagent un seul `figma.config.json` à la racine : les fichiers `*.figma.ts`
-référencent les composants par une clé lisible (`<FIGMA_BOUTON__PRIMAIRE_MD>`), résolue en URL via
-`documentUrlSubstitutions`. Changer de fichier Figma ne touche donc que ce fichier.
+Chaque famille de composants vit dans un seul dossier, `components/<famille>/`, qui sert les quatre
+stacks : un template qui lit le design une fois puis produit le snippet de chaque stack, la
+description des nodes Figma connectés, et les snippets attendus (relus en revue). Les URLs Figma
+sont toutes dans [`figma.config.json`](./figma.config.json) ; le reste du dépôt référence les
+composants par une clé lisible (`<FIGMA_BOUTON__PRIMAIRE_MD>`). Changer de fichier Figma ne touche
+donc que ce fichier. Détails dans [`CONTRIBUTING.md`](./CONTRIBUTING.md).
 
 ## App desktop (sans terminal)
 
@@ -35,7 +38,7 @@ décrivent l'usage en ligne de commande, pour les utilisateurs à l'aise avec un
 > dans `desktop/README.md`).
 
 > **Gouvernance** : l'app rend la publication accessible sans terminal, mais les snippets publiés
-> restent du code lu par des développeurs. Faites relire toute modification des `*.figma.ts` par
+> restent du code lu par des développeurs. Faites relire toute modification de `components/` par
 > une personne technique avant publication.
 
 ## Prérequis (usage en ligne de commande)
@@ -62,6 +65,12 @@ npm run publish -- angular html react vue
 
 # Retrait des snippets publiés
 npm run unpublish -- angular html react vue
+
+# Contrôles avant publication : types et rendu des templates
+npm run typecheck && npm test
+
+# Contrat Figma : les descriptions de composants correspondent-elles au design publié ?
+npm run contract
 ```
 
 `parse`, `publish` et `unpublish` passent tous par `scripts/connect.sh` et acceptent une liste de
@@ -88,7 +97,7 @@ duplication/republication de fichier, même pour un composant identique.
 Le script `scripts/rebind-to-your-file.mjs` automatise le rebranchement : il compare l'inventaire de
 votre fichier (récupéré via l'API Figma) au [manifeste de référence](./scripts/manifest.json)
 (page + nom de composant → node-id actuel), et réécrit les URLs de `figma.config.json` en
-conséquence (aucun fichier `*.figma.ts` n'est modifié).
+conséquence (aucun fichier de `components/` n'est modifié). Les icônes, issues de votre copie du fichier Fondamentaux, se génèrent en local avec `npm run icons -- --file-key <CLÉ>` (résultat ignoré par git).
 
 **Prérequis** :
 - Votre fichier doit être structurellement proche de celui utilisé par ce repo (mêmes noms de page
@@ -134,7 +143,7 @@ et checklist d'avancement du catalogue.
   - **Angular** : [`@edugouvfr/ngx-dsfr`](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr), maintenu par Rémi Patriarche (Académie de Grenoble).
   - **React** : [`@codegouvfr/react-dsfr`](https://github.com/codegouvfr/react-dsfr), développé par Joseph Garrone (CodeGouvFr, mission logiciel libre de la DINUM).
   - **Vue** : [`vue-dsfr`](https://github.com/dnum-mi/vue-dsfr), maintenu par Stanislas Ormières, Cherif Diallo et Pierre-Louis Egaud (Ministère de l'Intérieur).
-- Ce catalogue a été constitué avec l'aide de Claude (Anthropic) et Codex (OpenAI). Il est en court de relecture et de réécriture grâce à Albert API (et des contributions des retours développeurs).
+- Ce catalogue est en cours de relecture et de réécriture : Claude Code (Anthropic) aide à son architecture, Albert API produit le code, avec les contributions des retours développeurs.
 
 ## Licence
 

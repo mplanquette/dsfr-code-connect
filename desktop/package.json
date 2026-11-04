@@ -39,6 +39,8 @@
       { "from": "../react", "to": "stacks/react", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
       { "from": "../vue", "to": "stacks/vue", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
       { "from": "../figma.config.json", "to": "stacks/figma.config.json" },
+      { "from": "../components", "to": "stacks/components", "filter": ["**/*.ts", "**/*.json"] },
+      { "from": "../scripts/catalog.mjs", "to": "stacks/scripts/catalog.mjs" },
       { "from": "resources/manifest.json", "to": "manifest.json" },
       { "from": "resources/rebind-to-your-file.mjs", "to": "rebind-to-your-file.mjs" },
       { "from": "resources/stacks.json", "to": "stacks.json" }

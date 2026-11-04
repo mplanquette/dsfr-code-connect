@@ -30,6 +30,9 @@ jobs:
       - name: Parse (sanity check)
         run: bash scripts/connect.sh parse --all
 
+      - name: Tests de rendu des templates
+        run: npm test
+
       - name: Install desktop app dependencies
         working-directory: desktop
         run: npm install

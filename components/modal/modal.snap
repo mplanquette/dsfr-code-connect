@@ -1,0 +1,1316 @@
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=MD
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=SM
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" modalSize="SM"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=LG
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" modalSize="LG"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=MD
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=SM
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" modalSize="SM"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=LG
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" modalSize="LG"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=MD
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=SM
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" modalSize="SM">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=LG
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" modalSize="LG">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=MD
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=SM
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line" modalSize="SM"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=LG
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line" modalSize="LG"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=MD
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=SM
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line" modalSize="SM"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=LG
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line" modalSize="LG"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=MD
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=SM
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line" modalSize="SM">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=LG
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line" modalSize="LG">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=1
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple"
+  [mobileTop]="true"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=2
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple"
+  [mobileTop]="true"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=Sans
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple"
+  [mobileTop]="true">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=1
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line"
+  [mobileTop]="true"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=2
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line"
+  [mobileTop]="true"
+  [actions]="[
+    { label: 'Confirmer', callback: onAction1 },
+    { label: 'Annuler', variant: 'secondary', callback: onAction2 }
+  ]">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=Sans
+<dsfr-modal
+  dialogId="modal"
+  titleModal="Titre d'exemple" icon="fr-icon-warning-line"
+  [mobileTop]="true">
+  Contenu d'exemple de la modale.
+</dsfr-modal>
+
+=== angular | <FIGMA_MODALE__MODALE_SURCOUCHE> | défaut
+<dsfr-modal dialogId="modal" titleModal="Titre de la modale" [concealingBackdrop]="true">
+  Contenu de la modale.
+</dsfr-modal>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=MD
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=SM
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-4">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=LG
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=MD
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=SM
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-4">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=LG
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=MD
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=SM
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-4">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=LG
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=MD
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=SM
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-4">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=LG
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=MD
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=SM
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-4">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=LG
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=MD
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=SM
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-4">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=LG
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=1
+<dialog id="modal" class="fr-modal fr-modal--top" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=2
+<dialog id="modal" class="fr-modal fr-modal--top" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=Sans
+<dialog id="modal" class="fr-modal fr-modal--top" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title">Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=1
+<dialog id="modal" class="fr-modal fr-modal--top" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=2
+<dialog id="modal" class="fr-modal fr-modal--top" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+          <div class="fr-modal__footer">
+            <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-lg">
+              <li><button class="fr-btn" type="button">Confirmer</button></li>
+              <li><button class="fr-btn fr-btn--secondary" type="button">Annuler</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=Sans
+<dialog id="modal" class="fr-modal fr-modal--top" aria-labelledby="modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="modal-title" class="fr-modal__title"><span class="fr-icon-warning-line fr-icon--lg" aria-hidden="true"></span>Titre d'exemple</h1>
+            <p>Contenu d'exemple de la modale.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_MODALE__MODALE_SURCOUCHE> | défaut
+<!-- La surcouche est rendue par le DSFR autour de toute modale fr-modal -->
+<dialog id="modal" class="fr-modal" aria-labelledby="modal-title"></dialog>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=MD
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=SM
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" size="small"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=LG
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" size="large"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=MD
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=SM
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" size="small"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=LG
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" size="large"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=MD
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple">
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=SM
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" size="small">
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=LG
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" size="large">
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=MD
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=SM
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line" size="small"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=LG
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line" size="large"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=MD
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=SM
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line" size="small"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=LG
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line" size="large"
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=MD
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line">
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=SM
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line" size="small">
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=LG
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line" size="large">
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=1
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple"
+  topAnchor
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=2
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple"
+  topAnchor
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=Sans
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple"
+  topAnchor>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=1
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line"
+  topAnchor
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=2
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line"
+  topAnchor
+  buttons={[
+    { children: 'Confirmer', onClick: onAction1 },
+    { children: 'Annuler', priority: 'secondary', onClick: onAction2 }
+  ]}>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=Sans
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+<modal.Component
+  title="Titre d'exemple" iconId="fr-icon-warning-line"
+  topAnchor>
+  Contenu d'exemple de la modale.
+</modal.Component>
+
+=== react | <FIGMA_MODALE__MODALE_SURCOUCHE> | défaut
+// La surcouche est rendue par react-dsfr autour de toute modale
+const modal = createModal({ id: 'modal', isOpenedByDefault: false })
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=MD
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=SM
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" size="sm"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=1, Taille=LG
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" size="lg"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=MD
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=SM
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" size="sm"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=2, Taille=LG
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" size="lg"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=MD
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=SM
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" size="sm"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=false, Boutons=Sans, Taille=LG
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" size="lg"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=MD
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=SM
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line" size="sm"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=1, Taille=LG
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line" size="lg"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=MD
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=SM
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line" size="sm"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=2, Taille=LG
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line" size="lg"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=MD
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=SM
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line" size="sm"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_DESKTOP> | Icône titre=true, Boutons=Sans, Taille=LG
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line" size="lg"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=1
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=2
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=false, Boutons=Sans
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=1
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=2
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line"
+  :actions="[
+    { label: 'Confirmer', onClick: onAction1 },
+    { label: 'Annuler', secondary: true, onClick: onAction2 }
+  ]"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_MOBILE> | Icône titre=true, Boutons=Sans
+<DsfrModal
+  modal-id="modal"
+  title="Titre d'exemple"
+  :opened="true" icon="fr-icon-warning-line"
+>
+  Contenu d'exemple de la modale.
+</DsfrModal>
+
+=== vue | <FIGMA_MODALE__MODALE_SURCOUCHE> | défaut
+<!-- La surcouche est rendue par DsfrModal (élément <dialog>) -->
+<DsfrModal modal-id="modal" title="Titre de la modale" :opened="true" />

@@ -12,26 +12,6 @@ import figma, { html } from '@figma/code-connect/html';
 
 const imports = ["import { Input } from '@codegouvfr/react-dsfr/Input'"];
 
-// ─── Éléments - Champ de saisie (Item complet) ───────────────────────────────
-figma.connect('<FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE>', {
-  props: {
-    textarea: figma.boolean('Texte Area', { true: ' textArea nativeTextAreaProps={{ rows: 4 }}', false: '' }),
-    icon: figma.boolean('Icône', { true: ' iconId="fr-icon-search-line"', false: '' }),
-    disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
-    severity: figma.enum('État', {
-      Défaut: '', Rempli: '',
-      Erreur: ` state="error" stateRelatedMessage="Texte d'erreur"`,
-      Valide: ` state="success" stateRelatedMessage="Texte de validation"`,
-    }),
-  },
-  example: ({ textarea, icon, disabled, severity }) =>
-    html`<Input
-  label="Libellé du champ"
-  nativeInputProps={{ name: 'input' }}${textarea}${icon}${disabled}${severity}
-/>`,
-  imports,
-});
-
 // ─── Groupe ──────────────────────────────────────────────────────────────────
 figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE>', {
   props: {
@@ -71,20 +51,5 @@ figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION>', {
     <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }}${disabled} />
   </div>
 </fieldset>`,
-  imports,
-});
-
-// ─── Champ de saisie (simple) ────────────────────────────────────────────────
-figma.connect('<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE>', {
-  props: {
-    disabled: figma.boolean('Désactivé', { true: ' disabled', false: '' }),
-    severity: figma.enum('État', {
-      Défaut: '', Rempli: '',
-      Erreur: ` state="error" stateRelatedMessage="Texte d'erreur"`,
-      Valide: ` state="success" stateRelatedMessage="Texte de validation"`,
-    }),
-  },
-  example: ({ disabled, severity }) =>
-    html`<Input label="Libellé du champ" nativeInputProps={{ name: 'input' }}${disabled}${severity} />`,
   imports,
 });

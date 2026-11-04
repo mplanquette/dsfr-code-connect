@@ -8,12 +8,13 @@
     "skipLibCheck": true
   },
   "include": [
-    "*/**/*.figma.ts",
-    "*/**/*.figma.batch.ts"
+    "components/**/*.ts",
+    "*/*.figma.ts"
   ],
   "exclude": [
     "node_modules",
-    "desktop"
+    "desktop",
+    ".codeconnect"
   ],
   "files": [
     "node_modules/@figma/code-connect/figma-types-no-require.d.ts"

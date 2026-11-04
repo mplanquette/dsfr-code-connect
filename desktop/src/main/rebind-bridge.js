@@ -4,14 +4,12 @@
 const { app } = require('electron');
 const { join } = require('node:path');
 const { existsSync, readFileSync } = require('node:fs');
+const { workspaceRoot } = require('./workspace');
 
-// En dev, le repo entier est présent à côté de desktop/. En build packagé, seuls les fichiers
-// *.figma.ts de chaque stack et le figma.config.json racine sont embarqués (cf. extraResources dans
-// package.json), et le manifeste est copié dans resources/manifest.json.
+// Le rebranchement réécrit figma.config.json dans le dossier de travail du catalogue
+// (cf. workspace.js : le dépôt en dev, une copie modifiable en build packagé).
 function repoRoot() {
-  const devRoot = join(__dirname, '..', '..', '..');
-  if (!app.isPackaged) return devRoot;
-  return join(process.resourcesPath, 'stacks');
+  return workspaceRoot();
 }
 
 function manifestPath() {
