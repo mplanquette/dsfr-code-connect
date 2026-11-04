@@ -11,6 +11,11 @@
 # Lots et configs générés par scripts/catalog.mjs
 .codeconnect/
 
+# Propre à chaque utilisateur : clés de ses copies de fichiers Figma et catalogue d'icônes généré
+figma.local.json
+components/icon/icon.json
+components/icon/icon.snap
+
 # Logs / divers
 *.log
 .DS_Store

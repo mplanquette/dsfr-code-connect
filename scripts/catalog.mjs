@@ -46,6 +46,21 @@ export function loadFamilies(root = REPO_ROOT) {
 }
 
 /**
+ * Substitutions d'URL : `figma.config.json` (versionné) complété par `figma.local.json` (ignoré par
+ * git, propre à chaque utilisateur : clés de ses copies de fichiers, ex. icônes). Le local l'emporte.
+ */
+export function loadSubstitutions(root = REPO_ROOT) {
+  const read = (file) => {
+    const path = join(root, file)
+    return existsSync(path) ? JSON.parse(readFileSync(path, 'utf8')) : {}
+  }
+  return {
+    ...read('figma.config.json').codeConnect?.documentUrlSubstitutions,
+    ...read('figma.local.json').documentUrlSubstitutions,
+  }
+}
+
+/**
  * Résout une URL de composant (`<CLÉ>` ou `<CLÉ>?node-id=...`) avec documentUrlSubstitutions,
  * comme le fait le CLI : les clés les plus longues d'abord.
  */
@@ -90,7 +105,7 @@ export function prepareStack(stack, root = REPO_ROOT) {
       parser: rootConfig.parser,
       // Fichiers historiques de la stack (en cours de migration) + lot généré des familles.
       include: [`${stack}/*.figma.ts`, ...(batch.length ? [`${OUTPUT_DIR}/${batchFile}`] : [])],
-      documentUrlSubstitutions: rootConfig.documentUrlSubstitutions,
+      documentUrlSubstitutions: loadSubstitutions(root),
     },
   }
   const configFile = join(OUTPUT_DIR, `figma.${stack}.config.json`)

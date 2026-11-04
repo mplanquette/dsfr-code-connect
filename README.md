@@ -97,7 +97,7 @@ duplication/republication de fichier, même pour un composant identique.
 Le script `scripts/rebind-to-your-file.mjs` automatise le rebranchement : il compare l'inventaire de
 votre fichier (récupéré via l'API Figma) au [manifeste de référence](./scripts/manifest.json)
 (page + nom de composant → node-id actuel), et réécrit les URLs de `figma.config.json` en
-conséquence (aucun fichier de `components/` n'est modifié). Les icônes, issues du fichier Fondamentaux, se rebranchent avec `npm run icons -- --file-key <CLÉ>`.
+conséquence (aucun fichier de `components/` n'est modifié). Les icônes, issues de votre copie du fichier Fondamentaux, se génèrent en local avec `npm run icons -- --file-key <CLÉ>` (résultat ignoré par git).
 
 **Prérequis** :
 - Votre fichier doit être structurellement proche de celui utilisé par ce repo (mêmes noms de page
@@ -143,7 +143,7 @@ et checklist d'avancement du catalogue.
   - **Angular** : [`@edugouvfr/ngx-dsfr`](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr), maintenu par Rémi Patriarche (Académie de Grenoble).
   - **React** : [`@codegouvfr/react-dsfr`](https://github.com/codegouvfr/react-dsfr), développé par Joseph Garrone (CodeGouvFr, mission logiciel libre de la DINUM).
   - **Vue** : [`vue-dsfr`](https://github.com/dnum-mi/vue-dsfr), maintenu par Stanislas Ormières, Cherif Diallo et Pierre-Louis Egaud (Ministère de l'Intérieur).
-- Ce catalogue a été constitué avec l'aide de Claude (Anthropic) et Codex (OpenAI). Il est en court de relecture et de réécriture grâce à Albert API (et des contributions des retours développeurs).
+- Ce catalogue est en cours de relecture et de réécriture : Claude Code (Anthropic) aide à son architecture, Albert API produit le code, avec les contributions des retours développeurs.
 
 ## Licence
 

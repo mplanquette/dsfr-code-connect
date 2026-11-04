@@ -14,7 +14,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { spawnSync } from 'node:child_process'
-import { loadFamilies, resolveUrl } from './catalog.mjs'
+import { loadFamilies, loadSubstitutions, resolveUrl } from './catalog.mjs'
 
 const REPO_ROOT = dirname(dirname(fileURLToPath(import.meta.url)))
 const BATCH_SIZE = 40
@@ -84,7 +84,7 @@ function main() {
     console.error('Token Figma manquant : FIGMA_ACCESS_TOKEN ou .env')
     process.exit(1)
   }
-  const substitutions = JSON.parse(readFileSync(join(REPO_ROOT, 'figma.config.json'), 'utf8')).codeConnect.documentUrlSubstitutions
+  const substitutions = loadSubstitutions()
 
   // Node à vérifier -> description attendue. Les gros groupes homogènes (icônes) ne vérifient
   // que leur échantillon de test.

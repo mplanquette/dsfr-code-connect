@@ -130,9 +130,11 @@ indique les templates à adapter.
 
 ## Icônes
 
-`npm run icons -- --file-key <CLÉ_FONDAMENTAUX>` régénère `components/icon/icon.json` depuis la
-page « Icônes fonctionnelles » du fichier Fondamentaux, et la clé `<FIGMA_ICONES>`. À relancer à
-chaque montée de version de ce fichier, ou avec la clé de votre propre copie.
+`npm run icons -- --file-key <CLÉ_FONDAMENTAUX>` génère `components/icon/icon.json` depuis la
+page « Icônes fonctionnelles » de **votre copie** du fichier Fondamentaux, et sa clé `<FIGMA_ICONES>`
+dans `figma.local.json`. Ces deux fichiers sont propres à chaque utilisateur et ignorés par git :
+sans eux, la famille d'icônes n'est simplement pas publiée. À relancer à chaque montée de version
+du fichier.
 
 ## Workflow par composant
 

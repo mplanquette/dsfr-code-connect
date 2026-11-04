@@ -5,7 +5,7 @@ import { mkdtempSync, readFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { promisify } from 'node:util'
-import { loadFamilies, prepareStack, resolveUrl, STACKS } from '../../scripts/catalog.mjs'
+import { loadFamilies, loadSubstitutions, prepareStack, resolveUrl, STACKS } from '../../scripts/catalog.mjs'
 
 const run = promisify(execFile)
 
@@ -16,7 +16,7 @@ export { STACKS }
  * retrouver un composant à partir de l'URL figurant dans la sortie du parse.
  */
 export function loadKeysByUrl(root) {
-  const substitutions = JSON.parse(readFileSync(join(root, 'figma.config.json'), 'utf8')).codeConnect.documentUrlSubstitutions
+  const substitutions = loadSubstitutions(root)
   const keysByUrl = new Map(Object.entries(substitutions).map(([key, url]) => [url, key]))
   for (const { groups } of loadFamilies(root)) {
     for (const { components } of groups) for (const { url } of components) keysByUrl.set(resolveUrl(url, substitutions), url)

@@ -4,7 +4,7 @@
 //
 // Aucune icône n'est écrite à la main : relancer ce script après une montée de version du
 // fichier Fondamentaux, ou avec la clé de votre propre copie (équivalent du rebranchement).
-// Il met aussi à jour la clé <FIGMA_ICONES> de figma.config.json (URL de base du fichier).
+// La clé <FIGMA_ICONES> (URL de base du fichier) va dans figma.local.json, jamais versionné.
 //
 // Usage : node scripts/generate-icons.mjs --file-key <CLÉ_FONDAMENTAUX> [--dry-run]
 // Token : FIGMA_ACCESS_TOKEN (environnement ou .env), scope « File content » suffisant.
@@ -29,7 +29,8 @@ function readToken() {
 
 // curl plutôt que fetch : respecte les variables de proxy d'entreprise, comme le rebranchement.
 function figmaGet(path, token) {
-  const result = spawnSync('curl', ['-sS', '--fail-with-body', '-H', `X-Figma-Token: ${token}`, `https://api.figma.com/v1${path}`], {
+  // HTTP/1.1 : le proxy d'entreprise coupe les réponses HTTP/2 volumineuses ; délai borné pour ne pas bloquer.
+  const result = spawnSync('curl', ['-sS', '--http1.1', '--connect-timeout', '30', '--max-time', '180', '--retry', '2', '--fail-with-body', '-H', `X-Figma-Token: ${token}`, `https://api.figma.com/v1${path}`], {
     encoding: 'utf8',
     maxBuffer: 256 * 1024 * 1024,
   })
@@ -106,12 +107,14 @@ function main() {
   }
   writeFileSync(join(REPO_ROOT, 'components', 'icon', 'icon.json'), JSON.stringify(catalog, null, 2) + '\n')
 
-  const configPath = join(REPO_ROOT, 'figma.config.json')
-  const config = JSON.parse(readFileSync(configPath, 'utf8'))
+  // La clé de votre copie de fichier ne va jamais dans figma.config.json (versionné) : elle reste
+  // dans figma.local.json, ignoré par git, comme le catalogue d'icônes généré.
+  const localPath = join(REPO_ROOT, 'figma.local.json')
+  const local = existsSync(localPath) ? JSON.parse(readFileSync(localPath, 'utf8')) : {}
   const fileSlug = encodeURIComponent(file.name).replace(/%20/g, '-')
-  config.codeConnect.documentUrlSubstitutions[BASE_KEY] = `https://www.figma.com/design/${fileKey}/${fileSlug}`
-  writeFileSync(configPath, JSON.stringify(config, null, 2) + '\n')
-  console.log('components/icon/icon.json et figma.config.json mis à jour : lancer npm run test:update puis relire.')
+  local.documentUrlSubstitutions = { ...local.documentUrlSubstitutions, [BASE_KEY]: `https://www.figma.com/design/${fileKey}/${fileSlug}` }
+  writeFileSync(localPath, JSON.stringify(local, null, 2) + '\n')
+  console.log('components/icon/icon.json et figma.local.json générés (ignorés par git) : lancer npm run test:update pour les instantanés.')
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) main()
