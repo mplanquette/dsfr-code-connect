@@ -4,107 +4,151 @@ Repo de fichiers Code Connect pour afficher des snippets Angular + HTML + React 
 Lire d'abord le [README](./README.md). Ce document explique comment ajouter ou modifier un
 composant du **catalogue DSFR** (49 familles connectées à ce jour, cf. checklist plus bas).
 
-Toutes les URLs Figma vivent dans [`figma.config.json`](./figma.config.json), partagé par les quatre
-stacks : les fichiers de code référencent un composant par sa clé (`<FIGMA_BOUTON__PRIMAIRE_MD>`),
-résolue via `documentUrlSubstitutions`. Pour connecter un nouveau node, ajouter d'abord sa clé
-dans ce fichier (convention : `<FIGMA_<PAGE>__<CALQUE>>`, sans accent ni « Thème clair »).
+## Architecture : une famille = un dossier
 
-## Format cible : templates Code Connect
+```
+figma.config.json          URLs Figma de tous les composants (une clé lisible par node)
+components/
+  _shared/                 lectures typées, échappement, icônes, choix de la stack
+  button/
+    button.figma.batch.ts  template unique : lit le design une fois, rend les 4 stacks
+    button.json            nodes publiés + description de leurs propriétés (fixture)
+    button.snap            snippets rendus pour chaque stack, relus en revue
+  icon/                    icônes DSFR, catalogue généré par scripts/generate-icons.mjs
+scripts/catalog.mjs        génère par stack le lot et la config publiés (.codeconnect/)
+tests/                     tests de rendu (faux runtime Figma)
+```
 
-Le repo migre vers l'[API de templates](https://developers.figma.com/docs/code-connect/templates-migration-guide/)
-recommandée par Figma. Les familles déjà migrées servent de référence :
+- **URLs** : toutes dans [`figma.config.json`](./figma.config.json) (`documentUrlSubstitutions`).
+  Le reste du dépôt n'utilise que des clés (`<FIGMA_BOUTON__PRIMAIRE_MD>`). Convention :
+  `<FIGMA_<PAGE>__<CALQUE>>`, sans accent ni « Thème clair ». Les icônes utilisent une clé de base
+  (`<FIGMA_ICONES>?node-id=…`).
+- **Un template pour les quatre stacks** : la lecture des propriétés Figma (noms FR, valeurs de
+  variante) n'est écrite qu'une fois, puis `renderFor(stack, { angular, html, react, vue })`
+  produit le snippet de chaque stack. Une faute sur un nom de propriété ne peut donc plus être
+  recopiée d'une stack à l'autre.
+- **`<famille>.json`** sert à la fois à la publication et aux tests :
 
-| Exemple | Ce qu'il illustre |
+  ```json
+  {
+    "family": "Bouton",
+    "groups": [
+      {
+        "nodeId": "120:4762",
+        "template": "button.figma.batch.ts",
+        "components": [{ "url": "<FIGMA_BOUTON__PRIMAIRE_SM>", "variant": "primary", "size": "SM" }],
+        "properties": { "Libellé": { "type": "TEXT", "sample": "Libellé" } },
+        "children": [],
+        "variations": []
+      }
+    ]
+  }
+  ```
+
+  Un groupe réunit des component sets de même structure (les 6 boutons primaires et secondaires).
+  `components` liste les nodes publiés et leurs données propres, lues dans le template par
+  `figma.batch`. `template` est facultatif (par défaut `<famille>.figma.batch.ts`) : une famille
+  peut avoir plusieurs templates (modale et surcouche, élément et champ complet).
+  Le format de `properties`, `children` et `variations` est décrit en tête de
+  `tests/harness/fixtures.mjs`.
+- `scripts/catalog.mjs` ajoute `stack` à chaque entrée et écrit dans `.codeconnect/` (ignoré par
+  git) le lot et la config de chaque stack. `scripts/connect.sh`, les tests et l'app desktop
+  passent tous par lui.
+
+## Écrire un template
+
+Exemples de référence :
+
+| Fichier | Ce qu'il illustre |
 |---------|-------------------|
-| `html/button.figma.batch.ts` + `.json` | Un seul template pour les 9 sets du bouton, données par set dans le `.json` (`figma.batch`) |
-| `html/modal.figma.batch.ts` | Instances imbriquées : chaque bouton d'action est rendu par **son** template (`executeTemplate`), titre et texte lus dans les calques (`findText`) |
-| `html/input-field.figma.ts` | Atomes internes lus plutôt que figés : libellé, description et message viennent des instances `⚙️ …` imbriquées |
-| `angular/input-field.figma.ts` + `angular/helpers/` | Logique partagée entre templates via un import relatif (le CLI l'embarque au parse) |
+| `button/button.figma.batch.ts` | Un template pour 9 sets, données par set dans `button.json`, icône lue via l'échange d'instance |
+| `modal/modal.figma.batch.ts` | Enfants : titre et texte lus dans les calques (`findText`), boutons d'action rendus par **leur** template (`executeTemplate`) |
+| `input/input-field.figma.batch.ts` | Atomes internes `⚙️ …` lus plutôt que figés ; logique partagée avec l'élément seul (`input-element-model.ts`) |
+| `icon/icon.figma.batch.ts` | Métadonnées exposées à un parent (`metadata.props.iconClass`) |
 
 Règles :
 
-- En tête de fichier : `// url=<CLÉ>` (template simple) ; pour un template partagé, un
-  `<nom>.figma.batch.json` liste `{ "url": "<CLÉ>", …données }` et pointe `templateFile`.
-- `import figma from 'figma'` puis `figma.selectedInstance` : `getString`, `getBoolean`,
-  `getEnum` (lister **toutes** les valeurs de la variante, sinon `undefined`), `getInstanceSwap`.
-  Les variantes `True`/`False` se lisent avec `getEnum('Désactivé', { True: …, False: … })`.
+- `import figma from 'figma'` puis `figma.selectedInstance`. Lire les variantes avec
+  `readEnum` / `readVariantFlag` (`_shared/read.ts`) : le mapping doit couvrir toutes les options.
+  `getString` pour un TEXT, `getBoolean` pour un BOOLEAN, `getInstanceSwap` pour un INSTANCE_SWAP.
 - **Enfants** : `findInstance` / `findText` / `findConnectedInstances`. Toujours tester
-  `type === 'INSTANCE'` (ou `'TEXT'`) avant usage : une recherche infructueuse renvoie un objet
-  d'erreur, pas `null`. Un enfant code-connecté se rend avec `executeTemplate().example`, jamais
-  en dur.
-- **Atomes internes `⚙️ …`** : on ne les publie pas comme composants autonomes, mais on **lit**
-  leurs propriétés depuis le composant parent (libellé, message…). Une brique réellement utilisable
-  seule (ex. « Éléments - Champ de saisie ») a son propre template, rendu par le parent.
-- Interpoler les résultats de template avec `figma.code\`…\``, jamais par concaténation (`+`,
-  `.join()` produisent `[object Object]`). Les chaînes simples (attributs) peuvent se concaténer.
+  `type === 'INSTANCE'` (ou `'TEXT'`) : une recherche infructueuse renvoie un objet d'erreur, pas
+  `null`. Un enfant code-connecté se rend avec `executeTemplate().example`, jamais en dur.
+- **Atomes internes `⚙️ …` / `🚫 …`** : jamais publiés comme composants autonomes, mais leurs
+  propriétés se **lisent** depuis le composant parent (libellé, message, légende…).
+- **Icônes** : `readIconClass(instance, '<propriété d'échange>', '<placeholder>')`
+  (`_shared/icon.ts`). Le placeholder ne sert que tant que l'icône n'est pas connectée.
+- **Textes du design** : toujours échappés (`escapeAttribute`, `escapeText`, `escapeJsString` de
+  `_shared/text.ts`) selon l'endroit où ils sont injectés.
+- Interpoler un résultat de template avec `figma.code\`…\``, jamais par concaténation (`+`,
+  `.join()` produisent `[object Object]`). Les chaînes simples (attributs) se concatènent.
+- Aucune interpolation ne doit pouvoir produire `undefined` : omettre l'attribut à la place.
 - `metadata: { nestable: true }` pour un composant destiné à être rendu dans un parent.
 - Le label (`Angular`, `HTML`, …) n'est pas dans le fichier : `scripts/connect.sh` le passe au
-  publish ; le langage de coloration en est déduit.
-- `npm run typecheck` vérifie les templates (types `figma` fournis par `@figma/code-connect`).
+  publish ; le langage de coloration en est déduit (`jsx` pour React, `html` pour les autres).
+- Logique propre à une famille : un fichier `.ts` dans son dossier. Logique commune à plusieurs
+  familles : `components/_shared/`.
 
-## Format historique (en cours de migration)
+Règles DSFR transverses :
 
-Les autres familles utilisent encore `figma.connect(<CLÉ>, { props, example })` avec le parser
-HTML. Les deux formats coexistent dans un même dossier ; une famille migrée supprime son ancien
-fichier. Règles de l'ancien format, à respecter tant qu'un fichier n'est pas migré :
+- Ignorer les **pseudo-états CSS** (État survol/actif/cliqué, Focus) et le **Thème** : ils ne
+  modifient pas le markup (`"vary": false` dans la description).
+- **Sets Mobile / Desktop** : le DSFR est responsive, une seule implémentation (sauf prop dédiée
+  du portage, comme `[mobileTop]` de `dsfr-modal`).
+- **Sous-éléments sans composant dédié** (item de fil d'Ariane, numéro de pagination…) : côté
+  portages, montrer le composant parent configuré pour produire cet élément ; côté HTML, le
+  fragment exact.
+- Ce qui n'existe pas dans le design (identifiants, callbacks, routes) reste un placeholder
+  uniforme : `id="<composant>"`, `onAction1`, `href="#"`.
+- **React** cible `@codegouvfr/react-dsfr` (imports par sous-chemin, ex.
+  `import { Button } from '@codegouvfr/react-dsfr/Button'`) ; **Vue** cible `@gouvminint/vue-dsfr`.
+  Le snippet est du code écrit comme texte, pas compilé : vérifier l'API réelle du composant
+  (sources du portage) avant d'écrire le rendu.
 
-- Parser `@figma/code-connect/html` : `import figma, { html } from '@figma/code-connect/html'`.
-- **Un `figma.connect(URL, {...})` par component set** Figma. La variante et la taille sont des sets
-  distincts (URLs différentes) → elles ne sont PAS des props. button = 9 sets (Primaire/Secondaire/Tertiaire × SM/MD/LG).
-- **Clé d'URL en string littérale** dans le `figma.connect` (jamais de template literal ni de variable).
-- **Props dynamiques** via la clé `props` + helpers, avec les **noms FR exacts** des propriétés Figma :
-  - `figma.string('Libellé')`
-  - `figma.boolean('Désactivé', { true: ' disabled', false: '' })`
-  - `figma.enum('Icône', { Sans: '', Gauche: '…', Droite: '…', Seule: '…' })`
-  - `figma.instance('…')` pour une sous-instance code-connectée.
-- `example: ({ ... }) => html\`...\`` interpole les props. Les fragments d'attributs commencent par
-  une espace (` disabled`, ` icon="…"`) pour coller proprement après les attributs statiques.
-- **Le label framework ne va PAS dans le fichier** (rejeté par le type `HtmlMeta`, ignoré par le parser).
-  Il se passe au publish : `--label "Angular"` / `--label "HTML"`.
-- Ignorer les **pseudo-états CSS** (État survol/actif/cliqué, Focus) : ils ne modifient pas le markup.
-- **Aucune variable externe interpolée dans `html\`\``** : le parser rejette toute interpolation qui
-  ne provient pas de `props` (`Could not find prop mapping for X`). Les fragments répétés se
-  réécrivent en dur dans chaque `example`. Seul `imports` se factorise en constante.
-- **Jamais d'interpolation collée au nom du tag** (`<dsfr-share${x}` → `Error parsing example HTML`) :
-  placer un attribut statique avant l'interpolation.
-- **Pas d'esperluette non échappée dans un attribut** (`href="...?a=1&b=2"` casse le parse) :
-  passer par une propriété du composant ou échapper en `&amp;`.
-- Les atomes internes (`🚫 …`, `⚙️ …`) ne sont pas lisibles dans ce format : le texte qu'ils
-  portent est figé dans le snippet. C'est la principale raison de la migration.
-- **Sous-éléments sans composant dédié** (item de fil d'Ariane, numéro de pagination, entrée de
-  menu latéral…) : côté Angular, montrer le composant parent configuré pour produire cet élément ;
-  côté HTML, donner le fragment (`<li>…`) exact. Un même snippet Angular peut donc servir
-  plusieurs nodes d'une même famille.
-- **Sets Mobile / Desktop** : le DSFR est responsive, il n'y a qu'une implémentation → même snippet
-  des deux côtés.
-- Icône concrète non dérivable du design (icônes DSFR non code-connectées) → poser un **placeholder**
-  `fr-icon-arrow-right-line` à remplacer par le dev. Bouton « icône seule » → `[labelSrOnly]="true"` (Angular).
-- **`react/`** cible `@codegouvfr/react-dsfr` (imports par sous-chemin, ex.
-  `import { Button } from '@codegouvfr/react-dsfr/Button'`), mais reste sur le parser universel
-  `@figma/code-connect/html` comme les deux autres dossiers (le parser React natif de Code Connect
-  exigerait de compiler du vrai JSX/TSX contre le package, hors scope : ce repo ne versionne aucun
-  code source de portage). Le snippet affiché en Dev Mode est donc du **JSX écrit comme texte**
-  (mêmes règles de parsing que pour `html/` : pas d'interpolation collée au nom du tag, etc.), pas
-  du code réellement typé/compilé contre react-dsfr. Vérifier l'API réelle du composant ciblé sur
-  `github.com/codegouvfr/react-dsfr` (`src/<Composant>.tsx`) avant d'écrire le mapping de props.
+## Tests de rendu
+
+`npm test` exécute chaque template avec un faux runtime Figma (`tests/harness/`), sur toutes les
+combinaisons de propriétés décrites dans `<famille>.json`, pour chaque stack. Pour chaque snippet :
+
+- le runtime est plus strict que Figma : propriété inconnue, mauvais type (`getString` sur un
+  booléen...) ou valeur de variante non couverte font échouer le test ;
+- le snippet ne doit contenir ni `undefined`, ni `[object Object]`, ni `[ERROR]`, ni balise non
+  refermée ;
+- il est comparé à l'instantané `<famille>.snap`, lisible en revue de PR.
+
+Ce que le test garantit : le template se comporte comme prévu **sur la description donnée**. Il ne
+prouve pas que Figma l'évalue de la même façon : la vérification finale reste le coup d'œil en Dev
+Mode. Après un changement voulu : `npm run test:update`, puis **relire le diff** des `.snap`.
+
+## Contrat Figma
+
+`npm run contract` compare la description de chaque node (`properties` de `<famille>.json`) à ses
+propriétés réelles dans Figma (API REST, token dans `.env`) : propriété renommée, ajoutée ou
+supprimée, option de variante ajoutée. La CI le lance chaque semaine (workflow « Contrat Figma »,
+secret `FIGMA_ACCESS_TOKEN`). En cas d'écart : mettre à jour la description, puis `npm test`
+indique les templates à adapter.
+
+## Icônes
+
+`npm run icons -- --file-key <CLÉ_FONDAMENTAUX>` régénère `components/icon/icon.json` depuis la
+page « Icônes fonctionnelles » du fichier Fondamentaux, et la clé `<FIGMA_ICONES>`. À relancer à
+chaque montée de version de ce fichier, ou avec la clé de votre propre copie.
 
 ## Workflow par composant
 
-1. **Discovery** : dans Figma, repérer le component set du composant à connecter et relever, pour
-   chaque node à connecter, le node-id ainsi que le **type exact des propriétés** (noms FR, valeurs
-   d'enum) via le panneau Dev Mode ou l'API Figma (`GET /v1/files/:key/nodes`).
-2. **API cible** : vérifier le sélecteur/inputs ngx-dsfr dans le package installé
-   (`node_modules/@edugouvfr/ngx-dsfr/lib/components/<composant>/`) ou sa documentation
-   ([npmjs.com/package/@edugouvfr/ngx-dsfr](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr)) ;
-   classes `fr-*` pour le HTML.
-3. **Écriture** : clé(s) dans `figma.config.json`, puis un template par stack
-   (`angular/`, `html/`, `react/`, `vue/`), au format cible ci-dessus.
-4. **Vérification** : `npm run typecheck` puis `npm run parse -- --all` (zéro erreur).
+1. **Discovery** : `get_context_for_code_connect` (MCP Figma) sur chaque component set : noms FR
+   exacts des propriétés, type, options de variante, enfants et atomes imbriqués.
+2. **API cible** : vérifier les sélecteurs et entrées des portages (ngx-dsfr, react-dsfr,
+   vue-dsfr) et les classes `fr-*` pour le HTML.
+3. **Écriture** : clé(s) dans `figma.config.json`, puis `components/<famille>/` (template,
+   description, au besoin un modèle partagé).
+4. **Vérification** : `npm run typecheck`, `npm run test:update` (relire le `.snap`),
+   `npm run contract`, `npm run parse -- --all`.
 5. **Validation humaine du mapping** avant publish.
 6. **Publish** : `npm run publish -- --all` (le label de chaque stack est passé par le script).
-7. **Vérif Dev Mode** (2 onglets + maj live).
-8. **Renommer la page Figma** en ajoutant le suffixe ` 🔗` : c'est le signal visuel, dans l'arbre des
-   pages, qu'un Code Connect existe pour cette famille de composants.
+7. **Vérif Dev Mode** (onglets des 4 stacks + mise à jour en direct).
+8. **Renommer la page Figma** en ajoutant le suffixe ` 🔗` : c'est le signal visuel, dans l'arbre
+   des pages, qu'un Code Connect existe pour cette famille de composants.
 9. Cocher la checklist ci-dessous.
 
 ## Mapping de référence (à compléter au fil des composants)

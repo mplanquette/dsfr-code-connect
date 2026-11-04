@@ -1,0 +1,177 @@
+{
+  "family": "Bouton",
+  "groups": [
+    {
+      "nodeId": "120:4762",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON__PRIMAIRE_SM>",
+          "variant": "primary",
+          "size": "SM"
+        },
+        {
+          "url": "<FIGMA_BOUTON__PRIMAIRE_MD>",
+          "variant": "primary",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_BOUTON__PRIMAIRE_LG>",
+          "variant": "primary",
+          "size": "LG"
+        },
+        {
+          "url": "<FIGMA_BOUTON__SECONDAIRE_SM>",
+          "variant": "secondary",
+          "size": "SM"
+        },
+        {
+          "url": "<FIGMA_BOUTON__SECONDAIRE_MD>",
+          "variant": "secondary",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_BOUTON__SECONDAIRE_LG>",
+          "variant": "secondary",
+          "size": "LG"
+        }
+      ],
+      "properties": {
+        "Libellé": {
+          "type": "TEXT",
+          "sample": "Libellé"
+        },
+        "🔄 Icône": {
+          "type": "INSTANCE_SWAP"
+        },
+        "Focus": {
+          "type": "BOOLEAN",
+          "vary": false
+        },
+        "Icône": {
+          "type": "VARIANT",
+          "options": [
+            "Sans",
+            "Droite",
+            "Gauche",
+            "Seule"
+          ]
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Survol",
+            "Cliqué"
+          ],
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variations": [
+        {
+          "label": "icône non connectée",
+          "swaps": {
+            "🔄 Icône": null
+          }
+        },
+        {
+          "label": "icône connectée",
+          "swaps": {
+            "🔄 Icône": {
+              "name": "settings",
+              "connected": {
+                "iconClass": "fr-icon-settings-line"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "nodeId": "11119:73323",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON__TERTIAIRE_SM>",
+          "variant": "tertiary",
+          "size": "SM"
+        },
+        {
+          "url": "<FIGMA_BOUTON__TERTIAIRE_MD>",
+          "variant": "tertiary",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_BOUTON__TERTIAIRE_LG>",
+          "variant": "tertiary",
+          "size": "LG"
+        }
+      ],
+      "properties": {
+        "Bordure": {
+          "type": "BOOLEAN"
+        },
+        "Libellé": {
+          "type": "TEXT",
+          "sample": "Libellé"
+        },
+        "🔄 Icône": {
+          "type": "INSTANCE_SWAP"
+        },
+        "Focus": {
+          "type": "BOOLEAN",
+          "vary": false
+        },
+        "Icône": {
+          "type": "VARIANT",
+          "options": [
+            "Sans",
+            "Droite",
+            "Gauche",
+            "Seule"
+          ]
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Survol",
+            "Cliqué"
+          ],
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "variations": [
+        {
+          "label": "icône non connectée",
+          "swaps": {
+            "🔄 Icône": null
+          }
+        },
+        {
+          "label": "icône connectée",
+          "swaps": {
+            "🔄 Icône": {
+              "name": "settings",
+              "connected": {
+                "iconClass": "fr-icon-settings-line"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

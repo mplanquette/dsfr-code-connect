@@ -1,0 +1,171 @@
+{
+  "family": "Champ de saisie",
+  "groups": [
+    {
+      "nodeId": "14819:199027",
+      "template": "input-element.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE>"
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "vary": false
+        },
+        "Instance icône": {
+          "type": "INSTANCE_SWAP"
+        },
+        "Icône": {
+          "type": "BOOLEAN"
+        },
+        "Texte saisi": {
+          "type": "TEXT",
+          "sample": "Texte saisi"
+        },
+        "Texte Area": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ]
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ]
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Rempli",
+            "Erreur",
+            "Valide"
+          ]
+        }
+      },
+      "variations": [
+        {
+          "label": "icône non connectée",
+          "swaps": {
+            "Instance icône": null
+          }
+        },
+        {
+          "label": "icône connectée",
+          "swaps": {
+            "Instance icône": {
+              "name": "settings",
+              "connected": {
+                "iconClass": "fr-icon-mail-line"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "nodeId": "14819:199148",
+      "template": "input-field.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE>"
+        }
+      ],
+      "properties": {
+        "Message d'information": {
+          "type": "BOOLEAN"
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Erreur",
+            "Rempli",
+            "Valide"
+          ]
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      "children": [
+        {
+          "kind": "INSTANCE",
+          "name": " ⚙️ Varier les propriétés - Libellé",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Libellé du champ"
+            },
+            "Texte de description additionnel": {
+              "type": "TEXT",
+              "sample": "Aide avec \"guillemets\""
+            },
+            "Description additionnel": {
+              "type": "BOOLEAN"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "Champ de saisie",
+          "template": "<FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE>",
+          "overrides": {
+            "Texte Area": {
+              "options": [
+                "False"
+              ]
+            }
+          },
+          "values": {
+            "État": "$parent.État",
+            "Désactivé": "$parent.Désactivé"
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "Message de formulaire",
+          "properties": {
+            "Message": {
+              "type": "TEXT",
+              "sample": "Message d'exemple"
+            }
+          }
+        }
+      ],
+      "variations": [
+        {
+          "label": "sans description ni icône",
+          "childValues": {
+            " ⚙️ Varier les propriétés - Libellé": {
+              "Description additionnel": false
+            },
+            "Champ de saisie": {
+              "Icône": false
+            }
+          }
+        },
+        {
+          "label": "avec description et icône",
+          "childValues": {
+            " ⚙️ Varier les propriétés - Libellé": {
+              "Description additionnel": true
+            },
+            "Champ de saisie": {
+              "Icône": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

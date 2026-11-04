@@ -1,0 +1,2303 @@
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="primary" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="secondary" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="SM" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="MD" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary-no-outline" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-settings-line" iconPosition="right"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-settings-line" iconPosition="right" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-settings-line" iconPosition="left"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-settings-line" iconPosition="left" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-arrow-right-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== angular | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<dsfr-button label="Libellé" variant="tertiary" size="LG" icon="fr-icon-settings-line" [labelSrOnly]="true" [disabled]="true"></dsfr-button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--sm fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--sm fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--lg fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--lg fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--sm fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--secondary fr-btn--lg fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--sm fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--sm fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary-no-outline fr-btn--lg fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-right fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-right fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-left fr-icon-arrow-right-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-btn--icon-left fr-icon-settings-line" type="button" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-icon-settings-line" type="button" title="Libellé">Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-icon-arrow-right-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== html | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<button class="fr-btn fr-btn--tertiary fr-btn--lg fr-icon-settings-line" type="button" title="Libellé" disabled>Libellé</button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<Button size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<Button size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<Button size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<Button size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<Button size="small" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<Button size="small" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<Button size="small" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<Button size="small" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<Button size="small" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<Button size="small" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<Button size="small" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<Button size="small" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" size="small" />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" size="small" />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<Button>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<Button>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<Button disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<Button disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" disabled />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" disabled />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<Button size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<Button size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<Button size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<Button size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<Button size="large" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<Button size="large" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<Button size="large" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<Button size="large" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<Button size="large" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<Button size="large" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<Button size="large" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<Button size="large" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" size="large" />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" size="large" />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" size="large" disabled />
+
+=== react | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" size="large" disabled />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="secondary" size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<Button priority="secondary" size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="secondary" size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<Button priority="secondary" size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="secondary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<Button priority="secondary" size="small" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="secondary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<Button priority="secondary" size="small" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="secondary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="secondary" size="small" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="secondary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="secondary" size="small" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="secondary" size="small" />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="secondary" size="small" />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="secondary" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="secondary" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="secondary">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<Button priority="secondary">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="secondary" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<Button priority="secondary" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="secondary" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<Button priority="secondary" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="secondary" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<Button priority="secondary" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="secondary" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="secondary" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="secondary" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="secondary" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="secondary" />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="secondary" />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="secondary" disabled />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="secondary" disabled />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="secondary" size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<Button priority="secondary" size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="secondary" size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<Button priority="secondary" size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="secondary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<Button priority="secondary" size="large" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="secondary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<Button priority="secondary" size="large" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="secondary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="secondary" size="large" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="secondary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="secondary" size="large" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="secondary" size="large" />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="secondary" size="large" />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="secondary" size="large" disabled />
+
+=== react | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="secondary" size="large" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" size="small" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary no outline" size="small" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary no outline" size="small" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary no outline" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary no outline" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="tertiary" size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<Button priority="tertiary" size="small">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="tertiary" size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<Button priority="tertiary" size="small" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="tertiary" size="small" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary" size="small" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary" size="small" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary" size="small" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<Button priority="tertiary no outline">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary no outline" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary no outline" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary no outline" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary no outline" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="tertiary">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<Button priority="tertiary">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="tertiary" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<Button priority="tertiary" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="tertiary" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<Button priority="tertiary" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="tertiary" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<Button priority="tertiary" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="tertiary" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="tertiary" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="tertiary" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="tertiary" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="tertiary no outline" size="large" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary no outline" size="large" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary no outline" size="large" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary no outline" size="large" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary no outline" size="large" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<Button priority="tertiary" size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<Button priority="tertiary" size="large">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<Button priority="tertiary" size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<Button priority="tertiary" size="large" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-settings-line" iconPosition="right">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-settings-line" iconPosition="right" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-settings-line" iconPosition="left">Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-arrow-right-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<Button priority="tertiary" size="large" iconId="fr-icon-settings-line" iconPosition="left" disabled>Libellé</Button>
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary" size="large" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary" size="large" />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<Button iconId="fr-icon-arrow-right-line" title="Libellé" priority="tertiary" size="large" disabled />
+
+=== react | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<Button iconId="fr-icon-settings-line" title="Libellé" priority="tertiary" size="large" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="sm" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="sm" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="sm" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="lg" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="lg" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__PRIMAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" size="lg" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_SM> | Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="sm" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_MD> | Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__SECONDAIRE_LG> | Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" secondary size="lg" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="sm" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_SM> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="sm" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_MD> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=false, Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary no-outline size="lg" icon="fr-icon-settings-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Sans, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-arrow-right-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-settings-line" icon-right />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-arrow-right-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Droite, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-settings-line" icon-right disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-arrow-right-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-settings-line" />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-arrow-right-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Gauche, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-settings-line" disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-arrow-right-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=False, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-settings-line" icon-only />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône non connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-arrow-right-line" icon-only disabled />
+
+=== vue | <FIGMA_BOUTON__TERTIAIRE_LG> | Bordure=true, Icône=Seule, Désactivé=True, icône connectée
+<DsfrButton label="Libellé" tertiary size="lg" icon="fr-icon-settings-line" icon-only disabled />

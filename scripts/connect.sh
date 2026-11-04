@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Lance une commande `figma connect` (parse, publish ou unpublish) sur les stacks sélectionnées.
-# Toutes les stacks partagent le figma.config.json racine (URLs centralisées dans
-# documentUrlSubstitutions) ; seul le label de publication change d'une stack à l'autre.
+# Les familles de components/ servent les quatre stacks : scripts/catalog.mjs génère, pour la
+# stack visée, le lot et la config (URLs du figma.config.json racine) dans .codeconnect/.
 # Usage : scripts/connect.sh <parse|publish|unpublish> [angular] [html] [react] [vue] [--all]
 set -uo pipefail
 cd "$(dirname "$0")/.."
@@ -41,7 +41,12 @@ label_for() {
 log_dir="$(mktemp -d)"
 failed=()
 for stack in "${SELECTED_STACKS[@]}"; do
-  args=(connect "$command" --dir "$stack" --config figma.config.json --skip-update-check)
+  if ! config="$(node scripts/catalog.mjs prepare "$stack")"; then
+    echo "❌ $stack (préparation du catalogue)"
+    failed+=("$stack")
+    continue
+  fi
+  args=(connect "$command" --dir . --config "$config" --skip-update-check)
   [ "$command" != "parse" ] && args+=(--label "$(label_for "$stack")")
   echo "── $command ($stack) ────────────────────────────────────────"
   if npx figma "${args[@]}" > "$log_dir/$command-$stack.log" 2>&1; then

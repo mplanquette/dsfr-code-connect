@@ -1,0 +1,30 @@
+name: Contrat Figma
+
+# Vérifie chaque semaine que les descriptions de composants (components/*/*.json) correspondent
+# toujours au design publié dans Figma. Nécessite le secret FIGMA_ACCESS_TOKEN (scope
+# « File content » en lecture) dans les paramètres du dépôt.
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Comparer les descriptions au design Figma
+        env:
+          FIGMA_ACCESS_TOKEN: ${{ secrets.FIGMA_ACCESS_TOKEN }}
+        run: |
+          if [ -z "$FIGMA_ACCESS_TOKEN" ]; then
+            echo "Secret FIGMA_ACCESS_TOKEN absent : contrôle ignoré."
+            exit 0
+          fi
+          npm ci
+          npm run contract

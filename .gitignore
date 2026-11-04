@@ -8,6 +8,9 @@
 !.env.example
 *.env
 
+# Lots et configs générés par scripts/catalog.mjs
+.codeconnect/
+
 # Logs / divers
 *.log
 .DS_Store

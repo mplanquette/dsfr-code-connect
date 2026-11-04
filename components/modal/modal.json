@@ -1,0 +1,218 @@
+{
+  "family": "Modale",
+  "groups": [
+    {
+      "nodeId": "447:7149",
+      "components": [
+        {
+          "url": "<FIGMA_MODALE__MODALE_DESKTOP>",
+          "layout": "desktop"
+        }
+      ],
+      "properties": {
+        "Icône titre": {
+          "type": "BOOLEAN"
+        },
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "vary": false
+        },
+        "Contenu": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Personnalisé"
+          ],
+          "vary": false
+        },
+        "Boutons": {
+          "type": "VARIANT",
+          "options": [
+            "1",
+            "2",
+            "Sans"
+          ]
+        },
+        "Taille max": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "vary": false
+        },
+        "Taille": {
+          "type": "VARIANT",
+          "options": [
+            "MD",
+            "SM",
+            "LG"
+          ]
+        }
+      },
+      "children": [
+        {
+          "kind": "INSTANCE",
+          "name": "Thème clair / Tertiaire / SM",
+          "template": "<FIGMA_BOUTON__TERTIAIRE_SM>",
+          "values": {
+            "Libellé": "Fermer"
+          }
+        },
+        {
+          "kind": "TEXT",
+          "name": "Titre de modale",
+          "text": "Titre d'exemple"
+        },
+        {
+          "kind": "TEXT",
+          "name": "Texte",
+          "text": "Contenu d'exemple de la modale."
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Bouton 1",
+          "template": "<FIGMA_BOUTON__PRIMAIRE_MD>",
+          "values": {
+            "Libellé": "Confirmer"
+          },
+          "when": {
+            "Boutons": [
+              "1",
+              "2"
+            ]
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Bouton 2",
+          "template": "<FIGMA_BOUTON__SECONDAIRE_MD>",
+          "values": {
+            "Libellé": "Annuler"
+          },
+          "when": {
+            "Boutons": [
+              "2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nodeId": "447:7150",
+      "components": [
+        {
+          "url": "<FIGMA_MODALE__MODALE_MOBILE>",
+          "layout": "mobile"
+        }
+      ],
+      "properties": {
+        "Icône titre": {
+          "type": "BOOLEAN"
+        },
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "vary": false
+        },
+        "Contenu": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Personnalisé"
+          ],
+          "vary": false
+        },
+        "Boutons": {
+          "type": "VARIANT",
+          "options": [
+            "1",
+            "2",
+            "Sans"
+          ]
+        },
+        "Taille max": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "vary": false
+        }
+      },
+      "children": [
+        {
+          "kind": "INSTANCE",
+          "name": "Thème clair / Tertiaire / SM",
+          "template": "<FIGMA_BOUTON__TERTIAIRE_SM>",
+          "values": {
+            "Libellé": "Fermer"
+          }
+        },
+        {
+          "kind": "TEXT",
+          "name": "Titre de modale",
+          "text": "Titre d'exemple"
+        },
+        {
+          "kind": "TEXT",
+          "name": "Texte",
+          "text": "Contenu d'exemple de la modale."
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Bouton 1",
+          "template": "<FIGMA_BOUTON__PRIMAIRE_MD>",
+          "values": {
+            "Libellé": "Confirmer"
+          },
+          "when": {
+            "Boutons": [
+              "1",
+              "2"
+            ]
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Bouton 2",
+          "template": "<FIGMA_BOUTON__SECONDAIRE_MD>",
+          "values": {
+            "Libellé": "Annuler"
+          },
+          "when": {
+            "Boutons": [
+              "2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "nodeId": "447:7151",
+      "template": "modal-overlay.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_MODALE__MODALE_SURCOUCHE>"
+        }
+      ],
+      "properties": {
+        "Support": {
+          "type": "VARIANT",
+          "options": [
+            "Desktop",
+            "Mobile"
+          ],
+          "vary": false
+        }
+      }
+    }
+  ]
+}
