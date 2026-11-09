@@ -1,0 +1,198 @@
+{
+  "family": "Carte",
+  "groups": [
+    {
+      "nodeId": "21809:202030",
+      "components": [
+        {
+          "url": "<FIGMA_CARTE__VERTICALE_LG>",
+          "layout": "vertical",
+          "size": "LG"
+        },
+        {
+          "url": "<FIGMA_CARTE__VERTICALE_MD>",
+          "layout": "vertical",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_CARTE__VERTICALE_SM>",
+          "layout": "vertical",
+          "size": "SM"
+        }
+      ],
+      "properties": {
+        "Voir Média": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": [
+            "Desktop",
+            "Mobile"
+          ],
+          "default": "Desktop",
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Survol",
+            "Cliqué"
+          ],
+          "default": "Default",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Cliquable": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False",
+          "vary": false
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "21809:202123",
+      "components": [
+        {
+          "url": "<FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA>",
+          "layout": "horizontal",
+          "size": "LG",
+          "hasMedia": true
+        },
+        {
+          "url": "<FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA>",
+          "layout": "horizontal",
+          "size": "MD",
+          "hasMedia": true
+        },
+        {
+          "url": "<FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA>",
+          "layout": "horizontal",
+          "size": "SM",
+          "hasMedia": true
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Proportions": {
+          "type": "VARIANT",
+          "options": [
+            "33-66",
+            "40-60",
+            "50-50"
+          ],
+          "default": "33-66"
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Survol",
+            "Cliqué"
+          ],
+          "default": "Default",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Cliquable": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False",
+          "vary": false
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "21809:202178",
+      "components": [
+        {
+          "url": "<FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA>",
+          "layout": "horizontal",
+          "size": "LG",
+          "hasMedia": false
+        },
+        {
+          "url": "<FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA>",
+          "layout": "horizontal",
+          "size": "MD",
+          "hasMedia": false
+        },
+        {
+          "url": "<FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA>",
+          "layout": "horizontal",
+          "size": "SM",
+          "hasMedia": false
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Survol",
+            "Cliqué"
+          ],
+          "default": "Default",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Cliquable": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False",
+          "vary": false
+        }
+      },
+      "children": []
+    }
+  ]
+}

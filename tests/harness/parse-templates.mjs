@@ -25,9 +25,9 @@ export function loadKeysByUrl(root) {
 }
 
 /**
- * Lance le parse d'une stack et retourne les templates au nouveau format (« parserless »),
- * indexés par clé de composant. Les anciens `figma.connect` sont comptés mais non exécutables.
- * @returns {Promise<{ templates: Map<string, { code: string, label: string }>, legacyKeys: Set<string>, legacyCount: number }>}
+ * Lance le parse d'une stack et retourne ses templates (« parserless »), indexés par clé de
+ * composant.
+ * @returns {Promise<{ templates: Map<string, { code: string, label: string }> }>}
  */
 async function parseStack(root, stack, keysByUrl) {
   const outFile = join(mkdtempSync(join(tmpdir(), 'dsfr-cc-')), `${stack}.json`)
@@ -39,21 +39,18 @@ async function parseStack(root, stack, keysByUrl) {
   })
 
   const templates = new Map()
-  const legacyKeys = new Set()
   for (const doc of JSON.parse(readFileSync(outFile, 'utf8'))) {
-    if (!doc.templateData?.isParserless) {
-      legacyKeys.add(keysByUrl.get(doc.figmaNode) ?? doc.figmaNode)
-      continue
-    }
+    // Un `figma.connect` ne peut pas être exécuté par le harnais : tout passe par components/.
+    if (!doc.templateData?.isParserless) throw new Error(`${stack} : figma.connect hors de components/ (${doc._codeConnectFilePath ?? doc.figmaNode})`)
     const key = keysByUrl.get(doc.figmaNode)
     if (!key) throw new Error(`${stack} : URL sans clé dans figma.config.json (${doc.figmaNode})`)
     if (templates.has(key)) throw new Error(`${stack} : deux templates pour la clé ${key}`)
     templates.set(key, { code: doc.template, label: doc.label })
   }
-  return { templates, legacyKeys, legacyCount: legacyKeys.size }
+  return { templates }
 }
 
-/** Parse les quatre stacks. @returns {Promise<Map<string, {templates: Map, legacyCount: number}>>} */
+/** Parse les quatre stacks. @returns {Promise<Map<string, {templates: Map}>>} */
 export async function parseAllStacks(root) {
   const { keysByUrl } = loadKeysByUrl(root)
   const results = new Map()

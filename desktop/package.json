@@ -34,10 +34,6 @@
       "src/**/*"
     ],
     "extraResources": [
-      { "from": "../angular", "to": "stacks/angular", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
-      { "from": "../html", "to": "stacks/html", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
-      { "from": "../react", "to": "stacks/react", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
-      { "from": "../vue", "to": "stacks/vue", "filter": ["**/*.figma.ts", "**/*.figma.batch.ts", "**/*.figma.batch.json", "helpers/**"] },
       { "from": "../figma.config.json", "to": "stacks/figma.config.json" },
       { "from": "../components", "to": "stacks/components", "filter": ["**/*.ts", "**/*.json"] },
       { "from": "../scripts/catalog.mjs", "to": "stacks/scripts/catalog.mjs" },

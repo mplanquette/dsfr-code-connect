@@ -1,0 +1,379 @@
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=False
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]"></dsfr-form-select>
+
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=True
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [disabled]="true"></dsfr-form-select>
+
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=False
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" message="Texte d'erreur" messageSeverity="error"></dsfr-form-select>
+
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=True
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-select>
+
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=False
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" message="Texte de validation" messageSeverity="valid"></dsfr-form-select>
+
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=True
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-select>
+
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=False
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]"></dsfr-form-select>
+
+=== angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=True
+<dsfr-form-select
+  label="Libellé de la liste déroulante"
+  name="select"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [disabled]="true"></dsfr-form-select>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=False
+<div class="fr-select-group">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select">
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=True
+<div class="fr-select-group">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select" disabled>
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=False
+<div class="fr-select-group fr-select-group--error">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select">
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+    <p class="fr-message fr-message--error" id="select-message">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=True
+<div class="fr-select-group fr-select-group--error">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select" disabled>
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+    <p class="fr-message fr-message--error" id="select-message">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=False
+<div class="fr-select-group fr-select-group--valid">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select">
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="select-message">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=True
+<div class="fr-select-group fr-select-group--valid">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select" disabled>
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="select-message">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=False
+<div class="fr-select-group fr-select-group--disabled">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select">
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=True
+<div class="fr-select-group fr-select-group--disabled">
+  <label class="fr-label" for="select">Libellé de la liste déroulante</label>
+  <select class="fr-select" id="select" name="select" disabled>
+    <option value="" selected disabled hidden>Sélectionner une option</option>
+    <option value="option-1">Première option</option>
+    <option value="option-2">Deuxième option</option>
+    <option value="option-3">Troisième option</option>
+  </select>
+  <div class="fr-messages-group" id="select-messages" aria-live="polite">
+  </div>
+</div>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=False
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps}
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=True
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps} disabled
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=False
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps} state="error" stateRelatedMessage="Texte d'erreur"
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=True
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps} disabled state="error" stateRelatedMessage="Texte d'erreur"
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=False
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps} state="success" stateRelatedMessage="Texte de validation"
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=True
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps} disabled state="success" stateRelatedMessage="Texte de validation"
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=False
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps}
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== react | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=True
+const nativeSelectProps = { name: 'select' };
+
+<Select
+  label="Libellé de la liste déroulante"
+  nativeSelectProps={nativeSelectProps} disabled
+>
+  <option value="" selected disabled hidden>Sélectionner une option</option>
+  <option value="option-1">Première option</option>
+  <option value="option-2">Deuxième option</option>
+  <option value="option-3">Troisième option</option>
+</Select>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=False
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]"
+/>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Défaut, Désactivé=True
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]" disabled
+/>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=False
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=True
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=False
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]" success-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=True
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]" disabled success-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=False
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]"
+/>
+
+=== vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=True
+<DsfrSelect
+  label="Libellé de la liste déroulante"
+  name="select"
+  :options="[
+    { text: 'Première option', value: 'option-1' },
+    { text: 'Deuxième option', value: 'option-2' },
+    { text: 'Troisième option', value: 'option-3' }
+  ]" disabled
+/>

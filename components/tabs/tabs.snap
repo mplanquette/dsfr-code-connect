@@ -1,0 +1,243 @@
+=== angular | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Défaut
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets" [selectedTabIndex]="1">
+  <dsfr-tab tabId="tab-1" label="Libellé de l'onglet">Contenu de l'onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Courant
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets" [selectedTabIndex]="0">
+  <dsfr-tab tabId="tab-1" label="Libellé de l'onglet">Contenu de l'onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Survol
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets" [selectedTabIndex]="1">
+  <dsfr-tab tabId="tab-1" label="Libellé de l'onglet">Contenu de l'onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Défaut
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets" [selectedTabIndex]="1">
+  <dsfr-tab tabId="tab-1" label="Libellé de l'onglet" icon="fr-icon-checkbox-line">Contenu de l'onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Courant
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets" [selectedTabIndex]="0">
+  <dsfr-tab tabId="tab-1" label="Libellé de l'onglet" icon="fr-icon-checkbox-line">Contenu de l'onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Survol
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets" [selectedTabIndex]="1">
+  <dsfr-tab tabId="tab-1" label="Libellé de l'onglet" icon="fr-icon-checkbox-line">Contenu de l'onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=False
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets">
+  <dsfr-tab tabId="tab-1" label="Premier onglet">Contenu du premier onglet</dsfr-tab>
+  <dsfr-tab tabId="tab-2" label="Deuxième onglet">Contenu du deuxième onglet</dsfr-tab>
+  <dsfr-tab tabId="tab-3" label="Troisième onglet">Contenu du troisième onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=True
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets">
+  <dsfr-tab tabId="tab-1" label="Premier onglet" icon="fr-icon-checkbox-line">Contenu du premier onglet</dsfr-tab>
+  <dsfr-tab tabId="tab-2" label="Deuxième onglet" icon="fr-icon-checkbox-line">Contenu du deuxième onglet</dsfr-tab>
+  <dsfr-tab tabId="tab-3" label="Troisième onglet" icon="fr-icon-checkbox-line">Contenu du troisième onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== angular | <FIGMA_ONGLET__ONGLET_COMPLET> | défaut
+<dsfr-tabs tabsAriaLabel="Libellé du groupe d'onglets">
+  <dsfr-tab tabId="tab-1" label="Premier onglet">Contenu du premier onglet</dsfr-tab>
+  <dsfr-tab tabId="tab-2" label="Deuxième onglet">Contenu du deuxième onglet</dsfr-tab>
+  <dsfr-tab tabId="tab-3" label="Troisième onglet">Contenu du troisième onglet</dsfr-tab>
+</dsfr-tabs>
+
+=== html | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Défaut
+<li role="presentation">
+  <button id="tab-1" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-1">Libellé de l'onglet</button>
+</li>
+
+=== html | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Courant
+<li role="presentation">
+  <button id="tab-1" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tabpanel-1">Libellé de l'onglet</button>
+</li>
+
+=== html | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Survol
+<li role="presentation">
+  <button id="tab-1" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-1">Libellé de l'onglet</button>
+</li>
+
+=== html | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Défaut
+<li role="presentation">
+  <button id="tab-1" class="fr-tabs__tab fr-icon-checkbox-line fr-tabs__tab--icon-left" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-1">Libellé de l'onglet</button>
+</li>
+
+=== html | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Courant
+<li role="presentation">
+  <button id="tab-1" class="fr-tabs__tab fr-icon-checkbox-line fr-tabs__tab--icon-left" tabindex="0" role="tab" aria-selected="true" aria-controls="tabpanel-1">Libellé de l'onglet</button>
+</li>
+
+=== html | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Survol
+<li role="presentation">
+  <button id="tab-1" class="fr-tabs__tab fr-icon-checkbox-line fr-tabs__tab--icon-left" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-1">Libellé de l'onglet</button>
+</li>
+
+=== html | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=False
+<ul class="fr-tabs__list" role="tablist" aria-label="Libellé du groupe d'onglets">
+  <li role="presentation">
+    <button id="tab-1" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tabpanel-1">Premier onglet</button>
+  </li>
+  <li role="presentation">
+    <button id="tab-2" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-2">Deuxième onglet</button>
+  </li>
+  <li role="presentation">
+    <button id="tab-3" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-3">Troisième onglet</button>
+  </li>
+</ul>
+
+=== html | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=True
+<ul class="fr-tabs__list" role="tablist" aria-label="Libellé du groupe d'onglets">
+  <li role="presentation">
+    <button id="tab-1" class="fr-tabs__tab fr-icon-checkbox-line fr-tabs__tab--icon-left" tabindex="0" role="tab" aria-selected="true" aria-controls="tabpanel-1">Premier onglet</button>
+  </li>
+  <li role="presentation">
+    <button id="tab-2" class="fr-tabs__tab fr-icon-checkbox-line fr-tabs__tab--icon-left" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-2">Deuxième onglet</button>
+  </li>
+  <li role="presentation">
+    <button id="tab-3" class="fr-tabs__tab fr-icon-checkbox-line fr-tabs__tab--icon-left" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-3">Troisième onglet</button>
+  </li>
+</ul>
+
+=== html | <FIGMA_ONGLET__ONGLET_COMPLET> | défaut
+<div class="fr-tabs">
+  <ul class="fr-tabs__list" role="tablist" aria-label="Libellé du groupe d'onglets">
+    <li role="presentation">
+      <button id="tab-1" class="fr-tabs__tab" tabindex="0" role="tab" aria-selected="true" aria-controls="tabpanel-1">Premier onglet</button>
+    </li>
+    <li role="presentation">
+      <button id="tab-2" class="fr-tabs__tab" tabindex="-1" role="tab" aria-selected="false" aria-controls="tabpanel-2">Deuxième onglet</button>
+    </li>
+  </ul>
+  <div id="tabpanel-1" class="fr-tabs__panel fr-tabs__panel--selected" role="tabpanel" aria-labelledby="tab-1" tabindex="0">
+    Contenu du premier onglet
+  </div>
+  <div id="tabpanel-2" class="fr-tabs__panel" role="tabpanel" aria-labelledby="tab-2" tabindex="0">
+    Contenu du deuxième onglet
+  </div>
+</div>
+
+=== react | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Défaut
+const tabs = [
+  { label: "Libellé de l'onglet", content: "Contenu de l'onglet", isDefault: false }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Courant
+const tabs = [
+  { label: "Libellé de l'onglet", content: "Contenu de l'onglet", isDefault: true }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Survol
+const tabs = [
+  { label: "Libellé de l'onglet", content: "Contenu de l'onglet", isDefault: false }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Défaut
+const tabs = [
+  { label: "Libellé de l'onglet", content: "Contenu de l'onglet", isDefault: false, iconId: 'fr-icon-checkbox-line' }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Courant
+const tabs = [
+  { label: "Libellé de l'onglet", content: "Contenu de l'onglet", isDefault: true, iconId: 'fr-icon-checkbox-line' }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Survol
+const tabs = [
+  { label: "Libellé de l'onglet", content: "Contenu de l'onglet", isDefault: false, iconId: 'fr-icon-checkbox-line' }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=False
+const tabs = [
+  { label: 'Premier onglet', content: 'Contenu du premier onglet', isDefault: true },
+  { label: 'Deuxième onglet', content: 'Contenu du deuxième onglet' },
+  { label: 'Troisième onglet', content: 'Contenu du troisième onglet' }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=True
+const tabs = [
+  { label: 'Premier onglet', content: 'Contenu du premier onglet', isDefault: true, iconId: 'fr-icon-checkbox-line' },
+  { label: 'Deuxième onglet', content: 'Contenu du deuxième onglet', iconId: 'fr-icon-checkbox-line' },
+  { label: 'Troisième onglet', content: 'Contenu du troisième onglet', iconId: 'fr-icon-checkbox-line' }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== react | <FIGMA_ONGLET__ONGLET_COMPLET> | défaut
+const tabs = [
+  { label: 'Premier onglet', content: 'Contenu du premier onglet', isDefault: true },
+  { label: 'Deuxième onglet', content: 'Contenu du deuxième onglet' }
+];
+
+<Tabs label="Libellé du groupe d'onglets" tabs={tabs} />
+
+=== vue | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Défaut
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :model-value="1" :tab-titles="[
+    { title: 'Libellé de l\'onglet' }
+  ]" :tab-contents="['Contenu de l\'onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Courant
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :model-value="0" :tab-titles="[
+    { title: 'Libellé de l\'onglet' }
+  ]" :tab-contents="['Contenu de l\'onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=False, État=Survol
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :model-value="1" :tab-titles="[
+    { title: 'Libellé de l\'onglet' }
+  ]" :tab-contents="['Contenu de l\'onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Défaut
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :model-value="1" :tab-titles="[
+    { title: 'Libellé de l\'onglet', icon: 'fr-icon-checkbox-line' }
+  ]" :tab-contents="['Contenu de l\'onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Courant
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :model-value="0" :tab-titles="[
+    { title: 'Libellé de l\'onglet', icon: 'fr-icon-checkbox-line' }
+  ]" :tab-contents="['Contenu de l\'onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_ITEM> | Icône=True, État=Survol
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :model-value="1" :tab-titles="[
+    { title: 'Libellé de l\'onglet', icon: 'fr-icon-checkbox-line' }
+  ]" :tab-contents="['Contenu de l\'onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=False
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :tab-titles="[
+    { title: 'Premier onglet' },
+    { title: 'Deuxième onglet' },
+    { title: 'Troisième onglet' }
+  ]" :tab-contents="['Contenu du premier onglet', 'Contenu du deuxième onglet', 'Contenu du troisième onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_GROUPE> | Icône=True
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :tab-titles="[
+    { title: 'Premier onglet', icon: 'fr-icon-checkbox-line' },
+    { title: 'Deuxième onglet', icon: 'fr-icon-checkbox-line' },
+    { title: 'Troisième onglet', icon: 'fr-icon-checkbox-line' }
+  ]" :tab-contents="['Contenu du premier onglet', 'Contenu du deuxième onglet', 'Contenu du troisième onglet']" />
+
+=== vue | <FIGMA_ONGLET__ONGLET_COMPLET> | défaut
+<DsfrTabs tab-list-name="Libellé du groupe d'onglets" :tab-titles="[
+    { title: 'Premier onglet' },
+    { title: 'Deuxième onglet' },
+    { title: 'Troisième onglet' }
+  ]" :tab-contents="['Contenu du premier onglet', 'Contenu du deuxième onglet', 'Contenu du troisième onglet']" />

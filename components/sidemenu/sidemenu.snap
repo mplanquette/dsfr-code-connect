@@ -1,0 +1,1761 @@
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Liens directs
+<dsfr-sidemenu
+  ariaLabel="Menu latéral" position="right"
+  [menu]="{
+    items: [
+      { label: 'Première entrée', routePath: '/premiere' },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' },
+      { label: 'Troisième entrée', routePath: '/troisieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Dépliants
+<dsfr-sidemenu
+  ariaLabel="Menu latéral" position="right"
+  [menu]="{
+    items: [
+      {
+        label: 'Première entrée',
+        subItems: [
+          { label: 'Sous-entrée 1', routePath: '/premiere/un' },
+          { label: 'Sous-entrée 2', routePath: '/premiere/deux' }
+        ]
+      },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Liens directs
+<dsfr-sidemenu
+  ariaLabel="Menu latéral" position="right"
+  [menu]="{
+    title: 'Titre du menu',
+    items: [
+      { label: 'Première entrée', routePath: '/premiere' },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' },
+      { label: 'Troisième entrée', routePath: '/troisieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Dépliants
+<dsfr-sidemenu
+  ariaLabel="Menu latéral" position="right"
+  [menu]="{
+    title: 'Titre du menu',
+    items: [
+      {
+        label: 'Première entrée',
+        subItems: [
+          { label: 'Sous-entrée 1', routePath: '/premiere/un' },
+          { label: 'Sous-entrée 2', routePath: '/premiere/deux' }
+        ]
+      },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Liens directs
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      { label: 'Première entrée', routePath: '/premiere' },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' },
+      { label: 'Troisième entrée', routePath: '/troisieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Dépliants
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Première entrée',
+        subItems: [
+          { label: 'Sous-entrée 1', routePath: '/premiere/un' },
+          { label: 'Sous-entrée 2', routePath: '/premiere/deux' }
+        ]
+      },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Liens directs
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    title: 'Titre du menu',
+    items: [
+      { label: 'Première entrée', routePath: '/premiere' },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' },
+      { label: 'Troisième entrée', routePath: '/troisieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Dépliants
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    title: 'Titre du menu',
+    items: [
+      {
+        label: 'Première entrée',
+        subItems: [
+          { label: 'Sous-entrée 1', routePath: '/premiere/un' },
+          { label: 'Sous-entrée 2', routePath: '/premiere/deux' }
+        ]
+      },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Dépliants
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Première entrée',
+        subItems: [
+          { label: 'Sous-entrée 1', routePath: '/premiere/un' },
+          { label: 'Sous-entrée 2', routePath: '/premiere/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Liens directs
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      { label: 'Première entrée', routePath: '/premiere' },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Dépliants
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    title: 'Titre du menu',
+    items: [
+      {
+        label: 'Première entrée',
+        subItems: [
+          { label: 'Sous-entrée 1', routePath: '/premiere/un' },
+          { label: 'Sous-entrée 2', routePath: '/premiere/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Liens directs
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    title: 'Titre du menu',
+    items: [
+      { label: 'Première entrée', routePath: '/premiere' },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_FERME> | défaut
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    title: 'Titre du menu',
+    items: [
+      { label: 'Première entrée', routePath: '/premiere' },
+      { label: 'Deuxième entrée', routePath: '/deuxieme' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Défaut
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      { label: 'Libellé de l\'entrée', routePath: '/entree' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Survol
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      { label: 'Libellé de l\'entrée', routePath: '/entree' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Courant
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      { label: 'Libellé de l\'entrée', routePath: '/entree', active: true }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Défaut
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Courant
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        active: true,
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Défaut
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Courant
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        active: true,
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Défaut
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Courant
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            active: true,
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Défaut
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Courant
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            active: true,
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=False
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      { label: 'Libellé de l\'entrée', routePath: '/entree' }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=True
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      { label: 'Libellé de l\'entrée', routePath: '/entree', active: true }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=False
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=True
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        active: true,
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=False
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=True
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Libellé du dépliant',
+        active: true,
+        subItems: [
+          { label: 'Première sous-entrée', routePath: '/entree/un' },
+          { label: 'Deuxième sous-entrée', routePath: '/entree/deux' }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=False
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=True
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            active: true,
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=False
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== angular | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=True
+<dsfr-sidemenu
+  ariaLabel="Menu latéral"
+  [menu]="{
+    items: [
+      {
+        label: 'Dépliant de niveau 1',
+        subItems: [
+          {
+            label: 'Dépliant de niveau 2',
+            active: true,
+            subItems: [
+              { label: 'Première sous-entrée', routePath: '/entree/un/a' },
+              { label: 'Deuxième sous-entrée', routePath: '/entree/un/b' }
+            ]
+          }
+        ]
+      }
+    ]
+  }"></dsfr-sidemenu>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Liens directs
+<nav class="fr-sidemenu fr-sidemenu--right" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/premiere" target="_self">Première entrée</a>
+        </li>
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/deuxieme" target="_self">Deuxième entrée</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Dépliants
+<nav class="fr-sidemenu fr-sidemenu--right" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Première entrée</button>
+          <div class="fr-collapse" id="sidemenu-item-1">
+            <ul class="fr-sidemenu__list">
+              <li class="fr-sidemenu__item">
+                <a class="fr-sidemenu__link" href="/premiere/un" target="_self">Sous-entrée 1</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Liens directs
+<nav class="fr-sidemenu fr-sidemenu--right" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <p class="fr-sidemenu__title" id="sidemenu-title">Titre du menu</p>
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/premiere" target="_self">Première entrée</a>
+        </li>
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/deuxieme" target="_self">Deuxième entrée</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Dépliants
+<nav class="fr-sidemenu fr-sidemenu--right" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <p class="fr-sidemenu__title" id="sidemenu-title">Titre du menu</p>
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Première entrée</button>
+          <div class="fr-collapse" id="sidemenu-item-1">
+            <ul class="fr-sidemenu__list">
+              <li class="fr-sidemenu__item">
+                <a class="fr-sidemenu__link" href="/premiere/un" target="_self">Sous-entrée 1</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Liens directs
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/premiere" target="_self">Première entrée</a>
+        </li>
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/deuxieme" target="_self">Deuxième entrée</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Dépliants
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Première entrée</button>
+          <div class="fr-collapse" id="sidemenu-item-1">
+            <ul class="fr-sidemenu__list">
+              <li class="fr-sidemenu__item">
+                <a class="fr-sidemenu__link" href="/premiere/un" target="_self">Sous-entrée 1</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Liens directs
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <p class="fr-sidemenu__title" id="sidemenu-title">Titre du menu</p>
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/premiere" target="_self">Première entrée</a>
+        </li>
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/deuxieme" target="_self">Deuxième entrée</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Dépliants
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <p class="fr-sidemenu__title" id="sidemenu-title">Titre du menu</p>
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Première entrée</button>
+          <div class="fr-collapse" id="sidemenu-item-1">
+            <ul class="fr-sidemenu__list">
+              <li class="fr-sidemenu__item">
+                <a class="fr-sidemenu__link" href="/premiere/un" target="_self">Sous-entrée 1</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Dépliants
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="true">Dans cette rubrique</button>
+    <div class="fr-collapse fr-collapse--expanded" id="sidemenu">
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Première entrée</button>
+          <div class="fr-collapse" id="sidemenu-item-1">
+            <ul class="fr-sidemenu__list">
+              <li class="fr-sidemenu__item">
+                <a class="fr-sidemenu__link" href="/premiere/un" target="_self">Sous-entrée 1</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Liens directs
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="true">Dans cette rubrique</button>
+    <div class="fr-collapse fr-collapse--expanded" id="sidemenu">
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/premiere" target="_self">Première entrée</a>
+        </li>
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/deuxieme" target="_self">Deuxième entrée</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Dépliants
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="true">Dans cette rubrique</button>
+    <div class="fr-collapse fr-collapse--expanded" id="sidemenu">
+      <p class="fr-sidemenu__title" id="sidemenu-title">Titre du menu</p>
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Première entrée</button>
+          <div class="fr-collapse" id="sidemenu-item-1">
+            <ul class="fr-sidemenu__list">
+              <li class="fr-sidemenu__item">
+                <a class="fr-sidemenu__link" href="/premiere/un" target="_self">Sous-entrée 1</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Liens directs
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="true">Dans cette rubrique</button>
+    <div class="fr-collapse fr-collapse--expanded" id="sidemenu">
+      <p class="fr-sidemenu__title" id="sidemenu-title">Titre du menu</p>
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/premiere" target="_self">Première entrée</a>
+        </li>
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/deuxieme" target="_self">Deuxième entrée</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_FERME> | défaut
+<nav class="fr-sidemenu" role="navigation" aria-labelledby="sidemenu-title">
+  <div class="fr-sidemenu__inner">
+    <button type="button" class="fr-sidemenu__btn" aria-controls="sidemenu" aria-expanded="false">Dans cette rubrique</button>
+    <div class="fr-collapse" id="sidemenu">
+      <p class="fr-sidemenu__title" id="sidemenu-title">Titre du menu</p>
+      <ul class="fr-sidemenu__list">
+        <li class="fr-sidemenu__item">
+          <a class="fr-sidemenu__link" href="/premiere" target="_self">Première entrée</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Défaut
+<li class="fr-sidemenu__item">
+  <a class="fr-sidemenu__link" href="/entree" target="_self">Libellé de l'entrée</a>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Survol
+<li class="fr-sidemenu__item">
+  <a class="fr-sidemenu__link" href="/entree" target="_self">Libellé de l'entrée</a>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Courant
+<li class="fr-sidemenu__item" aria-current="page">
+  <a class="fr-sidemenu__link" href="/entree" target="_self">Libellé de l'entrée</a>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Défaut
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/deux" target="_self">Deuxième sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Courant
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/deux" target="_self">Deuxième sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Défaut
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/deux" target="_self">Deuxième sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Courant
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/deux" target="_self">Deuxième sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Défaut
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Courant
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Défaut
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Courant
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=False
+<li class="fr-sidemenu__item">
+  <a class="fr-sidemenu__link" href="/entree" target="_self">Libellé de l'entrée</a>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=True
+<li class="fr-sidemenu__item" aria-current="page">
+  <a class="fr-sidemenu__link" href="/entree" target="_self">Libellé de l'entrée</a>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=False
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=True
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=False
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=True
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1">Libellé du dépliant</button>
+  <div class="fr-collapse" id="sidemenu-item-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=False
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=True
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="true" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse fr-collapse--expanded" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=False
+<li class="fr-sidemenu__item">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== html | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=True
+<li class="fr-sidemenu__item fr-sidemenu__item--active">
+  <button class="fr-sidemenu__btn" aria-expanded="false" aria-controls="sidemenu-item-1-1">Dépliant de niveau 2</button>
+  <div class="fr-collapse" id="sidemenu-item-1-1">
+    <ul class="fr-sidemenu__list">
+      <li class="fr-sidemenu__item">
+        <a class="fr-sidemenu__link" href="/entree/un/a" target="_self">Première sous-entrée</a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Liens directs
+const items = [
+  { text: 'Première entrée', linkProps: { href: '/premiere' } },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième entrée', linkProps: { href: '/troisieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" align="right" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Dépliants
+const items = [
+  {
+    text: 'Première entrée',
+    items: [
+      { text: 'Sous-entrée 1', linkProps: { href: '/premiere/un' } },
+      { text: 'Sous-entrée 2', linkProps: { href: '/premiere/deux' } }
+    ]
+  },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" align="right" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Liens directs
+const items = [
+  { text: 'Première entrée', linkProps: { href: '/premiere' } },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième entrée', linkProps: { href: '/troisieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" align="right" title="Titre du menu" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Dépliants
+const items = [
+  {
+    text: 'Première entrée',
+    items: [
+      { text: 'Sous-entrée 1', linkProps: { href: '/premiere/un' } },
+      { text: 'Sous-entrée 2', linkProps: { href: '/premiere/deux' } }
+    ]
+  },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" align="right" title="Titre du menu" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Liens directs
+const items = [
+  { text: 'Première entrée', linkProps: { href: '/premiere' } },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième entrée', linkProps: { href: '/troisieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Dépliants
+const items = [
+  {
+    text: 'Première entrée',
+    items: [
+      { text: 'Sous-entrée 1', linkProps: { href: '/premiere/un' } },
+      { text: 'Sous-entrée 2', linkProps: { href: '/premiere/deux' } }
+    ]
+  },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Liens directs
+const items = [
+  { text: 'Première entrée', linkProps: { href: '/premiere' } },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième entrée', linkProps: { href: '/troisieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" title="Titre du menu" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Dépliants
+const items = [
+  {
+    text: 'Première entrée',
+    items: [
+      { text: 'Sous-entrée 1', linkProps: { href: '/premiere/un' } },
+      { text: 'Sous-entrée 2', linkProps: { href: '/premiere/deux' } }
+    ]
+  },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" title="Titre du menu" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Dépliants
+const items = [
+  {
+    text: 'Première entrée',
+    items: [
+      { text: 'Sous-entrée 1', linkProps: { href: '/premiere/un' } },
+      { text: 'Sous-entrée 2', linkProps: { href: '/premiere/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Liens directs
+const items = [
+  { text: 'Première entrée', linkProps: { href: '/premiere' } },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Dépliants
+const items = [
+  {
+    text: 'Première entrée',
+    items: [
+      { text: 'Sous-entrée 1', linkProps: { href: '/premiere/un' } },
+      { text: 'Sous-entrée 2', linkProps: { href: '/premiere/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" title="Titre du menu" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Liens directs
+const items = [
+  { text: 'Première entrée', linkProps: { href: '/premiere' } },
+  { text: 'Deuxième entrée', linkProps: { href: '/deuxieme' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" title="Titre du menu" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_FERME> | défaut
+const items = [
+  { text: 'Première entrée', linkProps: { href: '/premiere' } }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" title="Titre du menu" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Défaut
+<SideMenu
+  burgerMenuButtonText="Dans cette rubrique"
+  items={[{ text: "Libellé de l'entrée", linkProps: { href: '/entree' } }]}
+/>
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Survol
+<SideMenu
+  burgerMenuButtonText="Dans cette rubrique"
+  items={[{ text: "Libellé de l'entrée", linkProps: { href: '/entree' } }]}
+/>
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Courant
+<SideMenu
+  burgerMenuButtonText="Dans cette rubrique"
+  items={[{ text: "Libellé de l'entrée", linkProps: { href: '/entree' }, isActive: true }]}
+/>
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Défaut
+const items = [
+  {
+    text: 'Libellé du dépliant',
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Courant
+const items = [
+  {
+    text: 'Libellé du dépliant', isActive: true,
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Défaut
+const items = [
+  {
+    text: 'Libellé du dépliant', expandedByDefault: true,
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Courant
+const items = [
+  {
+    text: 'Libellé du dépliant', isActive: true, expandedByDefault: true,
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Défaut
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2',
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Courant
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2', isActive: true,
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Défaut
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2', expandedByDefault: true,
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Courant
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2', isActive: true, expandedByDefault: true,
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=False
+<SideMenu
+  burgerMenuButtonText="Dans cette rubrique"
+  items={[{ text: "Libellé de l'entrée", linkProps: { href: '/entree' } }]}
+/>
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=True
+<SideMenu
+  burgerMenuButtonText="Dans cette rubrique"
+  items={[{ text: "Libellé de l'entrée", linkProps: { href: '/entree' }, isActive: true }]}
+/>
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=False
+const items = [
+  {
+    text: 'Libellé du dépliant', expandedByDefault: true,
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=True
+const items = [
+  {
+    text: 'Libellé du dépliant', isActive: true, expandedByDefault: true,
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=False
+const items = [
+  {
+    text: 'Libellé du dépliant',
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=True
+const items = [
+  {
+    text: 'Libellé du dépliant', isActive: true,
+    items: [
+      { text: 'Première sous-entrée', linkProps: { href: '/entree/un' } },
+      { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/deux' } }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=False
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2', expandedByDefault: true,
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=True
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2', isActive: true, expandedByDefault: true,
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=False
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2',
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== react | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=True
+const items = [
+  {
+    text: 'Dépliant de niveau 1',
+    items: [
+      {
+        text: 'Dépliant de niveau 2', isActive: true,
+        items: [
+          { text: 'Première sous-entrée', linkProps: { href: '/entree/un/a' } },
+          { text: 'Deuxième sous-entrée', linkProps: { href: '/entree/un/b' } }
+        ]
+      }
+    ]
+  }
+];
+
+<SideMenu burgerMenuButtonText="Dans cette rubrique" items={items} />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Liens directs
+<DsfrSideMenu id="sidemenu" class="fr-sidemenu--right" :menu-items="[
+    { text: 'Première entrée', to: '/premiere' },
+    { text: 'Deuxième entrée', to: '/deuxieme' },
+    { text: 'Troisième entrée', to: '/troisieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=False, Éléments=Dépliants
+<DsfrSideMenu id="sidemenu" class="fr-sidemenu--right" :menu-items="[
+    {
+      text: 'Première entrée',
+      menuItems: [
+        { text: 'Sous-entrée 1', to: '/premiere/un' },
+        { text: 'Sous-entrée 2', to: '/premiere/deux' }
+      ]
+    },
+    { text: 'Deuxième entrée', to: '/deuxieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Liens directs
+<DsfrSideMenu id="sidemenu" class="fr-sidemenu--right" heading-title="Titre du menu" :menu-items="[
+    { text: 'Première entrée', to: '/premiere' },
+    { text: 'Deuxième entrée', to: '/deuxieme' },
+    { text: 'Troisième entrée', to: '/troisieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Droite, Titre=True, Éléments=Dépliants
+<DsfrSideMenu id="sidemenu" class="fr-sidemenu--right" heading-title="Titre du menu" :menu-items="[
+    {
+      text: 'Première entrée',
+      menuItems: [
+        { text: 'Sous-entrée 1', to: '/premiere/un' },
+        { text: 'Sous-entrée 2', to: '/premiere/deux' }
+      ]
+    },
+    { text: 'Deuxième entrée', to: '/deuxieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Liens directs
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    { text: 'Première entrée', to: '/premiere' },
+    { text: 'Deuxième entrée', to: '/deuxieme' },
+    { text: 'Troisième entrée', to: '/troisieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=False, Éléments=Dépliants
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Première entrée',
+      menuItems: [
+        { text: 'Sous-entrée 1', to: '/premiere/un' },
+        { text: 'Sous-entrée 2', to: '/premiere/deux' }
+      ]
+    },
+    { text: 'Deuxième entrée', to: '/deuxieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Liens directs
+<DsfrSideMenu id="sidemenu" heading-title="Titre du menu" :menu-items="[
+    { text: 'Première entrée', to: '/premiere' },
+    { text: 'Deuxième entrée', to: '/deuxieme' },
+    { text: 'Troisième entrée', to: '/troisieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET> | Position=Gauche, Titre=True, Éléments=Dépliants
+<DsfrSideMenu id="sidemenu" heading-title="Titre du menu" :menu-items="[
+    {
+      text: 'Première entrée',
+      menuItems: [
+        { text: 'Sous-entrée 1', to: '/premiere/un' },
+        { text: 'Sous-entrée 2', to: '/premiere/deux' }
+      ]
+    },
+    { text: 'Deuxième entrée', to: '/deuxieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Dépliants
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Première entrée',
+      menuItems: [
+        { text: 'Sous-entrée 1', to: '/premiere/un' },
+        { text: 'Sous-entrée 2', to: '/premiere/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=False, Éléments=Liens directs
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    { text: 'Première entrée', to: '/premiere' },
+    { text: 'Deuxième entrée', to: '/deuxieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Dépliants
+<DsfrSideMenu id="sidemenu" heading-title="Titre du menu" :menu-items="[
+    {
+      text: 'Première entrée',
+      menuItems: [
+        { text: 'Sous-entrée 1', to: '/premiere/un' },
+        { text: 'Sous-entrée 2', to: '/premiere/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT> | Titre=True, Éléments=Liens directs
+<DsfrSideMenu id="sidemenu" heading-title="Titre du menu" :menu-items="[
+    { text: 'Première entrée', to: '/premiere' },
+    { text: 'Deuxième entrée', to: '/deuxieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_FERME> | défaut
+<DsfrSideMenu id="sidemenu" heading-title="Titre du menu" :menu-items="[
+    { text: 'Première entrée', to: '/premiere' },
+    { text: 'Deuxième entrée', to: '/deuxieme' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Défaut
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    { text: 'Libellé de l\'entrée', to: '/entree' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Survol
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    { text: 'Libellé de l\'entrée', to: '/entree' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM> | État=Courant
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    { text: 'Libellé de l\'entrée', to: '/entree', active: true }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Défaut
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant',
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, État=Courant
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant', active: true,
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Défaut
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant',
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, État=Courant
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant', active: true,
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Défaut
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2',
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, État=Courant
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2', active: true,
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Défaut
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2',
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, État=Courant
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2', active: true,
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=False
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    { text: 'Libellé de l\'entrée', to: '/entree' }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM> | Courant=True
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    { text: 'Libellé de l\'entrée', to: '/entree', active: true }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=False
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant',
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=True, Courant=True
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant', active: true,
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=False
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant',
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM> | Ouvert=False, Courant=True
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Libellé du dépliant', active: true,
+      menuItems: [
+        { text: 'Première sous-entrée', to: '/entree/un' },
+        { text: 'Deuxième sous-entrée', to: '/entree/deux' }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=False
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2',
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=True, Courant=True
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2', active: true,
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=False
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2',
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />
+
+=== vue | <FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM> | Ouvert=False, Courant=True
+<DsfrSideMenu id="sidemenu" :menu-items="[
+    {
+      text: 'Dépliant de niveau 1',
+      menuItems: [
+        {
+          text: 'Dépliant de niveau 2', active: true,
+          menuItems: [
+            { text: 'Première sous-entrée', to: '/entree/un/a' },
+            { text: 'Deuxième sous-entrée', to: '/entree/un/b' }
+          ]
+        }
+      ]
+    }
+  ]" />

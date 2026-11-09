@@ -1,0 +1,67 @@
+{
+  "family": "Lettre d'information et réseaux sociaux",
+  "groups": [
+    {
+      "nodeId": "3539:186707",
+      "components": [
+        {
+          "url": "<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP>",
+          "layout": "desktop"
+        },
+        {
+          "url": "<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE>",
+          "layout": "mobile"
+        }
+      ],
+      "properties": {
+        "Description": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Liens réseaux": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "True",
+          "vary": false
+        },
+        "Newsletter": {
+          "type": "VARIANT",
+          "options": [
+            "Formulaire",
+            "Bouton seul",
+            "Aucun"
+          ],
+          "default": "Aucun"
+        }
+      }
+    },
+    {
+      "nodeId": "23649:3349",
+      "template": "follow-form-field.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP>",
+          "layout": "desktop"
+        },
+        {
+          "url": "<FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE>",
+          "layout": "mobile"
+        }
+      ],
+      "properties": {
+        "Etat": {
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Valide",
+            "Erreur"
+          ],
+          "default": "Default"
+        }
+      }
+    }
+  ]
+}

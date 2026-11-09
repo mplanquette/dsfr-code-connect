@@ -1,0 +1,99 @@
+{
+  "family": "Téléchargement de fichier",
+  "groups": [
+    {
+      "nodeId": "20953:506467",
+      "components": [
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_MD_SANS_MEDIA>",
+          "size": "MD",
+          "media": false
+        },
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_SM_SANS_MEDIA>",
+          "size": "SM",
+          "media": false
+        },
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_MD_AVEC_MEDIA>",
+          "size": "MD",
+          "media": true
+        },
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_DESKTOP_SM_AVEC_MEDIA>",
+          "size": "SM",
+          "media": true
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Survol",
+            "Cliqué"
+          ],
+          "default": "Défaut",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        }
+      }
+    },
+    {
+      "nodeId": "20953:506635",
+      "components": [
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_MD_SANS_MEDIA>",
+          "size": "MD",
+          "media": false
+        },
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_SM_SANS_MEDIA>",
+          "size": "SM",
+          "media": false
+        },
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_MD_AVEC_MEDIA>",
+          "size": "MD",
+          "media": true
+        },
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__CARTE_MOBILE_SM_AVEC_MEDIA>",
+          "size": "SM",
+          "media": true
+        }
+      ],
+      "properties": {
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Cliqué"
+          ],
+          "default": "Défaut",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        }
+      }
+    }
+  ]
+}

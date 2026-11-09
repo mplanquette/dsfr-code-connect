@@ -1,0 +1,26 @@
+{
+  "family": "Lien d'évitement",
+  "groups": [
+    {
+      "nodeId": "509:157",
+      "components": [
+        {
+          "url": "<FIGMA_LIEN_D_EVITEMENT__LIENS_D_EVITEMENT>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Mobile", "Desktop"],
+          "default": "Desktop",
+          "vary": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "family": "Mise en avant",
+  "groups": [
+    {
+      "nodeId": "338:7145",
+      "components": [
+        {
+          "url": "<FIGMA_MISE_EN_AVANT__MISE_EN_AVANT>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Desktop", "Mobile"],
+          "vary": false
+        },
+        "Icône": {
+          "type": "VARIANT",
+          "options": ["False", "True"]
+        },
+        "Bouton": {
+          "type": "VARIANT",
+          "options": ["False", "True"]
+        }
+      }
+    }
+  ]
+}

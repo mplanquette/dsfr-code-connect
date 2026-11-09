@@ -1,0 +1,28 @@
+{
+  "family": "En-tête",
+  "groups": [
+    {
+      "nodeId": "148:52",
+      "components": [
+        { "url": "<FIGMA_EN_TETE__DESKTOP_EN_TETE>", "kind": "desktop", "searchProperty": "Fonctionnel droite" }
+      ],
+      "properties": {
+        "Fonctionnel droite": { "type": "BOOLEAN", "default": true },
+        "Description": { "type": "BOOLEAN", "default": true },
+        "Nom du site": { "type": "BOOLEAN", "default": true }
+      }
+    },
+    {
+      "nodeId": "153:159413",
+      "components": [
+        { "url": "<FIGMA_EN_TETE__MOBILE_EN_TETE>", "kind": "mobile", "searchProperty": "Recherche" }
+      ],
+      "properties": {
+        "Description": { "type": "BOOLEAN", "default": true },
+        "Nom du site": { "type": "BOOLEAN", "default": true },
+        "Recherche": { "type": "BOOLEAN", "default": true },
+        "Menu": { "type": "BOOLEAN", "default": true, "vary": false }
+      }
+    }
+  ]
+}

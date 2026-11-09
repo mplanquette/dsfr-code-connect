@@ -1,0 +1,1095 @@
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTagline="Baseline / accroche du site"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTagline="Baseline / accroche du site"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTagline="Baseline / accroche du site"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTagline="Baseline / accroche du site"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=false
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=true
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  [searchBar]="true"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' }
+  ]"></dsfr-header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=false
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== html | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=true
+<header role="banner" class="fr-header">
+  <div class="fr-header__body">
+    <div class="fr-container">
+      <div class="fr-header__body-row">
+        <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand-top">
+            <div class="fr-header__logo">
+              <p class="fr-logo">République<br />Française</p>
+            </div>
+            <div class="fr-header__navbar">
+              <button type="button" class="fr-btn--search fr-btn" data-fr-opened="false" aria-controls="header-search" id="header-search-button" title="Rechercher">Rechercher</button>
+              <button type="button" class="fr-btn--menu fr-btn" data-fr-opened="false" aria-controls="header-menu" id="header-menu-button" title="Menu">Menu</button>
+            </div>
+          </div>
+        <div class="fr-header__service">
+          <a href="/" title="Accueil - Nom du site / de l'organisme">
+            <p class="fr-header__service-title">Nom du site / de l'organisme</p>
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fr-header__menu fr-modal" id="header-menu" aria-labelledby="header-menu-button">
+    <div class="fr-container">
+      <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+        <ul class="fr-nav__list">
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTagline="Baseline / accroche du site"
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTagline="Baseline / accroche du site"
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTagline="Baseline / accroche du site"
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTagline="Baseline / accroche du site"
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=false
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  navigation={navigation} />
+
+=== react | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=true
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: "Accueil - Nom du site / de l'organisme" }}
+  serviceTitle="Nom du site / de l'organisme"
+  serviceTagline="Baseline / accroche du site"
+  onSearchButtonClick={(text) => console.log(text)}
+  navigation={navigation} />
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=false
+<DsfrHeader home-to="/">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=false, Nom du site=true
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=false
+<DsfrHeader home-to="/"
+    service-description="Baseline / accroche du site">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=false, Description=true, Nom du site=true
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme"
+    service-description="Baseline / accroche du site">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=false
+<DsfrHeader home-to="/"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=false, Nom du site=true
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=false
+<DsfrHeader home-to="/"
+    service-description="Baseline / accroche du site"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__DESKTOP_EN_TETE> | Fonctionnel droite=true, Description=true, Nom du site=true
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme"
+    service-description="Baseline / accroche du site"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=false
+<DsfrHeader home-to="/">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=false, Recherche=true
+<DsfrHeader home-to="/"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=false
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=false, Nom du site=true, Recherche=true
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=false
+<DsfrHeader home-to="/"
+    service-description="Baseline / accroche du site">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=false, Recherche=true
+<DsfrHeader home-to="/"
+    service-description="Baseline / accroche du site"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=false
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme"
+    service-description="Baseline / accroche du site">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_EN_TETE__MOBILE_EN_TETE> | Description=true, Nom du site=true, Recherche=true
+<DsfrHeader home-to="/"
+    service-title="Nom du site / de l'organisme"
+    service-description="Baseline / accroche du site"
+    show-search>
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>

@@ -1,0 +1,79 @@
+=== angular | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=False
+<dsfr-callout heading="Titre de la mise en avant">
+  Texte de la mise en avant.
+</dsfr-callout>
+
+=== angular | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=True
+<dsfr-callout heading="Titre de la mise en avant">
+  Texte de la mise en avant.
+  <dsfr-button label="Libellé du bouton"></dsfr-button>
+</dsfr-callout>
+
+=== angular | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=False
+<dsfr-callout heading="Titre de la mise en avant" icon="fr-icon-information-line">
+  Texte de la mise en avant.
+</dsfr-callout>
+
+=== angular | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=True
+<dsfr-callout heading="Titre de la mise en avant" icon="fr-icon-information-line">
+  Texte de la mise en avant.
+  <dsfr-button label="Libellé du bouton"></dsfr-button>
+</dsfr-callout>
+
+=== html | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=False
+<div class="fr-callout">
+  <h3 class="fr-callout__title">Titre de la mise en avant</h3>
+  <p class="fr-callout__text">Texte de la mise en avant.</p>
+</div>
+
+=== html | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=True
+<div class="fr-callout">
+  <h3 class="fr-callout__title">Titre de la mise en avant</h3>
+  <p class="fr-callout__text">Texte de la mise en avant.</p>
+  <button type="button" class="fr-btn">Libellé du bouton</button>
+</div>
+
+=== html | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=False
+<div class="fr-callout fr-icon-information-line">
+  <h3 class="fr-callout__title">Titre de la mise en avant</h3>
+  <p class="fr-callout__text">Texte de la mise en avant.</p>
+</div>
+
+=== html | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=True
+<div class="fr-callout fr-icon-information-line">
+  <h3 class="fr-callout__title">Titre de la mise en avant</h3>
+  <p class="fr-callout__text">Texte de la mise en avant.</p>
+  <button type="button" class="fr-btn">Libellé du bouton</button>
+</div>
+
+=== react | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=False
+<CallOut title="Titre de la mise en avant">
+  Texte de la mise en avant.
+</CallOut>
+
+=== react | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=True
+<CallOut title="Titre de la mise en avant" buttonProps={{ children: 'Libellé du bouton', onClick: () => {} }}>
+  Texte de la mise en avant.
+</CallOut>
+
+=== react | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=False
+<CallOut title="Titre de la mise en avant" iconId="fr-icon-information-line">
+  Texte de la mise en avant.
+</CallOut>
+
+=== react | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=True
+<CallOut title="Titre de la mise en avant" iconId="fr-icon-information-line" buttonProps={{ children: 'Libellé du bouton', onClick: () => {} }}>
+  Texte de la mise en avant.
+</CallOut>
+
+=== vue | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=False
+<DsfrCallout title="Titre de la mise en avant" content="Texte de la mise en avant." />
+
+=== vue | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=False, Bouton=True
+<DsfrCallout title="Titre de la mise en avant" content="Texte de la mise en avant." :button="{ label: 'Libellé du bouton' }" />
+
+=== vue | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=False
+<DsfrCallout title="Titre de la mise en avant" content="Texte de la mise en avant." icon="fr-icon-information-line" />
+
+=== vue | <FIGMA_MISE_EN_AVANT__MISE_EN_AVANT> | Icône=True, Bouton=True
+<DsfrCallout title="Titre de la mise en avant" content="Texte de la mise en avant." icon="fr-icon-information-line" :button="{ label: 'Libellé du bouton' }" />

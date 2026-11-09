@@ -1,0 +1,475 @@
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__BANDEAU_DE_CONSENTEMENT> | défaut
+<dsfr-consent-banner
+  heading="À propos des cookies sur ce site"
+  rgpdLink="/donnees-personnelles"
+  [finalities]="[
+    { name: 'Mesure d\'audience', accept: false },
+    { name: 'Réseaux sociaux', accept: false }
+  ]"></dsfr-consent-banner>
+
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_COMPLETE> | défaut
+<dsfr-consent-banner
+  heading="À propos des cookies sur ce site"
+  rgpdLink="/donnees-personnelles"
+  [finalities]="[
+    { name: 'Mesure d\'audience', accept: false, description: 'Description de la finalité.' },
+    { name: 'Réseaux sociaux', accept: false }
+  ]"></dsfr-consent-banner>
+
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__SERVICE_INDISPONIBLE> | défaut
+<div class="fr-consent-service">
+  <p>Ce contenu est hébergé par <strong>nom-du-service</strong>.</p>
+  <p>
+    Pour visualiser ce contenu externe, vous devez accepter la catégorie
+    <strong>réseaux sociaux</strong>.
+  </p>
+  <button type="button" class="fr-btn fr-btn--sm">Autoriser</button>
+</div>
+
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Simple
+<dsfr-consent-banner
+  heading="À propos des cookies sur ce site"
+  rgpdLink="/donnees-personnelles"
+  [finalities]="[{ name: 'Mesure d\'audience', accept: false }]"></dsfr-consent-banner>
+
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Description
+<dsfr-consent-banner
+  heading="À propos des cookies sur ce site"
+  rgpdLink="/donnees-personnelles"
+  [finalities]="[{ name: 'Mesure d\'audience', accept: false, description: 'Description de la finalité.' }]"></dsfr-consent-banner>
+
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Obligatoire
+<dsfr-consent-banner
+  heading="À propos des cookies sur ce site"
+  rgpdLink="/donnees-personnelles"
+  [finalities]="[{ name: 'Fonctionnement du site', accept: true, exempt: true }]"></dsfr-consent-banner>
+
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Ouvert
+<dsfr-consent-banner
+  heading="À propos des cookies sur ce site"
+  rgpdLink="/donnees-personnelles"
+  [finalities]="[{ name: 'Réseaux sociaux', accept: false, subFinalities: [{ name: 'X', accept: false }, { name: 'LinkedIn', accept: false }] }]"></dsfr-consent-banner>
+
+=== angular | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Fermé
+<dsfr-consent-banner
+  heading="À propos des cookies sur ce site"
+  rgpdLink="/donnees-personnelles"
+  [finalities]="[{ name: 'Réseaux sociaux', accept: false, subFinalities: [{ name: 'X', accept: false }, { name: 'LinkedIn', accept: false }] }]"></dsfr-consent-banner>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__BANDEAU_DE_CONSENTEMENT> | défaut
+<div class="fr-consent-banner">
+  <h2 class="fr-h6">À propos des cookies sur ce site</h2>
+  <div class="fr-consent-banner__content">
+    <p class="fr-text--sm">
+      Sur nos sites, nous utilisons des cookies et données personnelles pour améliorer votre expérience.
+      <a href="/donnees-personnelles">Personnaliser</a>
+    </p>
+  </div>
+  <ul class="fr-consent-banner__buttons fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-sm">
+    <li><button type="button" class="fr-btn" title="Autoriser tous les cookies">Tout accepter</button></li>
+    <li><button type="button" class="fr-btn" title="Refuser tous les cookies">Tout refuser</button></li>
+    <li><button type="button" class="fr-btn fr-btn--secondary" aria-controls="consent-modal" title="Personnaliser les cookies">Personnaliser</button></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_COMPLETE> | défaut
+<dialog id="consent-modal" class="fr-modal" role="dialog" aria-labelledby="consent-modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="consent-modal">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="consent-modal-title" class="fr-modal__title">Panneau de gestion des cookies</h1>
+            <div class="fr-consent-manager">
+              <div class="fr-consent-service fr-consent-manager__header">
+                <fieldset class="fr-fieldset">
+                  <legend id="finality-legend" class="fr-consent-service__title">
+                    Préférences pour tous les services
+                    <a href="/donnees-personnelles">Données personnelles</a>
+                  </legend>
+                  <div class="fr-consent-service__radios">
+                    <div class="fr-radio-group">
+                      <input type="radio" id="consent-all-accept" name="consent-all" />
+                      <label class="fr-label" for="consent-all-accept">Tout accepter</label>
+                    </div>
+                    <div class="fr-radio-group">
+                      <input type="radio" id="consent-all-refuse" name="consent-all" />
+                      <label class="fr-label" for="consent-all-refuse">Tout refuser</label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="fr-consent-manager__body">
+                <div class="fr-consent-service">
+                  <fieldset class="fr-fieldset" role="group" aria-labelledby="finality-0-legend">
+                    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+                    <div class="fr-consent-service__radios">
+                      <div class="fr-radio-group">
+                        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+                        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+                      </div>
+                      <div class="fr-radio-group">
+                        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+                        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+                      </div>
+                    </div>
+                    <p id="finality-0-desc" class="fr-consent-service__desc">Description de la finalité.</p>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__SERVICE_INDISPONIBLE> | défaut
+<div class="fr-consent-service">
+  <p>Ce contenu est hébergé par <strong>nom-du-service</strong>.</p>
+  <p>
+    Pour visualiser ce contenu externe, vous devez accepter la catégorie
+    <strong>réseaux sociaux</strong>.
+  </p>
+  <button type="button" class="fr-btn fr-btn--sm">Autoriser</button>
+</div>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Simple
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Description
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+    <p id="finality-0-desc" class="fr-consent-service__desc">Description de la finalité.</p>
+  </fieldset>
+</div>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Obligatoire
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <p>Ce service est nécessaire au fonctionnement du site.</p>
+    </div>
+  </fieldset>
+</div>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Ouvert
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+    <div class="fr-consent-service__collapse">
+      <button type="button" class="fr-consent-service__collapse-btn" aria-expanded="true" aria-controls="finality-0-collapse">Voir le détail</button>
+    </div>
+    <div class="fr-consent-services fr-collapse fr-collapse--expanded" id="finality-0-collapse"></div>
+  </fieldset>
+</div>
+
+=== html | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Fermé
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+    <div class="fr-consent-service__collapse">
+      <button type="button" class="fr-consent-service__collapse-btn" aria-expanded="false" aria-controls="finality-0-collapse">Voir le détail</button>
+    </div>
+    <div class="fr-consent-services fr-collapse" id="finality-0-collapse"></div>
+  </fieldset>
+</div>
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__BANDEAU_DE_CONSENTEMENT> | défaut
+const { ConsentBannerAndConsentManagement } = createConsentManagement({
+  finalityDescription: {
+    mesureAudience: { title: "Mesure d'audience" },
+    reseauxSociaux: { title: 'Réseaux sociaux' }
+  },
+  personalDataPolicyLinkProps: { href: '/donnees-personnelles' }
+});
+
+<ConsentBannerAndConsentManagement />
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_COMPLETE> | défaut
+const { ConsentBannerAndConsentManagement } = createConsentManagement({
+  finalityDescription: {
+    mesureAudience: { title: "Mesure d'audience", description: 'Description de la finalité.' },
+    reseauxSociaux: { title: 'Réseaux sociaux' }
+  },
+  personalDataPolicyLinkProps: { href: '/donnees-personnelles' }
+});
+
+<ConsentBannerAndConsentManagement />
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__SERVICE_INDISPONIBLE> | défaut
+<Placeholder
+  title="Contenu bloqué"
+  description="Ce contenu est hébergé par nom-du-service. Pour le visualiser, vous devez accepter la catégorie réseaux sociaux."
+  onGranted={() => assumeConsent('reseauxSociaux')} />
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Simple
+const { ConsentBannerAndConsentManagement } = createConsentManagement({
+  finalityDescription: {
+    mesureAudience: { title: "Mesure d'audience" }
+  },
+  personalDataPolicyLinkProps: { href: '/donnees-personnelles' }
+});
+
+<ConsentBannerAndConsentManagement />
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Description
+const { ConsentBannerAndConsentManagement } = createConsentManagement({
+  finalityDescription: {
+    mesureAudience: { title: "Mesure d'audience", description: 'Description de la finalité.' }
+  },
+  personalDataPolicyLinkProps: { href: '/donnees-personnelles' }
+});
+
+<ConsentBannerAndConsentManagement />
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Obligatoire
+const { ConsentBannerAndConsentManagement } = createConsentManagement({
+  finalityDescription: {
+    fonctionnement: { title: 'Fonctionnement du site' } /* finalité exemptée : à traiter hors bandeau, toujours accept: true côté DSFR */
+  },
+  personalDataPolicyLinkProps: { href: '/donnees-personnelles' }
+});
+
+<ConsentBannerAndConsentManagement />
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Ouvert
+const { ConsentBannerAndConsentManagement } = createConsentManagement({
+  finalityDescription: {
+    reseauxSociaux: {
+      title: 'Réseaux sociaux',
+      subFinalities: { x: { title: 'X' }, linkedin: { title: 'LinkedIn' } }
+    }
+  },
+  personalDataPolicyLinkProps: { href: '/donnees-personnelles' }
+});
+
+<ConsentBannerAndConsentManagement />
+
+=== react | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Fermé
+const { ConsentBannerAndConsentManagement } = createConsentManagement({
+  finalityDescription: {
+    reseauxSociaux: {
+      title: 'Réseaux sociaux',
+      subFinalities: { x: { title: 'X' }, linkedin: { title: 'LinkedIn' } }
+    }
+  },
+  personalDataPolicyLinkProps: { href: '/donnees-personnelles' }
+});
+
+<ConsentBannerAndConsentManagement />
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__BANDEAU_DE_CONSENTEMENT> | défaut
+<div class="fr-consent-banner">
+    <h2 class="fr-h6">À propos des cookies sur ce site</h2>
+    <DsfrConsent
+      url="/donnees-personnelles"
+      aria-controls-id="consent-modal"
+      @accept-all="onAcceptAll"
+      @refuse-all="onRefuseAll"
+      @customize="onCustomize"
+    />
+  </div>
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_COMPLETE> | défaut
+<dialog id="consent-modal" class="fr-modal" role="dialog" aria-labelledby="consent-modal-title">
+  <div class="fr-container fr-container--fluid fr-container-md">
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-12 fr-col-md-10 fr-col-lg-8">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="consent-modal">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="consent-modal-title" class="fr-modal__title">Panneau de gestion des cookies</h1>
+            <div class="fr-consent-manager">
+              <div class="fr-consent-service fr-consent-manager__header">
+                <fieldset class="fr-fieldset">
+                  <legend id="finality-legend" class="fr-consent-service__title">
+                    Préférences pour tous les services
+                    <a href="/donnees-personnelles">Données personnelles</a>
+                  </legend>
+                  <div class="fr-consent-service__radios">
+                    <div class="fr-radio-group">
+                      <input type="radio" id="consent-all-accept" name="consent-all" />
+                      <label class="fr-label" for="consent-all-accept">Tout accepter</label>
+                    </div>
+                    <div class="fr-radio-group">
+                      <input type="radio" id="consent-all-refuse" name="consent-all" />
+                      <label class="fr-label" for="consent-all-refuse">Tout refuser</label>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+              <div class="fr-consent-manager__body">
+                <div class="fr-consent-service">
+                  <fieldset class="fr-fieldset" role="group" aria-labelledby="finality-0-legend">
+                    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+                    <div class="fr-consent-service__radios">
+                      <div class="fr-radio-group">
+                        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+                        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+                      </div>
+                      <div class="fr-radio-group">
+                        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+                        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+                      </div>
+                    </div>
+                    <p id="finality-0-desc" class="fr-consent-service__desc">Description de la finalité.</p>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__SERVICE_INDISPONIBLE> | défaut
+<div class="fr-consent-service">
+  <p>Ce contenu est hébergé par <strong>nom-du-service</strong>.</p>
+  <p>
+    Pour visualiser ce contenu externe, vous devez accepter la catégorie
+    <strong>réseaux sociaux</strong>.
+  </p>
+  <button type="button" class="fr-btn fr-btn--sm">Autoriser</button>
+</div>
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Simple
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Description
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+    <p id="finality-0-desc" class="fr-consent-service__desc">Description de la finalité.</p>
+  </fieldset>
+</div>
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Obligatoire
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <p>Ce service est nécessaire au fonctionnement du site.</p>
+    </div>
+  </fieldset>
+</div>
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Ouvert
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+    <div class="fr-consent-service__collapse">
+      <button type="button" class="fr-consent-service__collapse-btn" aria-expanded="true" aria-controls="finality-0-collapse">Voir le détail</button>
+    </div>
+    <div class="fr-consent-services fr-collapse fr-collapse--expanded" id="finality-0-collapse"></div>
+  </fieldset>
+</div>
+
+=== vue | <FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM> | Type=Fermé
+<div class="fr-consent-service">
+  <fieldset class="fr-fieldset" aria-labelledby="finality-0-legend">
+    <legend id="finality-0-legend" class="fr-consent-service__title">Mesure d'audience</legend>
+    <div class="fr-consent-service__radios">
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-accept" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-accept">Accepter</label>
+      </div>
+      <div class="fr-radio-group">
+        <input type="radio" id="consent-finality-0-refuse" name="consent-finality-0" />
+        <label class="fr-label" for="consent-finality-0-refuse">Refuser</label>
+      </div>
+    </div>
+    <div class="fr-consent-service__collapse">
+      <button type="button" class="fr-consent-service__collapse-btn" aria-expanded="false" aria-controls="finality-0-collapse">Voir le détail</button>
+    </div>
+    <div class="fr-consent-services fr-collapse" id="finality-0-collapse"></div>
+  </fieldset>
+</div>

@@ -1,5 +1,5 @@
-// Dossier de travail du catalogue Code Connect (familles, fichiers historiques des stacks,
-// figma.config.json, scripts/catalog.mjs).
+// Dossier de travail du catalogue Code Connect (familles de components/, figma.config.json,
+// scripts/catalog.mjs).
 //
 // En développement, c'est le dépôt lui-même. En build packagé, les ressources de l'application
 // ne sont pas modifiables (dossier de l'app sous Windows, bundle signé sous macOS), alors que le

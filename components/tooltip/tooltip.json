@@ -1,0 +1,43 @@
+{
+  "family": "Infobulle",
+  "groups": [
+    {
+      "nodeId": "20430:359535",
+      "components": [
+        { "url": "<FIGMA_INFOBULLE__DECLENCHEMENT_AU_CLICK>", "kind": "click", "variant": "click" }
+      ],
+      "properties": {
+        "DIrection": { "type": "VARIANT", "options": ["Bas", "Haut"], "default": "Haut", "vary": false },
+        "Alignement": { "type": "VARIANT", "options": ["Milieu", "Gauche", "Droite"], "default": "Milieu", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Initial", "Active"], "default": "Initial", "vary": false }
+      }
+    },
+    {
+      "nodeId": "20430:359572",
+      "components": [
+        { "url": "<FIGMA_INFOBULLE__DECLENCHEMENT_AU_SURVOL>", "kind": "hover", "variant": "hover" }
+      ],
+      "properties": {
+        "Composant": { "type": "INSTANCE_SWAP" },
+        "DIrection": { "type": "VARIANT", "options": ["Bas", "Haut"], "default": "Haut", "vary": false },
+        "Alignement": { "type": "VARIANT", "options": ["Milieu", "Gauche", "Droite"], "default": "Milieu", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Active", "Initial"], "default": "Initial", "vary": false }
+      }
+    },
+    {
+      "nodeId": "20430:359683",
+      "components": [
+        { "url": "<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_AU_CENTRE>", "kind": "bubble", "variant": "bubble-top-center" },
+        { "url": "<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_AU_CENTRE>", "kind": "bubble", "variant": "bubble-bottom-center" },
+        { "url": "<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_DROITE>", "kind": "bubble", "variant": "bubble-bottom-right" },
+        { "url": "<FIGMA_INFOBULLE__BULLE_VERS_LE_BAS_ALIGNEE_A_GAUCHE>", "kind": "bubble", "variant": "bubble-bottom-left" },
+        { "url": "<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_GAUCHE>", "kind": "bubble", "variant": "bubble-top-left" },
+        { "url": "<FIGMA_INFOBULLE__BULLE_VERS_LE_HAUT_ALIGNEE_A_DROITE>", "kind": "bubble", "variant": "bubble-top-right" }
+      ],
+      "properties": {
+        "Message": { "type": "TEXT", "sample": "Message de l'infobulle" },
+        "Taille": { "type": "VARIANT", "options": ["Hug", "MaxWidth Desktop", "MaxWdith Mobile"], "default": "Hug", "vary": false }
+      }
+    }
+  ]
+}

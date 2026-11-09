@@ -265,56 +265,42 @@ Légende : ✅ publié (Angular + HTML + React + Vue) · 🚧 en cours · ⬜ à
 
 ## Notes spécifiques par framework
 
-### Vue (`vue/`, label `Vue`)
+### Vue (label `Vue`)
 
-Cible `@gouvminint/vue-dsfr` (repo source `github.com/dnum-mi/vue-dsfr`). Parité exacte de nodes avec
-les trois autres stacks : 183 node-ids uniques, dont 20 pour `tag.figma.ts`, identiques sur toutes les
-stacks (vérifié par comparaison croisée des node-ids).
+Cible `@gouvminint/vue-dsfr` (repo source `github.com/dnum-mi/vue-dsfr`). Comme les autres stacks,
+elle est rendue par le template unique de chaque famille : la parité de nodes est structurelle.
 
 **Syntaxe cible plus simple que React** : les templates Vue sont du HTML étendu réel
 (`:prop="expression"`, `@event="..."`), donc une prop tableau/objet s'écrit directement
 `:items="[{...}]"` entre guillemets doubles : c'est la VRAIE syntaxe Vue, contrairement à JSX où
-la même astuce aurait produit un snippet invalide (cf. piège React ci-dessous). Aucun besoin de
-hoister ces valeurs en `const` séparée dans la plupart des cas ; seuls les tableaux/objets multilignes
-avec des clés répétées ont ponctuellement nécessité la même prudence que côté React/HTML (`imports`
-uniquement factorisable, jamais une autre valeur interpolée hors de `props`).
+la même écriture produirait un snippet invalide (cf. React ci-dessous).
 
-**Composants sans équivalent vue-dsfr dédié** : `link.figma.ts` (Lien), `password.figma.ts` (Mot de
-passe), `proconnect.figma.ts` (Bouton ProConnect), `display.figma.ts` (Paramètre d'affichage) :
-markup DSFR brut, quasi identique à `html/`. À l'inverse, vue-dsfr couvre **plus** de composants que
+**Composants sans équivalent vue-dsfr dédié** : familles `link` (Lien), `password` (Mot de passe),
+`proconnect` (Bouton ProConnect), `display` (Paramètre d'affichage) : markup DSFR brut, quasi
+identique au rendu HTML. À l'inverse, vue-dsfr couvre **plus** de composants que
 React : `DsfrBackToTop`, `DsfrShare`, `DsfrTranscription`, `DsfrMedia`, `DsfrAccordionsGroup` existent
 tous côté Vue (contrairement à React où ces familles sont en markup brut).
 
-**Écarts d'API notables documentés dans les fichiers concernés** (limitations vue-dsfr vs
+**Écarts d'API notables documentés dans les templates concernés** (limitations vue-dsfr vs
 ngx-dsfr/react-dsfr, non bindables) : `DsfrCard` sans prop `disabled` ; `DsfrSummary` sans imbrication
 (`subEntries`) ; `DsfrLanguageSelector`/`DsfrSideMenu` sans équivalent `outline`/`position` ; `DsfrTag`
 sans mode « supprimable » dédié (fallback markup brut) ; `DsfrConsent` ne couvre que le bandeau (pas
 de modale ni de `finalities[]`, plus limité que côté Angular) ; `DsfrNavigation` dont le raccourci
 `:nav-items` ne propage pas l'état actif (composition manuelle du slot nécessaire à la place).
 
-### React (`react/`, label `React`)
+### React (label `React`)
 
-Cible `@codegouvfr/react-dsfr` (parité exacte de nodes avec Angular/HTML/Vue). L'`example` traduit la
-syntaxe vers du JSX texte, vérifié à chaque fois contre le vrai code source du composant
-(`github.com/codegouvfr/react-dsfr/blob/main/src/...`).
+Cible `@codegouvfr/react-dsfr`. Le rendu React traduit la syntaxe vers du JSX texte, vérifié à chaque
+fois contre le vrai code source du composant (`github.com/codegouvfr/react-dsfr/blob/main/src/...`).
 
-**Composants sans équivalent react-dsfr dédié** (comme pour certains cas déjà notés côté html/) :
-markup DSFR brut traduit en JSX (`class`→`className`) plutôt qu'un composant importé : `link.figma.ts`
-(Lien), `share.figma.ts` (Partage), `backtotop.figma.ts` (Retour en haut), `content.figma.ts`
-(Contenu médias), `transcription.figma.ts` (Transcription).
+**Composants sans équivalent react-dsfr dédié** : markup DSFR brut traduit en JSX
+(`class`→`className`) plutôt qu'un composant importé : familles `link` (Lien), `share` (Partage),
+`backtotop` (Retour en haut), `content` (Contenu médias), `transcription` (Transcription).
 
-**Piège de parsing spécifique à `react/`** (absent côté Angular/HTML où les attributs sont de simples
-chaînes) : le parser HTML générique de Code Connect tokenize les valeurs d'attribut JSX comme du HTML
-classique : une valeur tableau/objet multiligne ou contenant des clés répétées (`options={[{...}]}`)
-casse avec `Duplicate attribute name`. Solution retenue et appliquée partout : hoister la valeur en
-`const <nom> = ...;` déclarée en texte AVANT la balise JSX, à l'intérieur de la même template string
-`html\`\`` (jamais en `const` JS externe partagée entre plusieurs `figma.connect`, ce qui casse le
-parse pour une autre raison, cf. note "Navigation principale" plus bas), puis référencée par son
-identifiant nu dans l'attribut (`options={<nom>}`). Voir `breadcrumb.figma.ts` pour l'exemple canonique.
-Ne JAMAIS mettre la valeur brute entre guillemets doubles (`options="{[...]}"`) : ça parse, mais le
-snippet affiché en Dev Mode devient du JSX syntaxiquement invalide. Ce piège concerne surtout les
-composants à props tableau/objet (`checkbox`, `radio`, `radio-rich`, `toggle`, `password`, `range`,
-`select`, `modal`, `segmentedcontrol`, `tag`), à vérifier si vous les modifiez.
+**Props tableau/objet** : le snippet déclare la valeur en `const <nom> = ...;` avant la balise JSX,
+puis la référence par son identifiant nu (`options={<nom>}`) ; voir `components/breadcrumb/`. Ne
+jamais écrire la valeur entre guillemets doubles (`options="{[...]}"`) : le snippet affiché en
+Dev Mode serait du JSX invalide.
 
 ## Notes détaillées par composant
 
@@ -329,14 +315,14 @@ en Dev Mode.
 
 Approche retenue : chaque node connecté montre le **fragment HTML DSFR exact**
 que `formatFunction`/`tableBodyTemplate` doit produire pour cette cellule (un fragment de rendu,
-pas un composant Angular autonome. Angular et HTML utilisent donc le même markup (`table.figma.ts`
-et `table-html.figma.ts`), puisqu'il n'existe pas de sous-composant Angular dédié à une cellule de
+pas un composant Angular autonome). Angular et HTML rendent donc le même markup
+(`components/table/`), puisqu'il n'existe pas de sous-composant Angular dédié à une cellule de
 tableau. 14 nodes connectés sur les composants de haut niveau de la page (les atomes internes ⚙️
 non connectés par convention) : Cellule donnée (SM/MD/LG), Cellule en-tête Colonne (SM/MD/LG),
 Cellule en-tête Ligne (SM/MD/LG), Barre outils haut, Barre outils bas, Cellule zéro (SM/MD/LG).
 Piège rencontré : la propriété Figma « Nb ligne par page » de Barre outils bas a un espace final
-caché dans son nom réel (visible dans sa `key` API, absent de son `name` affiché) : `figma.boolean`
-doit être appelé avec `'Nb ligne par page '` (espace final) sous peine de `publish` en échec
+caché dans son nom réel (visible dans sa `key` API, absent de son `name` affiché) : elle doit être
+lue et déclarée avec `'Nb ligne par page '` (espace final) sous peine de `publish` en échec
 (« property does not exist »).
 
 ### Navigation principale (particularité de binding)
@@ -347,9 +333,6 @@ fragment. Chaque node Figma correspond à une configuration particulière de `me
 dépliant, mégamenu) plutôt qu'à un composant distinct. Les accès rapides mobiles viennent de
 `headerToolsLinks`, hors de `menu`. « Rubrique »/« Lien direct » (menu déroulant simple) et
 « Dernier lien » (item niveau 2 mobile) n'ont pas de rendu distinct → non bindés.
-Piège de parser : une **variable JS externe interpolée dans plusieurs `figma.connect`** casse le
-parse (`Expected a call expression as a placeholder`) : inliner le littéral dans chaque `example`
-plutôt que de le factoriser en `const`.
 
 ## Conventions
 

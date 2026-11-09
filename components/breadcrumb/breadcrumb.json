@@ -1,0 +1,25 @@
+{
+  "family": "Fil d'Ariane",
+  "groups": [
+    {
+      "nodeId": "139:115",
+      "components": [
+        { "url": "<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET>", "kind": "full" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Déployé", "Condensé"], "vary": false }
+      }
+    },
+    {
+      "nodeId": "139:77",
+      "components": [
+        { "url": "<FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM>", "kind": "item" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "Type": { "type": "VARIANT", "options": ["En cours", "Parent"], "default": "Parent" }
+      }
+    }
+  ]
+}

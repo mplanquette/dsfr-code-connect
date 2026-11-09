@@ -1,0 +1,33 @@
+{
+  "family": "Interrupteur",
+  "groups": [
+    {
+      "nodeId": "536:45814",
+      "components": [
+        { "url": "<FIGMA_INTERRUPTEUR__ITEM>", "kind": "item" }
+      ],
+      "properties": {
+        "Statut": { "type": "BOOLEAN", "default": true },
+        "Voir Texte d'aide": { "type": "BOOLEAN", "default": true },
+        "Libellé": { "type": "TEXT", "sample": "Libellé" },
+        "Texte d'aide": { "type": "TEXT", "sample": "Texte d'aide" },
+        "Voir message": { "type": "BOOLEAN", "default": true, "vary": false },
+        "Alignement": { "type": "VARIANT", "options": ["Droite", "Gauche"] },
+        "Coché": { "type": "VARIANT", "options": ["False", "True"] },
+        "État": { "type": "VARIANT", "options": ["Default", "Erreur", "Valide"] },
+        "Désactivé": { "type": "VARIANT", "options": ["False", "True"] }
+      }
+    },
+    {
+      "nodeId": "536:47172",
+      "components": [
+        { "url": "<FIGMA_INTERRUPTEUR__GROUPE>", "kind": "group" }
+      ],
+      "properties": {
+        "Voir message": { "type": "BOOLEAN", "default": true, "vary": false },
+        "Alignement": { "type": "VARIANT", "options": ["Gauche", "Droite"], "default": "Droite" },
+        "État": { "type": "VARIANT", "options": ["Default", "Erreur", "Valide"] }
+      }
+    }
+  ]
+}

@@ -11,11 +11,11 @@ page [Releases](../../../releases) une fois publiée.
   `../scripts/rebind-to-your-file.mjs` (fonctions `fetchComponents`, `matchManifest`, `applyRebind`
   exportées pour cet usage). Le CLI garde son usage terminal habituel.
 - `src/main/connect-runner.js` spawn le CLI de `@figma/code-connect` (dépendance de cette app, pas de
-  chaque stack) en subprocess, avec le `cwd` positionné sur le dossier de la stack ciblée : exactement
-  ce que fait `npx figma connect parse|publish` en CLI. Vérifié : le CLI analyse les `.figma.ts`
-  statiquement, aucun `node_modules` local à la stack n'est nécessaire au runtime (seuls les fichiers
-  `.figma.ts` + `figma.config.json` sont embarqués dans la release, cf. `extraResources` de
-  `package.json`).
+  chaque stack) en subprocess, avec le `cwd` positionné sur le dossier du catalogue et la config de la
+  stack générée par `scripts/catalog.mjs` : exactement ce que fait `scripts/connect.sh` en CLI. Le CLI
+  analyse les templates statiquement, aucun `node_modules` n'est nécessaire au runtime (seuls
+  `components/`, `figma.config.json` et `scripts/catalog.mjs` sont embarqués dans la release, cf.
+  `extraResources` de `package.json`).
 - Tokens Figma stockés localement via l'API `safeStorage` d'Electron (Keychain/DPAPI/libsecret),
   jamais en clair sur disque.
 - L'interface utilise les vrais composants et styles du DSFR (`fr-btn`, `fr-input`, `fr-stepper`,

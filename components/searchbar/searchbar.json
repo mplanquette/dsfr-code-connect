@@ -1,0 +1,30 @@
+{
+  "family": "Barre de recherche",
+  "groups": [
+    {
+      "nodeId": "92:1978",
+      "components": [
+        {
+          "url": "<FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Taille": {
+          "type": "VARIANT",
+          "options": ["MD", "LG"]
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Rempli", "Défaut"],
+          "default": "Défaut",
+          "vary": false
+        }
+      }
+    }
+  ]
+}

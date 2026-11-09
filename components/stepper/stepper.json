@@ -1,0 +1,26 @@
+{
+  "family": "Indicateur d'étapes",
+  "groups": [
+    {
+      "nodeId": "12356:77678",
+      "components": [
+        { "url": "<FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES>", "kind": "steps" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Support": { "type": "VARIANT", "options": ["Desktop", "Mobile"], "vary": false },
+        "Étapes": { "type": "VARIANT", "options": ["2", "3", "4", "5", "6", "7", "8"], "default": "8" }
+      }
+    },
+    {
+      "nodeId": "12355:77053",
+      "components": [
+        { "url": "<FIGMA_INDICATEUR_D_ETAPES__ETAPE>", "kind": "step" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Courant", "Défaut"], "default": "Défaut" }
+      }
+    }
+  ]
+}

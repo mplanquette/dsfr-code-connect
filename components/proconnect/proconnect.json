@@ -1,0 +1,25 @@
+{
+  "family": "Bouton ProConnect",
+  "groups": [
+    {
+      "nodeId": "34014:794",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_PROCONNECT__BOUTON_PROCONNECT>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Défaut", "Survol", "Cliqué", "Désactivé", "Focus"],
+          "vary": false
+        }
+      }
+    }
+  ]
+}

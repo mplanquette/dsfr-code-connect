@@ -1,0 +1,1881 @@
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [indeterminate]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [indeterminate]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [indeterminate]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [indeterminate]="true" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [indeterminate]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [indeterminate]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [indeterminate]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [indeterminate]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [indeterminate]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [indeterminate]="true" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [indeterminate]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [value]="true" [indeterminate]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [indeterminate]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [indeterminate]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [indeterminate]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [indeterminate]="true" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [indeterminate]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [indeterminate]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [indeterminate]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [indeterminate]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [indeterminate]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [indeterminate]="true" [disabled]="true"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [indeterminate]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+<dsfr-form-checkbox label="Libellé case à cocher" [small]="true" [value]="true" [indeterminate]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-checkbox>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe" [inline]="true">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [inline]="true" [disabled]="true">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe" [inline]="true" message="Texte de validation" messageSeverity="valid">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [inline]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe" [inline]="true" message="Texte d'erreur" messageSeverity="error">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [inline]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [disabled]="true">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe" message="Texte de validation" messageSeverity="valid">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [disabled]="true" message="Texte de validation" messageSeverity="valid">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe" message="Texte d'erreur" messageSeverity="error">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [disabled]="true" message="Texte d'erreur" messageSeverity="error">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Troisième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=True
+<dsfr-fieldset legend="Titre de section" [disabled]="true">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=False
+<dsfr-fieldset legend="Titre de section">
+  <dsfr-form-checkbox *fieldsetElement label="Première option"></dsfr-form-checkbox>
+  <dsfr-form-checkbox *fieldsetElement label="Deuxième option"></dsfr-form-checkbox>
+</dsfr-fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+<div class="fr-checkbox-group fr-checkbox-group--sm">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--valid">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="checkbox-messages">Texte de validation</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+<div class="fr-checkbox-group fr-checkbox-group--sm fr-checkbox-group--error">
+  <input type="checkbox" id="checkbox" name="checkbox" checked disabled />
+  <label class="fr-label" for="checkbox">Libellé case à cocher</label>
+  <div class="fr-messages-group" id="checkbox-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="checkbox-messages">Texte d'erreur</p>
+  </div>
+</div>
+  <script>document.getElementById('checkbox').indeterminate = true;</script>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline" id="checkbox-group" aria-labelledby="checkbox-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline" id="checkbox-group" aria-labelledby="checkbox-group-legend" disabled>
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--valid" id="checkbox-group" aria-labelledby="checkbox-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--valid" id="checkbox-group" aria-labelledby="checkbox-group-legend" disabled>
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--error" id="checkbox-group" aria-labelledby="checkbox-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--error" id="checkbox-group" aria-labelledby="checkbox-group-legend" disabled>
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+<fieldset class="fr-fieldset" id="checkbox-group" aria-labelledby="checkbox-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+<fieldset class="fr-fieldset" id="checkbox-group" aria-labelledby="checkbox-group-legend" disabled>
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--valid" id="checkbox-group" aria-labelledby="checkbox-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--valid" id="checkbox-group" aria-labelledby="checkbox-group-legend" disabled>
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--error" id="checkbox-group" aria-labelledby="checkbox-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--error" id="checkbox-group" aria-labelledby="checkbox-group-legend" disabled>
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-2" name="checkbox-group" disabled />
+      <label class="fr-label" for="checkbox-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=True
+<fieldset class="fr-fieldset" id="checkbox-section" aria-labelledby="checkbox-section-legend" disabled>
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-section" disabled />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=False
+<fieldset class="fr-fieldset" id="checkbox-section" aria-labelledby="checkbox-section-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="checkbox-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-checkbox-group">
+      <input type="checkbox" id="checkbox-1" name="checkbox-section" />
+      <label class="fr-label" for="checkbox-1">Première option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options}
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options}
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options}
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options}
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox' } }];
+
+<Checkbox
+  options={options} small disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé case à cocher', nativeInputProps: { name: 'checkbox', defaultChecked: true } }];
+
+<Checkbox
+  options={options} small disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} orientation="horizontal"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options}
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-group' } },
+  { label: 'Troisième option', nativeInputProps: { name: 'checkbox-group' } }
+];
+
+<Checkbox
+  legend="Légende du groupe"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-section' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-section' } }
+];
+
+<Checkbox
+  legend="Titre de section"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { name: 'checkbox-section' } },
+  { label: 'Deuxième option', nativeInputProps: { name: 'checkbox-section' } }
+];
+
+<Checkbox
+  legend="Titre de section"
+  options={options}
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="[]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=MD, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" :model-value="['option-1']" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=False, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=False, Indéterminée=True, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="[]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=False, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=False, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Aucune
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Valide
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM> | Taille=SM, Coché=True, Indéterminée=True, Désactivé=True, Validation=Erreur
+<DsfrCheckbox
+  label="Libellé case à cocher"
+  name="checkbox"
+  value="option-1" small :model-value="['option-1']" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" inline
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" inline disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" inline valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" inline disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" inline error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" inline disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+<DsfrCheckboxSet
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' },
+    { label: 'Troisième option', name: 'checkbox-3', value: 'option-3' }
+  ]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=True
+<DsfrCheckboxSet
+  legend="Titre de section"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' }
+  ]" disabled
+/>
+
+=== vue | <FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION> | Désactivé=False
+<DsfrCheckboxSet
+  legend="Titre de section"
+  :options="[
+    { label: 'Première option', name: 'checkbox-1', value: 'option-1' },
+    { label: 'Deuxième option', name: 'checkbox-2', value: 'option-2' }
+  ]"
+/>

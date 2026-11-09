@@ -1,0 +1,29 @@
+{
+  "family": "Retour en haut de page",
+  "groups": [
+    {
+      "nodeId": "16302:202695",
+      "components": [
+        {
+          "url": "<FIGMA_RETOUR_EN_HAUT_DE_PAGE__>"
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Défaut", "Survol", "Cliqué"],
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": ["False", "True"],
+          "vary": false
+        }
+      }
+    }
+  ]
+}

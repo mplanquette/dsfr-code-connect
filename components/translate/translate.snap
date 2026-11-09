@@ -1,0 +1,117 @@
+=== angular | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=False
+<dsfr-translate
+  currentLangCode="FR"
+  [languages]="[
+    { value: 'fr', label: 'FR', description: 'Français' },
+    { value: 'en', label: 'EN', description: 'English' },
+    { value: 'es', label: 'ES', description: 'Español' }
+  ]" [outline]="false"></dsfr-translate>
+
+=== angular | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=True
+<dsfr-translate
+  currentLangCode="FR"
+  [languages]="[
+    { value: 'fr', label: 'FR', description: 'Français' },
+    { value: 'en', label: 'EN', description: 'English' },
+    { value: 'es', label: 'ES', description: 'Español' }
+  ]"></dsfr-translate>
+
+=== angular | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_MOBILE> | défaut
+<dsfr-translate
+  currentLangCode="FR"
+  [languages]="[
+    { value: 'fr', label: 'FR', description: 'Français' },
+    { value: 'en', label: 'EN', description: 'English' },
+    { value: 'es', label: 'ES', description: 'Español' }
+  ]"></dsfr-translate>
+
+=== html | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=False
+<div class="fr-translate fr-nav">
+  <div class="fr-nav__item">
+    <button type="button" class="fr-translate__btn fr-btn--tertiary-no-outline" aria-controls="translate-menu" aria-expanded="false" title="Sélectionner une langue">
+      FR<span class="fr-hidden-lg">&nbsp;- Français</span>
+    </button>
+    <div class="fr-collapse fr-translate__menu fr-menu" id="translate-menu">
+      <ul class="fr-menu__list">
+        <li><a class="fr-translate__language fr-nav__link" hreflang="fr" lang="fr" href="#" aria-current="true">FR&nbsp;- Français</a></li>
+        <li><a class="fr-translate__language fr-nav__link" hreflang="en" lang="en" href="#">EN&nbsp;- English</a></li>
+        <li><a class="fr-translate__language fr-nav__link" hreflang="es" lang="es" href="#">ES&nbsp;- Español</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=True
+<div class="fr-translate fr-nav">
+  <div class="fr-nav__item">
+    <button type="button" class="fr-translate__btn fr-btn fr-btn--tertiary" aria-controls="translate-menu" aria-expanded="false" title="Sélectionner une langue">
+      FR<span class="fr-hidden-lg">&nbsp;- Français</span>
+    </button>
+    <div class="fr-collapse fr-translate__menu fr-menu" id="translate-menu">
+      <ul class="fr-menu__list">
+        <li><a class="fr-translate__language fr-nav__link" hreflang="fr" lang="fr" href="#" aria-current="true">FR&nbsp;- Français</a></li>
+        <li><a class="fr-translate__language fr-nav__link" hreflang="en" lang="en" href="#">EN&nbsp;- English</a></li>
+        <li><a class="fr-translate__language fr-nav__link" hreflang="es" lang="es" href="#">ES&nbsp;- Español</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_MOBILE> | défaut
+<div class="fr-translate fr-nav">
+  <div class="fr-nav__item">
+    <button type="button" class="fr-translate__btn fr-btn fr-btn--tertiary" aria-controls="translate-menu" aria-expanded="false" title="Sélectionner une langue">
+      FR<span class="fr-hidden-lg">&nbsp;- Français</span>
+    </button>
+    <div class="fr-collapse fr-translate__menu fr-menu" id="translate-menu">
+      <ul class="fr-menu__list">
+        <li><a class="fr-translate__language fr-nav__link" hreflang="fr" lang="fr" href="#" aria-current="true">FR&nbsp;- Français</a></li>
+        <li><a class="fr-translate__language fr-nav__link" hreflang="en" lang="en" href="#">EN&nbsp;- English</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=False
+<LanguageSelect
+  lang="FR"
+  setLang={(lang) => {}}
+  supportedLangs={['fr', 'en', 'es']}
+  fullNameByLang={{ fr: 'Français', en: 'English', es: 'Español' }}
+/>
+
+=== react | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=True
+<LanguageSelect
+  lang="FR"
+  setLang={(lang) => {}}
+  supportedLangs={['fr', 'en', 'es']}
+  fullNameByLang={{ fr: 'Français', en: 'English', es: 'Español' }}
+/>
+
+=== react | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_MOBILE> | défaut
+<LanguageSelect
+  lang="FR"
+  setLang={(lang) => {}}
+  supportedLangs={['fr', 'en', 'es']}
+  fullNameByLang={{ fr: 'Français', en: 'English', es: 'Español' }}
+/>
+
+=== vue | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=False
+<DsfrLanguageSelector current-language="FR" :languages="[
+    { codeIso: 'fr', label: 'Français' },
+    { codeIso: 'en', label: 'English' },
+    { codeIso: 'es', label: 'Español' }
+  ]" />
+
+=== vue | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP> | Encadré=True
+<DsfrLanguageSelector current-language="FR" :languages="[
+    { codeIso: 'fr', label: 'Français' },
+    { codeIso: 'en', label: 'English' },
+    { codeIso: 'es', label: 'Español' }
+  ]" />
+
+=== vue | <FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_MOBILE> | défaut
+<DsfrLanguageSelector current-language="FR" :languages="[
+    { codeIso: 'fr', label: 'Français' },
+    { codeIso: 'en', label: 'English' }
+  ]" />

@@ -1,0 +1,239 @@
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="success" alertSize="MD" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="success" alertSize="MD"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="error" alertSize="MD" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="error" alertSize="MD"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="info" alertSize="MD" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="info" alertSize="MD"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="warning" alertSize="MD" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="warning" alertSize="MD"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="success" alertSize="SM" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="success" alertSize="SM"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="error" alertSize="SM" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="error" alertSize="SM"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="info" alertSize="SM" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="info" alertSize="SM"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=True
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="warning" alertSize="SM" [closeable]="true" closeControlLabel="Masquer le message"></dsfr-alert>
+
+=== angular | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=False
+<dsfr-alert heading="Titre du message" message="Description de l'alerte" severity="warning" alertSize="SM"></dsfr-alert>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--success">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--success">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--error">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--error">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--info">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--info">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--warning">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--warning">
+  <h3 class="fr-alert__title">Titre du message</h3>
+  <p>Description de l'alerte</p>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--success fr-alert--sm">
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--success fr-alert--sm">
+  <p>Description de l'alerte</p>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--error fr-alert--sm">
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--error fr-alert--sm">
+  <p>Description de l'alerte</p>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--info fr-alert--sm">
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--info fr-alert--sm">
+  <p>Description de l'alerte</p>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=True
+<div role="alert" class="fr-alert fr-alert--warning fr-alert--sm">
+  <p>Description de l'alerte</p>
+  <button class="fr-btn--close fr-btn" title="Masquer le message" type="button">Masquer le message</button>
+</div>
+
+=== html | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=False
+<div role="alert" class="fr-alert fr-alert--warning fr-alert--sm">
+  <p>Description de l'alerte</p>
+</div>
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=True
+<Alert severity="success" title="Titre du message" description="Description de l'alerte" closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=False
+<Alert severity="success" title="Titre du message" description="Description de l'alerte" />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=True
+<Alert severity="error" title="Titre du message" description="Description de l'alerte" closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=False
+<Alert severity="error" title="Titre du message" description="Description de l'alerte" />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=True
+<Alert severity="info" title="Titre du message" description="Description de l'alerte" closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=False
+<Alert severity="info" title="Titre du message" description="Description de l'alerte" />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=True
+<Alert severity="warning" title="Titre du message" description="Description de l'alerte" closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=False
+<Alert severity="warning" title="Titre du message" description="Description de l'alerte" />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=True
+<Alert severity="success" title="Titre du message" description="Description de l'alerte" small closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=False
+<Alert severity="success" title="Titre du message" description="Description de l'alerte" small />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=True
+<Alert severity="error" title="Titre du message" description="Description de l'alerte" small closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=False
+<Alert severity="error" title="Titre du message" description="Description de l'alerte" small />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=True
+<Alert severity="info" title="Titre du message" description="Description de l'alerte" small closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=False
+<Alert severity="info" title="Titre du message" description="Description de l'alerte" small />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=True
+<Alert severity="warning" title="Titre du message" description="Description de l'alerte" small closable />
+
+=== react | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=False
+<Alert severity="warning" title="Titre du message" description="Description de l'alerte" small />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=True
+<DsfrAlert type="success" title="Titre du message" description="Description de l'alerte" closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Succès, Fermeture=False
+<DsfrAlert type="success" title="Titre du message" description="Description de l'alerte" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=True
+<DsfrAlert type="error" title="Titre du message" description="Description de l'alerte" closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Erreur, Fermeture=False
+<DsfrAlert type="error" title="Titre du message" description="Description de l'alerte" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=True
+<DsfrAlert type="info" title="Titre du message" description="Description de l'alerte" closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Information, Fermeture=False
+<DsfrAlert type="info" title="Titre du message" description="Description de l'alerte" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=True
+<DsfrAlert type="warning" title="Titre du message" description="Description de l'alerte" closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=MD, État=Avertissement, Fermeture=False
+<DsfrAlert type="warning" title="Titre du message" description="Description de l'alerte" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=True
+<DsfrAlert type="success" title="Titre du message" description="Description de l'alerte" small closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Succès, Fermeture=False
+<DsfrAlert type="success" title="Titre du message" description="Description de l'alerte" small />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=True
+<DsfrAlert type="error" title="Titre du message" description="Description de l'alerte" small closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Erreur, Fermeture=False
+<DsfrAlert type="error" title="Titre du message" description="Description de l'alerte" small />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=True
+<DsfrAlert type="info" title="Titre du message" description="Description de l'alerte" small closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Information, Fermeture=False
+<DsfrAlert type="info" title="Titre du message" description="Description de l'alerte" small />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=True
+<DsfrAlert type="warning" title="Titre du message" description="Description de l'alerte" small closeable close-button-label="Masquer le message" />
+
+=== vue | <FIGMA_ALERTE__ALERTE> | Taille=SM, État=Avertissement, Fermeture=False
+<DsfrAlert type="warning" title="Titre du message" description="Description de l'alerte" small />

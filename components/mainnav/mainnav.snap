@@ -1,0 +1,1878 @@
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{ label: 'Libellé du lien', routePath: '/lien', active: true }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{ label: 'Libellé du lien', routePath: '/lien', active: false }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: false,
+    active: false,
+    subItems: [
+      { label: 'Premier lien', routePath: '/premier' },
+      { label: 'Deuxième lien', routePath: '/deuxieme' }
+    ]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    active: false,
+    subItems: [
+      { label: 'Premier lien', routePath: '/premier' },
+      { label: 'Deuxième lien', routePath: '/deuxieme' }
+    ]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: false,
+    active: true,
+    subItems: [
+      { label: 'Premier lien', routePath: '/premier' },
+      { label: 'Deuxième lien', routePath: '/deuxieme' }
+    ]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    active: true,
+    subItems: [
+      { label: 'Premier lien', routePath: '/premier' },
+      { label: 'Deuxième lien', routePath: '/deuxieme' }
+    ]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=2-4
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' },
+    { label: 'Troisième lien', routePath: '/troisieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=5-8
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' },
+    { label: 'Troisième lien', routePath: '/troisieme' },
+    { label: 'Quatrième lien', routePath: '/quatrieme' },
+    { label: 'Cinquième lien', routePath: '/cinquieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Défaut
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: false }]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Survol
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: false }]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Courant
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: true }]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_COMPLET> | défaut
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    subItems: [
+      { label: 'Premier lien', routePath: '/premier' },
+      { label: 'Deuxième lien', routePath: '/deuxieme' },
+      { label: 'Troisième lien', routePath: '/troisieme' }
+    ]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Défaut
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [{
+        label: 'Catégorie',
+        subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: false }]
+      }]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Survol
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [{
+        label: 'Catégorie',
+        subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: false }]
+      }]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Courant
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [{
+        label: 'Catégorie',
+        subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: true }]
+      }]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Sans
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [
+        { label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien-1' }] }
+      ]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [
+        { label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien-1' }] }
+      ],
+      leader: { title: 'Titre de la rubrique' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre + description
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [
+        { label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien-1' }] }
+      ],
+      leader: { title: 'Titre de la rubrique', text: 'Texte de description de la rubrique.' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Sans
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [
+        { label: 'Première catégorie', subItems: [{ label: 'Lien', routePath: '/lien-1' }] },
+        { label: 'Deuxième catégorie', subItems: [{ label: 'Lien', routePath: '/lien-2' }] }
+      ]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [
+        { label: 'Première catégorie', subItems: [{ label: 'Lien', routePath: '/lien-1' }] },
+        { label: 'Deuxième catégorie', subItems: [{ label: 'Lien', routePath: '/lien-2' }] }
+      ],
+      leader: { title: 'Titre de la rubrique' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre + description
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Rubrique',
+    megaMenu: {
+      categories: [
+        { label: 'Première catégorie', subItems: [{ label: 'Lien', routePath: '/lien-1' }] },
+        { label: 'Deuxième catégorie', subItems: [{ label: 'Lien', routePath: '/lien-2' }] }
+      ],
+      leader: { title: 'Titre de la rubrique', text: 'Texte de description de la rubrique.' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: false,
+    active: false,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }],
+      leader: { title: 'Titre de la rubrique' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: false,
+    active: false,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    active: false,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }],
+      leader: { title: 'Titre de la rubrique' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    active: false,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: false,
+    active: true,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }],
+      leader: { title: 'Titre de la rubrique' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: false,
+    active: true,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    active: true,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }],
+      leader: { title: 'Titre de la rubrique' }
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    active: true,
+    megaMenu: {
+      categories: [{ label: 'Catégorie', subItems: [{ label: 'Lien', routePath: '/lien' }] }]
+    }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Défaut
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: false }]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Courant
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    subItems: [{ label: 'Libellé du lien', routePath: '/lien', active: true }]
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    megaMenu: { categories: [{ label: 'Premier lien', routePath: '/premier' }] }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{
+    label: 'Menu déroulant',
+    expanded: true,
+    megaMenu: { categories: [{ label: 'Catégorie', subItems: [
+      { label: 'Premier lien', routePath: '/premier' },
+      { label: 'Deuxième lien', routePath: '/deuxieme' }
+    ] }] }
+  }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Défaut
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{ label: 'Libellé du lien', routePath: '/lien', active: false }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Courant
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[{ label: 'Libellé du lien', routePath: '/lien', active: true }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE> | défaut
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [headerToolsLinks]="[
+    { label: 'Se connecter', icon: 'fr-icon-lock-line', routePath: '/connexion' }
+  ]"
+  [menu]="[{ label: 'Libellé du lien', routePath: '/lien' }]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=False
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' },
+    { label: 'Troisième lien', routePath: '/troisieme' }
+  ]"></dsfr-header>
+
+=== angular | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=True
+<dsfr-header
+  [logo]="{ label: 'République Française' }"
+  [headerToolsLinks]="[{ label: 'Se connecter', icon: 'fr-icon-lock-line', routePath: '/connexion' }]"
+  [menu]="[
+    { label: 'Premier lien', routePath: '/premier' },
+    { label: 'Deuxième lien', routePath: '/deuxieme' },
+    { label: 'Troisième lien', routePath: '/troisieme' }
+  ]"></dsfr-header>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=True
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item">
+      <a class="fr-nav__link" href="/lien" aria-current="page">Libellé du lien</a>
+    </li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=False
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item">
+      <a class="fr-nav__link" href="/lien">Libellé du lien</a>
+    </li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=False
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item">
+      <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-1">Menu déroulant</button>
+      <div class="fr-collapse fr-menu" id="menu-1">
+        <ul class="fr-menu__list">
+          <li><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=True
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item">
+      <button class="fr-nav__btn" aria-expanded="true" aria-controls="menu-1">Menu déroulant</button>
+      <div class="fr-collapse fr-menu fr-collapse--expanded" id="menu-1">
+        <ul class="fr-menu__list">
+          <li><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=False
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item">
+      <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-1" aria-current="page">Menu déroulant</button>
+      <div class="fr-collapse fr-menu" id="menu-1">
+        <ul class="fr-menu__list">
+          <li><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=True
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item">
+      <button class="fr-nav__btn" aria-expanded="true" aria-controls="menu-1" aria-current="page">Menu déroulant</button>
+      <div class="fr-collapse fr-menu fr-collapse--expanded" id="menu-1">
+        <ul class="fr-menu__list">
+          <li><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+          <li><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=2-4
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/troisieme">Troisième lien</a></li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=5-8
+<nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <ul class="fr-nav__list">
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/troisieme">Troisième lien</a></li>
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/quatrieme">Quatrième lien</a></li>
+    <li class="fr-nav__item"><a class="fr-nav__link" href="/cinquieme">Cinquième lien</a></li>
+  </ul>
+</nav>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Défaut
+<div class="fr-collapse fr-menu fr-collapse--expanded" id="menu-1">
+  <ul class="fr-menu__list">
+    <li><a class="fr-nav__link" href="/lien">Libellé du lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Survol
+<div class="fr-collapse fr-menu fr-collapse--expanded" id="menu-1">
+  <ul class="fr-menu__list">
+    <li><a class="fr-nav__link" href="/lien">Libellé du lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Courant
+<div class="fr-collapse fr-menu fr-collapse--expanded" id="menu-1">
+  <ul class="fr-menu__list">
+    <li><a class="fr-nav__link" href="/lien" aria-current="page">Libellé du lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_COMPLET> | défaut
+<div class="fr-collapse fr-menu fr-collapse--expanded" id="menu-1">
+  <ul class="fr-menu__list">
+    <li><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+    <li><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+    <li><a class="fr-nav__link" href="/troisieme">Troisième lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Défaut
+<div class="fr-col-12 fr-col-lg-3">
+  <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+  <ul class="fr-mega-menu__list">
+    <li><a class="fr-nav__link" href="/lien">Libellé du lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Survol
+<div class="fr-col-12 fr-col-lg-3">
+  <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+  <ul class="fr-mega-menu__list">
+    <li><a class="fr-nav__link" href="/lien">Libellé du lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Courant
+<div class="fr-col-12 fr-col-lg-3">
+  <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+  <ul class="fr-mega-menu__list">
+    <li><a class="fr-nav__link" href="/lien" aria-current="page">Libellé du lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Sans
+<div class="fr-container fr-container--fluid fr-container-lg">
+  <div class="fr-grid-row fr-grid-row-lg--gutters">
+    <div class="fr-col-12 fr-mb-n3v">
+      <button type="button" class="fr-btn--close fr-btn" aria-controls="mega-menu-1">Fermer</button>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-1">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre
+<div class="fr-container fr-container--fluid fr-container-lg">
+  <div class="fr-grid-row fr-grid-row-lg--gutters">
+    <div class="fr-col-12 fr-mb-n3v">
+      <button type="button" class="fr-btn--close fr-btn" aria-controls="mega-menu-1">Fermer</button>
+    </div>
+    <div class="fr-col-12 fr-col-lg-8 fr-col-offset-lg-4--right">
+      <div class="fr-mega-menu__leader">
+        <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+      </div>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-1">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre + description
+<div class="fr-container fr-container--fluid fr-container-lg">
+  <div class="fr-grid-row fr-grid-row-lg--gutters">
+    <div class="fr-col-12 fr-mb-n3v">
+      <button type="button" class="fr-btn--close fr-btn" aria-controls="mega-menu-1">Fermer</button>
+    </div>
+    <div class="fr-col-12 fr-col-lg-8 fr-col-offset-lg-4--right">
+      <div class="fr-mega-menu__leader">
+        <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+        <p>Texte de description de la rubrique.</p>
+      </div>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-1">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Sans
+<div class="fr-container fr-container--fluid fr-container-lg">
+  <div class="fr-grid-row fr-grid-row-lg--gutters">
+    <div class="fr-col-12 fr-mb-n3v">
+      <button type="button" class="fr-btn--close fr-btn" aria-controls="mega-menu-1">Fermer</button>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Première catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-1">Lien</a></li>
+      </ul>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Deuxième catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-2">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre
+<div class="fr-container fr-container--fluid fr-container-lg">
+  <div class="fr-grid-row fr-grid-row-lg--gutters">
+    <div class="fr-col-12 fr-mb-n3v">
+      <button type="button" class="fr-btn--close fr-btn" aria-controls="mega-menu-1">Fermer</button>
+    </div>
+    <div class="fr-col-12 fr-col-lg-8 fr-col-offset-lg-4--right">
+      <div class="fr-mega-menu__leader">
+        <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+      </div>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Première catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-1">Lien</a></li>
+      </ul>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Deuxième catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-2">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre + description
+<div class="fr-container fr-container--fluid fr-container-lg">
+  <div class="fr-grid-row fr-grid-row-lg--gutters">
+    <div class="fr-col-12 fr-mb-n3v">
+      <button type="button" class="fr-btn--close fr-btn" aria-controls="mega-menu-1">Fermer</button>
+    </div>
+    <div class="fr-col-12 fr-col-lg-8 fr-col-offset-lg-4--right">
+      <div class="fr-mega-menu__leader">
+        <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+        <p>Texte de description de la rubrique.</p>
+      </div>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Première catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-1">Lien</a></li>
+      </ul>
+    </div>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Deuxième catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien-2">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=True
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="false" aria-controls="mega-menu-1">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu" id="mega-menu-1">
+    <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=False
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="false" aria-controls="mega-menu-1">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu" id="mega-menu-1">
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=True
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="true" aria-controls="mega-menu-1">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu fr-collapse--expanded" id="mega-menu-1">
+    <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=False
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="true" aria-controls="mega-menu-1">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu fr-collapse--expanded" id="mega-menu-1">
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=True
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="false" aria-controls="mega-menu-1" aria-current="page">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu" id="mega-menu-1">
+    <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=False
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="false" aria-controls="mega-menu-1" aria-current="page">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu" id="mega-menu-1">
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=True
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="true" aria-controls="mega-menu-1" aria-current="page">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu fr-collapse--expanded" id="mega-menu-1">
+    <h4 class="fr-h4 fr-mb-2v">Titre de la rubrique</h4>
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=False
+<li class="fr-nav__item">
+  <button class="fr-nav__btn" aria-expanded="true" aria-controls="mega-menu-1" aria-current="page">Menu déroulant</button>
+  <div class="fr-collapse fr-mega-menu fr-collapse--expanded" id="mega-menu-1">
+    <div class="fr-col-12 fr-col-lg-3">
+      <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+      <ul class="fr-mega-menu__list">
+        <li><a class="fr-nav__link" href="/lien">Lien</a></li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Défaut
+<li><a class="fr-nav__link" href="/lien">Libellé du lien</a></li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Courant
+<li><a class="fr-nav__link" href="/lien" aria-current="page">Libellé du lien</a></li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=False
+<div class="fr-col-12 fr-col-lg-3">
+  <ul class="fr-mega-menu__list">
+    <li><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=True
+<div class="fr-col-12 fr-col-lg-3">
+  <h5 class="fr-mega-menu__category"><span class="fr-nav__link">Catégorie</span></h5>
+  <ul class="fr-mega-menu__list">
+    <li><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+    <li><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Défaut
+<li class="fr-nav__item">
+  <a class="fr-nav__link" href="/lien">Libellé du lien</a>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Courant
+<li class="fr-nav__item">
+  <a class="fr-nav__link" href="/lien" aria-current="page">Libellé du lien</a>
+</li>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE> | défaut
+<div class="fr-header__menu-links">
+  <ul class="fr-btns-group">
+    <li><a class="fr-btn fr-icon-lock-line fr-btn--tertiary" href="/connexion">Se connecter</a></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=False
+<div class="fr-header__menu fr-modal fr-modal--opened" id="header-menu">
+  <div class="fr-container">
+    <button type="button" class="fr-btn--close fr-btn" aria-controls="header-menu">Fermer</button>
+    <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+      <ul class="fr-nav__list">
+        <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+        <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        <li class="fr-nav__item"><a class="fr-nav__link" href="/troisieme">Troisième lien</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+=== html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=True
+<div class="fr-header__menu fr-modal fr-modal--opened" id="header-menu">
+  <div class="fr-container">
+    <button type="button" class="fr-btn--close fr-btn" aria-controls="header-menu">Fermer</button>
+  <div class="fr-header__menu-links">
+    <ul class="fr-btns-group">
+      <li><a class="fr-btn fr-icon-lock-line fr-btn--tertiary" href="/connexion">Se connecter</a></li>
+    </ul>
+  </div>
+    <nav class="fr-nav" id="header-navigation" role="navigation" aria-label="Menu principal">
+      <ul class="fr-nav__list">
+        <li class="fr-nav__item"><a class="fr-nav__link" href="/premier">Premier lien</a></li>
+        <li class="fr-nav__item"><a class="fr-nav__link" href="/deuxieme">Deuxième lien</a></li>
+        <li class="fr-nav__item"><a class="fr-nav__link" href="/troisieme">Troisième lien</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=True
+const navigation = [
+  { text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: true }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=False
+const navigation = [
+  { text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: false }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=False
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: false,
+  menuLinks: [
+    { text: 'Premier lien', linkProps: { href: '/premier' } },
+    { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+  ]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=True
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: false,
+  menuLinks: [
+    { text: 'Premier lien', linkProps: { href: '/premier' } },
+    { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+  ]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=False
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: true,
+  menuLinks: [
+    { text: 'Premier lien', linkProps: { href: '/premier' } },
+    { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+  ]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=True
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: true,
+  menuLinks: [
+    { text: 'Premier lien', linkProps: { href: '/premier' } },
+    { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+  ]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=2-4
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième lien', linkProps: { href: '/troisieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=5-8
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième lien', linkProps: { href: '/troisieme' } },
+  { text: 'Quatrième lien', linkProps: { href: '/quatrieme' } },
+  { text: 'Cinquième lien', linkProps: { href: '/cinquieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Défaut
+const navigation = [{
+  text: 'Menu déroulant',
+  menuLinks: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: false }]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Survol
+const navigation = [{
+  text: 'Menu déroulant',
+  menuLinks: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: false }]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Courant
+const navigation = [{
+  text: 'Menu déroulant',
+  menuLinks: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: true }]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_COMPLET> | défaut
+const navigation = [{
+  text: 'Menu déroulant',
+  menuLinks: [
+    { text: 'Premier lien', linkProps: { href: '/premier' } },
+    { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } },
+    { text: 'Troisième lien', linkProps: { href: '/troisieme' } }
+  ]
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Défaut
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [{
+      categoryMainText: 'Catégorie',
+      links: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: false }]
+    }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Survol
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [{
+      categoryMainText: 'Catégorie',
+      links: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: false }]
+    }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Courant
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [{
+      categoryMainText: 'Catégorie',
+      links: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: true }]
+    }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Sans
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [
+    { categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-1' } }] }
+  ]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [
+    { categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-1' } }] }
+  ],
+  leader: { title: 'Titre de la rubrique', paragraph: '' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre + description
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [
+    { categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-1' } }] }
+  ],
+  leader: { title: 'Titre de la rubrique', paragraph: 'Texte de description de la rubrique.' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Sans
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [
+    { categoryMainText: 'Première catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-1' } }] },
+    { categoryMainText: 'Deuxième catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-2' } }] }
+  ]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [
+    { categoryMainText: 'Première catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-1' } }] },
+    { categoryMainText: 'Deuxième catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-2' } }] }
+  ],
+  leader: { title: 'Titre de la rubrique', paragraph: '' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre + description
+const navigation = [{
+  text: 'Rubrique',
+  megaMenu: {
+    categories: [
+    { categoryMainText: 'Première catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-1' } }] },
+    { categoryMainText: 'Deuxième catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien-2' } }] }
+  ],
+  leader: { title: 'Titre de la rubrique', paragraph: 'Texte de description de la rubrique.' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=True
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: false,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }],
+    leader: { title: 'Titre de la rubrique', paragraph: '' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=False
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: false,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=True
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: false,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }],
+    leader: { title: 'Titre de la rubrique', paragraph: '' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=False
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: false,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=True
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: true,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }],
+    leader: { title: 'Titre de la rubrique', paragraph: '' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=False
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: true,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=True
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: true,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }],
+    leader: { title: 'Titre de la rubrique', paragraph: '' }
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=False
+const navigation = [{
+  text: 'Menu déroulant',
+  isActive: true,
+  megaMenu: {
+    categories: [{ categoryMainText: 'Catégorie', links: [{ text: 'Lien', linkProps: { href: '/lien' } }] }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Défaut
+const navigation = [{
+  text: 'Menu déroulant',
+  megaMenu: {
+    categories: [{
+      categoryMainText: 'Catégorie',
+      links: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: false }]
+    }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Courant
+const navigation = [{
+  text: 'Menu déroulant',
+  megaMenu: {
+    categories: [{
+      categoryMainText: 'Catégorie',
+      links: [{ text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: true }]
+    }]
+  }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=False
+const navigation = [{
+  text: 'Menu déroulant',
+  megaMenu: { categories: [{
+    categoryMainLink: { text: 'Premier lien', linkProps: { href: '/premier' } },
+    links: []
+  }] }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=True
+const navigation = [{
+  text: 'Menu déroulant',
+  megaMenu: { categories: [{
+    categoryMainText: 'Catégorie',
+    links: [
+      { text: 'Premier lien', linkProps: { href: '/premier' } },
+      { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+    ]
+  }] }
+}];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Défaut
+const navigation = [
+  { text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: false }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Courant
+const navigation = [
+  { text: 'Libellé du lien', linkProps: { href: '/lien' }, isActive: true }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE> | défaut
+const navigation = [{ text: 'Libellé du lien', linkProps: { href: '/lien' } }];
+const quickAccessItems = [
+  { iconId: 'fr-icon-lock-line', text: 'Se connecter', linkProps: { href: '/connexion' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  quickAccessItems={quickAccessItems}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=False
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième lien', linkProps: { href: '/troisieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  navigation={navigation} />
+
+=== react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=True
+const quickAccessItems = [
+  { iconId: 'fr-icon-lock-line', text: 'Se connecter', linkProps: { href: '/connexion' } }
+];
+
+const navigation = [
+  { text: 'Premier lien', linkProps: { href: '/premier' } },
+  { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } },
+  { text: 'Troisième lien', linkProps: { href: '/troisieme' } }
+];
+
+<Header
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  quickAccessItems={quickAccessItems}
+  navigation={navigation} />
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL> | Courant=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="''"
+        :links="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=False, Ouvert=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="'menu-dropdown'"
+        :links="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="''"
+        :links="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT> | Courant=True, Ouvert=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="'menu-dropdown'"
+        :links="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' }
+        ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=2-4
+<DsfrNavigation
+    label="Menu principal"
+    :nav-items="[
+      { to: '/premier', text: 'Premier lien' },
+      { to: '/deuxieme', text: 'Deuxième lien' },
+      { to: '/troisieme', text: 'Troisième lien' }
+    ]"
+  />
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE> | Items=5-8
+<DsfrNavigation
+    label="Menu principal"
+    :nav-items="[
+      { to: '/premier', text: 'Premier lien' },
+      { to: '/deuxieme', text: 'Deuxième lien' },
+      { to: '/troisieme', text: 'Troisième lien' },
+      { to: '/quatrieme', text: 'Quatrième lien' },
+      { to: '/cinquieme', text: 'Cinquième lien' }
+    ]"
+  />
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Défaut
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMenu id="menu-dropdown" title="Menu déroulant" expanded-id="menu-dropdown">
+        <DsfrNavigationMenuItem :active="false">
+          <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+        </DsfrNavigationMenuItem>
+      </DsfrNavigationMenu>
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Survol
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMenu id="menu-dropdown" title="Menu déroulant" expanded-id="menu-dropdown">
+        <DsfrNavigationMenuItem :active="false">
+          <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+        </DsfrNavigationMenuItem>
+      </DsfrNavigationMenu>
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM> | État=Courant
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMenu id="menu-dropdown" title="Menu déroulant" expanded-id="menu-dropdown">
+        <DsfrNavigationMenuItem :active="true">
+          <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+        </DsfrNavigationMenuItem>
+      </DsfrNavigationMenu>
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_COMPLET> | défaut
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        expanded-id="menu-dropdown"
+        :links="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' },
+          { to: '/troisieme', text: 'Troisième lien' }
+        ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Défaut
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu"
+        :menus="[{ title: 'Catégorie', links: [{ to: '/lien', text: 'Libellé du lien' }] }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Survol
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu"
+        :menus="[{ title: 'Catégorie', links: [{ to: '/lien', text: 'Libellé du lien' }] }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM> | État=Courant
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu"
+        :menus="[{ title: 'Catégorie', links: [{ to: '/lien', text: 'Libellé du lien' }] }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Sans
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu"
+        :menus="[
+        { title: 'Catégorie', links: [{ to: '/lien-1', text: 'Lien' }] }
+      ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu"
+        :menus="[
+        { title: 'Catégorie', links: [{ to: '/lien-1', text: 'Lien' }] }
+      ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=False, Rubrique=Titre + description
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu" description="Texte de description de la rubrique."
+        :menus="[
+        { title: 'Catégorie', links: [{ to: '/lien-1', text: 'Lien' }] }
+      ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Sans
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu"
+        :menus="[
+        { title: 'Première catégorie', links: [{ to: '/lien-1', text: 'Lien' }] },
+        { title: 'Deuxième catégorie', links: [{ to: '/lien-2', text: 'Lien' }] }
+      ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu"
+        :menus="[
+        { title: 'Première catégorie', links: [{ to: '/lien-1', text: 'Lien' }] },
+        { title: 'Deuxième catégorie', links: [{ to: '/lien-2', text: 'Lien' }] }
+      ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET> | Catégories=True, Rubrique=Titre + description
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Rubrique"
+        expanded-id="mega-menu" description="Texte de description de la rubrique."
+        :menus="[
+        { title: 'Première catégorie', links: [{ to: '/lien-1', text: 'Lien' }] },
+        { title: 'Deuxième catégorie', links: [{ to: '/lien-2', text: 'Lien' }] }
+      ]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="''"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=False, Titre rubrique=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="''"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="'menu-dropdown'"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Défaut, Ouvert=True, Titre rubrique=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="'menu-dropdown'"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="''"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=False, Titre rubrique=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="''"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="'menu-dropdown'"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT> | État=Courant, Ouvert=True, Titre rubrique=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenu
+        id="menu-dropdown"
+        title="Menu déroulant"
+        :expanded-id="'menu-dropdown'"
+        :links="[{ to: '/lien', text: 'Lien' }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Défaut
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMenu id="menu-dropdown" title="Menu déroulant" expanded-id="menu-dropdown">
+        <DsfrNavigationMenuItem :active="false">
+          <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+        </DsfrNavigationMenuItem>
+      </DsfrNavigationMenu>
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2> | État=Courant
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMenu id="menu-dropdown" title="Menu déroulant" expanded-id="menu-dropdown">
+        <DsfrNavigationMenuItem :active="true">
+          <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+        </DsfrNavigationMenuItem>
+      </DsfrNavigationMenu>
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=False
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Menu déroulant"
+        expanded-id="mega-menu"
+        :menus="[{ title: 'Premier lien', links: [{ to: '/premier', text: 'Premier lien' }] }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS> | Catégorie=True
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem>
+      <DsfrNavigationMegaMenu
+        id="mega-menu"
+        title="Menu déroulant"
+        expanded-id="mega-menu"
+        :menus="[{ title: 'Catégorie', links: [
+        { to: '/premier', text: 'Premier lien' },
+        { to: '/deuxieme', text: 'Deuxième lien' }
+      ] }]"
+      />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Défaut
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="false">
+      <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT> | État=Courant
+<DsfrNavigation label="Menu principal">
+    <DsfrNavigationItem :active="true">
+      <DsfrNavigationMenuLink to="/lien" text="Libellé du lien" />
+    </DsfrNavigationItem>
+  </DsfrNavigation>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE> | défaut
+<DsfrHeader
+    :quick-links="[{ label: 'Se connecter', icon: 'fr-icon-lock-line', to: '/connexion' }]"
+  >
+    <template #mainnav>
+      <DsfrNavigation :nav-items="[{ to: '/lien', text: 'Libellé du lien' }]" />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=False
+<DsfrHeader home-to="/">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' },
+          { to: '/troisieme', text: 'Troisième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>
+
+=== vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE> | Accès rapides=True
+<DsfrHeader home-to="/" :quick-links="[{ label: 'Se connecter', icon: 'fr-icon-lock-line', to: '/connexion' }]">
+    <template #mainnav>
+      <DsfrNavigation
+        :nav-items="[
+          { to: '/premier', text: 'Premier lien' },
+          { to: '/deuxieme', text: 'Deuxième lien' },
+          { to: '/troisieme', text: 'Troisième lien' }
+        ]"
+      />
+    </template>
+  </DsfrHeader>

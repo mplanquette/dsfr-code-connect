@@ -1,0 +1,687 @@
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  [disabled]="true"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"
+  [disabled]="true"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"
+  [disabled]="true"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"
+  [disabled]="true"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  [disabled]="true"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"
+  [disabled]="true"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"
+  [disabled]="true"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=False
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"></dsfr-tile>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=True
+<dsfr-tile
+  heading="Nom du fichier"
+  [download]="true"
+  link="/assets/fichier.pdf"
+  downloadMimeType="application/pdf"
+  [downloadSizeBytes]="518000"
+  panelSize="SM"
+  artworkFilePath="assets/artwork/pictograms/system/system.svg"
+  [disabled]="true"></dsfr-tile>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=False
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=True
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=False
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=True
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=False
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=True
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=False
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=True
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=False
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=True
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=False
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=True
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=False
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=True
+<div class="fr-tile fr-tile--download">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=False
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=True
+<div class="fr-tile fr-tile--download fr-tile--sm">
+  <div class="fr-tile__body">
+    <div class="fr-tile__content">
+      <h3 class="fr-tile__title">
+        <a href="/assets/fichier.pdf" download="fichier.pdf" aria-disabled="true">Nom du fichier</a>
+      </h3>
+      <p class="fr-tile__detail">PDF, 506 Ko</p>
+    </div>
+  </div>
+  <div class="fr-tile__header">
+    <div class="fr-tile__pictogram">
+      <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+        <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+        <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+        <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+      </svg>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }} />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  disabled />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small
+  disabled />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />} />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />}
+  disabled />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />} />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />}
+  disabled />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }} />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  disabled />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small
+  disabled />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />} />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />}
+  disabled />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=False
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />} />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=True
+<Tile
+  title="Nom du fichier"
+  detail="PDF, 518 Ko"
+  downloadButton
+  linkProps={{ href: '/assets/fichier.pdf', download: true }}
+  small
+  pictogram={<img src="/assets/artwork/pictograms/system/system.svg" alt="" />}
+  disabled />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=MD, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" disabled
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=false, Taille=SM, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small disabled
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko"
+    svg-path="assets/artwork/pictograms/system/system.svg"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=MD, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko"
+    svg-path="assets/artwork/pictograms/system/system.svg" disabled
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small
+    svg-path="assets/artwork/pictograms/system/system.svg"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP> | Voir Picto=true, Taille=SM, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small
+    svg-path="assets/artwork/pictograms/system/system.svg" disabled
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=MD, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" disabled
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=false, Taille=SM, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small disabled
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko"
+    svg-path="assets/artwork/pictograms/system/system.svg"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=MD, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko"
+    svg-path="assets/artwork/pictograms/system/system.svg" disabled
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=False
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small
+    svg-path="assets/artwork/pictograms/system/system.svg"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE> | Voir Picto=true, Taille=SM, Désactivé=True
+<DsfrTile
+    title="Nom du fichier"
+    download
+    to="/assets/fichier.pdf"
+    details="PDF, 506 Ko" small
+    svg-path="assets/artwork/pictograms/system/system.svg" disabled
+  />

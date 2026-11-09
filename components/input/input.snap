@@ -382,6 +382,66 @@
   hint="Aide avec &quot;guillemets&quot;" icon="fr-icon-search-line" [disabled]="true"
   message="Message d'exemple" messageSeverity="valid"></dsfr-form-input>
 
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [disabled]="true">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe" messageSeverity="error">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [disabled]="true" messageSeverity="error">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe" messageSeverity="valid">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [disabled]="true" messageSeverity="valid">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=False
+<dsfr-fieldset legend="Légende du groupe">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=True
+<dsfr-fieldset legend="Légende du groupe" [disabled]="true">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=True
+<dsfr-fieldset legend="Titre de section" [disabled]="true">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
+=== angular | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=False
+<dsfr-fieldset legend="Titre de section">
+  <dsfr-form-input *fieldsetElement label="Premier champ" name="input-1"></dsfr-form-input>
+  <dsfr-form-input *fieldsetElement label="Deuxième champ" name="input-2"></dsfr-form-input>
+</dsfr-fieldset>
+
 === html | <FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE> | Icône=false, Texte Area=False, Désactivé=False, État=Défaut, icône non connectée
 <input class="fr-input" id="input" name="input" type="text" />
 
@@ -894,6 +954,164 @@
   </div>
 </div>
 
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=False
+<fieldset class="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=True
+<fieldset class="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" disabled />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" disabled />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--error" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--error" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" disabled />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" disabled />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--valid" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--valid" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" disabled />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" disabled />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=False
+<fieldset class="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=True
+<fieldset class="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" disabled />
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-2">Deuxième champ</label>
+      <input class="fr-input" type="text" id="input-2" name="input-2" disabled />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=True
+<fieldset class="fr-fieldset" id="input-section" aria-labelledby="input-section-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" disabled />
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=False
+<fieldset class="fr-fieldset" id="input-section" aria-labelledby="input-section-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="input-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-input-group">
+      <label class="fr-label" for="input-1">Premier champ</label>
+      <input class="fr-input" type="text" id="input-1" name="input-1" />
+    </div>
+  </div>
+</fieldset>
+
 === react | <FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE> | Icône=false, Texte Area=False, Désactivé=False, État=Défaut, icône non connectée
 <Input label="Libellé du champ" nativeInputProps={{ name: 'input' }} />
 
@@ -1325,6 +1543,110 @@
   state="success"
   stateRelatedMessage="Message d'exemple"
 />
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=False
+<fieldset className="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=True
+<fieldset className="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} disabled />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} disabled />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=False
+<fieldset className="fr-fieldset fr-fieldset--error" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=True
+<fieldset className="fr-fieldset fr-fieldset--error" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} disabled />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} disabled />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=False
+<fieldset className="fr-fieldset fr-fieldset--valid" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=True
+<fieldset className="fr-fieldset fr-fieldset--valid" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} disabled />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} disabled />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=False
+<fieldset className="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=True
+<fieldset className="fr-fieldset" id="input-group" aria-labelledby="input-group-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-group-legend">Légende du groupe</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} disabled />
+  </div>
+  <div className="fr-fieldset__element">
+    <Input label="Deuxième champ" nativeInputProps={{ name: 'input-2' }} disabled />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=True
+<fieldset className="fr-fieldset" id="input-section" aria-labelledby="input-section-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-section-legend">Titre de section</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} disabled />
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=False
+<fieldset className="fr-fieldset" id="input-section" aria-labelledby="input-section-legend">
+  <legend className="fr-fieldset__legend fr-fieldset__legend--regular" id="input-section-legend">Titre de section</legend>
+  <div className="fr-fieldset__element">
+    <Input label="Premier champ" nativeInputProps={{ name: 'input-1' }} />
+  </div>
+</fieldset>
 
 === vue | <FIGMA_CHAMP_DE_SAISIE__ELEMENTS_CHAMP_DE_SAISIE> | Icône=false, Texte Area=False, Désactivé=False, État=Défaut, icône non connectée
 <DsfrInputGroup label="Libellé du champ" name="input" />
@@ -1761,3 +2083,63 @@
   model-value="Texte saisi" is-with-wrapper wrapper-class="fr-icon-search-line" disabled
   valid-message="Message d'exemple"
 />
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=False
+<DsfrFieldset legend="Légende du groupe">
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Défaut, Désactivé=True
+<DsfrFieldset legend="Légende du groupe" disabled>
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=False
+<DsfrFieldset legend="Légende du groupe" class="fr-fieldset--error">
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Erreur, Désactivé=True
+<DsfrFieldset legend="Légende du groupe" disabled class="fr-fieldset--error">
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=False
+<DsfrFieldset legend="Légende du groupe" class="fr-fieldset--valid">
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Valide, Désactivé=True
+<DsfrFieldset legend="Légende du groupe" disabled class="fr-fieldset--valid">
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=False
+<DsfrFieldset legend="Légende du groupe">
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE> | État=Rempli, Désactivé=True
+<DsfrFieldset legend="Légende du groupe" disabled>
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=True
+<DsfrFieldset legend="Titre de section" disabled>
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>
+
+=== vue | <FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION> | Disable=False
+<DsfrFieldset legend="Titre de section">
+  <DsfrInput label="Premier champ" name="input-1" />
+  <DsfrInput label="Deuxième champ" name="input-2" />
+</DsfrFieldset>

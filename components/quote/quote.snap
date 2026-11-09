@@ -1,0 +1,227 @@
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=False
+<dsfr-quote
+  text="Texte de la citation."></dsfr-quote>
+
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=True
+<dsfr-quote
+  text="Texte de la citation."
+  [details]="[
+    { text: 'Titre de l\'ouvrage', isTitle: true },
+    { text: 'Éditeur, 2026' }
+  ]"></dsfr-quote>
+
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=False
+<dsfr-quote
+  text="Texte de la citation."
+  author="Prénom Nom"></dsfr-quote>
+
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=True
+<dsfr-quote
+  text="Texte de la citation."
+  author="Prénom Nom"
+  [details]="[
+    { text: 'Titre de l\'ouvrage', isTitle: true },
+    { text: 'Éditeur, 2026' }
+  ]"></dsfr-quote>
+
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=False
+<dsfr-quote
+  text="Texte de la citation."
+  imagePath="assets/img/illustration.jpg"
+  imageAlt=""></dsfr-quote>
+
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=True
+<dsfr-quote
+  text="Texte de la citation."
+  [details]="[
+    { text: 'Titre de l\'ouvrage', isTitle: true },
+    { text: 'Éditeur, 2026' }
+  ]"
+  imagePath="assets/img/illustration.jpg"
+  imageAlt=""></dsfr-quote>
+
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=False
+<dsfr-quote
+  text="Texte de la citation."
+  author="Prénom Nom"
+  imagePath="assets/img/illustration.jpg"
+  imageAlt=""></dsfr-quote>
+
+=== angular | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=True
+<dsfr-quote
+  text="Texte de la citation."
+  author="Prénom Nom"
+  [details]="[
+    { text: 'Titre de l\'ouvrage', isTitle: true },
+    { text: 'Éditeur, 2026' }
+  ]"
+  imagePath="assets/img/illustration.jpg"
+  imageAlt=""></dsfr-quote>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=False
+<figure class="fr-quote">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+  </figcaption>
+</figure>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=True
+<figure class="fr-quote">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+    <ul class="fr-quote__source">
+      <li><cite>Titre de l'ouvrage</cite></li>
+      <li>Éditeur, 2026</li>
+    </ul>
+  </figcaption>
+</figure>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=False
+<figure class="fr-quote">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+    <p class="fr-quote__author">Prénom Nom</p>
+  </figcaption>
+</figure>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=True
+<figure class="fr-quote">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+    <p class="fr-quote__author">Prénom Nom</p>
+    <ul class="fr-quote__source">
+      <li><cite>Titre de l'ouvrage</cite></li>
+      <li>Éditeur, 2026</li>
+    </ul>
+  </figcaption>
+</figure>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=False
+<figure class="fr-quote fr-quote--column">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+    <div class="fr-quote__image">
+      <img src="assets/img/illustration.jpg" class="fr-responsive-img" alt="" />
+    </div>
+  </figcaption>
+</figure>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=True
+<figure class="fr-quote fr-quote--column">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+    <ul class="fr-quote__source">
+      <li><cite>Titre de l'ouvrage</cite></li>
+      <li>Éditeur, 2026</li>
+    </ul>
+    <div class="fr-quote__image">
+      <img src="assets/img/illustration.jpg" class="fr-responsive-img" alt="" />
+    </div>
+  </figcaption>
+</figure>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=False
+<figure class="fr-quote fr-quote--column">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+    <p class="fr-quote__author">Prénom Nom</p>
+    <div class="fr-quote__image">
+      <img src="assets/img/illustration.jpg" class="fr-responsive-img" alt="" />
+    </div>
+  </figcaption>
+</figure>
+
+=== html | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=True
+<figure class="fr-quote fr-quote--column">
+  <blockquote>
+    <p>Texte de la citation.</p>
+  </blockquote>
+  <figcaption>
+    <p class="fr-quote__author">Prénom Nom</p>
+    <ul class="fr-quote__source">
+      <li><cite>Titre de l'ouvrage</cite></li>
+      <li>Éditeur, 2026</li>
+    </ul>
+    <div class="fr-quote__image">
+      <img src="assets/img/illustration.jpg" class="fr-responsive-img" alt="" />
+    </div>
+  </figcaption>
+</figure>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=False
+<Quote
+  text="Texte de la citation."
+/>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=True
+<Quote
+  text="Texte de la citation." source="Titre de l'ouvrage, Éditeur, 2026"
+/>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=False
+<Quote
+  text="Texte de la citation." author="Prénom Nom"
+/>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=True
+<Quote
+  text="Texte de la citation." author="Prénom Nom" source="Titre de l'ouvrage, Éditeur, 2026"
+/>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=False
+<Quote
+  text="Texte de la citation." imageUrl="assets/img/illustration.jpg"
+/>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=True
+<Quote
+  text="Texte de la citation." source="Titre de l'ouvrage, Éditeur, 2026" imageUrl="assets/img/illustration.jpg"
+/>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=False
+<Quote
+  text="Texte de la citation." author="Prénom Nom" imageUrl="assets/img/illustration.jpg"
+/>
+
+=== react | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=True
+<Quote
+  text="Texte de la citation." author="Prénom Nom" source="Titre de l'ouvrage, Éditeur, 2026" imageUrl="assets/img/illustration.jpg"
+/>
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=False
+<DsfrQuote quote="Texte de la citation." />
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=False, Détail=True
+<DsfrQuote quote="Texte de la citation." source="Titre de l'ouvrage" source-url="#" :details="[{ label: 'Éditeur, 2026', url: '#' }]" />
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=False
+<DsfrQuote quote="Texte de la citation." author="Prénom Nom" />
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=False, Auteur=True, Détail=True
+<DsfrQuote quote="Texte de la citation." author="Prénom Nom" source="Titre de l'ouvrage" source-url="#" :details="[{ label: 'Éditeur, 2026', url: '#' }]" />
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=False
+<DsfrQuote quote="Texte de la citation." quote-image="assets/img/illustration.jpg" />
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=False, Détail=True
+<DsfrQuote quote="Texte de la citation." source="Titre de l'ouvrage" source-url="#" :details="[{ label: 'Éditeur, 2026', url: '#' }]" quote-image="assets/img/illustration.jpg" />
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=False
+<DsfrQuote quote="Texte de la citation." author="Prénom Nom" quote-image="assets/img/illustration.jpg" />
+
+=== vue | <FIGMA_CITATION__CITATION> | Illustration=True, Auteur=True, Détail=True
+<DsfrQuote quote="Texte de la citation." author="Prénom Nom" source="Titre de l'ouvrage" source-url="#" :details="[{ label: 'Éditeur, 2026', url: '#' }]" quote-image="assets/img/illustration.jpg" />

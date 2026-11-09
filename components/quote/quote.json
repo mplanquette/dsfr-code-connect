@@ -1,0 +1,39 @@
+{
+  "family": "Citation",
+  "groups": [
+    {
+      "nodeId": "3539:147529",
+      "components": [
+        {
+          "url": "<FIGMA_CITATION__CITATION>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Sombre", "Clair"],
+          "default": "Clair",
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Mobile", "Desktop"],
+          "default": "Desktop",
+          "vary": false
+        },
+        "Illustration": {
+          "type": "VARIANT",
+          "options": ["False", "True"]
+        },
+        "Auteur": {
+          "type": "VARIANT",
+          "options": ["False", "True"]
+        },
+        "Détail": {
+          "type": "VARIANT",
+          "options": ["False", "True"]
+        }
+      }
+    }
+  ]
+}

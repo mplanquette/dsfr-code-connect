@@ -1,0 +1,25 @@
+{
+  "family": "Ajout de fichier",
+  "groups": [
+    {
+      "nodeId": "10366:72136",
+      "components": [
+        {
+          "url": "<FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Sombre", "Clair"],
+          "default": "Clair",
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Défaut", "Erreur", "Désactivé"]
+        }
+      }
+    }
+  ]
+}

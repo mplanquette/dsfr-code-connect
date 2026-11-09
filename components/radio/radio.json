@@ -1,0 +1,118 @@
+{
+  "family": "Bouton radio",
+  "groups": [
+    {
+      "nodeId": "311:24508",
+      "template": "radio-item.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM>"
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Taille": {
+          "type": "VARIANT",
+          "options": [
+            "SM",
+            "MD"
+          ],
+          "default": "MD"
+        },
+        "Coché": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Validation": {
+          "type": "VARIANT",
+          "options": [
+            "Aucune",
+            "Valide",
+            "Erreur"
+          ],
+          "default": "Aucune"
+        }
+      }
+    },
+    {
+      "nodeId": "314:25444",
+      "template": "radio-group.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE>"
+        }
+      ],
+      "properties": {
+        "Message d'information": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "options": [
+            "Horizontal",
+            "Vertical"
+          ],
+          "default": "Vertical"
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Erreur",
+            "Valide"
+          ],
+          "default": "Défaut"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        }
+      }
+    },
+    {
+      "nodeId": "14835:206001",
+      "template": "radio-section.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION>"
+        }
+      ],
+      "properties": {
+        "Tire de section": {
+          "type": "TEXT",
+          "sample": "Titre de section"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "True",
+            "False"
+          ],
+          "default": "True"
+        }
+      }
+    }
+  ]
+}

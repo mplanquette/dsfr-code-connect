@@ -1,0 +1,269 @@
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=2
+<dsfr-stepper
+  [totalSteps]="2"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=3
+<dsfr-stepper
+  [totalSteps]="3"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=4
+<dsfr-stepper
+  [totalSteps]="4"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=5
+<dsfr-stepper
+  [totalSteps]="5"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=6
+<dsfr-stepper
+  [totalSteps]="6"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=7
+<dsfr-stepper
+  [totalSteps]="7"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=8
+<dsfr-stepper
+  [totalSteps]="8"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Courant
+<dsfr-stepper
+  [totalSteps]="4"
+  [currentStep]="2"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== angular | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Défaut
+<dsfr-stepper
+  [totalSteps]="4"
+  [currentStep]="1"
+  currentStepTitle="Titre de l'étape courante"
+  nextStepTitle="Titre de l'étape suivante"></dsfr-stepper>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=2
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 2</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="2"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=3
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 3</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="3"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=4
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 4</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="4"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=5
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 5</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="5"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=6
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 6</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="6"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=7
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 7</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="7"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=8
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 8</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="8"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Courant
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 2 sur 4</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="2" data-fr-steps="4"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== html | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Défaut
+<div class="fr-stepper">
+  <h2 class="fr-stepper__title">
+    Titre de l'étape courante
+    <span class="fr-stepper__state">Étape 1 sur 4</span>
+  </h2>
+  <div class="fr-stepper__steps" data-fr-current-step="1" data-fr-steps="4"></div>
+  <p class="fr-stepper__details">
+    <span class="fr-text--bold">Étape suivante :</span> Titre de l'étape suivante
+  </p>
+</div>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=2
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={2}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=3
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={3}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=4
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={4}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=5
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={5}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=6
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={6}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=7
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={7}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=8
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={8}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Courant
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={2}
+  stepCount={4}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== react | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Défaut
+<Stepper
+  title="Titre de l'étape courante"
+  currentStep={1}
+  stepCount={4}
+  nextTitle="Titre de l'étape suivante"
+/>
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=2
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=3
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=4
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3', 'Titre de l\'étape 4']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=5
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3', 'Titre de l\'étape 4', 'Titre de l\'étape 5']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=6
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3', 'Titre de l\'étape 4', 'Titre de l\'étape 5', 'Titre de l\'étape 6']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=7
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3', 'Titre de l\'étape 4', 'Titre de l\'étape 5', 'Titre de l\'étape 6', 'Titre de l\'étape 7']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__INDICATEUR_D_ETAPES> | Étapes=8
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3', 'Titre de l\'étape 4', 'Titre de l\'étape 5', 'Titre de l\'étape 6', 'Titre de l\'étape 7', 'Titre de l\'étape 8']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Courant
+<DsfrStepper :current-step="2" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3', 'Titre de l\'étape 4']" />
+
+=== vue | <FIGMA_INDICATEUR_D_ETAPES__ETAPE> | État=Défaut
+<DsfrStepper :current-step="1" :steps="['Titre de l\'étape 1', 'Titre de l\'étape 2', 'Titre de l\'étape 3', 'Titre de l\'étape 4']" />

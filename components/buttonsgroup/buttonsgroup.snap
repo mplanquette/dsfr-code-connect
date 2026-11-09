@@ -1,0 +1,467 @@
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=LG
+<dsfr-buttons-group id="buttons-group" buttonGroupSize="LG">
+  <dsfr-button label="Premier bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=MD
+<dsfr-buttons-group id="buttons-group" buttonGroupSize="MD">
+  <dsfr-button label="Premier bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=SM
+<dsfr-buttons-group id="buttons-group">
+  <dsfr-button label="Premier bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=LG
+<dsfr-buttons-group id="buttons-group" [inline]="'always'" buttonGroupSize="LG">
+  <dsfr-button label="Premier bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=MD
+<dsfr-buttons-group id="buttons-group" [inline]="'always'" buttonGroupSize="MD">
+  <dsfr-button label="Premier bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=SM
+<dsfr-buttons-group id="buttons-group" [inline]="'always'">
+  <dsfr-button label="Premier bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=MD
+<dsfr-buttons-group id="buttons-group" buttonGroupSize="MD">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=SM
+<dsfr-buttons-group id="buttons-group">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=LG
+<dsfr-buttons-group id="buttons-group" buttonGroupSize="LG">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=MD
+<dsfr-buttons-group id="buttons-group" [inline]="'always'" buttonGroupSize="MD">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=SM
+<dsfr-buttons-group id="buttons-group" [inline]="'always'">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=LG
+<dsfr-buttons-group id="buttons-group" [inline]="'always'" buttonGroupSize="LG">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=MD
+<dsfr-buttons-group id="buttons-group" buttonGroupSize="MD">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Troisième bouton" variant="tertiary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=SM
+<dsfr-buttons-group id="buttons-group">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Troisième bouton" variant="tertiary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=LG
+<dsfr-buttons-group id="buttons-group" buttonGroupSize="LG">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Troisième bouton" variant="tertiary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=MD
+<dsfr-buttons-group id="buttons-group" [inline]="'always'" buttonGroupSize="MD">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Troisième bouton" variant="tertiary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=SM
+<dsfr-buttons-group id="buttons-group" [inline]="'always'">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Troisième bouton" variant="tertiary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== angular | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=LG
+<dsfr-buttons-group id="buttons-group" [inline]="'always'" buttonGroupSize="LG">
+  <dsfr-button label="Premier bouton"></dsfr-button>
+  <dsfr-button label="Deuxième bouton" variant="secondary"></dsfr-button>
+  <dsfr-button label="Troisième bouton" variant="tertiary"></dsfr-button>
+</dsfr-buttons-group>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=LG
+<ul class="fr-btns-group fr-btns-group--lg">
+  <li><button type="button" class="fr-btn fr-btn--secondary">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=MD
+<ul class="fr-btns-group">
+  <li><button type="button" class="fr-btn fr-btn--secondary">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=SM
+<ul class="fr-btns-group fr-btns-group--sm">
+  <li><button type="button" class="fr-btn fr-btn--secondary">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=LG
+<ul class="fr-btns-group fr-btns-group--inline fr-btns-group--lg">
+  <li><button type="button" class="fr-btn fr-btn--secondary">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=MD
+<ul class="fr-btns-group fr-btns-group--inline">
+  <li><button type="button" class="fr-btn fr-btn--secondary">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=SM
+<ul class="fr-btns-group fr-btns-group--inline fr-btns-group--sm">
+  <li><button type="button" class="fr-btn fr-btn--secondary">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=MD
+<ul class="fr-btns-group">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=SM
+<ul class="fr-btns-group fr-btns-group--sm">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=LG
+<ul class="fr-btns-group fr-btns-group--lg">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=MD
+<ul class="fr-btns-group fr-btns-group--inline">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=SM
+<ul class="fr-btns-group fr-btns-group--inline fr-btns-group--sm">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=LG
+<ul class="fr-btns-group fr-btns-group--inline fr-btns-group--lg">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=MD
+<ul class="fr-btns-group">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--tertiary">Troisième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=SM
+<ul class="fr-btns-group fr-btns-group--sm">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--tertiary">Troisième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=LG
+<ul class="fr-btns-group fr-btns-group--lg">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--tertiary">Troisième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=MD
+<ul class="fr-btns-group fr-btns-group--inline">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--tertiary">Troisième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=SM
+<ul class="fr-btns-group fr-btns-group--inline fr-btns-group--sm">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--tertiary">Troisième bouton</button></li>
+</ul>
+
+=== html | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=LG
+<ul class="fr-btns-group fr-btns-group--inline fr-btns-group--lg">
+  <li><button type="button" class="fr-btn">Premier bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--secondary">Deuxième bouton</button></li>
+  <li><button type="button" class="fr-btn fr-btn--tertiary">Troisième bouton</button></li>
+</ul>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=LG
+const buttons = [{ children: 'Premier bouton', priority: 'secondary' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} buttonsSize="large"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=MD
+const buttons = [{ children: 'Premier bouton', priority: 'secondary' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons}
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=SM
+const buttons = [{ children: 'Premier bouton', priority: 'secondary' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} buttonsSize="small"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=LG
+const buttons = [{ children: 'Premier bouton', priority: 'secondary' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always" buttonsSize="large"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=MD
+const buttons = [{ children: 'Premier bouton', priority: 'secondary' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=SM
+const buttons = [{ children: 'Premier bouton', priority: 'secondary' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always" buttonsSize="small"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=MD
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons}
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=SM
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} buttonsSize="small"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=LG
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} buttonsSize="large"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=MD
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=SM
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always" buttonsSize="small"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=LG
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always" buttonsSize="large"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=MD
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }, { children: 'Troisième bouton', priority: 'tertiary' }];
+
+<ButtonsGroup
+  buttons={buttons}
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=SM
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }, { children: 'Troisième bouton', priority: 'tertiary' }];
+
+<ButtonsGroup
+  buttons={buttons} buttonsSize="small"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=LG
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }, { children: 'Troisième bouton', priority: 'tertiary' }];
+
+<ButtonsGroup
+  buttons={buttons} buttonsSize="large"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=MD
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }, { children: 'Troisième bouton', priority: 'tertiary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=SM
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }, { children: 'Troisième bouton', priority: 'tertiary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always" buttonsSize="small"
+/>
+
+=== react | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=LG
+const buttons = [{ children: 'Premier bouton' }, { children: 'Deuxième bouton', priority: 'secondary' }, { children: 'Troisième bouton', priority: 'tertiary' }];
+
+<ButtonsGroup
+  buttons={buttons} inlineLayoutWhen="always" buttonsSize="large"
+/>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=LG
+<DsfrButtonGroup id="buttons-group" size="lg">
+  <DsfrButton label="Premier bouton" secondary />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=MD
+<DsfrButtonGroup id="buttons-group">
+  <DsfrButton label="Premier bouton" secondary />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Vertical, Taille=SM
+<DsfrButtonGroup id="buttons-group" size="sm">
+  <DsfrButton label="Premier bouton" secondary />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=LG
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always" size="lg">
+  <DsfrButton label="Premier bouton" secondary />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=MD
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always">
+  <DsfrButton label="Premier bouton" secondary />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE> | Orientation=Horizontal, Taille=SM
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always" size="sm">
+  <DsfrButton label="Premier bouton" secondary />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=MD
+<DsfrButtonGroup id="buttons-group">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=SM
+<DsfrButtonGroup id="buttons-group" size="sm">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Vertical, Taille=LG
+<DsfrButtonGroup id="buttons-group" size="lg">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=MD
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=SM
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always" size="sm">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=false, Orientation=Horizontal, Taille=LG
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always" size="lg">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=MD
+<DsfrButtonGroup id="buttons-group">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+  <DsfrButton label="Troisième bouton" tertiary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=SM
+<DsfrButtonGroup id="buttons-group" size="sm">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+  <DsfrButton label="Troisième bouton" tertiary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Vertical, Taille=LG
+<DsfrButtonGroup id="buttons-group" size="lg">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+  <DsfrButton label="Troisième bouton" tertiary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=MD
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+  <DsfrButton label="Troisième bouton" tertiary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=SM
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always" size="sm">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+  <DsfrButton label="Troisième bouton" tertiary />
+</DsfrButtonGroup>
+
+=== vue | <FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE> | Bouton Tertiaire=true, Orientation=Horizontal, Taille=LG
+<DsfrButtonGroup id="buttons-group" inline-layout-when="always" size="lg">
+  <DsfrButton label="Premier bouton" />
+  <DsfrButton label="Deuxième bouton" secondary />
+  <DsfrButton label="Troisième bouton" tertiary />
+</DsfrButtonGroup>

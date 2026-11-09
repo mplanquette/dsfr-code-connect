@@ -1,0 +1,29 @@
+{
+  "family": "Bouton FranceConnect",
+  "groups": [
+    {
+      "nodeId": "11985:75836",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Plus": {
+          "type": "VARIANT",
+          "options": ["False", "True"]
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Défaut", "Survol", "Cliqué", "Désactivé", "Focus"],
+          "vary": false
+        }
+      }
+    }
+  ]
+}

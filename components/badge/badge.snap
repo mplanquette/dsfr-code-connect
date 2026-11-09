@@ -1,0 +1,143 @@
+=== angular | <FIGMA_BADGE__INFORMATION_MD> | défaut
+<dsfr-badge label="Information" severity="info" badgeSize="MD"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__SUCCES_MD> | défaut
+<dsfr-badge label="Succès" severity="success" badgeSize="MD"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__AVERTISSEMENT_MD> | défaut
+<dsfr-badge label="Avertissement" severity="warning" badgeSize="MD"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__ERREUR_MD> | défaut
+<dsfr-badge label="Erreur" severity="error" badgeSize="MD"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__NOUVEAU_MD> | défaut
+<dsfr-badge label="Nouveau" severity="new" badgeSize="MD"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__INFORMATION_SM> | défaut
+<dsfr-badge label="Information" severity="info" badgeSize="SM"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__SUCCES_SM> | défaut
+<dsfr-badge label="Succès" severity="success" badgeSize="SM"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__AVERTISSEMENT_SM> | défaut
+<dsfr-badge label="Avertissement" severity="warning" badgeSize="SM"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__ERREUR_SM> | défaut
+<dsfr-badge label="Erreur" severity="error" badgeSize="SM"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__NOUVEAU_SM> | défaut
+<dsfr-badge label="Nouveau" severity="new" badgeSize="SM"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__PERSONNALISABLE_MD> | défaut
+<dsfr-badge label="Personnalisable" badgeSize="MD" customClass="fr-badge--blue-cumulus"></dsfr-badge>
+
+=== angular | <FIGMA_BADGE__PERSONNALISABLE_SM> | défaut
+<dsfr-badge label="Personnalisable" badgeSize="SM" customClass="fr-badge--blue-cumulus"></dsfr-badge>
+
+=== html | <FIGMA_BADGE__INFORMATION_MD> | défaut
+<p class="fr-badge fr-badge--info">Information</p>
+
+=== html | <FIGMA_BADGE__SUCCES_MD> | défaut
+<p class="fr-badge fr-badge--success">Succès</p>
+
+=== html | <FIGMA_BADGE__AVERTISSEMENT_MD> | défaut
+<p class="fr-badge fr-badge--warning">Avertissement</p>
+
+=== html | <FIGMA_BADGE__ERREUR_MD> | défaut
+<p class="fr-badge fr-badge--error">Erreur</p>
+
+=== html | <FIGMA_BADGE__NOUVEAU_MD> | défaut
+<p class="fr-badge fr-badge--new">Nouveau</p>
+
+=== html | <FIGMA_BADGE__INFORMATION_SM> | défaut
+<p class="fr-badge fr-badge--sm fr-badge--info">Information</p>
+
+=== html | <FIGMA_BADGE__SUCCES_SM> | défaut
+<p class="fr-badge fr-badge--sm fr-badge--success">Succès</p>
+
+=== html | <FIGMA_BADGE__AVERTISSEMENT_SM> | défaut
+<p class="fr-badge fr-badge--sm fr-badge--warning">Avertissement</p>
+
+=== html | <FIGMA_BADGE__ERREUR_SM> | défaut
+<p class="fr-badge fr-badge--sm fr-badge--error">Erreur</p>
+
+=== html | <FIGMA_BADGE__NOUVEAU_SM> | défaut
+<p class="fr-badge fr-badge--sm fr-badge--new">Nouveau</p>
+
+=== html | <FIGMA_BADGE__PERSONNALISABLE_MD> | défaut
+<p class="fr-badge fr-badge--blue-cumulus">Personnalisable</p>
+
+=== html | <FIGMA_BADGE__PERSONNALISABLE_SM> | défaut
+<p class="fr-badge fr-badge--sm fr-badge--blue-cumulus">Personnalisable</p>
+
+=== react | <FIGMA_BADGE__INFORMATION_MD> | défaut
+<Badge severity="info">Information</Badge>
+
+=== react | <FIGMA_BADGE__SUCCES_MD> | défaut
+<Badge severity="success">Succès</Badge>
+
+=== react | <FIGMA_BADGE__AVERTISSEMENT_MD> | défaut
+<Badge severity="warning">Avertissement</Badge>
+
+=== react | <FIGMA_BADGE__ERREUR_MD> | défaut
+<Badge severity="error">Erreur</Badge>
+
+=== react | <FIGMA_BADGE__NOUVEAU_MD> | défaut
+<Badge severity="new">Nouveau</Badge>
+
+=== react | <FIGMA_BADGE__INFORMATION_SM> | défaut
+<Badge severity="info" small>Information</Badge>
+
+=== react | <FIGMA_BADGE__SUCCES_SM> | défaut
+<Badge severity="success" small>Succès</Badge>
+
+=== react | <FIGMA_BADGE__AVERTISSEMENT_SM> | défaut
+<Badge severity="warning" small>Avertissement</Badge>
+
+=== react | <FIGMA_BADGE__ERREUR_SM> | défaut
+<Badge severity="error" small>Erreur</Badge>
+
+=== react | <FIGMA_BADGE__NOUVEAU_SM> | défaut
+<Badge severity="new" small>Nouveau</Badge>
+
+=== react | <FIGMA_BADGE__PERSONNALISABLE_MD> | défaut
+<Badge className="fr-badge--blue-cumulus">Personnalisable</Badge>
+
+=== react | <FIGMA_BADGE__PERSONNALISABLE_SM> | défaut
+<Badge className="fr-badge--blue-cumulus" small>Personnalisable</Badge>
+
+=== vue | <FIGMA_BADGE__INFORMATION_MD> | défaut
+<DsfrBadge label="Information" type="info" />
+
+=== vue | <FIGMA_BADGE__SUCCES_MD> | défaut
+<DsfrBadge label="Succès" type="success" />
+
+=== vue | <FIGMA_BADGE__AVERTISSEMENT_MD> | défaut
+<DsfrBadge label="Avertissement" type="warning" />
+
+=== vue | <FIGMA_BADGE__ERREUR_MD> | défaut
+<DsfrBadge label="Erreur" type="error" />
+
+=== vue | <FIGMA_BADGE__NOUVEAU_MD> | défaut
+<DsfrBadge label="Nouveau" type="new" />
+
+=== vue | <FIGMA_BADGE__INFORMATION_SM> | défaut
+<DsfrBadge label="Information" type="info" small />
+
+=== vue | <FIGMA_BADGE__SUCCES_SM> | défaut
+<DsfrBadge label="Succès" type="success" small />
+
+=== vue | <FIGMA_BADGE__AVERTISSEMENT_SM> | défaut
+<DsfrBadge label="Avertissement" type="warning" small />
+
+=== vue | <FIGMA_BADGE__ERREUR_SM> | défaut
+<DsfrBadge label="Erreur" type="error" small />
+
+=== vue | <FIGMA_BADGE__NOUVEAU_SM> | défaut
+<DsfrBadge label="Nouveau" type="new" small />
+
+=== vue | <FIGMA_BADGE__PERSONNALISABLE_MD> | défaut
+<DsfrBadge label="Personnalisable" class="fr-badge--blue-cumulus" />
+
+=== vue | <FIGMA_BADGE__PERSONNALISABLE_SM> | défaut
+<DsfrBadge label="Personnalisable" class="fr-badge--blue-cumulus" small />

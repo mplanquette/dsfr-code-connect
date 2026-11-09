@@ -1,0 +1,39 @@
+=== angular | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=False
+<dsfr-franceconnect id="franceconnect"></dsfr-franceconnect>
+
+=== angular | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=True
+<dsfr-franceconnect id="franceconnect" [secure]="true"></dsfr-franceconnect>
+
+=== html | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=False
+<div class="fr-connect-group">
+  <button type="button" class="fr-connect">
+    <span class="fr-connect__login">S'identifier avec</span>
+    <span class="fr-connect__brand">FranceConnect</span>
+  </button>
+  <p>
+    <a href="https://franceconnect.gouv.fr/" target="_blank" rel="noopener">Qu'est-ce que FranceConnect ?</a>
+  </p>
+</div>
+
+=== html | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=True
+<div class="fr-connect-group">
+  <button type="button" class="fr-connect fr-connect--plus">
+    <span class="fr-connect__login">S'identifier avec</span>
+    <span class="fr-connect__brand">FranceConnect</span>
+  </button>
+  <p>
+    <a href="https://franceconnect.gouv.fr/france-connect-plus" target="_blank" rel="noopener">Qu'est-ce que FranceConnect+ ?</a>
+  </p>
+</div>
+
+=== react | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=False
+<FranceConnectButton url="/login" />
+
+=== react | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=True
+<FranceConnectButton url="/login" plus />
+
+=== vue | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=False
+<DsfrFranceConnect id="franceconnect" />
+
+=== vue | <FIGMA_BOUTON_FRANCECONNECT__BOUTON_FRANCECONNECT> | Plus=True
+<DsfrFranceConnect id="franceconnect" secure />

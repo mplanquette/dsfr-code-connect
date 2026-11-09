@@ -1,0 +1,1379 @@
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" [disabled]="true"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" value="option-1"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" value="option-1" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" value="option-1" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" value="option-1" [disabled]="true"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" value="option-1" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" value="option-1" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" [disabled]="true"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" value="option-1"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" value="option-1" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" value="option-1" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Default
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" value="option-1" [disabled]="true"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Valide
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" value="option-1" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Erreur
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', artworkFilePath: 'assets/artwork/pictograms/system/system.svg' }]" value="option-1" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=False
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du groupe"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=True
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du groupe"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" [disabled]="true"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=False
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du groupe"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=True
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du groupe"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=False
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du groupe"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=True
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Légende du groupe"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=True
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Titre de section"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" [disabled]="true"></dsfr-form-radio-rich>
+
+=== angular | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=False
+<dsfr-form-radio-rich
+  name="radio-rich"
+  legend="Titre de section"
+  [inline]="true"
+  [options]="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]"></dsfr-form-radio-rich>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Default
+<fieldset class="fr-fieldset" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-rich" aria-labelledby="radio-rich-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-rich-1">Libellé bouton radio
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+      <div class="fr-radio-rich__pictogram">
+        <svg aria-hidden="true" class="fr-artwork" viewBox="0 0 80 80" width="80px" height="80px">
+          <use class="fr-artwork-decorative" href="/artwork/pictograms/system/system.svg#artwork-decorative"></use>
+          <use class="fr-artwork-minor" href="/artwork/pictograms/system/system.svg#artwork-minor"></use>
+          <use class="fr-artwork-major" href="/artwork/pictograms/system/system.svg#artwork-major"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline" id="radio-rich-group" aria-labelledby="radio-rich-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-group" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-2" name="radio-rich-group" value="option-2" />
+      <label class="fr-label" for="radio-rich-2">Deuxième option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline" id="radio-rich-group" aria-labelledby="radio-rich-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-2" name="radio-rich-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-rich-2">Deuxième option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--valid" id="radio-rich-group" aria-labelledby="radio-rich-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-group" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-2" name="radio-rich-group" value="option-2" />
+      <label class="fr-label" for="radio-rich-2">Deuxième option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--valid" id="radio-rich-group" aria-labelledby="radio-rich-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-2" name="radio-rich-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-rich-2">Deuxième option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--error" id="radio-rich-group" aria-labelledby="radio-rich-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-group" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-2" name="radio-rich-group" value="option-2" />
+      <label class="fr-label" for="radio-rich-2">Deuxième option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--error" id="radio-rich-group" aria-labelledby="radio-rich-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-2" name="radio-rich-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-rich-2">Deuxième option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline" id="radio-rich-section" aria-labelledby="radio-rich-section-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-section" value="option-1" disabled />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline" id="radio-rich-section" aria-labelledby="radio-rich-section-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-rich-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-rich">
+      <input type="radio" id="radio-rich-1" name="radio-rich-section" value="option-1" />
+      <label class="fr-label" for="radio-rich-1">Première option
+        <span class="fr-hint-text">Texte de description</span>
+      </label>
+    </div>
+  </div>
+</fieldset>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Default
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', hintText: 'Texte de description', nativeInputProps: { value: 'option-1', defaultChecked: true }, illustration: <img src='/artwork/pictograms/system/system.svg' alt='' aria-hidden='true' /> }];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du champ"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=False
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du groupe"
+  orientation="horizontal"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=True
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du groupe"
+  orientation="horizontal"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=False
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du groupe"
+  orientation="horizontal"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=True
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du groupe"
+  orientation="horizontal"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=False
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du groupe"
+  orientation="horizontal"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=True
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Légende du groupe"
+  orientation="horizontal"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=True
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Titre de section"
+  orientation="horizontal"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=False
+const options = [
+  { label: 'Première option', hintText: 'Texte de description', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', hintText: 'Texte de description', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio-rich"
+  legend="Titre de section"
+  orientation="horizontal"
+  options={options}
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=False, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" model-value="option-1"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" model-value="option-1" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" model-value="option-1" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" model-value="option-1" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" model-value="option-1" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=false, Coché=True, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description' }]" model-value="option-1" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=False, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" model-value="option-1"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" model-value="option-1" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" model-value="option-1" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Default
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" model-value="option-1" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" model-value="option-1" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE> | Pictogramme=true, Coché=True, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du champ"
+  rich
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1', hint: 'Texte de description', img: '/pictograms/system/system.svg', imgTitle: 'Illustration' }]" model-value="option-1" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du groupe"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Default, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du groupe"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du groupe"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Valide, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du groupe"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du groupe"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE> | État=Erreur, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Légende du groupe"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=True
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Titre de section"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION> | Désactivé=False
+<DsfrRadioButtonSet
+  name="radio-rich"
+  legend="Titre de section"
+  rich
+  inline
+  :options="[
+    { label: 'Première option', value: 'option-1', hint: 'Texte de description' },
+    { label: 'Deuxième option', value: 'option-2', hint: 'Texte de description' }
+  ]"
+/>

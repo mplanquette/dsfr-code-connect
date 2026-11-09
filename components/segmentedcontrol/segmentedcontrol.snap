@@ -1,0 +1,254 @@
+=== angular | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Horizontale
+<dsfr-segmented-control
+  legend="Légende du contrôle"
+  [segments]="[
+    { value: 'option-1', label: 'Première option', checked: true },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]" [inline]="true"></dsfr-segmented-control>
+
+=== angular | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Au dessus
+<dsfr-segmented-control
+  legend="Légende du contrôle"
+  [segments]="[
+    { value: 'option-1', label: 'Première option', checked: true },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]"></dsfr-segmented-control>
+
+=== angular | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Horizontale
+<dsfr-segmented-control
+  legend="Légende du contrôle"
+  [segments]="[
+    { value: 'option-1', label: 'Première option', checked: true },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]" [inline]="true"></dsfr-segmented-control>
+
+=== angular | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Au dessus
+<dsfr-segmented-control
+  legend="Légende du contrôle"
+  [segments]="[
+    { value: 'option-1', label: 'Première option', checked: true },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]"></dsfr-segmented-control>
+
+=== angular | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE_CAS_MAX> | défaut
+<dsfr-segmented-control
+  legend="Légende du contrôle"
+  [segments]="[
+    { value: 'option-1', label: 'Première option avec un libellé long' },
+    { value: 'option-2', label: 'Deuxième option avec un libellé long' },
+    { value: 'option-3', label: 'Troisième option avec un libellé long' }
+  ]"></dsfr-segmented-control>
+
+=== html | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Horizontale
+<fieldset class="fr-segmented">
+  <legend class="fr-segmented__legend fr-segmented__legend--inline">Légende du contrôle</legend>
+  <div class="fr-segmented__elements">
+    <div class="fr-segmented__element">
+      <input value="option-1" type="radio" checked id="segmented-1" name="segmented" />
+      <label class="fr-label" for="segmented-1">Première option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-2" type="radio" id="segmented-2" name="segmented" />
+      <label class="fr-label" for="segmented-2">Deuxième option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-3" type="radio" id="segmented-3" name="segmented" />
+      <label class="fr-label" for="segmented-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Au dessus
+<fieldset class="fr-segmented">
+  <legend class="fr-segmented__legend">Légende du contrôle</legend>
+  <div class="fr-segmented__elements">
+    <div class="fr-segmented__element">
+      <input value="option-1" type="radio" checked id="segmented-1" name="segmented" />
+      <label class="fr-label" for="segmented-1">Première option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-2" type="radio" id="segmented-2" name="segmented" />
+      <label class="fr-label" for="segmented-2">Deuxième option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-3" type="radio" id="segmented-3" name="segmented" />
+      <label class="fr-label" for="segmented-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Horizontale
+<fieldset class="fr-segmented">
+  <legend class="fr-segmented__legend fr-segmented__legend--inline">Légende du contrôle</legend>
+  <div class="fr-segmented__elements">
+    <div class="fr-segmented__element">
+      <input value="option-1" type="radio" checked id="segmented-1" name="segmented" />
+      <label class="fr-label" for="segmented-1">Première option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-2" type="radio" id="segmented-2" name="segmented" />
+      <label class="fr-label" for="segmented-2">Deuxième option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-3" type="radio" id="segmented-3" name="segmented" />
+      <label class="fr-label" for="segmented-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Au dessus
+<fieldset class="fr-segmented">
+  <legend class="fr-segmented__legend">Légende du contrôle</legend>
+  <div class="fr-segmented__elements">
+    <div class="fr-segmented__element">
+      <input value="option-1" type="radio" checked id="segmented-1" name="segmented" />
+      <label class="fr-label" for="segmented-1">Première option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-2" type="radio" id="segmented-2" name="segmented" />
+      <label class="fr-label" for="segmented-2">Deuxième option</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-3" type="radio" id="segmented-3" name="segmented" />
+      <label class="fr-label" for="segmented-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE_CAS_MAX> | défaut
+<fieldset class="fr-segmented">
+  <legend class="fr-segmented__legend">Légende du contrôle</legend>
+  <div class="fr-segmented__elements">
+    <div class="fr-segmented__element">
+      <input value="option-1" type="radio" id="segmented-1" name="segmented" />
+      <label class="fr-label" for="segmented-1">Première option avec un libellé long</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-2" type="radio" id="segmented-2" name="segmented" />
+      <label class="fr-label" for="segmented-2">Deuxième option avec un libellé long</label>
+    </div>
+    <div class="fr-segmented__element">
+      <input value="option-3" type="radio" id="segmented-3" name="segmented" />
+      <label class="fr-label" for="segmented-3">Troisième option avec un libellé long</label>
+    </div>
+  </div>
+</fieldset>
+
+=== react | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Horizontale
+const segments = [
+  { label: 'Première option', nativeInputProps: { defaultChecked: true } },
+  { label: 'Deuxième option' },
+  { label: 'Troisième option' }
+];
+
+<SegmentedControl
+  legend="Légende du contrôle" inlineLegend
+  segments={segments}
+/>
+
+=== react | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Au dessus
+const segments = [
+  { label: 'Première option', nativeInputProps: { defaultChecked: true } },
+  { label: 'Deuxième option' },
+  { label: 'Troisième option' }
+];
+
+<SegmentedControl
+  legend="Légende du contrôle"
+  segments={segments}
+/>
+
+=== react | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Horizontale
+const segments = [
+  { label: 'Première option', nativeInputProps: { defaultChecked: true } },
+  { label: 'Deuxième option' },
+  { label: 'Troisième option' }
+];
+
+<SegmentedControl
+  legend="Légende du contrôle" inlineLegend
+  segments={segments}
+/>
+
+=== react | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Au dessus
+const segments = [
+  { label: 'Première option', nativeInputProps: { defaultChecked: true } },
+  { label: 'Deuxième option' },
+  { label: 'Troisième option' }
+];
+
+<SegmentedControl
+  legend="Légende du contrôle"
+  segments={segments}
+/>
+
+=== react | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE_CAS_MAX> | défaut
+const segments = [
+  { label: 'Première option avec un libellé long' },
+  { label: 'Deuxième option avec un libellé long' },
+  { label: 'Troisième option avec un libellé long' }
+];
+
+<SegmentedControl
+  legend="Légende du contrôle"
+  segments={segments}
+/>
+
+=== vue | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Horizontale
+<DsfrSegmentedSet
+  legend="Légende du contrôle"
+  model-value="option-1"
+  :options="[
+    { value: 'option-1', label: 'Première option' },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]" inline
+/>
+
+=== vue | <FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE> | Légende=Au dessus
+<DsfrSegmentedSet
+  legend="Légende du contrôle"
+  model-value="option-1"
+  :options="[
+    { value: 'option-1', label: 'Première option' },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]"
+/>
+
+=== vue | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Horizontale
+<DsfrSegmentedSet
+  legend="Légende du contrôle"
+  model-value="option-1"
+  :options="[
+    { value: 'option-1', label: 'Première option' },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]" inline
+/>
+
+=== vue | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE> | Légende=Au dessus
+<DsfrSegmentedSet
+  legend="Légende du contrôle"
+  model-value="option-1"
+  :options="[
+    { value: 'option-1', label: 'Première option' },
+    { value: 'option-2', label: 'Deuxième option' },
+    { value: 'option-3', label: 'Troisième option' }
+  ]"
+/>
+
+=== vue | <FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE_CAS_MAX> | défaut
+<DsfrSegmentedSet
+  legend="Légende du contrôle"
+  model-value="option-1"
+  :options="[
+    { value: 'option-1', label: 'Première option avec un libellé long' },
+    { value: 'option-2', label: 'Deuxième option avec un libellé long' },
+    { value: 'option-3', label: 'Troisième option avec un libellé long' }
+  ]"
+/>

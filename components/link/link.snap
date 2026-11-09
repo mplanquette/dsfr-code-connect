@@ -1,0 +1,539 @@
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Survol
+<dsfr-link link="/page" label="Libellé du lien"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Focus
+<dsfr-link link="/page" label="Libellé du lien"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" linkSize="LG" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="left"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="left" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="right"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" icon="fr-icon-arrow-right-line" iconPosition="right" [disabled]="true"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Défaut
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Survol
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Cliqué
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Focus
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM"></dsfr-link>
+
+=== angular | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Désactivé
+<dsfr-link link="/page" label="Libellé du lien" linkSize="SM" [disabled]="true"></dsfr-link>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Défaut
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Survol
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Cliqué
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Focus
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Désactivé
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Défaut
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Survol
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Cliqué
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Focus
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Désactivé
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Défaut
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Survol
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Cliqué
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Focus
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Désactivé
+<a class="fr-link" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Défaut
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Survol
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Cliqué
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Focus
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Désactivé
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Défaut
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Survol
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Cliqué
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Focus
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Désactivé
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Défaut
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Survol
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Cliqué
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Focus
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Désactivé
+<a class="fr-link fr-link--lg" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Défaut
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Survol
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Cliqué
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Focus
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Désactivé
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Défaut
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Survol
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Cliqué
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Focus
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Désactivé
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Défaut
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Survol
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Cliqué
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Focus
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== html | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Désactivé
+<a class="fr-link fr-link--sm" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Défaut
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Survol
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Cliqué
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Focus
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Désactivé
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Défaut
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Survol
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Cliqué
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Focus
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Désactivé
+<a className="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Défaut
+<a className="fr-link" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Survol
+<a className="fr-link" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Cliqué
+<a className="fr-link" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Focus
+<a className="fr-link" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Désactivé
+<a className="fr-link" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Défaut
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Survol
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Cliqué
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Focus
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Désactivé
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Défaut
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Survol
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Cliqué
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Focus
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Désactivé
+<a className="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Défaut
+<a className="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Survol
+<a className="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Cliqué
+<a className="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Focus
+<a className="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Désactivé
+<a className="fr-link fr-link--lg" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Défaut
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Survol
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Cliqué
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Focus
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Désactivé
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Défaut
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Survol
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Cliqué
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Focus
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Désactivé
+<a className="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Défaut
+<a className="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Survol
+<a className="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Cliqué
+<a className="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Focus
+<a className="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== react | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Désactivé
+<a className="fr-link fr-link--sm" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Défaut
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Survol
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Cliqué
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Focus
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Gauche, État=Désactivé
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Défaut
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Survol
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Cliqué
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Focus
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Droite, État=Désactivé
+<a class="fr-link fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Défaut
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Survol
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Cliqué
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Focus
+<a class="fr-link" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=MD, Icône=Sans, État=Désactivé
+<a class="fr-link" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Défaut
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Survol
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Cliqué
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Focus
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Gauche, État=Désactivé
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Défaut
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Survol
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Cliqué
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Focus
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Droite, État=Désactivé
+<a class="fr-link fr-link--lg fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Défaut
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Survol
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Cliqué
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Focus
+<a class="fr-link fr-link--lg" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=LG, Icône=Sans, État=Désactivé
+<a class="fr-link fr-link--lg" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Défaut
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Survol
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Cliqué
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Focus
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Gauche, État=Désactivé
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-left" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Défaut
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Survol
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Cliqué
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Focus
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Droite, État=Désactivé
+<a class="fr-link fr-link--sm fr-icon-arrow-right-line fr-link--icon-right" href="/page" aria-disabled="true">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Défaut
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Survol
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Cliqué
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Focus
+<a class="fr-link fr-link--sm" href="/page">Libellé du lien</a>
+
+=== vue | <FIGMA_LIEN__LIEN> | Taille=SM, Icône=Sans, État=Désactivé
+<a class="fr-link fr-link--sm" href="/page" aria-disabled="true">Libellé du lien</a>

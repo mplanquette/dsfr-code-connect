@@ -1,0 +1,29 @@
+{
+  "family": "Mise en exergue",
+  "groups": [
+    {
+      "nodeId": "338:5363",
+      "components": [
+        {
+          "url": "<FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Sombre", "Clair"],
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Mobile", "Desktop"],
+          "vary": false
+        },
+        "Taille": {
+          "type": "VARIANT",
+          "options": ["SM", "LG", "MD"]
+        }
+      }
+    }
+  ]
+}

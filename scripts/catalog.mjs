@@ -10,7 +10,7 @@
 //
 // Le CLI publie un label à la fois et le template a besoin de savoir pour quelle stack il rend :
 // on génère donc, dans `.codeconnect/` (ignoré par git), un fichier de lot par stack où chaque
-// entrée porte `stack`, et une config qui l'inclut avec les fichiers historiques de la stack.
+// entrée porte `stack`, et une config qui l'inclut.
 //
 // Usage CLI : node scripts/catalog.mjs prepare <stack>   (affiche le chemin de la config générée)
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -103,8 +103,7 @@ export function prepareStack(stack, root = REPO_ROOT) {
   const config = {
     codeConnect: {
       parser: rootConfig.parser,
-      // Fichiers historiques de la stack (en cours de migration) + lot généré des familles.
-      include: [`${stack}/*.figma.ts`, ...(batch.length ? [`${OUTPUT_DIR}/${batchFile}`] : [])],
+      include: [`${OUTPUT_DIR}/${batchFile}`],
       documentUrlSubstitutions: loadSubstitutions(root),
     },
   }

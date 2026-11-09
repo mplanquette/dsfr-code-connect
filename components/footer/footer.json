@@ -1,0 +1,28 @@
+{
+  "family": "Pied de page",
+  "groups": [
+    {
+      "nodeId": "166:771",
+      "components": [
+        {
+          "url": "<FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE>",
+          "layout": "desktop"
+        },
+        {
+          "url": "<FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE>",
+          "layout": "mobile"
+        }
+      ],
+      "properties": {
+        "Liens": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Partenaires": {
+          "type": "BOOLEAN",
+          "default": true
+        }
+      }
+    }
+  ]
+}

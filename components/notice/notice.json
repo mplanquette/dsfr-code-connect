@@ -1,0 +1,66 @@
+{
+  "family": "Bandeaux d'informations importantes",
+  "groups": [
+    {
+      "nodeId": "11706:73752",
+      "components": [
+        {
+          "url": "<FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES>"
+        }
+      ],
+      "properties": {
+        "Titre": {
+          "type": "TEXT",
+          "sample": "Titre du bandeau"
+        },
+        "Description": {
+          "type": "TEXT",
+          "sample": "Description du bandeau"
+        },
+        "Voir le lien": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "Voir description": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "Voir icône": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Type": {
+          "type": "VARIANT",
+          "options": ["Bandeau générique", "Bandeau vigilance météo", "Bandeau d'alerte"],
+          "vary": false
+        },
+        "Niveau d'alerte": {
+          "type": "VARIANT",
+          "options": [
+            "Information",
+            "Alerte",
+            "Avertissement",
+            "Vigilance orange",
+            "Vigilance rouge",
+            "Vigilance violette",
+            "Appel à témoins",
+            "Alerte technologique",
+            "Alerte attentat"
+          ]
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Desktop", "Mobile"],
+          "vary": false
+        },
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        }
+      }
+    }
+  ]
+}

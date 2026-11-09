@@ -1,0 +1,35 @@
+{
+  "family": "Accordéon",
+  "groups": [
+    {
+      "nodeId": "128:27",
+      "components": [
+        { "url": "<FIGMA_ACCORDEON__ACCORDEON_DESKTOP>", "kind": "single", "variant": "desktop" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Survol", "Défaut", "Ouvert"], "default": "Défaut" }
+      }
+    },
+    {
+      "nodeId": "128:110",
+      "components": [
+        { "url": "<FIGMA_ACCORDEON__ACCORDEON_MOBILE>", "kind": "single", "variant": "mobile" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Ouvert"], "default": "Défaut" }
+      }
+    },
+    {
+      "nodeId": "128:600",
+      "components": [
+        { "url": "<FIGMA_ACCORDEON__ACCORDEON_GROUPE>", "kind": "group", "variant": "group" }
+      ],
+      "properties": {
+        "Support": { "type": "VARIANT", "options": ["Mobile", "Desktop"], "default": "Desktop", "vary": false },
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false }
+      }
+    }
+  ]
+}
