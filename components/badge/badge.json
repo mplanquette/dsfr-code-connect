@@ -6,61 +6,51 @@
       "components": [
         {
           "url": "<FIGMA_BADGE__INFORMATION_MD>",
-          "label": "Information",
           "severity": "info",
           "size": "MD"
         },
         {
           "url": "<FIGMA_BADGE__SUCCES_MD>",
-          "label": "Succès",
           "severity": "success",
           "size": "MD"
         },
         {
           "url": "<FIGMA_BADGE__AVERTISSEMENT_MD>",
-          "label": "Avertissement",
           "severity": "warning",
           "size": "MD"
         },
         {
           "url": "<FIGMA_BADGE__ERREUR_MD>",
-          "label": "Erreur",
           "severity": "error",
           "size": "MD"
         },
         {
           "url": "<FIGMA_BADGE__NOUVEAU_MD>",
-          "label": "Nouveau",
           "severity": "new",
           "size": "MD"
         },
         {
           "url": "<FIGMA_BADGE__INFORMATION_SM>",
-          "label": "Information",
           "severity": "info",
           "size": "SM"
         },
         {
           "url": "<FIGMA_BADGE__SUCCES_SM>",
-          "label": "Succès",
           "severity": "success",
           "size": "SM"
         },
         {
           "url": "<FIGMA_BADGE__AVERTISSEMENT_SM>",
-          "label": "Avertissement",
           "severity": "warning",
           "size": "SM"
         },
         {
           "url": "<FIGMA_BADGE__ERREUR_SM>",
-          "label": "Erreur",
           "severity": "error",
           "size": "SM"
         },
         {
           "url": "<FIGMA_BADGE__NOUVEAU_SM>",
-          "label": "Nouveau",
           "severity": "new",
           "size": "SM"
         }
@@ -83,12 +73,10 @@
       "components": [
         {
           "url": "<FIGMA_BADGE__PERSONNALISABLE_MD>",
-          "label": "Personnalisable",
           "size": "MD"
         },
         {
           "url": "<FIGMA_BADGE__PERSONNALISABLE_SM>",
-          "label": "Personnalisable",
           "size": "SM"
         }
       ],

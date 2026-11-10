@@ -36,7 +36,24 @@
           ],
           "default": "Aucun"
         }
-      }
+      },
+      "children": [
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - S'abonner",
+          "when": {
+            "Newsletter": [
+              "Bouton seul"
+            ]
+          },
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "S’abonner à l'info"
+            }
+          }
+        }
+      ]
     },
     {
       "nodeId": "23649:3349",

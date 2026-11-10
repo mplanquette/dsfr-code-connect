@@ -287,7 +287,88 @@
           "default": false
         }
       },
-      "children": []
+      "children": [
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 1",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 1"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 2",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag d'exemple \"2\" & co"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 3",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 3"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 4",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 4"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 5",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 5"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 6",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 6"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 7",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 7"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Tag 8",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 8"
+            }
+          }
+        }
+      ]
     },
     {
       "nodeId": "19386:359118",
@@ -305,7 +386,88 @@
         }
       ],
       "properties": {},
-      "children": []
+      "children": [
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 1",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 1"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 2",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag d'exemple \"2\" & co"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 3",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 3"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 4",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 4"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 5",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 5"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 6",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 6"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 7",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 7"
+            }
+          }
+        },
+        {
+          "kind": "INSTANCE",
+          "name": "🎨 Varier les propriétés - Tag 8",
+          "properties": {
+            "Libellé": {
+              "type": "TEXT",
+              "sample": "Tag 8"
+            }
+          }
+        }
+      ]
     }
   ]
 }

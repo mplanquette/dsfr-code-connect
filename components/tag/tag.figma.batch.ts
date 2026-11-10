@@ -2,8 +2,8 @@
 // chaque set dans tag.json : `mode` (plain, clickable, custom, selectable, deletable) et `size`
 // (SM / MD). Les groupes de tags ont leur propre template (tag-group.figma.batch.ts).
 // Thème (Clair/Sombre), État (Défaut/Survol/Cliqué) et Focus = CSS uniquement.
-// L'icône concrète n'est pas dérivable du design (« Icône » n'est pas lue) : placeholder
-// `fr-icon-arrow-right-line`. Les variantes personnalisables utilisent une classe illustrative
+// L'icône vient de « Icône » (cf. _shared/icon.ts) ; tant qu'elle n'est pas code-connectée,
+// placeholder `fr-icon-arrow-right-line` à remplacer par le dev. Les variantes personnalisables utilisent une classe illustrative
 // (`fr-tag--green-emeraude`) à remplacer selon le besoin.
 // React : `Tag` est polymorphe (`as="p"|"span"|"button"|"a"`) : Non-cliquable = `as="p"` (défaut),
 // Cliquable = `as="a"` + `linkProps`, Sélectionnable = `as="button"` + `pressed`, Supprimable =
@@ -17,6 +17,7 @@
 // `class` est fusionné par Vue avec la classe `fr-tag` du composant. « Supprimable » n'est pas lue
 // côté Vue (le snippet est le même quelle que soit sa valeur).
 import figma from 'figma'
+import { readIconClass } from '../_shared/icon'
 import { readVariantFlag } from '../_shared/read'
 import { renderFor } from '../_shared/stack'
 import { escapeAttribute, escapeText } from '../_shared/text'
@@ -31,6 +32,7 @@ const { stack, mode, size } = figma.batch as {
 const small = size === 'SM'
 const label = instance.getString('Libellé')
 const hasIcon = mode !== 'deletable' && instance.getBoolean('Voir icône')
+const ICON = hasIcon ? readIconClass(instance, 'Icône', 'fr-icon-arrow-right-line') : ''
 const disabled = mode === 'plain' ? false : readVariantFlag(instance, 'Désactivé')
 const selected = mode === 'selectable' ? readVariantFlag(instance, 'Sélectionné') : false
 const deletable = mode === 'deletable' && stack !== 'vue' ? readVariantFlag(instance, 'Supprimable') : false
@@ -39,7 +41,7 @@ const rendered = renderFor(stack, {
   angular: () => {
     const text = escapeAttribute(label)
     const smallAttr = small ? ' [small]="true"' : ''
-    const iconAttr = hasIcon ? ' icon="fr-icon-arrow-right-line"' : ''
+    const iconAttr = hasIcon ? ` icon="${ICON}"` : ''
     const disabledAttr = disabled ? ' [disabled]="true"' : ''
     const attrs = {
       plain: `${smallAttr}${iconAttr}`,
@@ -56,7 +58,7 @@ const rendered = renderFor(stack, {
   html: () => {
     const text = escapeText(label)
     const sm = small ? ' fr-tag--sm' : ''
-    const iconClass = hasIcon ? ' fr-tag--icon-left fr-icon-arrow-right-line' : ''
+    const iconClass = hasIcon ? ` fr-tag--icon-left ${ICON}` : ''
     const ariaDisabled = disabled ? ' aria-disabled="true"' : ''
     const nativeDisabled = disabled ? ' disabled' : ''
     const example = {
@@ -71,7 +73,7 @@ const rendered = renderFor(stack, {
   react: () => {
     const text = escapeText(label)
     const smallAttr = small ? ' small' : ''
-    const iconAttrs = hasIcon ? ' iconId="fr-icon-arrow-right-line"' : ''
+    const iconAttrs = hasIcon ? ` iconId="${ICON}"` : ''
     const linkProps = `const linkProps = { href: '#'${disabled ? ", 'aria-disabled': true" : ''} };`
     const nativeButtonProps = `const nativeButtonProps = ${disabled ? '{ disabled: true }' : '{}'};`
     const example = {
@@ -94,7 +96,7 @@ const rendered = renderFor(stack, {
   vue: () => {
     const text = escapeAttribute(label)
     const smallAttr = small ? ' small' : ''
-    const iconAttr = hasIcon ? ' icon="fr-icon-arrow-right-line"' : ''
+    const iconAttr = hasIcon ? ` icon="${ICON}"` : ''
     const disabledAttr = disabled ? ' disabled' : ''
     const example = {
       plain: figma.code`<DsfrTag label="${text}"${smallAttr}${iconAttr} />`,

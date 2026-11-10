@@ -131,7 +131,7 @@
       </div>
       <div>
         <ul class="fr-btns-group fr-btns-group--inline-md">
-          <li><button type="button" class="fr-btn">S'abonner</button></li>
+          <li><button type="button" class="fr-btn">S’abonner à l'info</button></li>
         </ul>
       </div>
     </div>
@@ -186,7 +186,7 @@
       </div>
       <div>
         <ul class="fr-btns-group fr-btns-group--inline-md">
-          <li><button type="button" class="fr-btn">S'abonner</button></li>
+          <li><button type="button" class="fr-btn">S’abonner à l'info</button></li>
         </ul>
       </div>
     </div>
@@ -241,7 +241,7 @@
       </div>
       <div>
         <ul class="fr-btns-group fr-btns-group--inline-md">
-          <li><button type="button" class="fr-btn">S'abonner</button></li>
+          <li><button type="button" class="fr-btn">S’abonner à l'info</button></li>
         </ul>
       </div>
     </div>
@@ -296,7 +296,7 @@
       </div>
       <div>
         <ul class="fr-btns-group fr-btns-group--inline-md">
-          <li><button type="button" class="fr-btn">S'abonner</button></li>
+          <li><button type="button" class="fr-btn">S’abonner à l'info</button></li>
         </ul>
       </div>
     </div>
@@ -384,7 +384,7 @@ const social = {
 === react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Bouton seul
 const newsletter = {
   desc: 'Texte de description.',
-  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+  buttonProps: { linkProps: { href: '/abonnement' }, children: 'S’abonner à l\'info' }
 };
 const social = {
   buttons: [
@@ -434,7 +434,7 @@ const social = {
 === react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Bouton seul
 const newsletter = {
   desc: 'Texte de description.',
-  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+  buttonProps: { linkProps: { href: '/abonnement' }, children: 'S’abonner à l\'info' }
 };
 const social = {
   buttons: [
@@ -484,7 +484,7 @@ const social = {
 === react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Bouton seul
 const newsletter = {
   desc: 'Texte de description.',
-  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+  buttonProps: { linkProps: { href: '/abonnement' }, children: 'S’abonner à l\'info' }
 };
 const social = {
   buttons: [
@@ -534,7 +534,7 @@ const social = {
 === react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Bouton seul
 const newsletter = {
   desc: 'Texte de description.',
-  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+  buttonProps: { linkProps: { href: '/abonnement' }, children: 'S’abonner à l\'info' }
 };
 const social = {
   buttons: [

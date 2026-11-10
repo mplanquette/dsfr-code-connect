@@ -40,6 +40,7 @@
 import figma from 'figma'
 import { readEnum, readVariantFlag } from '../_shared/read'
 import { renderFor } from '../_shared/stack'
+import { escapeAttribute, escapeJsString, escapeText } from '../_shared/text'
 
 const instance = figma.selectedInstance
 const { stack, part } = figma.batch as {
@@ -87,6 +88,14 @@ const leader = part === 'mega-full'
   : 'none'
 const withTitle = part === 'mobile-dropdown' ? readVariantFlag(instance, 'Titre rubrique') : false
 const withCategory = part === 'mobile-links' ? readVariantFlag(instance, 'Catégorie') : false
+// Set « Accès rapide » (mobile) : le libellé du lien est lu dans l'atome du design ; l'icône
+// `fr-icon-lock-line` et la cible `/connexion` restent des exemples.
+const quickAtom = part === 'mobile-quick' ? instance.findInstance('⚙️ Varier les propriétés - Accès rapide') : undefined
+const quickLabel = quickAtom?.type === 'INSTANCE' ? quickAtom.getString('Libellé') : 'Se connecter'
+const quickLabelJs = escapeJsString(quickLabel)
+const quickLabelAttribute = escapeAttribute(quickLabelJs)
+const quickLabelText = escapeText(quickLabel)
+
 const withQuickAccess = part === 'mobile-full' ? readVariantFlag(instance, 'Accès rapides') : false
 
 const rendered = renderFor(stack, {
@@ -209,7 +218,7 @@ ${links.map((link) => `    { label: '${link.label}', routePath: '/${link.path}' 
           return figma.code`<dsfr-header
   [logo]="{ label: 'République Française' }"
   [headerToolsLinks]="[
-    { label: 'Se connecter', icon: 'fr-icon-lock-line', routePath: '/connexion' }
+    { label: '${quickLabelAttribute}', icon: 'fr-icon-lock-line', routePath: '/connexion' }
   ]"
   [menu]="[{ label: 'Libellé du lien', routePath: '/lien' }]"></dsfr-header>`
         case 'mobile-full':
@@ -358,7 +367,7 @@ ${links.map((link) => `    { label: '${link.label}', routePath: '/${link.path}' 
         case 'mobile-quick':
           return figma.code`<div class="fr-header__menu-links">
   <ul class="fr-btns-group">
-    <li><a class="fr-btn fr-icon-lock-line fr-btn--tertiary" href="/connexion">Se connecter</a></li>
+    <li><a class="fr-btn fr-icon-lock-line fr-btn--tertiary" href="/connexion">${quickLabelText}</a></li>
   </ul>
 </div>`
         case 'mobile-full': {
@@ -495,7 +504,7 @@ ${links.map((link) => `  { text: '${link.label}', linkProps: { href: '/${link.pa
         case 'mobile-quick':
           return figma.code`const navigation = [{ text: 'Libellé du lien', linkProps: { href: '/lien' } }];
 const quickAccessItems = [
-  { iconId: 'fr-icon-lock-line', text: 'Se connecter', linkProps: { href: '/connexion' } }
+  { iconId: 'fr-icon-lock-line', text: '${quickLabelJs}', linkProps: { href: '/connexion' } }
 ];
 
 <Header
@@ -646,7 +655,7 @@ ${links.map((link) => `      { to: '/${link.path}', text: '${link.label}' }`).jo
         }
         case 'mobile-quick':
           return figma.code`<DsfrHeader
-    :quick-links="[{ label: 'Se connecter', icon: 'fr-icon-lock-line', to: '/connexion' }]"
+    :quick-links="[{ label: '${quickLabelAttribute}', icon: 'fr-icon-lock-line', to: '/connexion' }]"
   >
     <template #mainnav>
       <DsfrNavigation :nav-items="[{ to: '/lien', text: 'Libellé du lien' }]" />

@@ -391,7 +391,7 @@
 <dsfr-header
   [logo]="{ label: 'République Française' }"
   [headerToolsLinks]="[
-    { label: 'Se connecter', icon: 'fr-icon-lock-line', routePath: '/connexion' }
+    { label: 'Lien d\'accès &quot;rapide&quot; &amp; co', icon: 'fr-icon-lock-line', routePath: '/connexion' }
   ]"
   [menu]="[{ label: 'Libellé du lien', routePath: '/lien' }]"></dsfr-header>
 
@@ -839,7 +839,7 @@
 === html | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE> | défaut
 <div class="fr-header__menu-links">
   <ul class="fr-btns-group">
-    <li><a class="fr-btn fr-icon-lock-line fr-btn--tertiary" href="/connexion">Se connecter</a></li>
+    <li><a class="fr-btn fr-icon-lock-line fr-btn--tertiary" href="/connexion">Lien d'accès "rapide" &amp; co</a></li>
   </ul>
 </div>
 
@@ -1377,7 +1377,7 @@ const navigation = [
 === react | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE> | défaut
 const navigation = [{ text: 'Libellé du lien', linkProps: { href: '/lien' } }];
 const quickAccessItems = [
-  { iconId: 'fr-icon-lock-line', text: 'Se connecter', linkProps: { href: '/connexion' } }
+  { iconId: 'fr-icon-lock-line', text: 'Lien d\'accès "rapide" & co', linkProps: { href: '/connexion' } }
 ];
 
 <Header
@@ -1844,7 +1844,7 @@ const navigation = [
 
 === vue | <FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE> | défaut
 <DsfrHeader
-    :quick-links="[{ label: 'Se connecter', icon: 'fr-icon-lock-line', to: '/connexion' }]"
+    :quick-links="[{ label: 'Lien d\'accès &quot;rapide&quot; &amp; co', icon: 'fr-icon-lock-line', to: '/connexion' }]"
   >
     <template #mainnav>
       <DsfrNavigation :nav-items="[{ to: '/lien', text: 'Libellé du lien' }]" />
