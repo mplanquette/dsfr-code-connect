@@ -18,11 +18,17 @@
 import figma from 'figma'
 import { readEnum } from '../_shared/read'
 import { renderFor } from '../_shared/stack'
+import { escapeJsString, escapeText } from '../_shared/text'
 
 const instance = figma.selectedInstance
 const { stack, layout } = figma.batch as { stack: string; layout: 'desktop' | 'mobile' }
 
 const newsletter = readEnum(instance, 'Newsletter', { Formulaire: 'form', 'Bouton seul': 'button', Aucun: 'none' } as const)
+
+// « Bouton seul » : le libellé du bouton est lu dans l'atome « S'abonner » ; les autres types
+// gardent le libellé d'exemple (le bouton du formulaire est décrit par follow-form-field).
+const subscribeAtom = newsletter === 'button' ? instance.findInstance("⚙️ Varier les propriétés - S'abonner") : undefined
+const subscribeLabel = subscribeAtom?.type === 'INSTANCE' ? subscribeAtom.getString('Libellé') : "S'abonner"
 
 const rendered = renderFor(stack, {
   angular: () => {
@@ -67,7 +73,7 @@ const rendered = renderFor(stack, {
       </div>
       <div>
         <ul class="fr-btns-group fr-btns-group--inline-md">
-          <li><button type="button" class="fr-btn">S'abonner</button></li>
+          <li><button type="button" class="fr-btn">${escapeText(subscribeLabel)}</button></li>
         </ul>
       </div>
     </div>`,
@@ -96,7 +102,7 @@ const rendered = renderFor(stack, {
 `,
       button: `const newsletter = {
   desc: 'Texte de description.',
-  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+  buttonProps: { linkProps: { href: '/abonnement' }, children: '${escapeJsString(subscribeLabel)}' }
 };
 `,
       none: '',

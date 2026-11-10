@@ -3,14 +3,56 @@
   "groups": [
     {
       "nodeId": "284:15646",
-      "components": [{ "url": "<FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE>" }],
+      "components": [
+        {
+          "url": "<FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE>"
+        }
+      ],
       "properties": {
-        "Message d'information": { "type": "BOOLEAN", "default": true, "vary": false },
-        "État": { "type": "VARIANT", "options": ["Défaut", "Erreur", "Succès", "Désactivé"], "default": "Défaut" },
-        "Désactivé": { "type": "VARIANT", "options": ["False", "True"], "default": "False" },
-        "Description": { "type": "VARIANT", "options": ["False"], "default": "False", "vary": false }
+        "Message d'information": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Erreur",
+            "Succès",
+            "Désactivé"
+          ],
+          "default": "Défaut"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Description": {
+          "type": "VARIANT",
+          "options": [
+            "False"
+          ],
+          "default": "False",
+          "vary": false
+        }
       },
-      "children": []
+      "children": [
+        {
+          "kind": "INSTANCE",
+          "name": "⚙️ Varier les propriétés - Message de formulaire",
+          "properties": {
+            "Message": {
+              "type": "TEXT",
+              "sample": "Message \"cité\" & d'exemple"
+            }
+          }
+        }
+      ]
     }
   ]
 }

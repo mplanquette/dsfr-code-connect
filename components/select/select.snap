@@ -26,7 +26,7 @@
     { label: 'Première option', value: 'option-1' },
     { label: 'Deuxième option', value: 'option-2' },
     { label: 'Troisième option', value: 'option-3' }
-  ]" message="Texte d'erreur" messageSeverity="error"></dsfr-form-select>
+  ]" message="Message &quot;cité&quot; &amp; d'exemple" messageSeverity="error"></dsfr-form-select>
 
 === angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=True
 <dsfr-form-select
@@ -36,7 +36,7 @@
     { label: 'Première option', value: 'option-1' },
     { label: 'Deuxième option', value: 'option-2' },
     { label: 'Troisième option', value: 'option-3' }
-  ]" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-select>
+  ]" [disabled]="true" message="Message &quot;cité&quot; &amp; d'exemple" messageSeverity="error"></dsfr-form-select>
 
 === angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=False
 <dsfr-form-select
@@ -46,7 +46,7 @@
     { label: 'Première option', value: 'option-1' },
     { label: 'Deuxième option', value: 'option-2' },
     { label: 'Troisième option', value: 'option-3' }
-  ]" message="Texte de validation" messageSeverity="valid"></dsfr-form-select>
+  ]" message="Message &quot;cité&quot; &amp; d'exemple" messageSeverity="valid"></dsfr-form-select>
 
 === angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=True
 <dsfr-form-select
@@ -56,7 +56,7 @@
     { label: 'Première option', value: 'option-1' },
     { label: 'Deuxième option', value: 'option-2' },
     { label: 'Troisième option', value: 'option-3' }
-  ]" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-select>
+  ]" [disabled]="true" message="Message &quot;cité&quot; &amp; d'exemple" messageSeverity="valid"></dsfr-form-select>
 
 === angular | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=False
 <dsfr-form-select
@@ -114,7 +114,7 @@
     <option value="option-3">Troisième option</option>
   </select>
   <div class="fr-messages-group" id="select-messages" aria-live="polite">
-    <p class="fr-message fr-message--error" id="select-message">Texte d'erreur</p>
+    <p class="fr-message fr-message--error" id="select-message">Message "cité" &amp; d'exemple</p>
   </div>
 </div>
 
@@ -128,7 +128,7 @@
     <option value="option-3">Troisième option</option>
   </select>
   <div class="fr-messages-group" id="select-messages" aria-live="polite">
-    <p class="fr-message fr-message--error" id="select-message">Texte d'erreur</p>
+    <p class="fr-message fr-message--error" id="select-message">Message "cité" &amp; d'exemple</p>
   </div>
 </div>
 
@@ -142,7 +142,7 @@
     <option value="option-3">Troisième option</option>
   </select>
   <div class="fr-messages-group" id="select-messages" aria-live="polite">
-    <p class="fr-message fr-message--valid" id="select-message">Texte de validation</p>
+    <p class="fr-message fr-message--valid" id="select-message">Message "cité" &amp; d'exemple</p>
   </div>
 </div>
 
@@ -156,7 +156,7 @@
     <option value="option-3">Troisième option</option>
   </select>
   <div class="fr-messages-group" id="select-messages" aria-live="polite">
-    <p class="fr-message fr-message--valid" id="select-message">Texte de validation</p>
+    <p class="fr-message fr-message--valid" id="select-message">Message "cité" &amp; d'exemple</p>
   </div>
 </div>
 
@@ -217,7 +217,7 @@ const nativeSelectProps = { name: 'select' };
 
 <Select
   label="Libellé de la liste déroulante"
-  nativeSelectProps={nativeSelectProps} state="error" stateRelatedMessage="Texte d'erreur"
+  nativeSelectProps={nativeSelectProps} state="error" stateRelatedMessage="Message &quot;cité&quot; &amp; d'exemple"
 >
   <option value="" selected disabled hidden>Sélectionner une option</option>
   <option value="option-1">Première option</option>
@@ -230,7 +230,7 @@ const nativeSelectProps = { name: 'select' };
 
 <Select
   label="Libellé de la liste déroulante"
-  nativeSelectProps={nativeSelectProps} disabled state="error" stateRelatedMessage="Texte d'erreur"
+  nativeSelectProps={nativeSelectProps} disabled state="error" stateRelatedMessage="Message &quot;cité&quot; &amp; d'exemple"
 >
   <option value="" selected disabled hidden>Sélectionner une option</option>
   <option value="option-1">Première option</option>
@@ -243,7 +243,7 @@ const nativeSelectProps = { name: 'select' };
 
 <Select
   label="Libellé de la liste déroulante"
-  nativeSelectProps={nativeSelectProps} state="success" stateRelatedMessage="Texte de validation"
+  nativeSelectProps={nativeSelectProps} state="success" stateRelatedMessage="Message &quot;cité&quot; &amp; d'exemple"
 >
   <option value="" selected disabled hidden>Sélectionner une option</option>
   <option value="option-1">Première option</option>
@@ -256,7 +256,7 @@ const nativeSelectProps = { name: 'select' };
 
 <Select
   label="Libellé de la liste déroulante"
-  nativeSelectProps={nativeSelectProps} disabled state="success" stateRelatedMessage="Texte de validation"
+  nativeSelectProps={nativeSelectProps} disabled state="success" stateRelatedMessage="Message &quot;cité&quot; &amp; d'exemple"
 >
   <option value="" selected disabled hidden>Sélectionner une option</option>
   <option value="option-1">Première option</option>
@@ -320,7 +320,7 @@ const nativeSelectProps = { name: 'select' };
     { text: 'Première option', value: 'option-1' },
     { text: 'Deuxième option', value: 'option-2' },
     { text: 'Troisième option', value: 'option-3' }
-  ]" error-message="Texte d'erreur"
+  ]" error-message="Message &quot;cité&quot; &amp; d'exemple"
 />
 
 === vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Erreur, Désactivé=True
@@ -331,7 +331,7 @@ const nativeSelectProps = { name: 'select' };
     { text: 'Première option', value: 'option-1' },
     { text: 'Deuxième option', value: 'option-2' },
     { text: 'Troisième option', value: 'option-3' }
-  ]" disabled error-message="Texte d'erreur"
+  ]" disabled error-message="Message &quot;cité&quot; &amp; d'exemple"
 />
 
 === vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=False
@@ -342,7 +342,7 @@ const nativeSelectProps = { name: 'select' };
     { text: 'Première option', value: 'option-1' },
     { text: 'Deuxième option', value: 'option-2' },
     { text: 'Troisième option', value: 'option-3' }
-  ]" success-message="Texte de validation"
+  ]" success-message="Message &quot;cité&quot; &amp; d'exemple"
 />
 
 === vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Succès, Désactivé=True
@@ -353,7 +353,7 @@ const nativeSelectProps = { name: 'select' };
     { text: 'Première option', value: 'option-1' },
     { text: 'Deuxième option', value: 'option-2' },
     { text: 'Troisième option', value: 'option-3' }
-  ]" disabled success-message="Texte de validation"
+  ]" disabled success-message="Message &quot;cité&quot; &amp; d'exemple"
 />
 
 === vue | <FIGMA_LISTE_DEROULANTE__LISTE_DEROULANTE> | État=Désactivé, Désactivé=False
