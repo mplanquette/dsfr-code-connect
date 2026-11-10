@@ -29,3 +29,6 @@ desktop/resources/rebind-to-your-file.mjs
 desktop/resources/stacks.json
 desktop/src/renderer/dsfr/
 desktop/release/
+
+# Worktrees des sous-agents (locaux, jamais versionnés)
+.claude/worktrees/
