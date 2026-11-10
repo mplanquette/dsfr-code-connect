@@ -1,0 +1,39 @@
+{
+  "family": "Curseur",
+  "groups": [
+    {
+      "nodeId": "24571:368579",
+      "components": [
+        {
+          "url": "<FIGMA_CURSEUR__CURSEUR_SIMPLE>",
+          "kind": "simple"
+        },
+        {
+          "url": "<FIGMA_CURSEUR__CURSEUR_DOUBLE>",
+          "kind": "double"
+        },
+        {
+          "url": "<FIGMA_CURSEUR__CURSEUR_CRANTE>",
+          "kind": "step"
+        }
+      ],
+      "properties": {
+        "Voir message": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défault",
+            "Erreur",
+            "Valide",
+            "désactivé"
+          ],
+          "default": "Défault"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1577 @@
+=== angular | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="LG"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="LG"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="LG"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="LG"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="SM"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="SM"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="SM"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""></dsfr-card>
+
+=== angular | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  panelSize="SM"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="LG" horizontalProportion="1tier/2tier"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="LG" horizontalProportion="1tier/2tier"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="LG"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="LG"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="LG" horizontalProportion="moitié/moitié"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="LG" horizontalProportion="moitié/moitié"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true" horizontalProportion="1tier/2tier"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true" horizontalProportion="1tier/2tier"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true" horizontalProportion="moitié/moitié"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true" horizontalProportion="moitié/moitié"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="SM" horizontalProportion="1tier/2tier"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="SM" horizontalProportion="1tier/2tier"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="SM"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="SM"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="SM" horizontalProportion="moitié/moitié"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  imagePath="assets/img/card.jpg"
+  imageAlt=""
+  [horizontal]="true"
+  panelSize="SM" horizontalProportion="moitié/moitié"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  [horizontal]="true"
+  panelSize="LG"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  [horizontal]="true"
+  panelSize="LG"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  [horizontal]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  [horizontal]="true"
+  [disabled]="true"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=False
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  [horizontal]="true"
+  panelSize="SM"></dsfr-card>
+
+=== angular | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=True
+<dsfr-card
+  heading="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  [horizontal]="true"
+  panelSize="SM"
+  [disabled]="true"></dsfr-card>
+
+=== html | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=False
+<div class="fr-card fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=True
+<div class="fr-card fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=False
+<div class="fr-card fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=True
+<div class="fr-card fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=False
+<div class="fr-card">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=True
+<div class="fr-card">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=False
+<div class="fr-card">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=True
+<div class="fr-card">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=False
+<div class="fr-card fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=True
+<div class="fr-card fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=False
+<div class="fr-card fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=True
+<div class="fr-card fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--lg fr-card--horizontal-tier">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--lg fr-card--horizontal-tier">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--lg fr-card--horizontal-half">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--lg fr-card--horizontal-half">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--horizontal-tier">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--horizontal-tier">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<div class="fr-card fr-card--horizontal">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<div class="fr-card fr-card--horizontal">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--horizontal-half">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--horizontal-half">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--sm fr-card--horizontal-tier">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--sm fr-card--horizontal-tier">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--sm fr-card--horizontal-half">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--sm fr-card--horizontal-half">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+  <div class="fr-card__header">
+    <div class="fr-card__img">
+      <img class="fr-responsive-img" src="assets/img/card.jpg" alt="" />
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--lg">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=False
+<div class="fr-card fr-card--horizontal">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=True
+<div class="fr-card fr-card--horizontal">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=False
+<div class="fr-card fr-card--horizontal fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=True
+<div class="fr-card fr-card--horizontal fr-card--sm">
+  <div class="fr-card__body">
+    <div class="fr-card__content">
+      <h3 class="fr-card__title">
+        <a href="/page" aria-disabled="true">Titre de la carte</a>
+      </h3>
+      <p class="fr-card__desc">Description de la carte.</p>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="large"
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="large"
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="large"
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="large"
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="small"
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="small"
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="small"
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+/>
+
+=== react | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  size="small"
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="large" ratio="33/66"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="large" ratio="33/66"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="large"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="large"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="large" ratio="50/50"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="large" ratio="50/50"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal ratio="33/66"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal ratio="33/66"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal ratio="50/50"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal ratio="50/50"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="small" ratio="33/66"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="small" ratio="33/66"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="small"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="small"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="small" ratio="50/50"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  imageUrl="assets/img/card.jpg"
+  imageAlt=""
+  horizontal
+  size="small" ratio="50/50"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  horizontal
+  size="large"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  horizontal
+  size="large"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  horizontal
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  horizontal
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=False
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  horizontal
+  size="small"
+/>
+
+=== react | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=True
+<Card
+  title="Titre de la carte"
+  desc="Description de la carte."
+  linkProps={{ to: '/page' }}
+  horizontal
+  size="small"
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="lg"
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=false, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="lg"
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="lg"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_LG> | Voir Média=true, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="lg"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=false, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_MD> | Voir Média=true, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="sm"
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=false, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="sm"
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="sm"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+/>
+
+=== vue | <FIGMA_CARTE__VERTICALE_SM> | Voir Média=true, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  size="sm"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="lg" img-ratio="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="lg" img-ratio="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="lg" img-ratio="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="lg" img-ratio="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal img-ratio="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal img-ratio="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal img-ratio="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal img-ratio="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="sm" img-ratio="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=33-66, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="sm" img-ratio="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=40-60, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="sm" img-ratio="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_AVEC_MEDIA> | Proportions=50-50, Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  img-src="assets/img/card.jpg"
+  alt-img=""
+  horizontal
+  size="sm" img-ratio="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  horizontal
+  size="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_LG_SANS_MEDIA> | Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  horizontal
+  size="lg"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  horizontal
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_MD_SANS_MEDIA> | Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  horizontal
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=False
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  horizontal
+  size="sm"
+/>
+
+=== vue | <FIGMA_CARTE__HORIZONTALE_SM_SANS_MEDIA> | Désactivé=True
+<DsfrCard
+  title="Titre de la carte"
+  description="Description de la carte."
+  link="/page"
+  horizontal
+  size="sm"
+/>

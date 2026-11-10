@@ -1,0 +1,57 @@
+{
+  "family": "Téléchargement de fichier",
+  "groups": [
+    {
+      "nodeId": "20953:506422",
+      "components": [
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT>",
+          "part": "single"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Puce": {
+          "type": "VARIANT",
+          "options": ["False", "True"],
+          "vary": false
+        },
+        "2 lignes": {
+          "type": "VARIANT",
+          "options": ["False", "True"],
+          "vary": false
+        }
+      }
+    },
+    {
+      "nodeId": "20953:506343",
+      "components": [
+        {
+          "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE>",
+          "part": "group"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Desktop", "Mobile"],
+          "vary": false
+        },
+        "Titre": {
+          "type": "VARIANT",
+          "options": ["False", "True"],
+          "default": "True"
+        }
+      }
+    }
+  ]
+}

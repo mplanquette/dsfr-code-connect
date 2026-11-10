@@ -1,0 +1,34 @@
+{
+  "family": "Téléchargement de fichier",
+  "groups": [
+    {
+      "nodeId": "20953:506852",
+      "components": [
+        { "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_DESKTOP>", "kind": "desktop" }
+      ],
+      "properties": {
+        "Pictogramme": { "type": "INSTANCE_SWAP" },
+        "Focus": { "type": "BOOLEAN", "vary": false },
+        "Voir Picto": { "type": "BOOLEAN", "default": true },
+        "Taille": { "type": "VARIANT", "options": ["MD", "SM"], "default": "SM" },
+        "Hauteur fixe": { "type": "VARIANT", "options": ["False", "True"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Default", "Survol", "Cliqué"], "vary": false },
+        "Désactivé": { "type": "VARIANT", "options": ["False", "True"] }
+      }
+    },
+    {
+      "nodeId": "20953:506949",
+      "components": [
+        { "url": "<FIGMA_TELECHARGEMENT_DE_FICHIER__TUILE_MOBILE>", "kind": "mobile" }
+      ],
+      "properties": {
+        "Pictogramme": { "type": "INSTANCE_SWAP" },
+        "Voir Picto": { "type": "BOOLEAN", "default": true },
+        "Taille": { "type": "VARIANT", "options": ["MD", "SM"], "default": "SM" },
+        "Hauteur fixe": { "type": "VARIANT", "options": ["False", "True"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Default", "Cliqué"], "vary": false },
+        "Désactivé": { "type": "VARIANT", "options": ["False", "True"] }
+      }
+    }
+  ]
+}

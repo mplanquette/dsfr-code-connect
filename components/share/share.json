@@ -1,0 +1,14 @@
+{
+  "family": "Partage",
+  "groups": [
+    {
+      "nodeId": "3539:191215",
+      "components": [{ "url": "<FIGMA_PARTAGE__PARTAGE>" }],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "default": "Clair", "vary": false },
+        "Désactivé": { "type": "VARIANT", "options": ["True", "False"], "default": "False" }
+      },
+      "children": []
+    }
+  ]
+}

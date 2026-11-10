@@ -1,0 +1,54 @@
+=== angular | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Défaut
+<dsfr-form-upload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf."></dsfr-form-upload>
+
+=== angular | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Erreur
+<dsfr-form-upload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." error="Texte d'erreur"></dsfr-form-upload>
+
+=== angular | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Désactivé
+<dsfr-form-upload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." [disabled]="true"></dsfr-form-upload>
+
+=== html | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Défaut
+<div class="fr-upload-group">
+  <label class="fr-label" for="upload">
+    Ajouter un fichier
+    <span class="fr-hint-text">Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf.</span>
+  </label>
+  <input class="fr-upload" type="file" id="upload" name="upload" />
+</div>
+
+=== html | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Erreur
+<div class="fr-upload-group fr-upload-group--error">
+  <label class="fr-label" for="upload">
+    Ajouter un fichier
+    <span class="fr-hint-text">Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf.</span>
+  </label>
+  <input class="fr-upload" type="file" id="upload" name="upload" />
+  <p class="fr-error-text" id="upload-messages">Texte d'erreur</p>
+</div>
+
+=== html | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Désactivé
+<div class="fr-upload-group fr-upload-group--disabled">
+  <label class="fr-label" for="upload">
+    Ajouter un fichier
+    <span class="fr-hint-text">Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf.</span>
+  </label>
+  <input class="fr-upload" type="file" id="upload" name="upload" disabled />
+</div>
+
+=== react | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Défaut
+<Upload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." />
+
+=== react | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Erreur
+<Upload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." state="error" stateRelatedMessage="Texte d'erreur" />
+
+=== react | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Désactivé
+<Upload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." disabled />
+
+=== vue | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Défaut
+<DsfrFileUpload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." />
+
+=== vue | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Erreur
+<DsfrFileUpload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." error="Texte d'erreur" />
+
+=== vue | <FIGMA_AJOUT_DE_FICHIER__AJOUT_DE_FICHIER> | État=Désactivé
+<DsfrFileUpload label="Ajouter un fichier" hint="Taille maximale : 5 Mo. Formats supportés : jpg, png, pdf." disabled />

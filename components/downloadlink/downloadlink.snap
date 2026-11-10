@@ -1,0 +1,109 @@
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT> | défaut
+<dsfr-download
+  fileName="Nom du fichier"
+  link="/assets/fichier.pdf"
+  mimeType="application/pdf"
+  [sizeBytes]="518000"></dsfr-download>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=False
+<dsfr-downloads-group aria-label="Groupe de téléchargements"
+  [downloads]="[
+    { fileName: 'Premier fichier', link: '/assets/fichier-1.pdf', mimeType: 'application/pdf', sizeBytes: 518000 },
+    { fileName: 'Deuxième fichier', link: '/assets/fichier-2.docx', mimeType: 'application/msword', sizeBytes: 214000 }
+  ]"></dsfr-downloads-group>
+
+=== angular | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=True
+<dsfr-downloads-group aria-label="Groupe de téléchargements" heading="Titre du groupe"
+  [downloads]="[
+    { fileName: 'Premier fichier', link: '/assets/fichier-1.pdf', mimeType: 'application/pdf', sizeBytes: 518000 },
+    { fileName: 'Deuxième fichier', link: '/assets/fichier-2.docx', mimeType: 'application/msword', sizeBytes: 214000 }
+  ]"></dsfr-downloads-group>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT> | défaut
+<a class="fr-link fr-link--download" href="/assets/fichier.pdf" download="fichier.pdf">
+  Télécharger
+  <span class="fr-link__detail">Nom du fichier, PDF, 506 Ko</span>
+</a>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=False
+<div class="fr-downloads-group">
+  <ul class="fr-links-group">
+    <li>
+      <a class="fr-link fr-link--download" href="/assets/fichier-1.pdf" download="fichier-1.pdf">
+        Télécharger
+        <span class="fr-link__detail">Premier fichier, PDF, 506 Ko</span>
+      </a>
+    </li>
+    <li>
+      <a class="fr-link fr-link--download" href="/assets/fichier-2.docx" download="fichier-2.docx">
+        Télécharger
+        <span class="fr-link__detail">Deuxième fichier, DOCX, 214 Ko</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+=== html | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=True
+<div class="fr-downloads-group">
+  <h4 class="fr-downloads-group__title">Titre du groupe</h4>
+  <ul class="fr-links-group">
+    <li>
+      <a class="fr-link fr-link--download" href="/assets/fichier-1.pdf" download="fichier-1.pdf">
+        Télécharger
+        <span class="fr-link__detail">Premier fichier, PDF, 506 Ko</span>
+      </a>
+    </li>
+    <li>
+      <a class="fr-link fr-link--download" href="/assets/fichier-2.docx" download="fichier-2.docx">
+        Télécharger
+        <span class="fr-link__detail">Deuxième fichier, DOCX, 214 Ko</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT> | défaut
+<Download
+  label="Nom du fichier"
+  details="PDF, 518 Ko"
+  linkProps={{ href: '/assets/fichier.pdf' }} />
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=False
+<div role="group" aria-label="Groupe de téléchargements">
+    <Download label="Premier fichier" details="PDF, 518 Ko" linkProps={{ href: '/assets/fichier-1.pdf' }} />
+    <Download label="Deuxième fichier" details="DOCX, 214 Ko" linkProps={{ href: '/assets/fichier-2.docx' }} />
+  </div>
+
+=== react | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=True
+<div role="group" aria-label="Groupe de téléchargements">
+    <p className="fr-h6">Titre du groupe</p>
+    <Download label="Premier fichier" details="PDF, 518 Ko" linkProps={{ href: '/assets/fichier-1.pdf' }} />
+    <Download label="Deuxième fichier" details="DOCX, 214 Ko" linkProps={{ href: '/assets/fichier-2.docx' }} />
+  </div>
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT> | défaut
+<DsfrFileDownload
+    title="Nom du fichier"
+    format="PDF"
+    size="506 Ko"
+    href="/assets/fichier.pdf"
+    download="fichier.pdf"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=False
+<DsfrFileDownloadList
+    title=""
+    :files="[
+      { title: 'Premier fichier', format: 'PDF', size: '506 Ko', href: '/assets/fichier-1.pdf', download: 'fichier-1.pdf' },
+      { title: 'Deuxième fichier', format: 'DOCX', size: '214 Ko', href: '/assets/fichier-2.docx', download: 'fichier-2.docx' }
+    ]"
+  />
+
+=== vue | <FIGMA_TELECHARGEMENT_DE_FICHIER__LIEN_LIEN_DE_TELECHARGEMENT_GROUPE> | Titre=True
+<DsfrFileDownloadList
+    title="Titre du groupe"
+    :files="[
+      { title: 'Premier fichier', format: 'PDF', size: '506 Ko', href: '/assets/fichier-1.pdf', download: 'fichier-1.pdf' },
+      { title: 'Deuxième fichier', format: 'DOCX', size: '214 Ko', href: '/assets/fichier-2.docx', download: 'fichier-2.docx' }
+    ]"
+  />

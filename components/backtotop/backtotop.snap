@@ -1,0 +1,11 @@
+=== angular | <FIGMA_RETOUR_EN_HAUT_DE_PAGE__> | défaut
+<dsfr-backtotop></dsfr-backtotop>
+
+=== html | <FIGMA_RETOUR_EN_HAUT_DE_PAGE__> | défaut
+<a class="fr-link fr-icon-arrow-up-fill fr-link--icon-left" href="#top">Haut de page</a>
+
+=== react | <FIGMA_RETOUR_EN_HAUT_DE_PAGE__> | défaut
+<a className="fr-link fr-icon-arrow-up-fill fr-link--icon-left" href="#top">Haut de page</a>
+
+=== vue | <FIGMA_RETOUR_EN_HAUT_DE_PAGE__> | défaut
+<DsfrBackToTop />

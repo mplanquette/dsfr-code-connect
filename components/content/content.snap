@@ -1,0 +1,95 @@
+=== angular | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=6 collones
+<dsfr-content
+  type="image"
+  source="assets/img/media.jpg"
+  alternate="Description de l'image"
+  ratio="16:9"
+  legend="Légende de l'image" contentSize="SM"></dsfr-content>
+
+=== angular | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=8 colonnes
+<dsfr-content
+  type="image"
+  source="assets/img/media.jpg"
+  alternate="Description de l'image"
+  ratio="16:9"
+  legend="Légende de l'image" contentSize="MD"></dsfr-content>
+
+=== angular | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=10 colonnes 100%
+<dsfr-content
+  type="image"
+  source="assets/img/media.jpg"
+  alternate="Description de l'image"
+  ratio="16:9"
+  legend="Légende de l'image" contentSize="LG"></dsfr-content>
+
+=== html | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=6 collones
+<figure class="fr-content-media fr-content-media--sm" role="group" aria-label="Légende de l'image">
+  <div class="fr-content-media__img">
+    <img class="fr-responsive-img fr-ratio-16x9" src="assets/img/media.jpg" alt="" />
+  </div>
+  <figcaption class="fr-content-media__caption">Légende de l'image</figcaption>
+</figure>
+
+=== html | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=8 colonnes
+<figure class="fr-content-media" role="group" aria-label="Légende de l'image">
+  <div class="fr-content-media__img">
+    <img class="fr-responsive-img fr-ratio-16x9" src="assets/img/media.jpg" alt="" />
+  </div>
+  <figcaption class="fr-content-media__caption">Légende de l'image</figcaption>
+</figure>
+
+=== html | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=10 colonnes 100%
+<figure class="fr-content-media fr-content-media--lg" role="group" aria-label="Légende de l'image">
+  <div class="fr-content-media__img">
+    <img class="fr-responsive-img fr-ratio-16x9" src="assets/img/media.jpg" alt="" />
+  </div>
+  <figcaption class="fr-content-media__caption">Légende de l'image</figcaption>
+</figure>
+
+=== react | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=6 collones
+<figure className="fr-content-media fr-content-media--sm" role="group" aria-label="Légende de l'image">
+  <div className="fr-content-media__img">
+    <img className="fr-responsive-img fr-ratio-16x9" src="assets/img/media.jpg" alt="" />
+  </div>
+  <figcaption className="fr-content-media__caption">Légende de l'image</figcaption>
+</figure>
+
+=== react | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=8 colonnes
+<figure className="fr-content-media" role="group" aria-label="Légende de l'image">
+  <div className="fr-content-media__img">
+    <img className="fr-responsive-img fr-ratio-16x9" src="assets/img/media.jpg" alt="" />
+  </div>
+  <figcaption className="fr-content-media__caption">Légende de l'image</figcaption>
+</figure>
+
+=== react | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=10 colonnes 100%
+<figure className="fr-content-media fr-content-media--lg" role="group" aria-label="Légende de l'image">
+  <div className="fr-content-media__img">
+    <img className="fr-responsive-img fr-ratio-16x9" src="assets/img/media.jpg" alt="" />
+  </div>
+  <figcaption className="fr-content-media__caption">Légende de l'image</figcaption>
+</figure>
+
+=== vue | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=6 collones
+<DsfrPicture
+  src="assets/img/media.jpg"
+  alt="Description de l'image"
+  ratio="16x9"
+  legend="Légende de l'image" size="small"
+/>
+
+=== vue | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=8 colonnes
+<DsfrPicture
+  src="assets/img/media.jpg"
+  alt="Description de l'image"
+  ratio="16x9"
+  legend="Légende de l'image" size="medium"
+/>
+
+=== vue | <FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS> | Taille média=10 colonnes 100%
+<DsfrPicture
+  src="assets/img/media.jpg"
+  alt="Description de l'image"
+  ratio="16x9"
+  legend="Légende de l'image" size="large"
+/>

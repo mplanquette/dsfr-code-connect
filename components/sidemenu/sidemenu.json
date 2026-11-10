@@ -1,0 +1,307 @@
+{
+  "family": "Menu latéral",
+  "groups": [
+    {
+      "nodeId": "452:39098",
+      "components": [
+        {
+          "url": "<FIGMA_MENU_LATERAL__DESKTOP_MENU_LATERAL_COMPLET>",
+          "kind": "full",
+          "device": "desktop"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        },
+        "Position": {
+          "type": "VARIANT",
+          "options": [
+            "Droite",
+            "Gauche"
+          ],
+          "default": "Gauche"
+        },
+        "Titre": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Éléments": {
+          "type": "VARIANT",
+          "options": [
+            "Liens directs",
+            "Dépliants"
+          ],
+          "default": "Dépliants"
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "1166:4280",
+      "components": [
+        {
+          "url": "<FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_OUVERT>",
+          "kind": "full",
+          "device": "mobile",
+          "open": "open"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        },
+        "Titre": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "True"
+        },
+        "Éléments": {
+          "type": "VARIANT",
+          "options": [
+            "Dépliants",
+            "Liens directs"
+          ],
+          "default": "Dépliants"
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "452:39179",
+      "components": [
+        {
+          "url": "<FIGMA_MENU_LATERAL__MOBILE_MENU_LATERAL_COMPLET_FERME>",
+          "kind": "full",
+          "device": "mobile",
+          "open": "closed"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "452:37286",
+      "components": [
+        {
+          "url": "<FIGMA_MENU_LATERAL__DESKTOP_LIEN_DIRECT_ITEM>",
+          "kind": "link",
+          "device": "desktop"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        },
+        "Niveau": {
+          "type": "VARIANT",
+          "options": [
+            "3",
+            "1",
+            "2"
+          ],
+          "default": "1",
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Survol",
+            "Courant"
+          ],
+          "default": "Défaut"
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "452:38131",
+      "components": [
+        {
+          "url": "<FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_1_ITEM>",
+          "kind": "folder1",
+          "device": "desktop"
+        },
+        {
+          "url": "<FIGMA_MENU_LATERAL__DESKTOP_DEPLIANT_NIVEAU_2_ITEM>",
+          "kind": "folder2",
+          "device": "desktop"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        },
+        "Ouvert": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Courant"
+          ],
+          "default": "Défaut"
+        },
+        "Survol": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False",
+          "vary": false
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "1165:58748",
+      "components": [
+        {
+          "url": "<FIGMA_MENU_LATERAL__MOBILE_LIEN_DIRECT_ITEM>",
+          "kind": "link",
+          "device": "mobile"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        },
+        "Niveau": {
+          "type": "VARIANT",
+          "options": [
+            "1",
+            "2",
+            "3"
+          ],
+          "default": "1",
+          "vary": false
+        },
+        "Courant": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Dernier": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False",
+          "vary": false
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "1166:888",
+      "components": [
+        {
+          "url": "<FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_1_ITEM>",
+          "kind": "folder1",
+          "device": "mobile"
+        },
+        {
+          "url": "<FIGMA_MENU_LATERAL__MOBILE_DEPLIANT_NIVEAU_2_ITEM>",
+          "kind": "folder2",
+          "device": "mobile"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        },
+        "Ouvert": {
+          "type": "VARIANT",
+          "options": [
+            "True",
+            "False"
+          ],
+          "default": "False"
+        },
+        "Courant": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "True"
+        },
+        "Dernier": {
+          "type": "VARIANT",
+          "options": [
+            "True",
+            "False"
+          ],
+          "default": "False",
+          "vary": false
+        }
+      },
+      "children": []
+    }
+  ]
+}

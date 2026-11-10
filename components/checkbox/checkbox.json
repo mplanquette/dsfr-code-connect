@@ -1,0 +1,139 @@
+{
+  "family": "Case à cocher",
+  "groups": [
+    {
+      "nodeId": "14795:206250",
+      "template": "checkbox-item.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_CASE_A_COCHER__CASE_A_COCHER_ITEM>"
+        }
+      ],
+      "properties": {
+        "Message d'information": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Taille": {
+          "type": "VARIANT",
+          "options": [
+            "MD",
+            "SM"
+          ],
+          "default": "MD"
+        },
+        "Coché": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Indéterminée": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Validation": {
+          "type": "VARIANT",
+          "options": [
+            "Aucune",
+            "Valide",
+            "Erreur"
+          ],
+          "default": "Aucune"
+        }
+      }
+    },
+    {
+      "nodeId": "338:984",
+      "template": "checkbox-group.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_CASE_A_COCHER__CASE_A_COCHER_GROUPE>"
+        }
+      ],
+      "properties": {
+        "Message d'information": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "Orientation": {
+          "type": "VARIANT",
+          "options": [
+            "Horizontal",
+            "Vertical"
+          ],
+          "default": "Vertical"
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Valide",
+            "Erreur"
+          ],
+          "default": "Défaut"
+        },
+        "Description": {
+          "type": "VARIANT",
+          "options": [
+            "False"
+          ],
+          "default": "False",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        }
+      }
+    },
+    {
+      "nodeId": "14837:211503",
+      "template": "checkbox-section.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_CASE_A_COCHER__CASE_A_COCHER_SECTION>"
+        }
+      ],
+      "properties": {
+        "Titre de section": {
+          "type": "TEXT",
+          "sample": "Titre de section"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "True",
+            "False"
+          ],
+          "default": "True"
+        }
+      }
+    }
+  ]
+}

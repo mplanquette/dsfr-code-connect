@@ -1,0 +1,37 @@
+{
+  "family": "Alerte",
+  "groups": [
+    {
+      "nodeId": "1935:224",
+      "components": [
+        {
+          "url": "<FIGMA_ALERTE__ALERTE>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Desktop", "Mobile"],
+          "vary": false
+        },
+        "Taille": {
+          "type": "VARIANT",
+          "options": ["MD", "SM"]
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Succès", "Erreur", "Information", "Avertissement"]
+        },
+        "Fermeture": {
+          "type": "VARIANT",
+          "options": ["True", "False"]
+        }
+      }
+    }
+  ]
+}

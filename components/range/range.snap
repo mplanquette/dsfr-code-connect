@@ -1,0 +1,317 @@
+=== angular | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Défault
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="50"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Erreur
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="50" message="Texte d'erreur" messageSeverity="error"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Valide
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="50" message="Texte de validation" messageSeverity="valid"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=désactivé
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="50" [disabled]="true"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Défault
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="[25, 75]"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Erreur
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="[25, 75]" message="Texte d'erreur" messageSeverity="error"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Valide
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="[25, 75]" message="Texte de validation" messageSeverity="valid"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=désactivé
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [value]="[25, 75]" [disabled]="true"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Défault
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [step]="25" [value]="50"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Erreur
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [step]="25" [value]="50" message="Texte d'erreur" messageSeverity="error"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Valide
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [step]="25" [value]="50" message="Texte de validation" messageSeverity="valid"></dsfr-range>
+
+=== angular | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=désactivé
+<dsfr-range label="Libellé du curseur" [min]="0" [max]="100" [step]="25" [value]="50" [disabled]="true"></dsfr-range>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Défault
+<div class="fr-range-group" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" value="50" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Erreur
+<div class="fr-range-group fr-range-group--error" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" value="50" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="range-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Valide
+<div class="fr-range-group fr-range-group--valid" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" value="50" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="range-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=désactivé
+<div class="fr-range-group fr-range-group--disabled" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" value="50" disabled />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Défault
+<div class="fr-range-group" id="range-group">
+  <label class="fr-label" id="range-label">Libellé du curseur</label>
+  <div class="fr-range fr-range--double">
+    <input id="range-min" name="range-min" type="range" aria-label="Valeur minimum" min="0" max="100" value="25" />
+    <input id="range-max" name="range-max" type="range" aria-label="Valeur maximum" min="0" max="100" value="75" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Erreur
+<div class="fr-range-group fr-range-group--error" id="range-group">
+  <label class="fr-label" id="range-label">Libellé du curseur</label>
+  <div class="fr-range fr-range--double">
+    <input id="range-min" name="range-min" type="range" aria-label="Valeur minimum" min="0" max="100" value="25" />
+    <input id="range-max" name="range-max" type="range" aria-label="Valeur maximum" min="0" max="100" value="75" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="range-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Valide
+<div class="fr-range-group fr-range-group--valid" id="range-group">
+  <label class="fr-label" id="range-label">Libellé du curseur</label>
+  <div class="fr-range fr-range--double">
+    <input id="range-min" name="range-min" type="range" aria-label="Valeur minimum" min="0" max="100" value="25" />
+    <input id="range-max" name="range-max" type="range" aria-label="Valeur maximum" min="0" max="100" value="75" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="range-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=désactivé
+<div class="fr-range-group fr-range-group--disabled" id="range-group">
+  <label class="fr-label" id="range-label">Libellé du curseur</label>
+  <div class="fr-range fr-range--double">
+    <input id="range-min" name="range-min" type="range" aria-label="Valeur minimum" min="0" max="100" value="25" disabled />
+    <input id="range-max" name="range-max" type="range" aria-label="Valeur maximum" min="0" max="100" value="75" disabled />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Défault
+<div class="fr-range-group" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range fr-range--step">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" step="25" value="50" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Erreur
+<div class="fr-range-group fr-range-group--error" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range fr-range--step">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" step="25" value="50" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--error" id="range-messages">Texte d'erreur</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Valide
+<div class="fr-range-group fr-range-group--valid" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range fr-range--step">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" step="25" value="50" />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+    <p class="fr-message fr-message--valid" id="range-messages">Texte de validation</p>
+  </div>
+</div>
+
+=== html | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=désactivé
+<div class="fr-range-group fr-range-group--disabled" id="range-group">
+  <label class="fr-label" id="range-label" for="range">Libellé du curseur</label>
+  <div class="fr-range fr-range--step">
+    <span class="fr-range__output">50</span>
+    <input id="range" name="range" type="range" min="0" max="100" step="25" value="50" disabled />
+    <span class="fr-range__min" aria-hidden="true">0</span>
+    <span class="fr-range__max" aria-hidden="true">100</span>
+  </div>
+  <div class="fr-messages-group" id="range-messages-group" aria-live="polite">
+  </div>
+</div>
+
+=== react | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Défault
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} nativeInputProps={nativeInputProps} />
+
+=== react | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Erreur
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} nativeInputProps={nativeInputProps} state="error" stateRelatedMessage="Texte d'erreur" />
+
+=== react | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Valide
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} nativeInputProps={nativeInputProps} state="success" stateRelatedMessage="Texte de validation" />
+
+=== react | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=désactivé
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} nativeInputProps={nativeInputProps} disabled />
+
+=== react | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Défault
+const nativeInputProps = [{ defaultValue: 25 }, { defaultValue: 75 }];
+
+<Range
+  label="Libellé du curseur"
+  min={0}
+  max={100}
+  double
+  nativeInputProps={nativeInputProps}
+/>
+
+=== react | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Erreur
+const nativeInputProps = [{ defaultValue: 25 }, { defaultValue: 75 }];
+
+<Range
+  label="Libellé du curseur"
+  min={0}
+  max={100}
+  double
+  nativeInputProps={nativeInputProps} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Valide
+const nativeInputProps = [{ defaultValue: 25 }, { defaultValue: 75 }];
+
+<Range
+  label="Libellé du curseur"
+  min={0}
+  max={100}
+  double
+  nativeInputProps={nativeInputProps} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=désactivé
+const nativeInputProps = [{ defaultValue: 25 }, { defaultValue: 75 }];
+
+<Range
+  label="Libellé du curseur"
+  min={0}
+  max={100}
+  double
+  nativeInputProps={nativeInputProps} disabled
+/>
+
+=== react | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Défault
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} step={25} nativeInputProps={nativeInputProps} />
+
+=== react | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Erreur
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} step={25} nativeInputProps={nativeInputProps} state="error" stateRelatedMessage="Texte d'erreur" />
+
+=== react | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Valide
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} step={25} nativeInputProps={nativeInputProps} state="success" stateRelatedMessage="Texte de validation" />
+
+=== react | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=désactivé
+const nativeInputProps = { defaultValue: 50 };
+
+<Range label="Libellé du curseur" min={0} max={100} step={25} nativeInputProps={nativeInputProps} disabled />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Défault
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="50" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Erreur
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="50" message="Texte d'erreur" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=Valide
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="50" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_SIMPLE> | État=désactivé
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="50" disabled />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Défault
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="75" :lower-value="25" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Erreur
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="75" :lower-value="25" message="Texte d'erreur" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=Valide
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="75" :lower-value="25" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_DOUBLE> | État=désactivé
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :model-value="75" :lower-value="25" disabled />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Défault
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :step="25" :model-value="50" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Erreur
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :step="25" :model-value="50" message="Texte d'erreur" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=Valide
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :step="25" :model-value="50" />
+
+=== vue | <FIGMA_CURSEUR__CURSEUR_CRANTE> | État=désactivé
+<DsfrRange label="Libellé du curseur" :min="0" :max="100" :step="25" :model-value="50" disabled />

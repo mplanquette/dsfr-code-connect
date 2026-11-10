@@ -1,0 +1,60 @@
+=== angular | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET> | défaut
+<dsfr-breadcrumb
+  [items]="[
+    { label: 'Accueil', routePath: '/' },
+    { label: 'Rubrique', routePath: '/rubrique' },
+    { label: 'Sous-rubrique', routePath: '/rubrique/sous-rubrique' },
+    { label: 'Page courante' }
+  ]"></dsfr-breadcrumb>
+
+=== angular | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=En cours
+<dsfr-breadcrumb [items]="[{ label: 'Page courante' }]"></dsfr-breadcrumb>
+
+=== angular | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=Parent
+<dsfr-breadcrumb [items]="[{ label: 'Rubrique', routePath: '/rubrique' }]"></dsfr-breadcrumb>
+
+=== html | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET> | défaut
+<nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+  <button type="button" class="fr-breadcrumb__button" aria-expanded="false" aria-controls="breadcrumb">Voir le fil d'Ariane</button>
+  <div class="fr-collapse" id="breadcrumb">
+    <ol class="fr-breadcrumb__list">
+      <li><a class="fr-breadcrumb__link" href="/">Accueil</a></li>
+      <li><a class="fr-breadcrumb__link" href="/rubrique">Rubrique</a></li>
+      <li><a class="fr-breadcrumb__link" aria-current="page">Page courante</a></li>
+    </ol>
+  </div>
+</nav>
+
+=== html | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=En cours
+<li><a class="fr-breadcrumb__link" aria-current="page">Page courante</a></li>
+
+=== html | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=Parent
+<li><a class="fr-breadcrumb__link" href="/rubrique">Rubrique</a></li>
+
+=== react | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET> | défaut
+const segments = [
+  { label: 'Rubrique', linkProps: { href: '/rubrique' } },
+  { label: 'Sous-rubrique', linkProps: { href: '/rubrique/sous-rubrique' } }
+];
+
+<Breadcrumb homeLinkProps={{ href: '/accueil' }} segments={segments} currentPageLabel="Page courante" />
+
+=== react | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=En cours
+<Breadcrumb segments={[]} currentPageLabel="Page courante" />
+
+=== react | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=Parent
+<Breadcrumb segments={[{ label: 'Rubrique', linkProps: { href: '/rubrique' } }]} currentPageLabel="Page courante" />
+
+=== vue | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_COMPLET> | défaut
+<DsfrBreadcrumb :links="[
+    { text: 'Accueil', to: '/' },
+    { text: 'Rubrique', to: '/rubrique' },
+    { text: 'Sous-rubrique', to: '/rubrique/sous-rubrique' },
+    { text: 'Page courante' }
+  ]" />
+
+=== vue | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=En cours
+<DsfrBreadcrumb :links="[{ text: 'Page courante' }]" />
+
+=== vue | <FIGMA_FIL_D_ARIANE__FIL_D_ARIANE_ITEM> | Type=Parent
+<DsfrBreadcrumb :links="[{ text: 'Rubrique', to: '/rubrique' }]" />

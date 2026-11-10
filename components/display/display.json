@@ -1,0 +1,33 @@
+{
+  "family": "Paramètre d'affichage",
+  "groups": [
+    {
+      "nodeId": "583:50596",
+      "components": [
+        {
+          "url": "<FIGMA_PARAMETRE_D_AFFICHAGE__PARAMETRE_D_AFFICHAGE>"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": [
+            "Clair",
+            "Sombre"
+          ],
+          "default": "Clair",
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": [
+            "Mobile",
+            "Desktop"
+          ],
+          "default": "Desktop",
+          "vary": false
+        }
+      }
+    }
+  ]
+}

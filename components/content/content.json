@@ -1,0 +1,29 @@
+{
+  "family": "Contenu médias",
+  "groups": [
+    {
+      "nodeId": "84:72",
+      "components": [
+        {
+          "url": "<FIGMA_CONTENU_MEDIAS__CONTENU_MEDIAS>"
+        }
+      ],
+      "properties": {
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Desktop", "Mobile"],
+          "vary": false
+        },
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Taille média": {
+          "type": "VARIANT",
+          "options": ["6 collones", "8 colonnes", "10 colonnes 100%"]
+        }
+      }
+    }
+  ]
+}

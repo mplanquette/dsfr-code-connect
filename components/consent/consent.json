@@ -1,0 +1,28 @@
+{
+  "family": "Gestionnaire de consentement",
+  "groups": [
+    {
+      "nodeId": "630:158",
+      "components": [
+        { "url": "<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__BANDEAU_DE_CONSENTEMENT>", "kind": "banner" },
+        { "url": "<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_COMPLETE>", "kind": "modal" },
+        { "url": "<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__SERVICE_INDISPONIBLE>", "kind": "unavailable" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "default": "Clair", "vary": false },
+        "Support": { "type": "VARIANT", "options": ["Desktop", "Mobile"], "default": "Desktop", "vary": false }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "644:54579",
+      "components": [{ "url": "<FIGMA_GESTIONNAIRE_DE_CONSENTEMENT__MODALE_DE_CONSENTEMENT_ITEM>", "kind": "item" }],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "default": "Clair", "vary": false },
+        "Support": { "type": "VARIANT", "options": ["Mobile", "Desktop"], "default": "Desktop", "vary": false },
+        "Type": { "type": "VARIANT", "options": ["Simple", "Description", "Obligatoire", "Ouvert", "Fermé"], "default": "Simple" }
+      },
+      "children": []
+    }
+  ]
+}

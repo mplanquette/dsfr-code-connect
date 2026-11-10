@@ -1,0 +1,75 @@
+=== angular | <FIGMA_PARTAGE__PARTAGE> | Désactivé=True
+<dsfr-share consentManagerRoute="/gestion-des-cookies" [hasCookiePermissions]="false">
+  <dsfr-share-link name="facebook" [link]="facebookShareUrl"></dsfr-share-link>
+  <dsfr-share-link name="twitter-x" [link]="twitterShareUrl"></dsfr-share-link>
+  <dsfr-share-link name="linkedin" [link]="linkedinShareUrl"></dsfr-share-link>
+  <dsfr-share-link name="mail" [link]="mailShareUrl"></dsfr-share-link>
+</dsfr-share>
+
+=== angular | <FIGMA_PARTAGE__PARTAGE> | Désactivé=False
+<dsfr-share consentManagerRoute="/gestion-des-cookies" [hasCookiePermissions]="true">
+  <dsfr-share-link name="facebook" [link]="facebookShareUrl"></dsfr-share-link>
+  <dsfr-share-link name="twitter-x" [link]="twitterShareUrl"></dsfr-share-link>
+  <dsfr-share-link name="linkedin" [link]="linkedinShareUrl"></dsfr-share-link>
+  <dsfr-share-link name="mail" [link]="mailShareUrl"></dsfr-share-link>
+</dsfr-share>
+
+=== html | <FIGMA_PARTAGE__PARTAGE> | Désactivé=True
+<div class="fr-share">
+  <p class="fr-share__title">Partager la page</p>
+  <p class="fr-share__text">Pour partager sur les réseaux sociaux, vous devez accepter les cookies tiers.</p>
+  <ul class="fr-btns-group">
+    <li><a class="fr-share__link fr-share__link--facebook" title="Partager sur Facebook" href="#" aria-disabled="true">Partager sur Facebook</a></li>
+    <li><a class="fr-share__link fr-share__link--twitter-x" title="Partager sur X" href="#" aria-disabled="true">Partager sur X</a></li>
+    <li><a class="fr-share__link fr-share__link--linkedin" title="Partager sur LinkedIn" href="#" aria-disabled="true">Partager sur LinkedIn</a></li>
+    <li><a class="fr-share__link fr-share__link--mail" title="Partager par courriel" href="#">Partager par courriel</a></li>
+    <li><button type="button" class="fr-share__link fr-share__link--copy" title="Copier dans le presse-papier">Copier dans le presse-papier</button></li>
+  </ul>
+</div>
+
+=== html | <FIGMA_PARTAGE__PARTAGE> | Désactivé=False
+<div class="fr-share">
+  <p class="fr-share__title">Partager la page</p>
+  <ul class="fr-btns-group">
+    <li><a class="fr-share__link fr-share__link--facebook" title="Partager sur Facebook" href="#">Partager sur Facebook</a></li>
+    <li><a class="fr-share__link fr-share__link--twitter-x" title="Partager sur X" href="#">Partager sur X</a></li>
+    <li><a class="fr-share__link fr-share__link--linkedin" title="Partager sur LinkedIn" href="#">Partager sur LinkedIn</a></li>
+    <li><a class="fr-share__link fr-share__link--mail" title="Partager par courriel" href="#">Partager par courriel</a></li>
+    <li><button type="button" class="fr-share__link fr-share__link--copy" title="Copier dans le presse-papier">Copier dans le presse-papier</button></li>
+  </ul>
+</div>
+
+=== react | <FIGMA_PARTAGE__PARTAGE> | Désactivé=True
+<div className="fr-share">
+  <p className="fr-share__title">Partager la page</p>
+  <p className="fr-share__text">Pour partager sur les réseaux sociaux, vous devez accepter les cookies tiers.</p>
+  <ul className="fr-btns-group">
+    <li><a className="fr-share__link fr-share__link--facebook" title="Partager sur Facebook" href="#" aria-disabled="true">Partager sur Facebook</a></li>
+    <li><a className="fr-share__link fr-share__link--twitter-x" title="Partager sur X" href="#" aria-disabled="true">Partager sur X</a></li>
+    <li><a className="fr-share__link fr-share__link--linkedin" title="Partager sur LinkedIn" href="#" aria-disabled="true">Partager sur LinkedIn</a></li>
+    <li><a className="fr-share__link fr-share__link--mail" title="Partager par courriel" href="#">Partager par courriel</a></li>
+    <li><button type="button" className="fr-share__link fr-share__link--copy" title="Copier dans le presse-papier">Copier dans le presse-papier</button></li>
+  </ul>
+</div>
+
+=== react | <FIGMA_PARTAGE__PARTAGE> | Désactivé=False
+<div className="fr-share">
+  <p className="fr-share__title">Partager la page</p>
+  <ul className="fr-btns-group">
+    <li><a className="fr-share__link fr-share__link--facebook" title="Partager sur Facebook" href="#">Partager sur Facebook</a></li>
+    <li><a className="fr-share__link fr-share__link--twitter-x" title="Partager sur X" href="#">Partager sur X</a></li>
+    <li><a className="fr-share__link fr-share__link--linkedin" title="Partager sur LinkedIn" href="#">Partager sur LinkedIn</a></li>
+    <li><a className="fr-share__link fr-share__link--mail" title="Partager par courriel" href="#">Partager par courriel</a></li>
+    <li><button type="button" className="fr-share__link fr-share__link--copy" title="Copier dans le presse-papier">Copier dans le presse-papier</button></li>
+  </ul>
+</div>
+
+=== vue | <FIGMA_PARTAGE__PARTAGE> | Désactivé=True
+<DsfrShare title="Partager la page" :networks="[]" :mail="{ label: 'Partager par mail', to: 'mailto:contact@exemple.fr' }" />
+
+=== vue | <FIGMA_PARTAGE__PARTAGE> | Désactivé=False
+<DsfrShare title="Partager la page" :networks="[
+    { name: 'facebook', label: 'Partager sur Facebook', url: facebookShareUrl },
+    { name: 'twitter-x', label: 'Partager sur X', url: twitterShareUrl },
+    { name: 'linkedin', label: 'Partager sur LinkedIn', url: linkedinShareUrl }
+  ]" :mail="{ label: 'Partager par mail', to: 'mailto:contact@exemple.fr' }" />

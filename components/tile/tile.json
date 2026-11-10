@@ -1,0 +1,38 @@
+{
+  "family": "Tuile",
+  "groups": [
+    {
+      "nodeId": "19187:356872",
+      "components": [
+        { "url": "<FIGMA_TUILE__DESKTOP>", "kind": "desktop" }
+      ],
+      "properties": {
+        "Pictogramme": { "type": "INSTANCE_SWAP" },
+        "Focus": { "type": "BOOLEAN", "vary": false },
+        "Voir Picto": { "type": "BOOLEAN", "default": true },
+        "Orientation": { "type": "VARIANT", "options": ["Horizontale", "Verticale"], "default": "Verticale" },
+        "Taille": { "type": "VARIANT", "options": ["MD", "SM"], "default": "SM" },
+        "Hauteur fixe": { "type": "VARIANT", "options": ["False", "True"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Default", "Survol", "Cliqué"], "vary": false },
+        "Désactivé": { "type": "VARIANT", "options": ["False", "True"] },
+        "Cliquable": { "type": "VARIANT", "options": ["False", "True"], "vary": false }
+      }
+    },
+    {
+      "nodeId": "19547:360323",
+      "components": [
+        { "url": "<FIGMA_TUILE__MOBILE>", "kind": "mobile" }
+      ],
+      "properties": {
+        "Pictogramme": { "type": "INSTANCE_SWAP" },
+        "Voir Picto": { "type": "BOOLEAN", "default": true },
+        "Orientation": { "type": "VARIANT", "options": ["Horizontale", "Verticale"], "default": "Verticale" },
+        "Taille": { "type": "VARIANT", "options": ["MD", "SM"], "default": "SM" },
+        "Hauteur fixe": { "type": "VARIANT", "options": ["False", "True"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Default", "Cliqué"], "vary": false },
+        "Désactivé": { "type": "VARIANT", "options": ["False", "True"] },
+        "Cliquable": { "type": "VARIANT", "options": ["False", "True"], "vary": false }
+      }
+    }
+  ]
+}

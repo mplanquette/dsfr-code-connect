@@ -1,0 +1,32 @@
+{
+  "family": "Lien",
+  "groups": [
+    {
+      "nodeId": "120:4789",
+      "components": [
+        {
+          "url": "<FIGMA_LIEN__LIEN>"
+        }
+      ],
+      "properties": {
+        "Taille": {
+          "type": "VARIANT",
+          "options": ["MD", "LG", "SM"]
+        },
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Icône": {
+          "type": "VARIANT",
+          "options": ["Gauche", "Droite", "Sans"]
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Défaut", "Survol", "Cliqué", "Focus", "Désactivé"]
+        }
+      }
+    }
+  ]
+}

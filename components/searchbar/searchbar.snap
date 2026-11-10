@@ -1,0 +1,31 @@
+=== angular | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=MD
+<dsfr-search-bar label="Rechercher"></dsfr-search-bar>
+
+=== angular | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=LG
+<dsfr-search-bar label="Rechercher" [large]="true"></dsfr-search-bar>
+
+=== html | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=MD
+<div class="fr-search-bar" role="search">
+  <label class="fr-label" for="search">Rechercher</label>
+  <input class="fr-input" type="search" id="search" name="search" placeholder="Rechercher" />
+  <button class="fr-btn" title="Rechercher">Rechercher</button>
+</div>
+
+=== html | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=LG
+<div class="fr-search-bar fr-search-bar--lg" role="search">
+  <label class="fr-label" for="search">Rechercher</label>
+  <input class="fr-input" type="search" id="search" name="search" placeholder="Rechercher" />
+  <button class="fr-btn" title="Rechercher">Rechercher</button>
+</div>
+
+=== react | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=MD
+<SearchBar label="Rechercher" />
+
+=== react | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=LG
+<SearchBar label="Rechercher" big />
+
+=== vue | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=MD
+<DsfrSearchBar label="Rechercher" />
+
+=== vue | <FIGMA_BARRE_DE_RECHERCHE__BARRE_DE_RECHERCHE> | Taille=LG
+<DsfrSearchBar label="Rechercher" large />

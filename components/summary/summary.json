@@ -1,0 +1,53 @@
+{
+  "family": "Sommaire",
+  "groups": [
+    {
+      "nodeId": "583:49320",
+      "components": [
+        {
+          "url": "<FIGMA_SOMMAIRE__SOMMAIRE_ITEMS>",
+          "part": "items"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Survol", "Défaut"],
+          "default": "Défaut",
+          "vary": false
+        },
+        "Imbriqué": {
+          "type": "VARIANT",
+          "options": ["True", "False"]
+        }
+      }
+    },
+    {
+      "nodeId": "583:49481",
+      "components": [
+        {
+          "url": "<FIGMA_SOMMAIRE__SOMMAIRE_COMPLET>",
+          "part": "complete"
+        }
+      ],
+      "properties": {
+        "Thème": {
+          "type": "VARIANT",
+          "options": ["Clair", "Sombre"],
+          "vary": false
+        },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Mobile", "Desktop"],
+          "default": "Desktop",
+          "vary": false
+        }
+      }
+    }
+  ]
+}

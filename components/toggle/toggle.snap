@@ -1,0 +1,1829 @@
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [showStatusLabel]="false" [value]="true" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [showStatusLabel]="false" [value]="true" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" [value]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [value]="true" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" [value]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [value]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" [value]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [value]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" [value]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" [value]="true" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" [value]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" [value]="true" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" [value]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" [value]="true" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" [disabled]="true"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" [disabled]="true" labelPosition="left"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" [disabled]="true" labelPosition="left" message="Texte d'erreur" messageSeverity="error"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<dsfr-form-toggle label="Libellé" hint="Texte d'aide" [value]="true" [disabled]="true" labelPosition="left" message="Texte de validation" messageSeverity="valid"></dsfr-form-toggle>
+
+=== angular | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Default
+<dsfr-form-toggles-group legend="Légende du groupe">
+  <dsfr-form-toggle label="Première option" labelPosition="left"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Deuxième option" labelPosition="left"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Troisième option" labelPosition="left"></dsfr-form-toggle>
+</dsfr-form-toggles-group>
+
+=== angular | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Erreur
+<dsfr-form-toggles-group legend="Légende du groupe" message="Texte d'erreur" messageSeverity="error">
+  <dsfr-form-toggle label="Première option" labelPosition="left"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Deuxième option" labelPosition="left"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Troisième option" labelPosition="left"></dsfr-form-toggle>
+</dsfr-form-toggles-group>
+
+=== angular | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Valide
+<dsfr-form-toggles-group legend="Légende du groupe" message="Texte de validation" messageSeverity="valid">
+  <dsfr-form-toggle label="Première option" labelPosition="left"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Deuxième option" labelPosition="left"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Troisième option" labelPosition="left"></dsfr-form-toggle>
+</dsfr-form-toggles-group>
+
+=== angular | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Default
+<dsfr-form-toggles-group legend="Légende du groupe">
+  <dsfr-form-toggle label="Première option"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Deuxième option"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Troisième option"></dsfr-form-toggle>
+</dsfr-form-toggles-group>
+
+=== angular | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Erreur
+<dsfr-form-toggles-group legend="Légende du groupe" message="Texte d'erreur" messageSeverity="error">
+  <dsfr-form-toggle label="Première option"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Deuxième option"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Troisième option"></dsfr-form-toggle>
+</dsfr-form-toggles-group>
+
+=== angular | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Valide
+<dsfr-form-toggles-group legend="Légende du groupe" message="Texte de validation" messageSeverity="valid">
+  <dsfr-form-toggle label="Première option"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Deuxième option"></dsfr-form-toggle>
+  <dsfr-form-toggle label="Troisième option"></dsfr-form-toggle>
+</dsfr-form-toggles-group>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--error">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<div class="fr-toggle fr-toggle--label-left fr-toggle--valid">
+  <input type="checkbox" class="fr-toggle__input" id="toggle" name="toggle" checked disabled />
+  <label class="fr-toggle__label" for="toggle" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Libellé</label>
+  <div class="fr-messages-group" id="toggle-messages" aria-live="polite"></div>
+</div>
+
+=== html | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Default
+<fieldset class="fr-fieldset" id="toggle-group" aria-labelledby="toggle-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="toggle-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <ul class="fr-toggle__list">
+      <li>
+        <div class="fr-toggle fr-toggle--label-left fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-1" />
+          <label class="fr-toggle__label" for="toggle-1" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Première option</label>
+        </div>
+      </li>
+      <li>
+        <div class="fr-toggle fr-toggle--label-left fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-2" />
+          <label class="fr-toggle__label" for="toggle-2" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Deuxième option</label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="toggle-group" aria-labelledby="toggle-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="toggle-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <ul class="fr-toggle__list">
+      <li>
+        <div class="fr-toggle fr-toggle--label-left fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-1" />
+          <label class="fr-toggle__label" for="toggle-1" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Première option</label>
+        </div>
+      </li>
+      <li>
+        <div class="fr-toggle fr-toggle--label-left fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-2" />
+          <label class="fr-toggle__label" for="toggle-2" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Deuxième option</label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="toggle-group" aria-labelledby="toggle-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="toggle-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <ul class="fr-toggle__list">
+      <li>
+        <div class="fr-toggle fr-toggle--label-left fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-1" />
+          <label class="fr-toggle__label" for="toggle-1" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Première option</label>
+        </div>
+      </li>
+      <li>
+        <div class="fr-toggle fr-toggle--label-left fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-2" />
+          <label class="fr-toggle__label" for="toggle-2" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Deuxième option</label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Default
+<fieldset class="fr-fieldset" id="toggle-group" aria-labelledby="toggle-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="toggle-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <ul class="fr-toggle__list">
+      <li>
+        <div class="fr-toggle fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-1" />
+          <label class="fr-toggle__label" for="toggle-1" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Première option</label>
+        </div>
+      </li>
+      <li>
+        <div class="fr-toggle fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-2" />
+          <label class="fr-toggle__label" for="toggle-2" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Deuxième option</label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="toggle-group" aria-labelledby="toggle-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="toggle-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <ul class="fr-toggle__list">
+      <li>
+        <div class="fr-toggle fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-1" />
+          <label class="fr-toggle__label" for="toggle-1" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Première option</label>
+        </div>
+      </li>
+      <li>
+        <div class="fr-toggle fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-2" />
+          <label class="fr-toggle__label" for="toggle-2" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Deuxième option</label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="toggle-group" aria-labelledby="toggle-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="toggle-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <ul class="fr-toggle__list">
+      <li>
+        <div class="fr-toggle fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-1" />
+          <label class="fr-toggle__label" for="toggle-1" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Première option</label>
+        </div>
+      </li>
+      <li>
+        <div class="fr-toggle fr-toggle--border-bottom">
+          <input type="checkbox" class="fr-toggle__input" id="toggle-2" />
+          <label class="fr-toggle__label" for="toggle-2" data-fr-checked-label="Activé" data-fr-unchecked-label="Désactivé">Deuxième option</label>
+        </div>
+      </li>
+    </ul>
+  </div>
+</fieldset>
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" showCheckedHint={false} defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" showCheckedHint={false} defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked disabled />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<ToggleSwitch label="Libellé" inputTitle="Interrupteur" helperText="Texte d'aide" defaultChecked disabled labelPosition="left" />
+
+=== react | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Default
+const toggles = [
+  { label: 'Première option', inputTitle: 'Interrupteur 1' },
+  { label: 'Deuxième option', inputTitle: 'Interrupteur 2' },
+  { label: 'Troisième option', inputTitle: 'Interrupteur 3' }
+];
+
+<ToggleSwitchGroup
+  toggles={toggles} labelPosition="left"
+/>
+
+=== react | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Erreur
+const toggles = [
+  { label: 'Première option', inputTitle: 'Interrupteur 1' },
+  { label: 'Deuxième option', inputTitle: 'Interrupteur 2' },
+  { label: 'Troisième option', inputTitle: 'Interrupteur 3' }
+];
+
+<ToggleSwitchGroup
+  toggles={toggles} labelPosition="left"
+/>
+
+=== react | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Valide
+const toggles = [
+  { label: 'Première option', inputTitle: 'Interrupteur 1' },
+  { label: 'Deuxième option', inputTitle: 'Interrupteur 2' },
+  { label: 'Troisième option', inputTitle: 'Interrupteur 3' }
+];
+
+<ToggleSwitchGroup
+  toggles={toggles} labelPosition="left"
+/>
+
+=== react | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Default
+const toggles = [
+  { label: 'Première option', inputTitle: 'Interrupteur 1' },
+  { label: 'Deuxième option', inputTitle: 'Interrupteur 2' },
+  { label: 'Troisième option', inputTitle: 'Interrupteur 3' }
+];
+
+<ToggleSwitchGroup
+  toggles={toggles}
+/>
+
+=== react | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Erreur
+const toggles = [
+  { label: 'Première option', inputTitle: 'Interrupteur 1' },
+  { label: 'Deuxième option', inputTitle: 'Interrupteur 2' },
+  { label: 'Troisième option', inputTitle: 'Interrupteur 3' }
+];
+
+<ToggleSwitchGroup
+  toggles={toggles}
+/>
+
+=== react | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Valide
+const toggles = [
+  { label: 'Première option', inputTitle: 'Interrupteur 1' },
+  { label: 'Deuxième option', inputTitle: 'Interrupteur 2' },
+  { label: 'Troisième option', inputTitle: 'Interrupteur 3' }
+];
+
+<ToggleSwitchGroup
+  toggles={toggles}
+/>
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" no-text :model-value="true" disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=false, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" no-text :model-value="true" disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" :model-value="true" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" :model-value="true" disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" :model-value="true" status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" :model-value="true" disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" :model-value="true" status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" :model-value="true" disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" :model-value="true" label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" :model-value="true" disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" :model-value="true" label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" :model-value="true" disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" :model-value="true" label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=false, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" :model-value="true" disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" disabled />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" disabled status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Droite, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" disabled status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=False, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Default, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" disabled label-left />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Erreur, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" disabled label-left status="error" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=False
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__ITEM> | Statut=true, Voir Texte d'aide=true, Alignement=Gauche, Coché=True, État=Valide, Désactivé=True
+<DsfrToggleSwitch label="Libellé" hint="Texte d'aide" :model-value="true" disabled label-left status="valid" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Default
+<DsfrToggleSwitchGroup
+  legend="Légende du groupe"
+  :toggle-switches="[
+    { label: 'Première option', labelLeft: true },
+    { label: 'Deuxième option', labelLeft: true },
+    { label: 'Troisième option', labelLeft: true }
+  ]"
+/>
+
+=== vue | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Erreur
+<DsfrToggleSwitchGroup
+  legend="Légende du groupe"
+  :toggle-switches="[
+    { label: 'Première option', labelLeft: true },
+    { label: 'Deuxième option', labelLeft: true },
+    { label: 'Troisième option', labelLeft: true }
+  ]" status="error" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Gauche, État=Valide
+<DsfrToggleSwitchGroup
+  legend="Légende du groupe"
+  :toggle-switches="[
+    { label: 'Première option', labelLeft: true },
+    { label: 'Deuxième option', labelLeft: true },
+    { label: 'Troisième option', labelLeft: true }
+  ]" status="valid" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Default
+<DsfrToggleSwitchGroup
+  legend="Légende du groupe"
+  :toggle-switches="[
+    { label: 'Première option' },
+    { label: 'Deuxième option' },
+    { label: 'Troisième option' }
+  ]"
+/>
+
+=== vue | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Erreur
+<DsfrToggleSwitchGroup
+  legend="Légende du groupe"
+  :toggle-switches="[
+    { label: 'Première option' },
+    { label: 'Deuxième option' },
+    { label: 'Troisième option' }
+  ]" status="error" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_INTERRUPTEUR__GROUPE> | Alignement=Droite, État=Valide
+<DsfrToggleSwitchGroup
+  legend="Légende du groupe"
+  :toggle-switches="[
+    { label: 'Première option' },
+    { label: 'Deuxième option' },
+    { label: 'Troisième option' }
+  ]" status="valid" valid-message="Texte de validation"
+/>

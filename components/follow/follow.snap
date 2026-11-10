@@ -1,0 +1,725 @@
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Formulaire
+<dsfr-follow id="follow" type="newsletter-mail">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Bouton seul
+<dsfr-follow id="follow" type="newsletter">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Aucun
+<dsfr-follow id="follow" type="networks">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Formulaire
+<dsfr-follow id="follow" type="newsletter-mail" description="Texte de description.">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Bouton seul
+<dsfr-follow id="follow" type="newsletter" description="Texte de description.">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Aucun
+<dsfr-follow id="follow" type="networks" description="Texte de description.">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Formulaire
+<dsfr-follow id="follow" type="newsletter-mail">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Bouton seul
+<dsfr-follow id="follow" type="newsletter">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Aucun
+<dsfr-follow id="follow" type="networks">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Formulaire
+<dsfr-follow id="follow" type="newsletter-mail" description="Texte de description.">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Bouton seul
+<dsfr-follow id="follow" type="newsletter" description="Texte de description.">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Aucun
+<dsfr-follow id="follow" type="networks" description="Texte de description.">
+  <dsfr-follow-link name="facebook" link="https://www.facebook.com"></dsfr-follow-link>
+  <dsfr-follow-link name="twitter-x" link="https://twitter.com"></dsfr-follow-link>
+  <dsfr-follow-link name="linkedin" link="https://www.linkedin.com"></dsfr-follow-link>
+</dsfr-follow>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Default
+<dsfr-form-email label="Adresse email" name="email"></dsfr-form-email>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Valide
+<dsfr-form-email label="Adresse email" name="email" messageSeverity="valid" message="Texte de validation"></dsfr-form-email>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Erreur
+<dsfr-form-email label="Adresse email" name="email" messageSeverity="error" message="Texte d'erreur"></dsfr-form-email>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Default
+<dsfr-form-email label="Adresse email" name="email"></dsfr-form-email>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Valide
+<dsfr-form-email label="Adresse email" name="email" messageSeverity="valid" message="Texte de validation"></dsfr-form-email>
+
+=== angular | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Erreur
+<dsfr-form-email label="Adresse email" name="email" messageSeverity="error" message="Texte d'erreur"></dsfr-form-email>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Formulaire
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <div class="fr-input-group">
+          <label class="fr-label" for="newsletter-email">Votre adresse mail</label>
+          <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+        </div>
+        <button type="button" class="fr-btn">S'abonner</button>
+        <p class="fr-hint-text">Vous pouvez vous désabonner à tout moment.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Bouton seul
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <ul class="fr-btns-group fr-btns-group--inline-md">
+          <li><button type="button" class="fr-btn">S'abonner</button></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Aucun
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__social">
+      <p class="fr-h5">Nous suivre</p>
+      <ul class="fr-btns-group">
+        <li><a class="fr-btn--facebook fr-btn" title="Facebook - nouvelle fenêtre" href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a class="fr-btn--twitter-x fr-btn" title="X - nouvelle fenêtre" href="https://twitter.com" target="_blank" rel="noopener">X</a></li>
+        <li><a class="fr-btn--linkedin fr-btn" title="LinkedIn - nouvelle fenêtre" href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Formulaire
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <div class="fr-input-group">
+          <label class="fr-label" for="newsletter-email">Votre adresse mail</label>
+          <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+        </div>
+        <button type="button" class="fr-btn">S'abonner</button>
+        <p class="fr-hint-text">Vous pouvez vous désabonner à tout moment.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Bouton seul
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <ul class="fr-btns-group fr-btns-group--inline-md">
+          <li><button type="button" class="fr-btn">S'abonner</button></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Aucun
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__social">
+      <p class="fr-h5">Nous suivre</p>
+      <ul class="fr-btns-group">
+        <li><a class="fr-btn--facebook fr-btn" title="Facebook - nouvelle fenêtre" href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a class="fr-btn--twitter-x fr-btn" title="X - nouvelle fenêtre" href="https://twitter.com" target="_blank" rel="noopener">X</a></li>
+        <li><a class="fr-btn--linkedin fr-btn" title="LinkedIn - nouvelle fenêtre" href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Formulaire
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <div class="fr-input-group">
+          <label class="fr-label" for="newsletter-email">Votre adresse mail</label>
+          <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+        </div>
+        <button type="button" class="fr-btn">S'abonner</button>
+        <p class="fr-hint-text">Vous pouvez vous désabonner à tout moment.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Bouton seul
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <ul class="fr-btns-group fr-btns-group--inline-md">
+          <li><button type="button" class="fr-btn">S'abonner</button></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Aucun
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__social">
+      <p class="fr-h5">Nous suivre</p>
+      <ul class="fr-btns-group">
+        <li><a class="fr-btn--facebook fr-btn" title="Facebook - nouvelle fenêtre" href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a class="fr-btn--twitter-x fr-btn" title="X - nouvelle fenêtre" href="https://twitter.com" target="_blank" rel="noopener">X</a></li>
+        <li><a class="fr-btn--linkedin fr-btn" title="LinkedIn - nouvelle fenêtre" href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Formulaire
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <div class="fr-input-group">
+          <label class="fr-label" for="newsletter-email">Votre adresse mail</label>
+          <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+        </div>
+        <button type="button" class="fr-btn">S'abonner</button>
+        <p class="fr-hint-text">Vous pouvez vous désabonner à tout moment.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Bouton seul
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__newsletter">
+      <div>
+        <p class="fr-h5">S'abonner à notre lettre d'information</p>
+      </div>
+      <div>
+        <ul class="fr-btns-group fr-btns-group--inline-md">
+          <li><button type="button" class="fr-btn">S'abonner</button></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Aucun
+<div class="fr-follow">
+  <div class="fr-container">
+    <div class="fr-grid-row">
+      <div class="fr-follow__social">
+      <p class="fr-h5">Nous suivre</p>
+      <ul class="fr-btns-group">
+        <li><a class="fr-btn--facebook fr-btn" title="Facebook - nouvelle fenêtre" href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a class="fr-btn--twitter-x fr-btn" title="X - nouvelle fenêtre" href="https://twitter.com" target="_blank" rel="noopener">X</a></li>
+        <li><a class="fr-btn--linkedin fr-btn" title="LinkedIn - nouvelle fenêtre" href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Default
+<div class="fr-input-group">
+  <label class="fr-label" for="newsletter-email">Adresse email</label>
+  <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Valide
+<div class="fr-input-group fr-input-group--valid">
+  <label class="fr-label" for="newsletter-email">Adresse email</label>
+  <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+  <p class="fr-message fr-message--valid">Texte de validation</p>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Erreur
+<div class="fr-input-group fr-input-group--error">
+  <label class="fr-label" for="newsletter-email">Adresse email</label>
+  <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+  <p class="fr-message fr-message--error">Texte d'erreur</p>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Default
+<div class="fr-input-group">
+  <label class="fr-label" for="newsletter-email">Adresse email</label>
+  <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Valide
+<div class="fr-input-group fr-input-group--valid">
+  <label class="fr-label" for="newsletter-email">Adresse email</label>
+  <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+  <p class="fr-message fr-message--valid">Texte de validation</p>
+</div>
+
+=== html | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Erreur
+<div class="fr-input-group fr-input-group--error">
+  <label class="fr-label" for="newsletter-email">Adresse email</label>
+  <input class="fr-input" type="email" id="newsletter-email" name="newsletter-email" />
+  <p class="fr-message fr-message--error">Texte d'erreur</p>
+</div>
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Formulaire
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { type: 'submit', children: "S'abonner" },
+  form: {
+    formComponent: ({ children }) => <form action="/abonnement">{children}</form>,
+    success: false
+  }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Bouton seul
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Aucun
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Formulaire
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { type: 'submit', children: "S'abonner" },
+  form: {
+    formComponent: ({ children }) => <form action="/abonnement">{children}</form>,
+    success: false
+  }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Bouton seul
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Aucun
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Formulaire
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { type: 'submit', children: "S'abonner" },
+  form: {
+    formComponent: ({ children }) => <form action="/abonnement">{children}</form>,
+    success: false
+  }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Bouton seul
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Aucun
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Formulaire
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { type: 'submit', children: "S'abonner" },
+  form: {
+    formComponent: ({ children }) => <form action="/abonnement">{children}</form>,
+    success: false
+  }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Bouton seul
+const newsletter = {
+  desc: 'Texte de description.',
+  buttonProps: { linkProps: { href: '/abonnement' }, children: "S'abonner" }
+};
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  newsletter={newsletter}
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Aucun
+const social = {
+  buttons: [
+    { type: 'facebook', linkProps: { href: 'https://www.facebook.com' } },
+    { type: 'twitter-x', linkProps: { href: 'https://twitter.com' } },
+    { type: 'linkedin', linkProps: { href: 'https://www.linkedin.com' } }
+  ]
+};
+
+<Follow id="follow"
+  social={social} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Default
+<Input
+  label="Adresse email"
+  nativeInputProps={{ type: 'email', name: 'email' }} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Valide
+<Input
+  label="Adresse email"
+  nativeInputProps={{ type: 'email', name: 'email' }}
+  state="success"
+  stateRelatedMessage="Texte de validation" />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Erreur
+<Input
+  label="Adresse email"
+  nativeInputProps={{ type: 'email', name: 'email' }}
+  state="error"
+  stateRelatedMessage="Texte d'erreur" />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Default
+<Input
+  label="Adresse email"
+  nativeInputProps={{ type: 'email', name: 'email' }} />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Valide
+<Input
+  label="Adresse email"
+  nativeInputProps={{ type: 'email', name: 'email' }}
+  state="success"
+  stateRelatedMessage="Texte de validation" />
+
+=== react | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Erreur
+<Input
+  label="Adresse email"
+  nativeInputProps={{ type: 'email', name: 'email' }}
+  state="error"
+  stateRelatedMessage="Texte d'erreur" />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Formulaire
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information', description: 'Texte de description.' }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Bouton seul
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information', description: 'Texte de description.', onlyCallout: true }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=false, Newsletter=Aucun
+<DsfrFollow id="follow"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Formulaire
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information', description: 'Texte de description.' }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Bouton seul
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information', description: 'Texte de description.', onlyCallout: true }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__DESKTOP> | Description=true, Newsletter=Aucun
+<DsfrFollow id="follow"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Formulaire
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information' }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Bouton seul
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information', onlyCallout: true }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=false, Newsletter=Aucun
+<DsfrFollow id="follow"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Formulaire
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information' }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Bouton seul
+<DsfrFollow id="follow" :newsletter-data="{ title: 'S\'abonner à notre lettre d\'information', onlyCallout: true }"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__MOBILE> | Description=true, Newsletter=Aucun
+<DsfrFollow id="follow"
+    :networks="[
+      { type: 'facebook', name: 'Facebook', href: 'https://www.facebook.com' },
+      { type: 'twitter-x', name: 'X', href: 'https://twitter.com' },
+      { type: 'linkedin', name: 'LinkedIn', href: 'https://www.linkedin.com' }
+    ]"
+  />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Default
+<DsfrInputGroup label="Adresse email" type="email" v-model="email" />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Valide
+<DsfrInputGroup label="Adresse email" type="email" v-model="email" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_DESKTOP> | Etat=Erreur
+<DsfrInputGroup label="Adresse email" type="email" v-model="email" error-message="Texte d'erreur" />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Default
+<DsfrInputGroup label="Adresse email" type="email" v-model="email" />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Valide
+<DsfrInputGroup label="Adresse email" type="email" v-model="email" valid-message="Texte de validation" />
+
+=== vue | <FIGMA_LETTRE_D_INFORMATION_ET_RESEAUX_SOCIAUX__ELEMENT_FORMULAIRE_MOBILE> | Etat=Erreur
+<DsfrInputGroup label="Adresse email" type="email" v-model="email" error-message="Texte d'erreur" />

@@ -1,0 +1,36 @@
+=== angular | <FIGMA_LIEN_D_EVITEMENT__LIENS_D_EVITEMENT> | défaut
+<dsfr-skiplinks
+  [links]="[
+    { label: 'Contenu', anchor: 'contenu' },
+    { label: 'Menu', anchor: 'menu' },
+    { label: 'Pied de page', anchor: 'footer' }
+  ]"></dsfr-skiplinks>
+
+=== html | <FIGMA_LIEN_D_EVITEMENT__LIENS_D_EVITEMENT> | défaut
+<div class="fr-skiplinks">
+  <nav class="fr-container" role="navigation" aria-label="Accès rapide">
+    <ul class="fr-skiplinks__list">
+      <li><a class="fr-link" href="#contenu">Contenu</a></li>
+      <li><a class="fr-link" href="#menu">Menu</a></li>
+      <li><a class="fr-link" href="#footer">Pied de page</a></li>
+    </ul>
+  </nav>
+</div>
+
+=== react | <FIGMA_LIEN_D_EVITEMENT__LIENS_D_EVITEMENT> | défaut
+const links = [
+  { label: 'Contenu', anchor: '#contenu' },
+  { label: 'Menu', anchor: '#menu' },
+  { label: 'Pied de page', anchor: '#footer' }
+];
+
+<SkipLinks links={links} />
+
+=== vue | <FIGMA_LIEN_D_EVITEMENT__LIENS_D_EVITEMENT> | défaut
+<DsfrSkipLinks
+    :links="[
+      { id: 'contenu', text: 'Contenu' },
+      { id: 'menu', text: 'Menu' },
+      { id: 'footer', text: 'Pied de page' }
+    ]"
+  />

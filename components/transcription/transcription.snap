@@ -1,0 +1,183 @@
+=== angular | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=False
+<dsfr-transcription heading="Transcription" content="Texte de la transcription."></dsfr-transcription>
+
+=== angular | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=True
+<dsfr-transcription heading="Transcription" content="Texte de la transcription."></dsfr-transcription>
+
+=== angular | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_DESKTOP> | défaut
+<dsfr-transcription heading="Transcription" content="Texte de la transcription."></dsfr-transcription>
+
+=== angular | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_MOBILE> | défaut
+<dsfr-transcription heading="Transcription" content="Texte de la transcription."></dsfr-transcription>
+
+=== html | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=False
+<div class="fr-transcription">
+  <button type="button" class="fr-transcription__btn" aria-expanded="false" aria-controls="transcription">Transcription</button>
+  <div class="fr-collapse" id="transcription">
+    <div class="fr-transcription__footer">
+      <div class="fr-transcription__actions-group">
+        <button type="button" class="fr-btn fr-btn--fullscreen" aria-controls="transcription-modal" data-fr-opened="false">Agrandir</button>
+      </div>
+    </div>
+    <div id="transcription-modal" class="fr-modal" role="dialog" aria-labelledby="transcription-title">
+      <div class="fr-container--fluid">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="transcription-title" class="fr-modal__title">Transcription</h1>
+            <p>Texte de la transcription.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=True
+<div class="fr-transcription">
+  <button type="button" class="fr-transcription__btn" aria-expanded="true" aria-controls="transcription">Transcription</button>
+  <div class="fr-collapse fr-collapse--expanded" id="transcription">
+    <div class="fr-transcription__footer">
+      <div class="fr-transcription__actions-group">
+        <button type="button" class="fr-btn fr-btn--fullscreen" aria-controls="transcription-modal" data-fr-opened="false">Agrandir</button>
+      </div>
+    </div>
+    <div id="transcription-modal" class="fr-modal" role="dialog" aria-labelledby="transcription-title">
+      <div class="fr-container--fluid">
+        <div class="fr-modal__body">
+          <div class="fr-modal__header">
+            <button type="button" class="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div class="fr-modal__content">
+            <h1 id="transcription-title" class="fr-modal__title">Transcription</h1>
+            <p>Texte de la transcription.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_DESKTOP> | défaut
+<div id="transcription-modal" class="fr-modal" role="dialog" aria-labelledby="transcription-title">
+  <div class="fr-container--fluid">
+    <div class="fr-modal__body">
+      <div class="fr-modal__header">
+        <button type="button" class="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+      </div>
+      <div class="fr-modal__content">
+        <h1 id="transcription-title" class="fr-modal__title">Transcription</h1>
+        <p>Texte de la transcription.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_MOBILE> | défaut
+<div id="transcription-modal" class="fr-modal" role="dialog" aria-labelledby="transcription-title">
+  <div class="fr-container--fluid">
+    <div class="fr-modal__body">
+      <div class="fr-modal__header">
+        <button type="button" class="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+      </div>
+      <div class="fr-modal__content">
+        <h1 id="transcription-title" class="fr-modal__title">Transcription</h1>
+        <p>Texte de la transcription.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=False
+<div className="fr-transcription">
+  <button type="button" className="fr-transcription__btn" aria-expanded="false" aria-controls="transcription">Transcription</button>
+  <div className="fr-collapse" id="transcription">
+    <div className="fr-transcription__footer">
+      <div className="fr-transcription__actions-group">
+        <button type="button" className="fr-btn fr-btn--fullscreen" aria-controls="transcription-modal" data-fr-opened="false">Agrandir</button>
+      </div>
+    </div>
+    <div id="transcription-modal" className="fr-modal" role="dialog" aria-labelledby="transcription-title">
+      <div className="fr-container--fluid">
+        <div className="fr-modal__body">
+          <div className="fr-modal__header">
+            <button type="button" className="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div className="fr-modal__content">
+            <h1 id="transcription-title" className="fr-modal__title">Transcription</h1>
+            <p>Texte de la transcription.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=True
+<div className="fr-transcription">
+  <button type="button" className="fr-transcription__btn" aria-expanded="true" aria-controls="transcription">Transcription</button>
+  <div className="fr-collapse fr-collapse--expanded" id="transcription">
+    <div className="fr-transcription__footer">
+      <div className="fr-transcription__actions-group">
+        <button type="button" className="fr-btn fr-btn--fullscreen" aria-controls="transcription-modal" data-fr-opened="false">Agrandir</button>
+      </div>
+    </div>
+    <div id="transcription-modal" className="fr-modal" role="dialog" aria-labelledby="transcription-title">
+      <div className="fr-container--fluid">
+        <div className="fr-modal__body">
+          <div className="fr-modal__header">
+            <button type="button" className="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+          </div>
+          <div className="fr-modal__content">
+            <h1 id="transcription-title" className="fr-modal__title">Transcription</h1>
+            <p>Texte de la transcription.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_DESKTOP> | défaut
+<div id="transcription-modal" className="fr-modal" role="dialog" aria-labelledby="transcription-title">
+  <div className="fr-container--fluid">
+    <div className="fr-modal__body">
+      <div className="fr-modal__header">
+        <button type="button" className="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+      </div>
+      <div className="fr-modal__content">
+        <h1 id="transcription-title" className="fr-modal__title">Transcription</h1>
+        <p>Texte de la transcription.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_MOBILE> | défaut
+<div id="transcription-modal" className="fr-modal" role="dialog" aria-labelledby="transcription-title">
+  <div className="fr-container--fluid">
+    <div className="fr-modal__body">
+      <div className="fr-modal__header">
+        <button type="button" className="fr-btn--close fr-btn" aria-controls="transcription-modal" title="Fermer la fenêtre de dialogue">Fermer</button>
+      </div>
+      <div className="fr-modal__content">
+        <h1 id="transcription-title" className="fr-modal__title">Transcription</h1>
+        <p>Texte de la transcription.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+=== vue | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=False
+<DsfrTranscription title="Transcription" content="Texte de la transcription." />
+
+=== vue | <FIGMA_TRANSCRIPTION__TRANSCRIPTION> | Ouvert=True
+<DsfrTranscription title="Transcription" content="Texte de la transcription." />
+
+=== vue | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_DESKTOP> | défaut
+<DsfrTranscription title="Transcription" content="Texte de la transcription." />
+
+=== vue | <FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_MOBILE> | défaut
+<DsfrTranscription title="Transcription" content="Texte de la transcription." />

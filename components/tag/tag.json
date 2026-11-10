@@ -1,0 +1,311 @@
+{
+  "family": "Tag",
+  "groups": [
+    {
+      "nodeId": "19121:482890",
+      "components": [
+        {
+          "url": "<FIGMA_TAG__NON_CLIQUABLE_MD>",
+          "mode": "plain",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__NON_CLIQUABLE_SM>",
+          "mode": "plain",
+          "size": "SM"
+        }
+      ],
+      "properties": {
+        "Libellé": {
+          "type": "TEXT",
+          "sample": "Libellé tag",
+          "vary": false
+        },
+        "Voir icône": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "Icône": {
+          "type": "INSTANCE_SWAP",
+          "vary": false
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "19121:482688",
+      "components": [
+        {
+          "url": "<FIGMA_TAG__CLIQUABLE_DEFAUT_MD>",
+          "mode": "clickable",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__CLIQUABLE_DEFAUT_SM>",
+          "mode": "clickable",
+          "size": "SM"
+        },
+        {
+          "url": "<FIGMA_TAG__CLIQUABLE_PERSONNALISABLE_MD>",
+          "mode": "custom",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__CLIQUABLE_PERSONNALISABLE_SM>",
+          "mode": "custom",
+          "size": "SM"
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Libellé": {
+          "type": "TEXT",
+          "sample": "Libellé tag",
+          "vary": false
+        },
+        "Voir icône": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "Icône": {
+          "type": "INSTANCE_SWAP",
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Survol",
+            "Cliqué"
+          ],
+          "default": "Défaut",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "19121:482726",
+      "components": [
+        {
+          "url": "<FIGMA_TAG__SELECTIONNE_MD>",
+          "mode": "selectable",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__SELECTIONNE_SM>",
+          "mode": "selectable",
+          "size": "SM"
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Libellé": {
+          "type": "TEXT",
+          "sample": "Libellé tag",
+          "vary": false
+        },
+        "Voir icône": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "Icône": {
+          "type": "INSTANCE_SWAP",
+          "vary": false
+        },
+        "Sélectionné": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Survol",
+            "Cliqué"
+          ],
+          "default": "Défaut",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "True",
+            "False"
+          ],
+          "default": "False"
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "19121:482832",
+      "components": [
+        {
+          "url": "<FIGMA_TAG__SUPPRIMABLE_MD>",
+          "mode": "deletable",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__SUPPRIMABLE_SM>",
+          "mode": "deletable",
+          "size": "SM"
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Libellé": {
+          "type": "TEXT",
+          "sample": "Libellé tag",
+          "vary": false
+        },
+        "Supprimable": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Défaut",
+            "Survol",
+            "Cliqué"
+          ],
+          "default": "Défaut",
+          "vary": false
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "True",
+            "False"
+          ],
+          "default": "False"
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "19121:482616",
+      "template": "tag-group.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_TAG__GROUPE_NON_CLIQUABLE_MD>",
+          "mode": "plain",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_NON_CLIQUABLE_SM>",
+          "mode": "plain",
+          "size": "SM"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_CLIQUABLE_DEFAUT_MD>",
+          "mode": "clickable",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_CLIQUABLE_DEFAUT_SM>",
+          "mode": "clickable",
+          "size": "SM"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_SELECTIONNE_MD>",
+          "mode": "selectable",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_SELECTIONNE_SM>",
+          "mode": "selectable",
+          "size": "SM"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_SUPPRIMABLE_MD>",
+          "mode": "deletable",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_SUPPRIMABLE_SM>",
+          "mode": "deletable",
+          "size": "SM"
+        }
+      ],
+      "properties": {
+        "Voir tag 2": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Voir tag 3": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Voir tag 4": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Voir tag 5": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "Voir tag 6": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "Voir tag 7": {
+          "type": "BOOLEAN",
+          "default": false
+        },
+        "Voir tag 8": {
+          "type": "BOOLEAN",
+          "default": false
+        }
+      },
+      "children": []
+    },
+    {
+      "nodeId": "19386:359118",
+      "template": "tag-group.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_TAG__GROUPE_CLIQUABLE_PERSONNALISABLE_MD>",
+          "mode": "custom",
+          "size": "MD"
+        },
+        {
+          "url": "<FIGMA_TAG__GROUPE_CLIQUABLE_PERSONNALISABLE_SM>",
+          "mode": "custom",
+          "size": "SM"
+        }
+      ],
+      "properties": {},
+      "children": []
+    }
+  ]
+}

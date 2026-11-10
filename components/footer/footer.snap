@@ -1,0 +1,531 @@
+=== angular | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"></dsfr-footer>
+
+=== angular | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"
+  [partnerMain]="{ imagePath: 'assets/img/partner.png', imageAlt: 'Partenaire' }"></dsfr-footer>
+
+=== angular | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"
+  [reboundLinks]="[
+    { title: 'Liens de réorientation', links: [{ label: 'Premier lien', routePath: '/premier' }, { label: 'Deuxième lien', routePath: '/deuxieme' }] }
+  ]"></dsfr-footer>
+
+=== angular | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"
+  [reboundLinks]="[
+    { title: 'Liens de réorientation', links: [{ label: 'Premier lien', routePath: '/premier' }, { label: 'Deuxième lien', routePath: '/deuxieme' }] }
+  ]"
+  [partnerMain]="{ imagePath: 'assets/img/partner.png', imageAlt: 'Partenaire' }"></dsfr-footer>
+
+=== angular | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"></dsfr-footer>
+
+=== angular | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"
+  [partnerMain]="{ imagePath: 'assets/img/partner.png', imageAlt: 'Partenaire' }"></dsfr-footer>
+
+=== angular | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"
+  [reboundLinks]="[
+    { title: 'Liens de réorientation', links: [{ label: 'Premier lien', routePath: '/premier' }, { label: 'Deuxième lien', routePath: '/deuxieme' }] }
+  ]"></dsfr-footer>
+
+=== angular | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<dsfr-footer
+  [logo]="{ label: 'République Française' }"
+  [reboundLinks]="[
+    { title: 'Liens de réorientation', links: [{ label: 'Premier lien', routePath: '/premier' }, { label: 'Deuxième lien', routePath: '/deuxieme' }] }
+  ]"
+  [partnerMain]="{ imagePath: 'assets/img/partner.png', imageAlt: 'Partenaire' }"></dsfr-footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__partners">
+      <h4 class="fr-footer__partners-title">Nos partenaires</h4>
+      <div class="fr-footer__partners-logos">
+        <div class="fr-footer__partners-main">
+          <a class="fr-footer__partners-link" href="#" title="Partenaire">
+            <img class="fr-footer__partners-img" src="assets/img/partner.png" alt="Partenaire" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__top">
+      <div class="fr-grid-row fr-grid-row--start fr-grid-row--gutters">
+        <div class="fr-col-6 fr-col-sm-3 fr-col-md-2">
+          <h3 class="fr-footer__top-cat">Liens de réorientation</h3>
+          <ul class="fr-footer__top-list">
+            <li><a class="fr-footer__top-link" href="/premier">Premier lien</a></li>
+            <li><a class="fr-footer__top-link" href="/deuxieme">Deuxième lien</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__top">
+      <div class="fr-grid-row fr-grid-row--start fr-grid-row--gutters">
+        <div class="fr-col-6 fr-col-sm-3 fr-col-md-2">
+          <h3 class="fr-footer__top-cat">Liens de réorientation</h3>
+          <ul class="fr-footer__top-list">
+            <li><a class="fr-footer__top-link" href="/premier">Premier lien</a></li>
+            <li><a class="fr-footer__top-link" href="/deuxieme">Deuxième lien</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__partners">
+      <h4 class="fr-footer__partners-title">Nos partenaires</h4>
+      <div class="fr-footer__partners-logos">
+        <div class="fr-footer__partners-main">
+          <a class="fr-footer__partners-link" href="#" title="Partenaire">
+            <img class="fr-footer__partners-img" src="assets/img/partner.png" alt="Partenaire" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__partners">
+      <h4 class="fr-footer__partners-title">Nos partenaires</h4>
+      <div class="fr-footer__partners-logos">
+        <div class="fr-footer__partners-main">
+          <a class="fr-footer__partners-link" href="#" title="Partenaire">
+            <img class="fr-footer__partners-img" src="assets/img/partner.png" alt="Partenaire" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__top">
+      <div class="fr-grid-row fr-grid-row--start fr-grid-row--gutters">
+        <div class="fr-col-6 fr-col-sm-3 fr-col-md-2">
+          <h3 class="fr-footer__top-cat">Liens de réorientation</h3>
+          <ul class="fr-footer__top-list">
+            <li><a class="fr-footer__top-link" href="/premier">Premier lien</a></li>
+            <li><a class="fr-footer__top-link" href="/deuxieme">Deuxième lien</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== html | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<footer class="fr-footer" role="contentinfo">
+  <div class="fr-container">
+    <div class="fr-footer__top">
+      <div class="fr-grid-row fr-grid-row--start fr-grid-row--gutters">
+        <div class="fr-col-6 fr-col-sm-3 fr-col-md-2">
+          <h3 class="fr-footer__top-cat">Liens de réorientation</h3>
+          <ul class="fr-footer__top-list">
+            <li><a class="fr-footer__top-link" href="/premier">Premier lien</a></li>
+            <li><a class="fr-footer__top-link" href="/deuxieme">Deuxième lien</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__partners">
+      <h4 class="fr-footer__partners-title">Nos partenaires</h4>
+      <div class="fr-footer__partners-logos">
+        <div class="fr-footer__partners-main">
+          <a class="fr-footer__partners-link" href="#" title="Partenaire">
+            <img class="fr-footer__partners-img" src="assets/img/partner.png" alt="Partenaire" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="fr-footer__body">
+      <div class="fr-footer__brand fr-enlarge-link">
+        <p class="fr-logo">République<br />Française</p>
+      </div>
+      <div class="fr-footer__content">
+        <ul class="fr-footer__content-list">
+          <li class="fr-footer__content-item">
+            <a class="fr-footer__content-link" href="https://legifrance.gouv.fr" target="_blank" rel="noopener external">legifrance.gouv.fr</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="fr-footer__bottom">
+      <ul class="fr-footer__bottom-list">
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/accessibilite">Accessibilité : non conforme</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/mentions-legales">Mentions légales</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/donnees-personnelles">Données personnelles</a></li>
+        <li class="fr-footer__bottom-item"><a class="fr-footer__bottom-link" href="/cookies">Gestion des cookies</a></li>
+      </ul>
+      <div class="fr-footer__bottom-copy">
+        <p>
+          Sauf mention contraire, tous les contenus de ce site sont sous
+          <a href="https://etalab.gouv.fr" target="_blank" rel="noopener external">licence etalab-2.0</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+=== react | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }} />
+
+=== react | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  partnersLogos={{ main: { alt: 'Partenaire', imgUrl: '/assets/img/partner.png' } }} />
+
+=== react | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  linkList={[{
+    categoryName: 'Liens de réorientation',
+    links: [
+      { text: 'Premier lien', linkProps: { href: '/premier' } },
+      { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+    ]
+  }]} />
+
+=== react | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  linkList={[{
+    categoryName: 'Liens de réorientation',
+    links: [
+      { text: 'Premier lien', linkProps: { href: '/premier' } },
+      { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+    ]
+  }]}
+  partnersLogos={{ main: { alt: 'Partenaire', imgUrl: '/assets/img/partner.png' } }} />
+
+=== react | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }} />
+
+=== react | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  partnersLogos={{ main: { alt: 'Partenaire', imgUrl: '/assets/img/partner.png' } }} />
+
+=== react | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  linkList={[{
+    categoryName: 'Liens de réorientation',
+    links: [
+      { text: 'Premier lien', linkProps: { href: '/premier' } },
+      { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+    ]
+  }]} />
+
+=== react | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<Footer
+  accessibility="non compliant"
+  brandTop="République Française"
+  homeLinkProps={{ href: '/', title: 'Accueil' }}
+  linkList={[{
+    categoryName: 'Liens de réorientation',
+    links: [
+      { text: 'Premier lien', linkProps: { href: '/premier' } },
+      { text: 'Deuxième lien', linkProps: { href: '/deuxieme' } }
+    ]
+  }]}
+  partnersLogos={{ main: { alt: 'Partenaire', imgUrl: '/assets/img/partner.png' } }} />
+
+=== vue | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<DsfrFooter ></DsfrFooter>
+
+=== vue | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<DsfrFooter :partners="{ mainPartner: { href: '#', logo: 'assets/img/partner.png', name: 'Partenaire' } }"></DsfrFooter>
+
+=== vue | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<DsfrFooter >
+    <template #footer-link-lists>
+      <DsfrFooterLinkList
+        category-name="Liens de réorientation"
+        :links="[
+          { label: 'Premier lien', to: '/premier' },
+          { label: 'Deuxième lien', to: '/deuxieme' }
+        ]"
+      />
+    </template>
+  </DsfrFooter>
+
+=== vue | <FIGMA_PIED_DE_PAGE__DESKTOP_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<DsfrFooter :partners="{ mainPartner: { href: '#', logo: 'assets/img/partner.png', name: 'Partenaire' } }">
+    <template #footer-link-lists>
+      <DsfrFooterLinkList
+        category-name="Liens de réorientation"
+        :links="[
+          { label: 'Premier lien', to: '/premier' },
+          { label: 'Deuxième lien', to: '/deuxieme' }
+        ]"
+      />
+    </template>
+  </DsfrFooter>
+
+=== vue | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=false
+<DsfrFooter ></DsfrFooter>
+
+=== vue | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=false, Partenaires=true
+<DsfrFooter :partners="{ mainPartner: { href: '#', logo: 'assets/img/partner.png', name: 'Partenaire' } }"></DsfrFooter>
+
+=== vue | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=false
+<DsfrFooter >
+    <template #footer-link-lists>
+      <DsfrFooterLinkList
+        category-name="Liens de réorientation"
+        :links="[
+          { label: 'Premier lien', to: '/premier' },
+          { label: 'Deuxième lien', to: '/deuxieme' }
+        ]"
+      />
+    </template>
+  </DsfrFooter>
+
+=== vue | <FIGMA_PIED_DE_PAGE__MOBILE_PIED_DE_PAGE> | Liens=true, Partenaires=true
+<DsfrFooter :partners="{ mainPartner: { href: '#', logo: 'assets/img/partner.png', name: 'Partenaire' } }">
+    <template #footer-link-lists>
+      <DsfrFooterLinkList
+        category-name="Liens de réorientation"
+        :links="[
+          { label: 'Premier lien', to: '/premier' },
+          { label: 'Deuxième lien', to: '/deuxieme' }
+        ]"
+      />
+    </template>
+  </DsfrFooter>

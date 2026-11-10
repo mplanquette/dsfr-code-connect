@@ -1,0 +1,41 @@
+=== angular | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=SM
+<dsfr-highlight text="Texte de la mise en exergue." textSize="SM"></dsfr-highlight>
+
+=== angular | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=LG
+<dsfr-highlight text="Texte de la mise en exergue." textSize="LG"></dsfr-highlight>
+
+=== angular | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=MD
+<dsfr-highlight text="Texte de la mise en exergue."></dsfr-highlight>
+
+=== html | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=SM
+<div class="fr-highlight">
+  <p class=" fr-text--sm">Texte de la mise en exergue.</p>
+</div>
+
+=== html | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=LG
+<div class="fr-highlight">
+  <p class=" fr-text--lg">Texte de la mise en exergue.</p>
+</div>
+
+=== html | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=MD
+<div class="fr-highlight">
+  <p class="">Texte de la mise en exergue.</p>
+</div>
+
+=== react | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=SM
+<Highlight bodyAs="p" size="sm">Texte de la mise en exergue.</Highlight>
+
+=== react | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=LG
+<Highlight bodyAs="p" size="lg">Texte de la mise en exergue.</Highlight>
+
+=== react | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=MD
+<Highlight bodyAs="p">Texte de la mise en exergue.</Highlight>
+
+=== vue | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=SM
+<DsfrHighlight text="Texte de la mise en exergue." small />
+
+=== vue | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=LG
+<DsfrHighlight text="Texte de la mise en exergue." large />
+
+=== vue | <FIGMA_MISE_EN_EXERGUE__MISE_EN_EXERGUE> | Taille=MD
+<DsfrHighlight text="Texte de la mise en exergue." />

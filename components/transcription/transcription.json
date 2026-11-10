@@ -1,0 +1,30 @@
+{
+  "family": "Transcription",
+  "groups": [
+    {
+      "nodeId": "14268:197280",
+      "components": [
+        { "url": "<FIGMA_TRANSCRIPTION__TRANSCRIPTION>", "kind": "main", "variant": "main" }
+      ],
+      "properties": {
+        "Titre": { "type": "TEXT", "sample": "Transcription" },
+        "Contenu (thème clair)": { "type": "INSTANCE_SWAP" },
+        "Contenu (thème sombre)": { "type": "INSTANCE_SWAP" },
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Support": { "type": "VARIANT", "options": ["Desktop", "Mobile"], "vary": false },
+        "Ouvert": { "type": "VARIANT", "options": ["False", "True"] },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Survol", "Active"], "vary": false }
+      }
+    },
+    {
+      "nodeId": "14470:198380",
+      "components": [
+        { "url": "<FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_DESKTOP>", "kind": "modal", "variant": "modal-desktop" },
+        { "url": "<FIGMA_TRANSCRIPTION__TRANSCRIPTION_MODALE_MOBILE>", "kind": "modal", "variant": "modal-mobile" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false }
+      }
+    }
+  ]
+}

@@ -166,6 +166,54 @@
           }
         }
       ]
+    },
+    {
+      "nodeId": "14820:199166",
+      "template": "input-fieldset.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_GROUPE>",
+          "kind": "group"
+        }
+      ],
+      "properties": {
+        "Message d'information": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": ["Défaut", "Erreur", "Valide", "Rempli"],
+          "default": "Défaut"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": ["False", "True"],
+          "default": "True"
+        }
+      }
+    },
+    {
+      "nodeId": "14823:199333",
+      "template": "input-fieldset.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_CHAMP_DE_SAISIE__CHAMP_DE_SAISIE_SECTION>",
+          "kind": "section"
+        }
+      ],
+      "properties": {
+        "Tire de section": {
+          "type": "TEXT",
+          "sample": "Titre de section"
+        },
+        "Disable": {
+          "type": "VARIANT",
+          "options": ["True", "False"],
+          "default": "True"
+        }
+      }
     }
   ]
 }

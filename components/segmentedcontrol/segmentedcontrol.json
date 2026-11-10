@@ -1,0 +1,22 @@
+{
+  "family": "Contrôle segmenté",
+  "groups": [
+    {
+      "nodeId": "25102:225135",
+      "components": [
+        { "url": "<FIGMA_CONTROLE_SEGMENTE__DESKTOP_CONTROLE_SEGMENTE>", "kind": "standard", "variant": "desktop" },
+        { "url": "<FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE>", "kind": "standard", "variant": "mobile" }
+      ],
+      "properties": {
+        "Légende": { "type": "VARIANT", "options": ["Horizontale", "Au dessus"], "default": "Au dessus" }
+      }
+    },
+    {
+      "nodeId": "24757:5456",
+      "components": [
+        { "url": "<FIGMA_CONTROLE_SEGMENTE__MOBILE_CONTROLE_SEGMENTE_CAS_MAX>", "kind": "max", "variant": "mobile-max" }
+      ],
+      "properties": {}
+    }
+  ]
+}

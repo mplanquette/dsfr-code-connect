@@ -1,0 +1,29 @@
+{
+  "family": "Groupe de boutons",
+  "groups": [
+    {
+      "nodeId": "571:49989",
+      "components": [
+        { "url": "<FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_NON_HIERARCHISE>", "kind": "plain" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Orientation": { "type": "VARIANT", "options": ["Vertical", "Horizontal"], "default": "Horizontal" },
+        "Taille": { "type": "VARIANT", "options": ["LG", "MD", "SM"], "default": "MD" }
+      }
+    },
+    {
+      "nodeId": "571:49112",
+      "components": [
+        { "url": "<FIGMA_GROUPE_DE_BOUTONS__GROUPE_DE_BOUTONS_HIERARCHISE>", "kind": "hierarchical" }
+      ],
+      "properties": {
+        "Bouton Tertiaire": { "type": "BOOLEAN", "default": true },
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Orientation": { "type": "VARIANT", "options": ["Vertical", "Horizontal"], "default": "Horizontal" },
+        "Taille": { "type": "VARIANT", "options": ["MD", "SM", "LG"], "default": "MD" },
+        "Icône": { "type": "VARIANT", "options": ["Sans", "Gauche", "Droite"], "default": "Sans", "vary": false }
+      }
+    }
+  ]
+}

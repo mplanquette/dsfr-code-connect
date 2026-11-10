@@ -1,0 +1,38 @@
+{
+  "family": "Pagination",
+  "groups": [
+    {
+      "nodeId": "577:177",
+      "components": [
+        { "url": "<FIGMA_PAGINATION__PAGINATION_INCREMENT>", "kind": "increment" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Sens": { "type": "VARIANT", "options": ["Précédente", "Suivante"] },
+        "Label": { "type": "VARIANT", "options": ["False", "True"] },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Survol", "Désactivé"] },
+        "Type": { "type": "VARIANT", "options": ["Unitaire", "Extrêmes"], "vary": false }
+      }
+    },
+    {
+      "nodeId": "577:349",
+      "components": [
+        { "url": "<FIGMA_PAGINATION__PAGINATION_NUMERO>", "kind": "number" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Courant", "Survol"] }
+      }
+    },
+    {
+      "nodeId": "577:482",
+      "components": [
+        { "url": "<FIGMA_PAGINATION__PAGINATION_COMPLETE>", "kind": "full" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "Support": { "type": "VARIANT", "options": ["Mobile", "Desktop"], "default": "Desktop", "vary": false }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1571 @@
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" [disabled]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" value="option-1"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" value="option-1" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" value="option-1" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" value="option-1" [disabled]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" value="option-1" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [small]="true" value="option-1" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [disabled]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" value="option-1"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" value="option-1" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" value="option-1" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Aucune
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" value="option-1" [disabled]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Valide
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" value="option-1" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Erreur
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du champ"
+  [options]="[{ label: 'Libellé bouton radio', value: 'option-1' }]" value="option-1" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [inline]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [inline]="true" [disabled]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [inline]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [inline]="true" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [inline]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [inline]="true" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [disabled]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [disabled]="true" message="Texte d'erreur" messageSeverity="error"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+<dsfr-form-radio
+  name="radio"
+  legend="Légende du groupe"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" [disabled]="true" message="Texte de validation" messageSeverity="valid"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=True
+<dsfr-form-radio
+  name="radio"
+  legend="Titre de section"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' }
+  ]" [disabled]="true"></dsfr-form-radio>
+
+=== angular | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=False
+<dsfr-form-radio
+  name="radio"
+  legend="Titre de section"
+  [options]="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' }
+  ]"></dsfr-form-radio>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group fr-radio-group--sm">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Aucune
+<fieldset class="fr-fieldset" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Valide
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Erreur
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio" aria-labelledby="radio-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-legend">Légende du champ</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio" value="option-1" checked disabled />
+      <label class="fr-label" for="radio-1">Libellé bouton radio</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" disabled />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--error" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--error" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" disabled />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--valid" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--inline fr-fieldset--valid" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" disabled />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+<fieldset class="fr-fieldset" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+<fieldset class="fr-fieldset" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" disabled />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--error" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" disabled />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+<fieldset class="fr-fieldset fr-fieldset--valid" id="radio-group" aria-labelledby="radio-group-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-group-legend">Légende du groupe</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-group" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-group" value="option-2" disabled />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-3" name="radio-group" value="option-3" disabled />
+      <label class="fr-label" for="radio-3">Troisième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=True
+<fieldset class="fr-fieldset" id="radio-section" aria-labelledby="radio-section-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-section" value="option-1" disabled />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-section" value="option-2" disabled />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== html | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=False
+<fieldset class="fr-fieldset" id="radio-section" aria-labelledby="radio-section-legend">
+  <legend class="fr-fieldset__legend fr-fieldset__legend--regular" id="radio-section-legend">Titre de section</legend>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-1" name="radio-section" value="option-1" />
+      <label class="fr-label" for="radio-1">Première option</label>
+    </div>
+  </div>
+  <div class="fr-fieldset__element">
+    <div class="fr-radio-group">
+      <input type="radio" id="radio-2" name="radio-section" value="option-2" />
+      <label class="fr-label" for="radio-2">Deuxième option</label>
+    </div>
+  </div>
+</fieldset>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} small disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1' } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Aucune
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Valide
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Erreur
+const options = [{ label: 'Libellé bouton radio', nativeInputProps: { value: 'option-1', defaultChecked: true } }];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du champ"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} orientation="horizontal"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} orientation="horizontal" disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options}
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} disabled state="error" stateRelatedMessage="Texte d'erreur"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } },
+  { label: 'Troisième option', nativeInputProps: { value: 'option-3' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Légende du groupe"
+  options={options} disabled state="success" stateRelatedMessage="Texte de validation"
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=True
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Titre de section"
+  options={options} disabled
+/>
+
+=== react | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=False
+const options = [
+  { label: 'Première option', nativeInputProps: { value: 'option-1' } },
+  { label: 'Deuxième option', nativeInputProps: { value: 'option-2' } }
+];
+
+<RadioButtons
+  name="radio"
+  legend="Titre de section"
+  options={options}
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=False, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small model-value="option-1"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small model-value="option-1" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small model-value="option-1" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small model-value="option-1" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small model-value="option-1" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=SM, Coché=True, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" small model-value="option-1" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=False, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" model-value="option-1"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" model-value="option-1" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=False, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" model-value="option-1" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Aucune
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" model-value="option-1" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Valide
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" model-value="option-1" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_ITEM> | Taille=MD, Coché=True, Désactivé=True, Validation=Erreur
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du champ"
+  :options="[{ label: 'Libellé bouton radio', value: 'option-1' }]" model-value="option-1" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" inline
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Défaut, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" inline disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" inline error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Erreur, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" inline disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" inline valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Horizontal, État=Valide, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" inline disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Défaut, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Erreur, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" disabled error-message="Texte d'erreur"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=False
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_GROUPE> | Orientation=Vertical, État=Valide, Désactivé=True
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Légende du groupe"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' },
+    { label: 'Troisième option', value: 'option-3' }
+  ]" disabled valid-message="Texte de validation"
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=True
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Titre de section"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' }
+  ]" disabled
+/>
+
+=== vue | <FIGMA_BOUTON_RADIO__BOUTON_RADIO_SECTION> | Désactivé=False
+<DsfrRadioButtonSet
+  name="radio"
+  legend="Titre de section"
+  :options="[
+    { label: 'Première option', value: 'option-1' },
+    { label: 'Deuxième option', value: 'option-2' }
+  ]"
+/>

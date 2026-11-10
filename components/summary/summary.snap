@@ -1,0 +1,102 @@
+=== angular | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=True
+<dsfr-summary
+  heading="Sommaire"
+  [entries]="[
+    { label: 'Titre de section', anchor: 'titre-de-section',
+      subEntries: [{ label: 'Sous-titre', anchor: 'sous-titre' }] }
+  ]"></dsfr-summary>
+
+=== angular | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=False
+<dsfr-summary
+  heading="Sommaire"
+  [entries]="[
+    { label: 'Titre de section', anchor: 'titre-de-section' }
+  ]"></dsfr-summary>
+
+=== angular | <FIGMA_SOMMAIRE__SOMMAIRE_COMPLET> | défaut
+<dsfr-summary
+  heading="Sommaire"
+  headingLevel="H2"
+  [entries]="[
+    { label: 'Première section', anchor: 'premiere-section' },
+    {
+      label: 'Deuxième section',
+      anchor: 'deuxieme-section',
+      subEntries: [
+        { label: 'Sous-section', anchor: 'sous-section' }
+      ]
+    },
+    { label: 'Troisième section', anchor: 'troisieme-section' }
+  ]"></dsfr-summary>
+
+=== html | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=True
+<li>
+  <a class="fr-summary__link" href="#titre-de-section">Titre de section</a>
+  <ol>
+    <li><a class="fr-summary__link" href="#sous-titre">Sous-titre</a></li>
+  </ol>
+</li>
+
+=== html | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=False
+<li>
+  <a class="fr-summary__link" href="#titre-de-section">Titre de section</a>
+</li>
+
+=== html | <FIGMA_SOMMAIRE__SOMMAIRE_COMPLET> | défaut
+<nav class="fr-summary" role="navigation" aria-labelledby="fr-summary-title">
+  <h2 class="fr-summary__title" id="fr-summary-title">Sommaire</h2>
+  <ol>
+    <li><a class="fr-summary__link" href="#premiere-section">Première section</a></li>
+    <li>
+      <a class="fr-summary__link" href="#deuxieme-section">Deuxième section</a>
+      <ol>
+        <li><a class="fr-summary__link" href="#sous-section">Sous-section</a></li>
+      </ol>
+    </li>
+    <li><a class="fr-summary__link" href="#troisieme-section">Troisième section</a></li>
+  </ol>
+</nav>
+
+=== react | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=True
+const links = [
+  { text: 'Titre de section', linkProps: { href: '#titre-de-section' }, subLinks: [{ text: 'Sous-titre', linkProps: { href: '#sous-titre' } }] }
+];
+
+<Summary links={links} />
+
+=== react | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=False
+const links = [
+  { text: 'Titre de section', linkProps: { href: '#titre-de-section' } }
+];
+
+<Summary links={links} />
+
+=== react | <FIGMA_SOMMAIRE__SOMMAIRE_COMPLET> | défaut
+const links = [
+  { text: 'Première section', linkProps: { href: '#premiere-section' } },
+  {
+    text: 'Deuxième section',
+    linkProps: { href: '#deuxieme-section' },
+    subLinks: [{ text: 'Sous-section', linkProps: { href: '#sous-section' } }]
+  },
+  { text: 'Troisième section', linkProps: { href: '#troisieme-section' } }
+];
+
+<Summary as="h2" links={links} />
+
+=== vue | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=True
+<DsfrSummary title="Sommaire" :anchors="[
+    { name: 'Titre de section', link: '#titre-de-section' }
+  ]" />
+
+=== vue | <FIGMA_SOMMAIRE__SOMMAIRE_ITEMS> | Imbriqué=False
+<DsfrSummary title="Sommaire" :anchors="[
+    { name: 'Titre de section', link: '#titre-de-section' }
+  ]" />
+
+=== vue | <FIGMA_SOMMAIRE__SOMMAIRE_COMPLET> | défaut
+<DsfrSummary title="Sommaire" :anchors="[
+    { name: 'Première section', link: '#premiere-section' },
+    { name: 'Deuxième section', link: '#deuxieme-section' },
+    { name: 'Troisième section', link: '#troisieme-section' }
+  ]" />

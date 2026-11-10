@@ -1,0 +1,36 @@
+{
+  "family": "Onglet",
+  "groups": [
+    {
+      "nodeId": "502:145",
+      "components": [
+        { "url": "<FIGMA_ONGLET__ONGLET_ITEM>", "kind": "item" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Icône": { "type": "VARIANT", "options": ["False", "True"] },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Courant", "Survol"] }
+      }
+    },
+    {
+      "nodeId": "502:340",
+      "components": [
+        { "url": "<FIGMA_ONGLET__ONGLET_GROUPE>", "kind": "group" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Icône": { "type": "VARIANT", "options": ["False", "True"] }
+      }
+    },
+    {
+      "nodeId": "505:90",
+      "components": [
+        { "url": "<FIGMA_ONGLET__ONGLET_COMPLET>", "kind": "full" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Support": { "type": "VARIANT", "options": ["Desktop", "Mobile"], "vary": false }
+      }
+    }
+  ]
+}

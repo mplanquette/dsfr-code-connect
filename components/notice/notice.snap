@@ -1,0 +1,575 @@
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Information
+<dsfr-notice
+  type="info"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte
+<dsfr-notice
+  type="alert"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Avertissement
+<dsfr-notice
+  type="warning"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance orange
+<dsfr-notice
+  type="weather-orange"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance rouge
+<dsfr-notice
+  type="weather-red"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance violette
+<dsfr-notice
+  type="weather-purple"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Appel à témoins
+<dsfr-notice
+  type="witness"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte technologique
+<dsfr-notice
+  type="cyberattack"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte attentat
+<dsfr-notice
+  type="attack"
+  heading="Titre du bandeau"
+  description="Description du bandeau" [noIcon]="true"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Information
+<dsfr-notice
+  type="info"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte
+<dsfr-notice
+  type="alert"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Avertissement
+<dsfr-notice
+  type="warning"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance orange
+<dsfr-notice
+  type="weather-orange"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance rouge
+<dsfr-notice
+  type="weather-red"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance violette
+<dsfr-notice
+  type="weather-purple"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Appel à témoins
+<dsfr-notice
+  type="witness"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte technologique
+<dsfr-notice
+  type="cyberattack"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== angular | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte attentat
+<dsfr-notice
+  type="attack"
+  heading="Titre du bandeau"
+  description="Description du bandeau"
+  [closeable]="true"></dsfr-notice>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Information
+<div class="fr-notice fr-notice--info fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte
+<div class="fr-notice fr-notice--alert fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Avertissement
+<div class="fr-notice fr-notice--warning fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance orange
+<div class="fr-notice fr-notice--weather-orange fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance rouge
+<div class="fr-notice fr-notice--weather-red fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance violette
+<div class="fr-notice fr-notice--weather-purple fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Appel à témoins
+<div class="fr-notice fr-notice--witness fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte technologique
+<div class="fr-notice fr-notice--cyberattack fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte attentat
+<div class="fr-notice fr-notice--attack fr-notice--no-icon">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Information
+<div class="fr-notice fr-notice--info">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte
+<div class="fr-notice fr-notice--alert">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Avertissement
+<div class="fr-notice fr-notice--warning">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance orange
+<div class="fr-notice fr-notice--weather-orange">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance rouge
+<div class="fr-notice fr-notice--weather-red">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance violette
+<div class="fr-notice fr-notice--weather-purple">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Appel à témoins
+<div class="fr-notice fr-notice--witness">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte technologique
+<div class="fr-notice fr-notice--cyberattack">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== html | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte attentat
+<div class="fr-notice fr-notice--attack">
+  <div class="fr-container">
+    <div class="fr-notice__body">
+      <p>
+        <span class="fr-notice__title">Titre du bandeau</span>
+        <span class="fr-notice__desc">Description du bandeau</span>
+      </p>
+      <button type="button" class="fr-btn--close fr-btn" title="Masquer le message">Masquer le message</button>
+    </div>
+  </div>
+</div>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Information
+<Notice
+  severity="info"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte
+<Notice
+  severity="alert"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Avertissement
+<Notice
+  severity="warning"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance orange
+<Notice
+  severity="weather-orange"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance rouge
+<Notice
+  severity="weather-red"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance violette
+<Notice
+  severity="weather-purple"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Appel à témoins
+<Notice
+  severity="witness"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte technologique
+<Notice
+  severity="cyberattack"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte attentat
+<Notice
+  severity="attack"
+  title="Titre du bandeau"
+  description="Description du bandeau" iconDisplayed={false}
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Information
+<Notice
+  severity="info"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte
+<Notice
+  severity="alert"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Avertissement
+<Notice
+  severity="warning"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance orange
+<Notice
+  severity="weather-orange"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance rouge
+<Notice
+  severity="weather-red"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance violette
+<Notice
+  severity="weather-purple"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Appel à témoins
+<Notice
+  severity="witness"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte technologique
+<Notice
+  severity="cyberattack"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== react | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte attentat
+<Notice
+  severity="attack"
+  title="Titre du bandeau"
+  description="Description du bandeau"
+  isClosable
+  onClose={() => {}}
+/>
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Information
+<DsfrNotice type="info" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte
+<DsfrNotice type="alert" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Avertissement
+<DsfrNotice type="warning" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance orange
+<DsfrNotice type="weather-orange" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance rouge
+<DsfrNotice type="weather-red" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Vigilance violette
+<DsfrNotice type="weather-purple" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Appel à témoins
+<DsfrNotice type="witness" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte technologique
+<DsfrNotice type="cyberattack" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=false, Niveau d'alerte=Alerte attentat
+<DsfrNotice type="attack" title="Titre du bandeau" desc="Description du bandeau" closeable class="fr-notice--no-icon" />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Information
+<DsfrNotice type="info" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte
+<DsfrNotice type="alert" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Avertissement
+<DsfrNotice type="warning" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance orange
+<DsfrNotice type="weather-orange" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance rouge
+<DsfrNotice type="weather-red" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Vigilance violette
+<DsfrNotice type="weather-purple" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Appel à témoins
+<DsfrNotice type="witness" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte technologique
+<DsfrNotice type="cyberattack" title="Titre du bandeau" desc="Description du bandeau" closeable />
+
+=== vue | <FIGMA_BANDEAUX_D_INFORMATIONS_IMPORTANTES__BANDEAUX_D_INFORMATIONS_IMPORTANTES> | Voir icône=true, Niveau d'alerte=Alerte attentat
+<DsfrNotice type="attack" title="Titre du bandeau" desc="Description du bandeau" closeable />

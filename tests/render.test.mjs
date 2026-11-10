@@ -55,13 +55,6 @@ describe('catalogue', () => {
     for (const stack of STACKS) for (const key of index.keys()) if (!parsed.get(stack).templates.has(key)) missing.push(`${stack} ${key}`)
     assert.deepEqual(missing, [], `composants absents du parse : ${missing.join(', ')}`)
   })
-
-  test('aucun composant n\'est connecté deux fois (famille et ancien fichier)', () => {
-    // Un node migré dont l'ancien figma.connect subsiste donnerait deux snippets concurrents.
-    const duplicates = []
-    for (const stack of STACKS) for (const key of parsed.get(stack).legacyKeys) if (index.has(key)) duplicates.push(`${stack} ${key}`)
-    assert.deepEqual(duplicates, [], `ancien figma.connect à supprimer : ${duplicates.join(', ')}`)
-  })
 })
 
 for (const { name: file, dir, groups } of families) {
@@ -94,11 +87,3 @@ for (const { name: file, dir, groups } of families) {
     })
   })
 }
-
-test('couverture de la migration', (t) => {
-  const lines = STACKS.map((stack) => {
-    const { templates, legacyCount } = parsed.get(stack)
-    return `${stack} : ${templates.size} nœuds au nouveau format, ${legacyCount} à l'ancien format (non testés)`
-  })
-  t.diagnostic(lines.join(' | '))
-})

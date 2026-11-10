@@ -1,0 +1,144 @@
+{
+  "family": "Navigation principale",
+  "groups": [
+    {
+      "nodeId": "220:15930",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_LIEN_SEUL>", "part": "bar-link" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "Courant": { "type": "VARIANT", "options": ["True", "False"] },
+        "Survol": { "type": "VARIANT", "options": ["True", "False"], "default": "False", "vary": false }
+      }
+    },
+    {
+      "nodeId": "220:15981",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_DEPLIANT>", "part": "bar-dropdown" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Courant": { "type": "VARIANT", "options": ["False", "True"] },
+        "Survol": { "type": "VARIANT", "options": ["True", "False"], "default": "False", "vary": false },
+        "Ouvert": { "type": "VARIANT", "options": ["False", "True"] }
+      }
+    },
+    {
+      "nodeId": "220:18621",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_BARRE_DE_NAVIGATION_COMPLETE>", "part": "bar-full" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Items": { "type": "VARIANT", "options": ["2-4", "5-8"] },
+        ">1200px": { "type": "VARIANT", "options": ["False", "True"], "vary": false }
+      }
+    },
+    {
+      "nodeId": "220:18731",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_ITEM>", "part": "dropdown-item" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Type": { "type": "VARIANT", "options": ["Lien direct", "Rubrique"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Survol", "Courant"] }
+      }
+    },
+    {
+      "nodeId": "220:18976",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MENU_DEROULANT_COMPLET>", "part": "dropdown-full" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Rubrique": { "type": "VARIANT", "options": ["True", "False"], "default": "False", "vary": false }
+      }
+    },
+    {
+      "nodeId": "220:19335",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_ITEM>", "part": "mega-item" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "Type": { "type": "VARIANT", "options": ["Lien", "Catégorie"], "default": "Catégorie", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Survol", "Courant"] }
+      }
+    },
+    {
+      "nodeId": "220:23176",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__DESKTOP_MEGAMENU_COMPLET>", "part": "mega-full" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "Catégories": { "type": "VARIANT", "options": ["False", "True"] },
+        "Rubrique": { "type": "VARIANT", "options": ["Sans", "Titre", "Titre + description"] }
+      }
+    },
+    {
+      "nodeId": "251:16916",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_DEPLIANT>", "part": "mobile-dropdown" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Courant"] },
+        "Ouvert": { "type": "VARIANT", "options": ["False", "True"] },
+        "Titre rubrique": { "type": "VARIANT", "options": ["True", "False"], "default": "False" }
+      }
+    },
+    {
+      "nodeId": "251:16994",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEM_DE_NIVEAU_2>", "part": "mobile-level2" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "Type": { "type": "VARIANT", "options": ["Lien direct", "Catégorie", "Dernier lien"], "default": "Catégorie", "vary": false },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Courant"] }
+      }
+    },
+    {
+      "nodeId": "251:17076",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_LISTE_DE_LIENS>", "part": "mobile-links" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "Catégorie": { "type": "VARIANT", "options": ["False", "True"], "default": "True" }
+      }
+    },
+    {
+      "nodeId": "251:17391",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_LIEN_DIRECT>", "part": "mobile-link" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Défaut", "Courant"] }
+      }
+    },
+    {
+      "nodeId": "264:1263",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_ITEMS_DE_NIVEAU_1_ACCES_RAPIDE>", "part": "mobile-quick" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false }
+      }
+    },
+    {
+      "nodeId": "264:2355",
+      "components": [
+        { "url": "<FIGMA_NAVIGATION_PRINCIPALE__MOBILE_NAVIGATION_COMPLETE>", "part": "mobile-full" }
+      ],
+      "properties": {
+        "Thème": { "type": "VARIANT", "options": ["Sombre", "Clair"], "default": "Clair", "vary": false },
+        "Accès rapides": { "type": "VARIANT", "options": ["False", "True"] }
+      }
+    }
+  ]
+}

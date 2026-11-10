@@ -1,0 +1,157 @@
+{
+  "family": "Tableau",
+  "groups": [
+    {
+      "nodeId": "29382:8593",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__CELLULE_DONNEE_LG>", "kind": "data", "size": "LG" },
+        { "url": "<FIGMA_TABLEAU__CELLULE_DONNEE_MD>", "kind": "data", "size": "MD" }
+      ],
+      "properties": {
+        "Info-bulle": { "type": "BOOLEAN" },
+        "Contenu": {
+          "type": "VARIANT",
+          "options": [
+            "1 donnée",
+            "2 données à l'horizontale",
+            "3 données à l'horizontale",
+            "2 données à la verticale",
+            "3 données à la verticale",
+            "4 données à la verticale"
+          ]
+        }
+      }
+    },
+    {
+      "nodeId": "29382:8693",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__CELLULE_DONNEE_SM>", "kind": "data", "size": "SM" }
+      ],
+      "properties": {
+        "Info-bulle": { "type": "BOOLEAN" },
+        "Contenu": {
+          "type": "VARIANT",
+          "options": [
+            "1 donnée",
+            "2 données à l'horizontale",
+            "3 données à l'horizontale",
+            "2 données à la verticale",
+            "3 données à la verticale",
+            "4 données  la verticale"
+          ]
+        }
+      }
+    },
+    {
+      "nodeId": "29382:8749",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__CELLULE_EN_TETE_COLONNE_MD>", "kind": "column", "size": "MD" }
+      ],
+      "properties": {
+        "Sélectionnable": { "type": "BOOLEAN" },
+        "Contenu": {
+          "type": "VARIANT",
+          "options": [
+            "1 donnée",
+            "2 données à l'horizontales",
+            "3 données à l'horizontale",
+            "2 données à la verticale"
+          ]
+        },
+        "Actions colonne": {
+          "type": "VARIANT",
+          "options": ["Off", "On"],
+          "default": "On"
+        }
+      }
+    },
+    {
+      "nodeId": "29382:8834",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__CELLULE_EN_TETE_COLONNE_SM>", "kind": "column", "size": "SM" },
+        { "url": "<FIGMA_TABLEAU__CELLULE_EN_TETE_COLONNE_LG>", "kind": "column", "size": "LG" }
+      ],
+      "properties": {
+        "Sélectionnable": { "type": "BOOLEAN" },
+        "Contenu": {
+          "type": "VARIANT",
+          "options": [
+            "1 donnée",
+            "2 données à l'horizontale",
+            "3 données à l'horizontale",
+            "2 données à la verticale"
+          ]
+        },
+        "Actions colonne": {
+          "type": "VARIANT",
+          "options": ["Off", "On"],
+          "default": "On"
+        }
+      }
+    },
+    {
+      "nodeId": "29382:9004",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__CELLULE_EN_TETE_LIGNE_SM>", "kind": "row", "size": "SM" },
+        { "url": "<FIGMA_TABLEAU__CELLULE_EN_TETE_LIGNE_MD>", "kind": "row", "size": "MD" },
+        { "url": "<FIGMA_TABLEAU__CELLULE_EN_TETE_LIGNE_LG>", "kind": "row", "size": "LG" }
+      ],
+      "properties": {
+        "Contenu": {
+          "type": "VARIANT",
+          "options": [
+            "1 donnée",
+            "2 données à l'horizontale",
+            "3 données à la verticale",
+            "2 données à la verticale"
+          ]
+        },
+        "Sélectionnable": {
+          "type": "VARIANT",
+          "options": ["Off", "On"],
+          "default": "On"
+        }
+      }
+    },
+    {
+      "nodeId": "29382:9206",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__BARRE_OUTILS_HAUT>", "kind": "toolbar-top" }
+      ],
+      "properties": {
+        "Changement de vue": { "type": "BOOLEAN", "default": true },
+        "Action de groupe": { "type": "BOOLEAN", "default": true },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Desktop", "Mobile"],
+          "vary": false
+        }
+      }
+    },
+    {
+      "nodeId": "29382:9225",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__BARRE_OUTILS_BAS>", "kind": "toolbar-bottom" }
+      ],
+      "properties": {
+        "Action tableau": { "type": "BOOLEAN", "default": true },
+        "Nb ligne par page ": { "type": "BOOLEAN", "default": true },
+        "Pagination": { "type": "BOOLEAN", "default": true },
+        "Support": {
+          "type": "VARIANT",
+          "options": ["Desktop", "Mobile"],
+          "vary": false
+        }
+      }
+    },
+    {
+      "nodeId": "29927:241671",
+      "components": [
+        { "url": "<FIGMA_TABLEAU__CELLULE_ZERO_SM>", "kind": "zero", "size": "SM" },
+        { "url": "<FIGMA_TABLEAU__CELLULE_ZERO_MD>", "kind": "zero", "size": "MD" },
+        { "url": "<FIGMA_TABLEAU__CELLULE_ZERO_LG>", "kind": "zero", "size": "LG" }
+      ],
+      "properties": {}
+    }
+  ]
+}

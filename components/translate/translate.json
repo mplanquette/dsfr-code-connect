@@ -1,0 +1,28 @@
+{
+  "family": "Sélecteur de langue",
+  "groups": [
+    {
+      "nodeId": "13489:190689",
+      "components": [
+        { "url": "<FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_DESKTOP>", "kind": "desktop" }
+      ],
+      "properties": {
+        "Langue": { "type": "TEXT", "sample": "FR" },
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Ouvert", "Fermé"], "default": "Fermé", "vary": false },
+        "Encadré": { "type": "VARIANT", "options": ["False", "True"], "default": "False" }
+      }
+    },
+    {
+      "nodeId": "13489:191872",
+      "components": [
+        { "url": "<FIGMA_SELECTEUR_DE_LANGUE__SELECTEUR_DE_LANGUE_MOBILE>", "kind": "mobile" }
+      ],
+      "properties": {
+        "Langue": { "type": "TEXT", "sample": "FR" },
+        "Thème": { "type": "VARIANT", "options": ["Clair", "Sombre"], "vary": false },
+        "État": { "type": "VARIANT", "options": ["Fermé", "Ouvert"], "default": "Fermé", "vary": false }
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "family": "Bouton radio riche",
+  "groups": [
+    {
+      "nodeId": "517:44003",
+      "template": "radio-rich-item.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE>"
+        }
+      ],
+      "properties": {
+        "Focus": {
+          "type": "BOOLEAN",
+          "default": false,
+          "vary": false
+        },
+        "Illustration": {
+          "type": "INSTANCE_SWAP"
+        },
+        "Pictogramme": {
+          "type": "BOOLEAN",
+          "default": true
+        },
+        "Coché": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        },
+        "Survol": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False",
+          "vary": false
+        },
+        "Validation": {
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Valide",
+            "Erreur"
+          ],
+          "default": "Default"
+        }
+      }
+    },
+    {
+      "nodeId": "14738:205727",
+      "template": "radio-rich-group.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_GROUPE>"
+        }
+      ],
+      "properties": {
+        "Message d'information": {
+          "type": "BOOLEAN",
+          "default": true,
+          "vary": false
+        },
+        "État": {
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Valide",
+            "Erreur"
+          ],
+          "default": "Default"
+        },
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "False",
+            "True"
+          ],
+          "default": "False"
+        }
+      }
+    },
+    {
+      "nodeId": "14835:216167",
+      "template": "radio-rich-section.figma.batch.ts",
+      "components": [
+        {
+          "url": "<FIGMA_BOUTON_RADIO_RICHE__BOUTON_RADIO_RICHE_SECTION>"
+        }
+      ],
+      "properties": {
+        "Désactivé": {
+          "type": "VARIANT",
+          "options": [
+            "True",
+            "False"
+          ],
+          "default": "True"
+        }
+      }
+    }
+  ]
+}
